@@ -1,0 +1,47 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl.auto: validate
+        show_sql: false
+        format_sql: false
+        use_sql_comments: false
+        jdbc.batch_size: 5000
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://localhost:5433/mbbusiness
+    username: user
+    password: user
+    driver-class-name: org.postgresql.Driver
+
+  security:
+    oauth2:
+      client:
+        registration:
+          my-client:
+            authorization-grant-type: client_credentials
+            client-id: mbprojectclient
+            client-secret: 02NWNDvlkZARopHBbWz46oZ2zsfTMtcz
+        provider:
+          my-client:
+            token-uri: http://localhost:8080/realms/mb_project/protocol/openid-connect/token
+keycloak:
+  realm: mb_project
+  auth-server-url: http://localhost:8080
+  ssl-required: none
+  resource: mbprojectclient
+  user_url: /admin/realms/%s/users
+  token_url: /realms/%s/protocol/openid-connect/token
+  credentials:
+    secret: 02NWNDvlkZARopHBbWz46oZ2zsfTMtcz
+    use-resource-role-mappings: true
+    bearer-only: true
+
+
+sms:
+  url: http://isms.center/api/sms/send
+  username: mbproject
+  password: 1E7Fx3hXN
+  originator: KiT_Notify
+
+

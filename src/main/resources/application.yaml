@@ -1,0 +1,13 @@
+server:
+  port: 8085
+  error:
+    include-message: always
+    include-binding-errors: always
+    include-stacktrace: on_param
+    include-exception: false
+spring:
+  profiles:
+    active: dev
+
+  main:
+    allow-bean-definition-overriding: true

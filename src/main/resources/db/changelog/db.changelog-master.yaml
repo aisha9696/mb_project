@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: aisha96906
+
+  - include:
+      author: aisha96906
+      file: DDL/001_init.sql
+      relativeToChangelogFile: true
