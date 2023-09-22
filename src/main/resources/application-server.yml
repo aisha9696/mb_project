@@ -1,0 +1,57 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl.auto: validate
+        show_sql: false
+        format_sql: false
+        use_sql_comments: false
+        jdbc.batch_size: 5000
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  datasource:
+    url: jdbc:postgresql://91.201.215.184:5433/mbbusiness
+    username: postgres
+    password: Mzoi2bV1%
+    driver-class-name: org.postgresql.Driver
+
+  security:
+    oauth2:
+      client:
+        registration:
+          my-client:
+            authorization-grant-type: client_credentials
+            client-id: mbprojectclient
+            client-secret: xfZ42uG3tEE2pbjhAjV4JgeApCkMyLqu
+        provider:
+          my-client:
+            token-uri: https://mbproject.kz:8843/realms/mbproject/protocol/openid-connect/token
+  web:
+    locale-resolver: accept_header
+keycloak:
+  realm: mbproject
+  auth-server-url: https://mbproject.kz:8843
+  ssl-required: none
+  resource: mbprojectclient
+  user_url: /admin/realms/%s/users
+  token_url: /realms/%s/protocol/openid-connect/token
+  authorization_url: /realms/%s/protocol/openid-connect/certs
+  user_locked_url: /admin/realms/%s/attack-detection/brute-force/users/
+  credentials:
+    secret: xfZ42uG3tEE2pbjhAjV4JgeApCkMyLqu
+    use-resource-role-mappings: true
+    bearer-only: true
+
+user:
+  temporal:
+      owner: 0 */10 * * * *
+      other: 0 0 1 * * ?
+
+sms:
+  url: http://isms.center/api/sms/send
+  username: mbproject
+  password: 1E7Fx3hXN
+  originator: KiT_Notify
+  otpschedule: 0 */10 * * * *
+
+springdoc:
+  enable-spring-security: true

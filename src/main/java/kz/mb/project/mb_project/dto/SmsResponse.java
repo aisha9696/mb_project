@@ -2,7 +2,6 @@ package kz.mb.project.mb_project.dto;
 
 
 import java.io.Serializable;
-
 import lombok.Data;
 
 

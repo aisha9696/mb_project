@@ -25,6 +25,10 @@ public class KeycloakConfiguration {
   public String clientID;
   @Value("${keycloak.credentials.secret}")
   public String clientSecret;
+  @Value("${keycloak.authorization_url}")
+  public String authenticationURL;
+  @Value("${keycloak.user_locked_url}")
+  public String userLockedURL;
 
   private static Keycloak keycloak = null;
 

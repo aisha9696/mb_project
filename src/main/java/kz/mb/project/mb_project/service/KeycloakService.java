@@ -3,6 +3,7 @@ package kz.mb.project.mb_project.service;
 import reactor.core.publisher.Mono;
 
 import kz.mb.project.mb_project.dto.TokenResponse;
+import kz.mb.project.mb_project.dto.UserLockedResponse;
 import kz.mb.project.mb_project.dto.keycloak.CreateKUser;
 import kz.mb.project.mb_project.dto.keycloak.KUser;
 
@@ -25,4 +26,7 @@ public interface KeycloakService {
   Mono<TokenResponse> refreshToken(String refreshToken);
 
   void logout(String userId);
+
+  Mono<UserLockedResponse> isUserLocked(String userId, TokenResponse token);
+
 }

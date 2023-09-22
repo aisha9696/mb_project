@@ -1,9 +1,12 @@
 package kz.mb.project.mb_project.service;
 
+import java.util.UUID;
+
 import kz.mb.project.mb_project.dto.CreateUserRequest;
 import kz.mb.project.mb_project.dto.LoginRequest;
 import kz.mb.project.mb_project.dto.LoginResponseDto;
 import kz.mb.project.mb_project.dto.TokenResponse;
+import kz.mb.project.mb_project.entity.UserRole;
 
 public interface UserService {
 
@@ -11,8 +14,7 @@ public interface UserService {
 
   TokenResponse signIn(LoginRequest loginRequest);
 
-  void updatePassword(String username, String password);
-
+  void setPassword(String username, String password);
 
   LoginResponseDto userInfo(String username);
 
@@ -21,4 +23,11 @@ public interface UserService {
   void logout(String userId);
 
   void sendConfirmationOtp(String username);
+
+  Boolean checkOtp(String otp, String username);
+
+  void deleteTemporalUser(UserRole role);
+
+
+  void resetPassword(String username, String oldPassword, String password);
 }

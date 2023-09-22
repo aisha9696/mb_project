@@ -1,11 +1,8 @@
 package kz.mb.project.mb_project.entity;
 
 import java.io.Serializable;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.UUID;
-
 import lombok.Getter;
 import lombok.Setter;
 
@@ -16,11 +13,8 @@ import jakarta.persistence.Enumerated;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
-
-
 /**
  * Сущность для бизнеса
  */
@@ -40,9 +34,6 @@ public class Business extends AbstractEntity implements Serializable {
 
   @OneToOne
   private BusinessType businessType;
-
-  @OneToMany
-  private Set<UserBusiness> users = new HashSet<>();
 
   @Enumerated(EnumType.STRING)
   @Column(

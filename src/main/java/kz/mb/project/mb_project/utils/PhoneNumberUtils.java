@@ -1,15 +1,29 @@
 package kz.mb.project.mb_project.utils;
 
+import java.util.regex.Pattern;
 import org.springframework.lang.Nullable;
 
 public class PhoneNumberUtils {
+  static String kzPhoneNum [] = new String[]{
+      "^\\d+$"
+  };
   @Nullable
   public static String ensureKzCtnWithCountryCode(@Nullable String ctn) {
     if(ctn == null) return null;
-    if (ctn.length() == 10) {
-      return "7" + ctn;
-    } else {
-      return "7" +ctn.substring(1,ctn.length()-1);
+    boolean isPhoneNum = false;
+    for(String pattern : kzPhoneNum){
+      if(Pattern.matches(pattern,ctn)){
+        isPhoneNum = true;
+        break;
+      }
     }
+    if(isPhoneNum){
+      if (ctn.length() == 10) {
+        return "8" + ctn;
+      } else {
+        return "8" +ctn.substring(1,ctn.length()-1);
+      }
+    }
+    return null;
   }
 }
