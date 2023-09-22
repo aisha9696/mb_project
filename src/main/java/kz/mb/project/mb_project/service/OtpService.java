@@ -10,9 +10,10 @@ public interface OtpService {
       String messageText
   );
 
-  void checkAndDeleteOtp(String clientId, String clientAction, String otp);
+  void checkAndDeleteOtp(String clientId, String otp);
 
-  Otp checkOtp(String clientId, String clientAction, String otp);
+  Otp checkOtp(String clientId, String otp);
+
 
   void deleteOtp(Otp otp);
 }

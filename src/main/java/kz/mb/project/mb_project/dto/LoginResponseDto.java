@@ -2,12 +2,9 @@ package kz.mb.project.mb_project.dto;
 
 import java.util.List;
 import java.util.UUID;
-
 import lombok.Data;
-
 import kz.mb.project.mb_project.entity.File;
 import kz.mb.project.mb_project.entity.UserBusiness;
-import kz.mb.project.mb_project.entity.UserRole;
 
 @Data
 public class LoginResponseDto {

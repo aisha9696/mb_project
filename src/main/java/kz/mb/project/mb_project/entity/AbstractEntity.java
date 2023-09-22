@@ -1,7 +1,6 @@
 package kz.mb.project.mb_project.entity;
 
 import java.time.OffsetDateTime;
-
 import lombok.Getter;
 import lombok.Setter;
 import jakarta.persistence.Column;

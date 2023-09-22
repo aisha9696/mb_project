@@ -3,11 +3,9 @@ package kz.mb.project.mb_project.entity;
 import java.io.Serializable;
 import java.util.Date;
 import java.util.UUID;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

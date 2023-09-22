@@ -1,27 +1,18 @@
 package kz.mb.project.mb_project.service;
 
 import java.util.Base64;
-
 import lombok.extern.slf4j.Slf4j;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.BodyInserters;
 import org.springframework.web.reactive.function.client.WebClient;
-
 import reactor.core.publisher.Mono;
-
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.ObjectWriter;
 import kz.mb.project.mb_project.config.KeycloakConfiguration;
 import kz.mb.project.mb_project.dto.TokenResponse;
 import kz.mb.project.mb_project.dto.keycloak.CreateKUser;
 import kz.mb.project.mb_project.dto.keycloak.KPassword;
-import kz.mb.project.mb_project.dto.keycloak.KTokenRequest;
 import kz.mb.project.mb_project.dto.keycloak.KUser;
 import kz.mb.project.mb_project.exception.AuthorizationException;
 import kz.mb.project.mb_project.exception.ErrorMessage;
