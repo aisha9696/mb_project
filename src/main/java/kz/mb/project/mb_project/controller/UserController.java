@@ -2,9 +2,9 @@ package kz.mb.project.mb_project.controller;
 
 import lombok.RequiredArgsConstructor;
 
-import org.springframework.data.repository.query.Param;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +15,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import kz.mb.project.mb_project.dto.CreateUserRequest;
 import kz.mb.project.mb_project.dto.LoginRequest;
+import kz.mb.project.mb_project.dto.SuccessMessage;
+import kz.mb.project.mb_project.exception.ErrorMessage;
 import kz.mb.project.mb_project.service.UserService;
 
 @RestController
@@ -67,23 +69,50 @@ public class UserController {
     return ResponseEntity.ok(usersService.userInfo(username));
   }
 
-  @RequestMapping(value = "/public/refresh_token", method = RequestMethod.GET)
+  @RequestMapping(
+      value = "/public/refresh_token",
+      method = RequestMethod.GET
+  )
   @ResponseStatus(HttpStatus.OK)
-  public ResponseEntity<?> refreshToken(@RequestParam String refresh_token) {
+  public ResponseEntity<?> refreshToken(
+      @RequestParam
+      String refresh_token) {
     return ResponseEntity.ok(usersService.refresh(refresh_token));
   }
 
 
-  @RequestMapping(value = "/public/logout/{user_id}", method = RequestMethod.GET)
+  @RequestMapping(
+      value = "/public/logout/{user_id}",
+      method = RequestMethod.GET
+  )
   @ResponseStatus(HttpStatus.OK)
-  public void logout(@PathVariable String user_id) {
+  public void logout(
+      @PathVariable
+      String user_id) {
     usersService.logout(user_id);
   }
 
-  @RequestMapping(value = "/public/send-confirmation-otp/{username}", method = RequestMethod.GET)
+  @RequestMapping(
+      value = "/public/send-confirmation-otp/{username}",
+      method = RequestMethod.GET
+  )
   @ResponseStatus(HttpStatus.OK)
-  public void validate(@PathVariable String username) {
+  public void validate(
+      @PathVariable
+      String username) {
     usersService.sendConfirmationOtp(username);
   }
+
+  @GetMapping(path = "/public/check-otp")
+  public ResponseEntity<?> checkRegistrationOtp(
+      @RequestParam
+      String otp,
+      @RequestParam
+      String username) {
+    return ResponseEntity.ok(
+        usersService.checkOtp(otp, username) ? SuccessMessage.OTP_CHECKED.getMessageRU()
+            : ErrorMessage.OTP_NOT_VERIFIED.getMessageRU());
+  }
+
 }
 

@@ -1,9 +1,7 @@
 package kz.mb.project.mb_project.entity;
 
 import java.io.Serializable;
-
 import lombok.Getter;
-
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 @JsonFormat(shape = JsonFormat.Shape.OBJECT)

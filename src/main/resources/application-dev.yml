@@ -43,5 +43,5 @@ sms:
   username: mbproject
   password: 1E7Fx3hXN
   originator: KiT_Notify
-
+  otpschedule: 0 */10 * * * *
 

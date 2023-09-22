@@ -2,10 +2,8 @@ package kz.mb.project.mb_project.converter;
 
 import java.util.Arrays;
 import java.util.UUID;
-
 import org.springframework.core.convert.converter.Converter;
 import org.springframework.stereotype.Component;
-
 import kz.mb.project.mb_project.dto.LoginResponseDto;
 import kz.mb.project.mb_project.dto.keycloak.KAction;
 import kz.mb.project.mb_project.dto.keycloak.KUser;

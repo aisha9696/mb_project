@@ -21,4 +21,7 @@ public interface UserService {
   void logout(String userId);
 
   void sendConfirmationOtp(String username);
+
+  Boolean checkOtp(String otp, String username);
+
 }

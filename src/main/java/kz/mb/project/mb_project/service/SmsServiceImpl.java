@@ -2,9 +2,7 @@ package kz.mb.project.mb_project.service;
 
 
 import java.util.Base64;
-
 import lombok.extern.slf4j.Slf4j;
-
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
@@ -38,7 +36,7 @@ public class SmsServiceImpl implements SmsService{
    return webClient.post()
         .uri(smsConfiguration.getUrl())
         .header("Authorization", "Basic " + encodedClientData)
-        .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+        .contentType(MediaType.APPLICATION_JSON)
         .body(Mono.just(request), SmsRequest.class)
         .retrieve()
         .onStatus(HttpStatusCode::is4xxClientError, response -> {

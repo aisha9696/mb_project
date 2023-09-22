@@ -13,6 +13,8 @@ import kz.mb.project.mb_project.converter.KUserLoginResponseConverter;
 import kz.mb.project.mb_project.dto.CreateUserRequest;
 import kz.mb.project.mb_project.dto.LoginRequest;
 import kz.mb.project.mb_project.dto.LoginResponseDto;
+import kz.mb.project.mb_project.dto.OtpDto;
+import kz.mb.project.mb_project.dto.SmsResponse;
 import kz.mb.project.mb_project.dto.TokenResponse;
 import kz.mb.project.mb_project.dto.keycloak.CreateKUser;
 import kz.mb.project.mb_project.dto.keycloak.KAction;
@@ -120,8 +122,8 @@ public class UserServiceImpl implements UserService {
     if (token == null) {
       throw new NotAuthorizedException(ErrorMessage.INCORRECT_PASSWORD.getMessageRU());
     }
-    KUser kUser = keycloakService.getUser(user.get().getId().toString(),token);
-    if(kUser == null){
+    KUser kUser = keycloakService.getUser(user.get().getId().toString(), token);
+    if (kUser == null) {
       throw new NotFoundException(ErrorMessage.USER_NOT_FOUND_EXCEPTION.getMessageRU());
     }
     List<UserBusiness> userBusiness = userBusinessRepository.findAllByUserUsername(username);
@@ -146,6 +148,7 @@ public class UserServiceImpl implements UserService {
   }
 
   @Override
+  @Transactional
   public void sendConfirmationOtp(String username) {
     Optional<UserDetail> user = usersRepository.findUserDetailByUsername(
         username);
@@ -153,13 +156,39 @@ public class UserServiceImpl implements UserService {
       throw new NotFoundException(ErrorMessage.USER_NOT_FOUND_EXCEPTION.getMessageRU());
     }
     String messageText = "MB_App:%s-код для доступа";
-    if(PhoneNumberUtils.ensureKzCtnWithCountryCode(username) == null){
-      throw new InternalServerException("");
+    if (PhoneNumberUtils.ensureKzCtnWithCountryCode(username) == null) {
+      throw new InternalServerException(ErrorMessage.INVALID_PHONE_NUMBER.getMessageRU());
     }
+    OtpDto otpDto = otpService.generateOtp(username, 180, messageText);
+    messageText = String.format(messageText, otpDto.getOtp());
+    SmsResponse response = smsService.sendSMS(username, messageText).block();
+    if (response == null) {
+      throw new InternalServerException(ErrorMessage.SMS_SENDING_ERROR.getMessageRU());
+    }
+    log.info("СМС с проверечным кодом был отправлен.Текст SMS : " + messageText);
+  }
 
-
-
-
+  @Override
+  public Boolean checkOtp(String otp, String username) {
+    Optional<UserDetail> user = usersRepository.findUserDetailByUsername(username);
+    if (user.isEmpty()) {
+      throw new NotFoundException(ErrorMessage.USER_NOT_FOUND_EXCEPTION.getMessageRU());
+    }
+    boolean checked = otpService.checkOtp(username, otp) != null;
+    if (checked) {
+      TokenResponse token = keycloakService.getClientCredentialToken().block();
+      if (token == null) {
+        throw new NotAuthorizedException(ErrorMessage.INCORRECT_PASSWORD.getMessageRU());
+      }
+      KUser kUser = keycloakService.getUser(user.get().getId().toString(), token);
+      if (kUser == null) {
+        throw new NotFoundException(ErrorMessage.USER_NOT_FOUND_EXCEPTION.getMessageRU());
+      }
+      kUser.setRequiredActions(new KAction[]{KAction.UPDATE_PASSWORD});
+      keycloakService.updateUser(kUser,token);
+      otpService.checkAndDeleteOtp(username,otp);
+    }
+    return checked;
   }
 
 

@@ -2,7 +2,6 @@ package kz.mb.project.mb_project.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-
 import java.io.Serializable;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
