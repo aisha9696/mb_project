@@ -4,9 +4,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(value = HttpStatus.BAD_REQUEST)
-public class InvalidRequestException extends RuntimeException{
+public class InvalidRequestException extends LanguageException{
 
-  public InvalidRequestException(String message) {
+  public InvalidRequestException(ErrorMessage message) {
     super(message);
   }
 }

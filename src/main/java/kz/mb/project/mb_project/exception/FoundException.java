@@ -4,9 +4,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @ResponseStatus(value = HttpStatus.BAD_REQUEST)
-public class FoundException extends RuntimeException{
+public class FoundException extends LanguageException{
 
-  public FoundException(String message) {
+  public FoundException(ErrorMessage message) {
     super(message);
   }
 }

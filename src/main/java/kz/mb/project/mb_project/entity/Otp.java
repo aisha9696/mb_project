@@ -60,4 +60,12 @@ public class Otp implements Serializable {
    */
   @Column(name = "message_text")
   private String messageText;
+
+  /**
+   * Верифицирован ли otp
+   */
+  @Column(name = "verified")
+  private Boolean verified;
+
+
 }

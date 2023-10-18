@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+  mb_project:
+    image: mb_project:1.0.1
+    build:
+      context: .
+    environment:
+      - "SPRING_PROFILES_ACTIVE=server"
+    ports:
+      - 8085:8085 # внешний номер порта:внутренний номер порта, по которому будет запущен Docker контейнер
+    networks:
+      - server_keycloak_net
+    volumes:
+      - ./keycloak-self-signed-cert.pem:/usr/java/openjdk-17/lib/security/keycloak-self-signed-cert.pem
+networks:
+  server_keycloak_net:
+    external: true

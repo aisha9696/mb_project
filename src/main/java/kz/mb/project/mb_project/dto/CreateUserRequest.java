@@ -8,7 +8,6 @@ import jakarta.validation.constraints.Pattern;
 public class CreateUserRequest {
   @Pattern(regexp = "(\\+61|0)[0-9]{9}")
   String phone_number;
-  String password;
   String firstname;
   String lastname;
   @Email

@@ -26,7 +26,7 @@ public class OtpServiceImpl implements OtpService {
     if (currentOtp != null) {
       long otpExpiredIn = getOtpExpiredIn(currentOtp, new Date());
       if (otpExpiredIn > 0) {
-        throw new InvalidRequestException(ErrorMessage.OTP_EXPIRED.getMessageRU());
+        throw new InvalidRequestException(ErrorMessage.OTP_EXPIRED);
       }
       otpRepository.delete(currentOtp);
     }
@@ -53,19 +53,19 @@ public class OtpServiceImpl implements OtpService {
   public Otp checkOtp(String phone, String otp) {
     Otp savedOtp = otpRepository.findOtpByPhoneNumber(phone);
     if (savedOtp == null) {
-      throw new InvalidRequestException(ErrorMessage.OTP_EXPIRED.getMessageRU());
+      throw new InvalidRequestException(ErrorMessage.OTP_EXPIRED);
     }
     long otpExpiredIn = getOtpExpiredIn(savedOtp, new Date());
     if (otpExpiredIn <= 0) {
-      throw new InvalidRequestException(ErrorMessage.OTP_EXPIRED.getMessageRU());
+      throw new InvalidRequestException(ErrorMessage.OTP_EXPIRED);
     }
     if (savedOtp.getAttemptsAvailable() < 1) {
-      throw new InvalidRequestException(ErrorMessage.OTP_COUNT_EXPIRED.getMessageRU());
+      throw new InvalidRequestException(ErrorMessage.OTP_COUNT_EXPIRED);
     }
     if (!savedOtp.getOtpHash().equals(HashUtils.hash(otp))) {
       savedOtp.setAttemptsAvailable(savedOtp.getAttemptsAvailable() + 1);
       otpRepository.save(savedOtp);
-      throw new InvalidRequestException(ErrorMessage.INVALID_OTP.getMessageRU());
+      throw new InvalidRequestException(ErrorMessage.INVALID_OTP);
     }
     log.info("otp успешно был проверен!");
     return savedOtp;

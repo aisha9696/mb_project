@@ -41,11 +41,11 @@ public class SmsServiceImpl implements SmsService{
         .retrieve()
         .onStatus(HttpStatusCode::is4xxClientError, response -> {
           return Mono.just(
-              new InvalidRequestException(ErrorMessage.INVALID_PHONE_NUMBER.getMessageRU()));
+              new InvalidRequestException(ErrorMessage.INVALID_PHONE_NUMBER));
         })
         .onStatus(HttpStatusCode::is5xxServerError, response -> {
           return Mono.just(
-              new InternalServerException(ErrorMessage.SMS_SENDING_ERROR.getMessageRU()));
+              new InternalServerException(ErrorMessage.SMS_SENDING_ERROR));
         })
         .bodyToMono(SmsResponse.class);
   }
