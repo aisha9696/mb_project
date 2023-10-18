@@ -39,14 +39,25 @@ public class UserController {
   }
 
   @RequestMapping(
-      value = "/public/reset-password",
+      value = "/public/set-password",
+      method = RequestMethod.PUT
+  )
+  @ResponseStatus(HttpStatus.NO_CONTENT)
+  public void setPassword(
+      @RequestParam
+      String username, String password) {
+    usersService.setPassword(username, password);
+  }
+
+  @RequestMapping(
+      value = "/reset-password",
       method = RequestMethod.PUT
   )
   @ResponseStatus(HttpStatus.NO_CONTENT)
   public void resetPassword(
       @RequestParam
-      String username, String password) {
-    usersService.updatePassword(username, password);
+      String username, String password, String oldPassword) {
+    usersService.resetPassword(username, oldPassword, password);
   }
 
   @RequestMapping(

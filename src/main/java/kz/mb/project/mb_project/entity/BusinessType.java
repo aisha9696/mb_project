@@ -1,6 +1,8 @@
 package kz.mb.project.mb_project.entity;
 
 import java.io.Serializable;
+import java.util.UUID;
+
 import lombok.Getter;
 import lombok.Setter;
 import jakarta.persistence.Column;
@@ -16,21 +18,11 @@ import jakarta.persistence.Table;
 @Table(name = "business_type")
 @Getter
 @Setter
-@SequenceGenerator(name = "default_gen", sequenceName = "business_type_seq", allocationSize = 1)
-public class BusinessType extends AbstractEntity implements Serializable {
+public class BusinessType extends AbstractLanguageValue implements Serializable {
 
   @Id
-  @Column(name = "id")
-  @GeneratedValue(
-      strategy = GenerationType.SEQUENCE,
-      generator = "default_gen"
-  )
-  private Long id;
+  @GeneratedValue(strategy = GenerationType.UUID)
+  private UUID id;
 
-  @Column(name = "value_ru")
-  private String valueRU;
-
-  @Column(name = "value_kz")
-  private String valueKZ;
 }
 

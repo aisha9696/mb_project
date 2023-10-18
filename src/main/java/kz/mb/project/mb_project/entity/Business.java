@@ -39,9 +39,6 @@ public class Business extends AbstractEntity implements Serializable {
   @OneToOne
   private BusinessType businessType;
 
-  @OneToMany
-  private Set<UserBusiness> users = new HashSet<>();
-
   @Enumerated(EnumType.STRING)
   @Column(
       name = "payment_types",

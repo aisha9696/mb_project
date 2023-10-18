@@ -5,6 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;
+import jakarta.persistence.OneToOne;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -16,8 +17,8 @@ public abstract class AbstractEntity {
   /**
    * Логин создателя
    */
-  @Column(name = "created_by")
-  private String createdBy;
+  @OneToOne
+  private UserDetail createdBy;
 
   /**
    * Дата создания.
@@ -29,11 +30,8 @@ public abstract class AbstractEntity {
   /**
    * Логин создателя
    */
-  @Column(
-      name = "updated_by",
-      nullable = true
-  )
-  private String updatedBy;
+  @OneToOne
+  private UserDetail updatedBy;
 
   /**
    * Дата обновления.

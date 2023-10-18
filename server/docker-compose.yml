@@ -1,0 +1,53 @@
+version: "3.8"
+
+volumes:
+  postgres_data:
+    driver: local
+
+services:
+  postgres:
+    container_name: postgres
+    image: library/postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: password
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    networks:
+      - keycloak_net
+
+  keycloak:
+    image: bitnami/keycloak:21.1.2
+    container_name: keycloak
+    ports:
+      - "8080:8080"
+      - "8843:8443"
+    environment:
+      KEYCLOAK_ADMIN_USER: admin
+      KEYCLOAK_ADMIN_PASSWORD: 260
+      KEYCLOAK_MANAGEMENT_PASSWORD: 260
+      KEYCLOAK_DATABASE_PORT: 5432
+      KEYCLOAK_DATABASE_HOST: postgres
+      KEYCLOAK_DATABASE_NAME: password
+      KEYCLOAK_CREATE_ADMIN_USER: 'true'
+      KEYCLOAK_DATABASE_USER: postgres
+      KEYCLOAK_DATABASE_PASSWORD: postgres
+      KC_FEATURES: 'declarative-user-profile,token-exchange,admin-fine-grained-authz'
+      KC_HTTPS_CERTIFICATE_FILE: /otp/keycloak/demo/certs/keycloak-self-signed-cert.pem
+      KC_HTTPS_CERTIFICATE_KEY_FILE: /otp/keycloak/demo/certs/keycloak-private-key.pem
+    depends_on:
+      postgres:
+        condition: service_started
+    volumes:
+      - ./certs/keycloak-self-signed-cert.pem:/otp/keycloak/demo/certs/keycloak-self-signed-cert.pem
+      - ./certs/keycloak-private-key.pem:/otp/keycloak/demo/certs/keycloak-private-key.pem
+    networks:
+      - keycloak_net
+
+networks:
+  keycloak_net:
+    driver: bridge

@@ -24,7 +24,5 @@ public enum UserRole implements Serializable {
         this.valueKZ = valueKZ;
     }
 
-
-
 }
 

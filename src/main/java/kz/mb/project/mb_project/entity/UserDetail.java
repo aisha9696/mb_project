@@ -27,4 +27,7 @@ public class UserDetail implements Serializable {
   )
   private File photo;
 
+  @Column(name = "temporal")
+  private Boolean temporal;
+
 }

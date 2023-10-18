@@ -8,20 +8,16 @@ import kz.mb.project.mb_project.dto.TokenResponse;
 public interface UserService {
 
   void createUser(CreateUserRequest createUserRequest);
-
   TokenResponse signIn(LoginRequest loginRequest);
-
-  void updatePassword(String username, String password);
-
-
+  void setPassword(String username, String password);
   LoginResponseDto userInfo(String username);
-
   TokenResponse refresh(String refreshToken);
-
   void logout(String userId);
-
   void sendConfirmationOtp(String username);
 
   Boolean checkOtp(String otp, String username);
 
+  void deleteTemporalUser();
+
+  void resetPassword(String username, String oldPassword, String password);
 }
