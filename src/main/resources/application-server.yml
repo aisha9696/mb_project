@@ -9,9 +9,9 @@ spring:
         jdbc.batch_size: 5000
         dialect: org.hibernate.dialect.PostgreSQLDialect
   datasource:
-    url: jdbc:postgresql://195.210.47.122:5432/mbbusiness
+    url: jdbc:postgresql://91.201.215.184:5433/mbbusiness
     username: postgres
-    password: postgres
+    password: Mzoi2bV1%
     driver-class-name: org.postgresql.Driver
 
   security:
@@ -21,7 +21,7 @@ spring:
           my-client:
             authorization-grant-type: client_credentials
             client-id: mbprojectclient
-            client-secret: cLBQF3cs3F4unn2z4QRlyJCcURH9yAHQ
+            client-secret: xfZ42uG3tEE2pbjhAjV4JgeApCkMyLqu
         provider:
           my-client:
             token-uri: https://mbproject.kz:8843/realms/mbproject/protocol/openid-connect/token
@@ -37,7 +37,7 @@ keycloak:
   authorization_url: /realms/%s/protocol/openid-connect/certs
   user_locked_url: /admin/realms/%s/attack-detection/brute-force/users/
   credentials:
-    secret: cLBQF3cs3F4unn2z4QRlyJCcURH9yAHQ
+    secret: xfZ42uG3tEE2pbjhAjV4JgeApCkMyLqu
     use-resource-role-mappings: true
     bearer-only: true
 

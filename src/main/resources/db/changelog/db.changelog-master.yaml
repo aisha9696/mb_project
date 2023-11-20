@@ -7,3 +7,8 @@ databaseChangeLog:
       author: aisha96906
       file: DDL/001_init.sql
       relativeToChangelogFile: true
+
+  - include:
+      author: aisha96906
+      file: DDl/002_warehouse_init.sql
+      relativeToChangelogFile: true

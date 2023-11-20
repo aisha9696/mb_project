@@ -13,9 +13,9 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: password
+      POSTGRES_DB: postgres
     ports:
-      - "5432:5432"
+      - "5433:5433"
     restart: unless-stopped
     networks:
       - keycloak_net
@@ -30,9 +30,9 @@ services:
       KEYCLOAK_ADMIN_USER: admin
       KEYCLOAK_ADMIN_PASSWORD: 260
       KEYCLOAK_MANAGEMENT_PASSWORD: 260
-      KEYCLOAK_DATABASE_PORT: 5432
+      KEYCLOAK_DATABASE_PORT: 5433
       KEYCLOAK_DATABASE_HOST: postgres
-      KEYCLOAK_DATABASE_NAME: password
+      KEYCLOAK_DATABASE_NAME: postgres
       KEYCLOAK_CREATE_ADMIN_USER: 'true'
       KEYCLOAK_DATABASE_USER: postgres
       KEYCLOAK_DATABASE_PASSWORD: postgres
