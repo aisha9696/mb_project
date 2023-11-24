@@ -3,6 +3,7 @@ package kz.mb.project.mb_project.controller;
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import kz.mb.project.mb_project.dto.ApiResponse;
 import kz.mb.project.mb_project.dto.CreateUserRequest;
 import kz.mb.project.mb_project.dto.LoginRequest;
 import kz.mb.project.mb_project.dto.SuccessMessage;
@@ -114,15 +116,17 @@ public class UserController {
     usersService.sendConfirmationOtp(username);
   }
 
-  @GetMapping(path = "/public/check-otp")
-  public ResponseEntity<?> checkRegistrationOtp(
+
+  @GetMapping(value = "/public/check-otp")
+  public ResponseEntity<ApiResponse<String>> checkRegistrationOtp(
       @RequestParam
       String otp,
       @RequestParam
       String username) {
     return ResponseEntity.ok(
-        usersService.checkOtp(otp, username) ? SuccessMessage.OTP_CHECKED.getMessageRU()
-            : ErrorMessage.OTP_NOT_VERIFIED.getMessageRU());
+        new ApiResponse(
+            usersService.checkOtp(otp, username) ? SuccessMessage.OTP_CHECKED.getMessageRU()
+                : ErrorMessage.INVALID_OTP.getMessageKZ(), 200));
   }
 
 }
