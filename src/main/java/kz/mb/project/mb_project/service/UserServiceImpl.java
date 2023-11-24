@@ -4,6 +4,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+import java.util.stream.Collectors;
+
 import lombok.extern.slf4j.Slf4j;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,11 +20,13 @@ import kz.mb.project.mb_project.dto.LoginRequest;
 import kz.mb.project.mb_project.dto.LoginResponseDto;
 import kz.mb.project.mb_project.dto.OtpDto;
 import kz.mb.project.mb_project.dto.SmsResponse;
+import kz.mb.project.mb_project.dto.SuccessMessage;
 import kz.mb.project.mb_project.dto.TokenResponse;
 import kz.mb.project.mb_project.dto.UserLockedResponse;
 import kz.mb.project.mb_project.dto.keycloak.CreateKUser;
 import kz.mb.project.mb_project.dto.keycloak.KAction;
 import kz.mb.project.mb_project.dto.keycloak.KUser;
+import kz.mb.project.mb_project.entity.Business;
 import kz.mb.project.mb_project.entity.UserBusiness;
 import kz.mb.project.mb_project.entity.UserDetail;
 import kz.mb.project.mb_project.entity.UserRole;
@@ -37,6 +41,7 @@ import kz.mb.project.mb_project.repo.BusinessRepository;
 import kz.mb.project.mb_project.repo.UserBusinessRepository;
 import kz.mb.project.mb_project.repo.UsersRepository;
 import kz.mb.project.mb_project.utils.PhoneNumberUtils;
+import kz.mb.project.mb_project.utils.RandomUtils;
 
 @Service
 @Slf4j
