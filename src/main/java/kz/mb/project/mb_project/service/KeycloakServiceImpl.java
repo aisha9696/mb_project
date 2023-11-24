@@ -143,6 +143,7 @@ public class KeycloakServiceImpl implements KeycloakService {
 
     Mono<KPassword> passwordMono = Mono.just(
         KPassword.builder().temporary(true).type("PASSWORD").value(password).build());
+    log.info("here " + url.concat(" ").concat(token.getAccess_token()));
     webClient.put().uri(url)
         .header("Authorization", "Bearer " + token.getAccess_token())
         .contentType(MediaType.APPLICATION_JSON)

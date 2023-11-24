@@ -1,10 +1,13 @@
 package kz.mb.project.mb_project.entity;
 
+import java.util.List;
 import java.util.UUID;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+
 import jakarta.persistence.Column;
+import jakarta.persistence.ElementCollection;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -14,6 +17,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
+import org.hibernate.annotations.Type;
+
 
 @Entity
 @Table(name = "user_business")
@@ -36,5 +41,4 @@ public class UserBusiness {
     @Enumerated(EnumType.STRING)
     @Column(name = "user_roles")
     private UserRole userRoles;
-
 }

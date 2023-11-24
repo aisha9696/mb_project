@@ -4,25 +4,32 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
+import java.util.stream.Collectors;
+
 import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.convert.ConversionService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
 import kz.mb.project.mb_project.converter.KUserLoginResponseConverter;
 import kz.mb.project.mb_project.dto.CreateUserRequest;
 import kz.mb.project.mb_project.dto.LoginRequest;
 import kz.mb.project.mb_project.dto.LoginResponseDto;
 import kz.mb.project.mb_project.dto.OtpDto;
 import kz.mb.project.mb_project.dto.SmsResponse;
+import kz.mb.project.mb_project.dto.SuccessMessage;
 import kz.mb.project.mb_project.dto.TokenResponse;
 import kz.mb.project.mb_project.dto.UserLockedResponse;
 import kz.mb.project.mb_project.dto.keycloak.CreateKUser;
 import kz.mb.project.mb_project.dto.keycloak.KAction;
 import kz.mb.project.mb_project.dto.keycloak.KUser;
+import kz.mb.project.mb_project.entity.Business;
 import kz.mb.project.mb_project.entity.UserBusiness;
 import kz.mb.project.mb_project.entity.UserDetail;
+import kz.mb.project.mb_project.entity.UserRole;
 import kz.mb.project.mb_project.exception.ErrorMessage;
 import kz.mb.project.mb_project.exception.ForbiddenException;
 import kz.mb.project.mb_project.exception.FoundException;
@@ -30,9 +37,11 @@ import kz.mb.project.mb_project.exception.InternalServerException;
 import kz.mb.project.mb_project.exception.InvalidRequestException;
 import kz.mb.project.mb_project.exception.NotAuthorizedException;
 import kz.mb.project.mb_project.exception.NotFoundException;
+import kz.mb.project.mb_project.repo.BusinessRepository;
 import kz.mb.project.mb_project.repo.UserBusinessRepository;
 import kz.mb.project.mb_project.repo.UsersRepository;
 import kz.mb.project.mb_project.utils.PhoneNumberUtils;
+import kz.mb.project.mb_project.utils.RandomUtils;
 
 @Service
 @Slf4j
@@ -45,6 +54,7 @@ public class UserServiceImpl implements UserService {
   protected final UserBusinessRepository userBusinessRepository;
   protected final SmsService smsService;
   protected final OtpService otpService;
+  protected final BusinessRepository businessRepository;
 
   public UserServiceImpl(
       @Autowired
@@ -54,7 +64,8 @@ public class UserServiceImpl implements UserService {
       ConversionService conversionService,
       KeycloakService keycloakService,
       KUserLoginResponseConverter kUserLoginResponseConverter,
-      UserBusinessRepository userBusinessRepository, SmsService smsService, OtpService otpService) {
+      UserBusinessRepository userBusinessRepository, SmsService smsService, OtpService otpService,
+      BusinessRepository businessRepository) {
     this.usersRepository = usersRepository;
     this.conversionService = conversionService;
     this.keycloakService = keycloakService;
@@ -62,6 +73,7 @@ public class UserServiceImpl implements UserService {
     this.userBusinessRepository = userBusinessRepository;
     this.smsService = smsService;
     this.otpService = otpService;
+    this.businessRepository = businessRepository;
   }
 
   @Override
@@ -99,10 +111,12 @@ public class UserServiceImpl implements UserService {
     if (token == null) {
       throw new NotAuthorizedException(ErrorMessage.AUTHORIZATION_ERROR);
     }
-    UserLockedResponse locked = keycloakService.isUserLocked(user.get().getId().toString(), token).block();
-    if(locked != null && locked.getDisabled()){
+    UserLockedResponse locked = keycloakService.isUserLocked(user.get().getId().toString(), token)
+        .block();
+    if (locked != null && locked.getDisabled()) {
       KUser kUser = KUser.builder().id(user.get().getId().toString())
-          .requiredActions(new KAction[]{KAction.UPDATE_PASSWORD, KAction.CONFIGURE_TOTP}).totp(false).build();
+          .requiredActions(new KAction[]{KAction.UPDATE_PASSWORD, KAction.CONFIGURE_TOTP})
+          .totp(false).build();
       keycloakService.updateUser(kUser, token);
       throw new ForbiddenException(ErrorMessage.USER_LOCKED);
     }
@@ -125,7 +139,7 @@ public class UserServiceImpl implements UserService {
     if (kUser == null) {
       throw new NotFoundException(ErrorMessage.USER_NOT_FOUND_EXCEPTION);
     }
-    if(Arrays.asList(kUser.getRequiredActions()).contains(KAction.CONFIGURE_TOTP)){
+    if (Arrays.asList(kUser.getRequiredActions()).contains(KAction.CONFIGURE_TOTP)) {
       throw new InvalidRequestException(ErrorMessage.USER_UPDATE_EXCEPTION);
     }
     kUser.setRequiredActions(new KAction[]{});
@@ -156,6 +170,7 @@ public class UserServiceImpl implements UserService {
     LoginResponseDto loginResponseDto = kUserLoginResponseConverter.convert(kUser);
     loginResponseDto.setPhoto(user.get().getPhoto());
     loginResponseDto.setMembership(userBusiness);
+    loginResponseDto.setDetail(user.get());
     return loginResponseDto;
   }
 
@@ -212,22 +227,25 @@ public class UserServiceImpl implements UserService {
         throw new NotFoundException(ErrorMessage.USER_NOT_FOUND_EXCEPTION);
       }
       kUser.setRequiredActions(new KAction[]{KAction.UPDATE_PASSWORD});
-      keycloakService.updateUser(kUser,token);
-      otpService.checkAndDeleteOtp(username,otp);
+      keycloakService.updateUser(kUser, token);
+      otpService.checkAndDeleteOtp(username, otp);
     }
     return checked;
   }
 
   @Override
   @Transactional
-  public void deleteTemporalUser() {
+  public void deleteTemporalUser(UserRole role) {
     TokenResponse token = keycloakService.getClientCredentialToken().block();
     if (token == null) {
       throw new NotAuthorizedException(ErrorMessage.INCORRECT_PASSWORD);
     }
     usersRepository.findAllByTemporalIsTrue().forEach(userDetail -> {
-      keycloakService.deleteUser(userDetail.getId().toString(), token);
-      usersRepository.delete(userDetail);
+      if (userBusinessRepository.findAllByUserUsername(userDetail.getUsername()).stream()
+          .anyMatch(userBusiness -> userBusiness.getUserRoles() == role)) {
+        keycloakService.deleteUser(userDetail.getId().toString(), token);
+        usersRepository.delete(userDetail);
+      }
     });
   }
 
@@ -245,9 +263,10 @@ public class UserServiceImpl implements UserService {
     } else {
       keycloakService.setCredentials(user.get().getId().toString(), password, token);
       KUser kUser = KUser.builder().id(user.get().getId().toString())
-          .requiredActions(new KAction[]{KAction.UPDATE_PASSWORD, KAction.CONFIGURE_TOTP}).totp(false).enabled(false).build();
+          .requiredActions(new KAction[]{KAction.UPDATE_PASSWORD, KAction.CONFIGURE_TOTP})
+          .totp(false).enabled(false).build();
       keycloakService.updateUser(kUser, token);
-      keycloakService.logout(user.get().toString());
+      keycloakService.logout(user.get().getId().toString());
     }
   }
 
