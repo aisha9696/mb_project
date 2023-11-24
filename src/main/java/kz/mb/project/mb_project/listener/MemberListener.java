@@ -12,6 +12,7 @@ import kz.mb.project.mb_project.entity.UserBusiness;
 import kz.mb.project.mb_project.entity.UserRole;
 import kz.mb.project.mb_project.exception.ErrorMessage;
 import kz.mb.project.mb_project.exception.InternalServerException;
+import kz.mb.project.mb_project.exception.NotFoundException;
 import kz.mb.project.mb_project.repo.UserBusinessRepository;
 import kz.mb.project.mb_project.service.SmsService;
 import kz.mb.project.mb_project.service.UserService;
@@ -39,8 +40,7 @@ public class MemberListener {
     String password = RandomUtils.generateRandomString();
     if (member.getUserRoles() == UserRole.Cacher || member.getUserRoles() == UserRole.Stockman) {
       List<UserBusiness> owners = userBusinessRepository.findByBusinessAndUserRoles(
-          member.getBusiness(), UserRole.Owner);
-
+          member.getBusiness(), UserRole.Owner).orElseThrow(()->new NotFoundException(ErrorMessage.BUSINESS_NOT_FOUND_EXCEPTION));
       String messageText = String.format("MB_App:%s-пароль для доступа %s",
           password, member.getUser().getUsername());
       if (owners != null) {
