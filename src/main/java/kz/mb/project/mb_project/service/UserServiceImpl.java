@@ -95,7 +95,7 @@ public class UserServiceImpl implements UserService {
     String[] uidParts = uid.split("/");
     uid = uidParts[uidParts.length - 1];
     UserDetail detail = UserDetail.builder().username(createUserRequest.getPhone_number())
-        .id(UUID.fromString(uid)).temporal(true).build();
+        .id(UUID.fromString(uid)).temporal(true).firstName(createUserRequest.getFirstname()).lastName(createUserRequest.getLastname()).build();
     usersRepository.save(detail);
   }
 

@@ -31,7 +31,8 @@ public enum ErrorMessage {
   INCORRECT_PHONE_NUMBER("Не корректный номер телефона","Қате телефон номер"),
   KEYCLOAK_SERVER_EXCEPTION("Ошибка на стороне авторизационного сервиса!","Ошибка на стороне авторизационного сервиса!"),
   USER_LOCKED("Пользователь заблокирован из-за превышения допустимого числа авторизаций","Пользователь заблокирован из-за превышения допустимого числа авторизаций kz"),
-  BUSINESS_NOT_FOUND_EXCEPTION("Данный бизнес не найден", "Бұнадай бизнес табылмады!");
+  BUSINESS_NOT_FOUND_EXCEPTION("Данный бизнес не найден", "Бұнадай бизнес табылмады!"),
+  OWNER_NOT_FOUND_EXCEPTION("Владелец не был найден для создания сотрудника", "");
 
   private final String messageRU;
   private final String messageKZ;

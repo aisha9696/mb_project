@@ -20,6 +20,12 @@ public class UserDetail implements Serializable {
 
   private String username;
 
+  @Column(name = "firstname")
+  private String firstName;
+
+  @Column(name = "lastname")
+  private String lastName;
+
   @OneToOne
   @JoinColumn(
       name = "photo_id",
