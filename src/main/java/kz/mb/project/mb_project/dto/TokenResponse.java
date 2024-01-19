@@ -1,8 +1,10 @@
 package kz.mb.project.mb_project.dto;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class TokenResponse {
   private String access_token;
   private Integer expires_in;

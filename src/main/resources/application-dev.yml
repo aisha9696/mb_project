@@ -43,7 +43,7 @@ keycloak:
 
 user:
   temporal:
-    owner: 0 */10 * * * *
+    owner: 0 * * * * *
     other: 0 0 1 * * ?
 
 sms:

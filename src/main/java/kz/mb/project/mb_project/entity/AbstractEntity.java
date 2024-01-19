@@ -1,11 +1,12 @@
 package kz.mb.project.mb_project.entity;
 
 import java.time.OffsetDateTime;
+
 import lombok.Getter;
 import lombok.Setter;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.MappedSuperclass;
-import jakarta.persistence.OneToOne;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
@@ -17,8 +18,7 @@ public abstract class AbstractEntity {
   /**
    * Логин создателя
    */
-  @OneToOne
-  private UserDetail createdBy;
+  private String createdByUser;
 
   /**
    * Дата создания.
@@ -30,8 +30,7 @@ public abstract class AbstractEntity {
   /**
    * Логин создателя
    */
-  @OneToOne
-  private UserDetail updatedBy;
+  private String updatedByUser;
 
   /**
    * Дата обновления.

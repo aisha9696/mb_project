@@ -1,0 +1,2 @@
+insert into project_configuration (id, configuration_name, configuration_value) values (1, 'COUNT_OF_EMPLOYEE', '10');
+insert into project_configuration (id, configuration_name, configuration_value) values (2, 'COUNT_OF_BUSINESS', '3');

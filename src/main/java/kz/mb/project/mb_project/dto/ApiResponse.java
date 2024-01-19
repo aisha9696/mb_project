@@ -1,9 +1,10 @@
 package kz.mb.project.mb_project.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 public class ApiResponse<T>{
   private T body;
 

@@ -1,5 +1,7 @@
 package kz.mb.project.mb_project.service;
 
+import java.util.List;
+
 import reactor.core.publisher.Mono;
 
 import kz.mb.project.mb_project.dto.TokenResponse;
@@ -20,6 +22,8 @@ public interface KeycloakService {
   void setCredentials(String user_id, String password, TokenResponse token);
 
   KUser getUser(String user_id, TokenResponse token);
+
+  List<KUser> getUsers(TokenResponse token);
 
   Mono<TokenResponse> getToken(String username, String password);
 

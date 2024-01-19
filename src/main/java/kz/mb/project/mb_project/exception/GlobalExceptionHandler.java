@@ -58,4 +58,10 @@ public class GlobalExceptionHandler {
     return new ErrorResponse(HttpStatus.FORBIDDEN.value(), ex.getMessage());
   }
 
+  @ExceptionHandler(value = ProjectException.class)
+  @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
+  public @ResponseBody ErrorResponse handleException(ProjectException ex) {
+    return new ErrorResponse(HttpStatus.INTERNAL_SERVER_ERROR.value(), ex.getMessage());
+  }
+
 }
