@@ -2,10 +2,13 @@ package kz.mb.project.mb_project.dto;
 
 
 import java.io.Serializable;
-import lombok.Data;
+
+import lombok.Getter;
+import lombok.Setter;
 
 
-@Data
+@Getter
+@Setter
 public class SmsResponse implements Serializable {
     private String bulk_id;
     private String message_id;

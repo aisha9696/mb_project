@@ -23,6 +23,9 @@ create table if not exists user_detail
         constraint user_detail_pk_id
             primary key,
     username varchar(50) not null,
+    email varchar(150),
+    firstname varchar(150),
+    lastname varchar(150),
     temporal bool not null,
     photo_id bigint
         constraint user_detail_fk_photo_id references file
@@ -36,10 +39,8 @@ create table business_type
             primary key,
     value_ru   varchar(255),
     value_kz   varchar(255),
-    created_by_id uuid
-        constraint business_type_fk_created_by_id references user_detail,
-    updated_by_id uuid
-        constraint business_type_fk_updated_by_id references user_detail,
+    created_by_user varchar(255),
+    updated_by_user varchar(255),
     created_at timestamp,
     updated_at timestamp,
     archived   boolean
@@ -54,10 +55,8 @@ create table business(
                          address varchar(255),
                          payment_types text[],
                          business_type_id uuid constraint business_fk_business_type_id references business_type,
-                         created_by_id uuid
-                             constraint business_fk_created_by_id references user_detail,
-                         updated_by_id uuid
-                             constraint business_fk_updated_by_id references user_detail,
+                         created_by_user varchar(255),
+                         updated_by_user varchar(255),
                          created_at timestamp,
                          updated_at timestamp,
                          archived boolean

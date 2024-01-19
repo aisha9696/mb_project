@@ -14,4 +14,4 @@ spring:
   web:
     locale-resolver: accept_header
 springdoc:
-  version: 2.1.0
+ version: 2.1.0

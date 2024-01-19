@@ -1,7 +1,5 @@
 package kz.mb.project.mb_project.service;
 
-import java.util.UUID;
-
 import kz.mb.project.mb_project.dto.CreateUserRequest;
 import kz.mb.project.mb_project.dto.LoginRequest;
 import kz.mb.project.mb_project.dto.LoginResponseDto;

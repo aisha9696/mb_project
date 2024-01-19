@@ -2,12 +2,16 @@ package kz.mb.project.mb_project.dto;
 
 import java.util.List;
 import java.util.UUID;
-import lombok.Data;
+
+import lombok.Getter;
+import lombok.Setter;
+
 import kz.mb.project.mb_project.entity.File;
 import kz.mb.project.mb_project.entity.UserBusiness;
 import kz.mb.project.mb_project.entity.UserDetail;
 
-@Data
+@Getter
+@Setter
 public class LoginResponseDto {
 
   private UUID id;
