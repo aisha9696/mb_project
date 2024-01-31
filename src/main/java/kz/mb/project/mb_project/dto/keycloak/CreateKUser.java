@@ -1,9 +1,11 @@
 package kz.mb.project.mb_project.dto.keycloak;
 
 import lombok.Builder;
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter
+@Setter
 @Builder
 public class CreateKUser {
   private String username;

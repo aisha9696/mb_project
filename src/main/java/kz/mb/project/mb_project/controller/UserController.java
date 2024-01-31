@@ -3,8 +3,8 @@ package kz.mb.project.mb_project.controller;
 import lombok.RequiredArgsConstructor;
 
 import org.springframework.http.HttpStatus;
-import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,6 +18,7 @@ import kz.mb.project.mb_project.dto.ApiResponse;
 import kz.mb.project.mb_project.dto.CreateUserRequest;
 import kz.mb.project.mb_project.dto.LoginRequest;
 import kz.mb.project.mb_project.dto.SuccessMessage;
+import kz.mb.project.mb_project.entity.UserRole;
 import kz.mb.project.mb_project.exception.ErrorMessage;
 import kz.mb.project.mb_project.service.UserService;
 
@@ -73,7 +74,7 @@ public class UserController {
   }
 
   @RequestMapping(
-      value = "/public/user-info/{username}",
+      value = "/user-info/{username}",
       method = RequestMethod.GET
   )
   public ResponseEntity<?> userInfo(
@@ -128,6 +129,15 @@ public class UserController {
             usersService.checkOtp(otp, username) ? SuccessMessage.OTP_CHECKED.getMessageRU()
                 : ErrorMessage.INVALID_OTP.getMessageKZ(), 200));
   }
+
+  @DeleteMapping("/public/delete")
+  @ResponseStatus(HttpStatus.OK)
+  public void deleteUser() {
+    usersService.deleteTemporalUser(UserRole.Cacher);
+    usersService.deleteTemporalUser(UserRole.Stockman);
+  }
+
+
 
 }
 

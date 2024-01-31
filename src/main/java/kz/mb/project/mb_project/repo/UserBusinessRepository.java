@@ -20,8 +20,8 @@ public interface UserBusinessRepository extends JpaRepository<UserBusiness, UUID
 
   @RestResource(exported = false)
   List<UserBusiness> findAllByUserUsername(String username);
-
-  Page<UserBusiness> findAllByBusinessId(UUID bussinessID, Pageable pageable);
+  @RestResource(exported = false)
+  List<UserBusiness> findAllByBusiness(Business business);
 
   @RestResource(exported = false)
   Optional<List<UserBusiness>> findByBusinessAndUserRoles(Business business, UserRole role);

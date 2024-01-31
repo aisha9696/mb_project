@@ -8,6 +8,21 @@ spring:
         use_sql_comments: false
         jdbc.batch_size: 5000
         dialect: org.hibernate.dialect.PostgreSQLDialect
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: mbprojecttest794@gmail.com  #https://www.baeldung.com/spring-email
+    password: jpdx ujmt uzus rlpe #https://support.google.com/mail/answer/7104828?hl=en&rd=3&visit_id=638195765566773400-3814427644
+    properties:
+      mail:
+        smtp:
+          debug: true
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 5000
+          writetimeout: 5000
   datasource:
     url: jdbc:postgresql://localhost:5432/mbbusiness
     username: postgres
@@ -24,7 +39,6 @@ spring:
         provider:
           my-client:
             token-uri: http://localhost:8080/realms/mb_project/protocol/openid-connect/token
-
   web:
     locale-resolver: accept_header
 keycloak:
@@ -43,7 +57,7 @@ keycloak:
 
 user:
   temporal:
-    owner: 0 */10 * * * *
+    owner: 0 * * * * *
     other: 0 0 1 * * ?
 
 sms:
@@ -55,3 +69,5 @@ sms:
 
 springdoc:
   enable-spring-security: true
+
+

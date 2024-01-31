@@ -21,9 +21,12 @@ public class KUserLoginResponseConverter implements Converter<KUser, LoginRespon
     responseDto.setLastName(kUser.getLastName());
     responseDto.setEnabled(kUser.getEnabled());
     responseDto.setFace_id(kUser.getAttributes().getFace_id()[0].equals("true"));
-    responseDto.setPassword_updated(!Arrays.stream(kUser.getRequiredActions())
-        .allMatch(action -> action.equals(KAction.UPDATE_PASSWORD)));
-
+    if(Arrays.stream(kUser.getRequiredActions()).anyMatch(action -> action.equals(KAction.UPDATE_PASSWORD))){
+      responseDto.setPassword_updated(false);
+    }
+    else {
+      responseDto.setPassword_updated(true);
+    }
     return responseDto;
   }
 }

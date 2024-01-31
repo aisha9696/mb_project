@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
-import java.util.stream.Collectors;
+import java.util.function.Function;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -19,14 +19,12 @@ import kz.mb.project.mb_project.dto.CreateUserRequest;
 import kz.mb.project.mb_project.dto.LoginRequest;
 import kz.mb.project.mb_project.dto.LoginResponseDto;
 import kz.mb.project.mb_project.dto.OtpDto;
-import kz.mb.project.mb_project.dto.SmsResponse;
-import kz.mb.project.mb_project.dto.SuccessMessage;
 import kz.mb.project.mb_project.dto.TokenResponse;
+import kz.mb.project.mb_project.dto.UpdateUserRequest;
 import kz.mb.project.mb_project.dto.UserLockedResponse;
 import kz.mb.project.mb_project.dto.keycloak.CreateKUser;
 import kz.mb.project.mb_project.dto.keycloak.KAction;
 import kz.mb.project.mb_project.dto.keycloak.KUser;
-import kz.mb.project.mb_project.entity.Business;
 import kz.mb.project.mb_project.entity.UserBusiness;
 import kz.mb.project.mb_project.entity.UserDetail;
 import kz.mb.project.mb_project.entity.UserRole;
@@ -41,7 +39,7 @@ import kz.mb.project.mb_project.repo.BusinessRepository;
 import kz.mb.project.mb_project.repo.UserBusinessRepository;
 import kz.mb.project.mb_project.repo.UsersRepository;
 import kz.mb.project.mb_project.utils.PhoneNumberUtils;
-import kz.mb.project.mb_project.utils.RandomUtils;
+import kz.mb.project.mb_project.utils.ValidationUtils;
 
 @Service
 @Slf4j
@@ -52,9 +50,16 @@ public class UserServiceImpl implements UserService {
   protected final KeycloakService keycloakService;
   protected final KUserLoginResponseConverter kUserLoginResponseConverter;
   protected final UserBusinessRepository userBusinessRepository;
-  protected final SmsService smsService;
+
+  protected final NotificationService notificationService;
+
   protected final OtpService otpService;
   protected final BusinessRepository businessRepository;
+
+  static Function<String, String> getIDFromUrl = url -> {
+    String[] uidParts = url.split("/");
+    return uidParts[uidParts.length - 1];
+  };
 
   public UserServiceImpl(
       @Autowired
@@ -64,14 +69,15 @@ public class UserServiceImpl implements UserService {
       ConversionService conversionService,
       KeycloakService keycloakService,
       KUserLoginResponseConverter kUserLoginResponseConverter,
-      UserBusinessRepository userBusinessRepository, SmsService smsService, OtpService otpService,
+      UserBusinessRepository userBusinessRepository,
+      NotificationService notificationService, OtpService otpService,
       BusinessRepository businessRepository) {
     this.usersRepository = usersRepository;
     this.conversionService = conversionService;
     this.keycloakService = keycloakService;
     this.kUserLoginResponseConverter = kUserLoginResponseConverter;
     this.userBusinessRepository = userBusinessRepository;
-    this.smsService = smsService;
+    this.notificationService = notificationService;
     this.otpService = otpService;
     this.businessRepository = businessRepository;
   }
@@ -79,25 +85,67 @@ public class UserServiceImpl implements UserService {
   @Override
   @Transactional
   public void createUser(CreateUserRequest createUserRequest) {
-    usersRepository.findUserDetailByUsername(createUserRequest.getPhone_number())
-        .ifPresent(userDetail -> {
-          throw new FoundException(ErrorMessage.USER_FOUND_EXCEPTION);
-        });
     TokenResponse token = keycloakService.getClientCredentialToken().block();
+
     if (token == null) {
       throw new NotAuthorizedException(ErrorMessage.AUTHORIZATION_ERROR);
     }
+
+    if (usersRepository.findUserDetailByUsername(createUserRequest.getPhone_number()).isPresent()
+        && keycloakService.getUsers(token).stream()
+        .anyMatch(user -> user.getUsername().equals(createUserRequest.getPhone_number()))) {
+      throw new FoundException(ErrorMessage.USER_FOUND_EXCEPTION);
+    }
+
+    if (PhoneNumberUtils.ensureKzCtnWithCountryCode(createUserRequest.getPhone_number()) == null) {
+      throw new InvalidRequestException(ErrorMessage.CREATE_INCORRECT_PHONE_NUMBER);
+    }
+    if (usersRepository.findUserDetailByEmail(createUserRequest.getEmail()).isPresent()
+        && keycloakService.getUsers(token).stream()
+        .anyMatch(user -> user.getEmail().equals(createUserRequest.getEmail()))) {
+      throw new FoundException(ErrorMessage.USER_CREATE_EMAIL_EXCEPTION);
+    }
+
+    if (!ValidationUtils.validateEmail(createUserRequest.getEmail())) {
+      throw new InvalidRequestException(ErrorMessage.INVALID_EMAIL);
+    }
+
     CreateKUser user = conversionService.convert(createUserRequest, CreateKUser.class);
     String uid = keycloakService.createUser(user, token);
+    uid = getIDFromUrl.apply(uid);
     if (uid == null) {
       throw new InternalServerException(ErrorMessage.USER_CREATE_EXCEPTION);
     }
-    String[] uidParts = uid.split("/");
-    uid = uidParts[uidParts.length - 1];
+
     UserDetail detail = UserDetail.builder().username(createUserRequest.getPhone_number())
-        .id(UUID.fromString(uid)).temporal(true).firstName(createUserRequest.getFirstname()).lastName(createUserRequest.getLastname()).build();
+        .id(UUID.fromString(uid)).temporal(true).firstName(createUserRequest.getFirstname())
+        .lastName(createUserRequest.getLastname())
+        .email(createUserRequest.getEmail()).build();
     usersRepository.save(detail);
   }
+
+  @Override
+  public void updateUser(UpdateUserRequest updateUserRequest) {
+    TokenResponse token = keycloakService.getClientCredentialToken().block();
+
+    if (token == null) {
+      throw new NotAuthorizedException(ErrorMessage.AUTHORIZATION_ERROR);
+    }
+    if (usersRepository.findUserDetailByUsername(updateUserRequest.getPhone_number()).isEmpty()
+        && keycloakService.getUsers(token).stream()
+        .noneMatch(user -> user.getUsername().equals(updateUserRequest.getPhone_number()))) {
+      throw new FoundException(ErrorMessage.USER_NOT_FOUND_EXCEPTION);
+    }
+    KUser user = conversionService.convert(updateUserRequest, KUser.class);
+    keycloakService.updateUser(user,token);
+    UserDetail detail = UserDetail.builder().username(updateUserRequest.getPhone_number())
+        .id(updateUserRequest.getId()).temporal(updateUserRequest.getToTemporal())
+        .firstName(updateUserRequest.getFirstname())
+        .lastName(updateUserRequest.getLastname())
+        .email(updateUserRequest.getEmail()).build();
+    usersRepository.save(detail);
+  }
+
 
   @Override
   @Transactional
@@ -123,8 +171,8 @@ public class UserServiceImpl implements UserService {
     return keycloakService.getToken(loginRequest.getUsername(), loginRequest.getPassword()).block();
   }
 
+
   @Override
-  @Transactional
   public void setPassword(String username, String password) {
     Optional<UserDetail> user = usersRepository.findUserDetailByUsername(
         username);
@@ -146,6 +194,7 @@ public class UserServiceImpl implements UserService {
     UserDetail toUpdateUser = user.get();
     toUpdateUser.setTemporal(false);
     kUser.setEnabled(true);
+
     keycloakService.setCredentials(kUser.getId(), password, token);
     keycloakService.updateUser(kUser, token);
     usersRepository.save(toUpdateUser);
@@ -168,6 +217,7 @@ public class UserServiceImpl implements UserService {
     }
     List<UserBusiness> userBusiness = userBusinessRepository.findAllByUserUsername(username);
     LoginResponseDto loginResponseDto = kUserLoginResponseConverter.convert(kUser);
+
     loginResponseDto.setPhoto(user.get().getPhoto());
     loginResponseDto.setMembership(userBusiness);
     loginResponseDto.setDetail(user.get());
@@ -201,11 +251,7 @@ public class UserServiceImpl implements UserService {
       throw new InternalServerException(ErrorMessage.INVALID_PHONE_NUMBER);
     }
     OtpDto otpDto = otpService.generateOtp(username, 180, messageText);
-    messageText = String.format(messageText, otpDto.getOtp());
-    SmsResponse response = smsService.sendSMS(username, messageText).block();
-    if (response == null) {
-      throw new InternalServerException(ErrorMessage.SMS_SENDING_ERROR);
-    }
+    notificationService.performSMSNotification(username, "", messageText);
     log.info("СМС с проверечным кодом был отправлен.Текст SMS : " + messageText);
   }
 
@@ -234,19 +280,25 @@ public class UserServiceImpl implements UserService {
   }
 
   @Override
-  @Transactional
+  @Transactional(rollbackFor = {InvalidRequestException.class, InternalServerException.class})
   public void deleteTemporalUser(UserRole role) {
     TokenResponse token = keycloakService.getClientCredentialToken().block();
     if (token == null) {
       throw new NotAuthorizedException(ErrorMessage.INCORRECT_PASSWORD);
     }
-    usersRepository.findAllByTemporalIsTrue().forEach(userDetail -> {
-      if (userBusinessRepository.findAllByUserUsername(userDetail.getUsername()).stream()
-          .anyMatch(userBusiness -> userBusiness.getUserRoles() == role)) {
+
+    List<UserDetail> toDelete = usersRepository.findAllByTemporalIs(Boolean.TRUE);
+    toDelete.forEach(userDetail -> {
+      if ((userBusinessRepository.findAllByUserUsername(userDetail.getUsername()).stream()
+          .anyMatch(userBusiness -> userBusiness.getUserRoles() == role)
+          || userBusinessRepository.findAllByUserUsername(userDetail.getUsername()).isEmpty()) &&
+          keycloakService.getUsers(token).stream()
+              .anyMatch(user -> user.getUsername().equals(userDetail.getUsername()))) {
         keycloakService.deleteUser(userDetail.getId().toString(), token);
         usersRepository.delete(userDetail);
       }
     });
+
   }
 
   @Override
