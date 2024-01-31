@@ -45,6 +45,6 @@ public class Business extends AbstractEntity implements Serializable {
   )
   private List<PaymentType> paymentTypes;
 
-  @OneToMany(mappedBy = "business", cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+  @OneToMany(mappedBy = "business", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
   private List<UserBusiness> employees;
 }

@@ -36,8 +36,8 @@ public enum ErrorMessage {
   OWNER_NOT_FOUND_EXCEPTION("Владелец не был найден для создания сотрудника", ""),
   PROJECT_CONFIGURATION_IS_NOT_FOUND("Конфигурации проекта не были найдены","Проект конфигурациялары табылмады"),
   BUSINESS_COUNT_EXCEED_EXCEPTION("Не возможно создать больше бизнеса","Aртық бизнес құра алмайсыз! "),
-  EMPLOYEE_COUNT_EXCEED_EXCEPTION("Не возможно создать больше пользователей","Aртық жұмысшы тіркей алмайсыз!");
-
+  EMPLOYEE_COUNT_EXCEED_EXCEPTION("Не возможно создать больше пользователей","Aртық жұмысшы тіркей алмайсыз!"),
+  MEMBER_FOUND_EXCEPTION("Вы уже зарегистрировали пользователя в данный филиал","Вы уже зарегистрировали пользователя в данный филиал");
   private final String messageRU;
   private final String messageKZ;
 

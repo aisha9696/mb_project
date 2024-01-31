@@ -19,8 +19,8 @@ import kz.mb.project.mb_project.dto.CreateUserRequest;
 import kz.mb.project.mb_project.dto.LoginRequest;
 import kz.mb.project.mb_project.dto.LoginResponseDto;
 import kz.mb.project.mb_project.dto.OtpDto;
-import kz.mb.project.mb_project.dto.SmsResponse;
 import kz.mb.project.mb_project.dto.TokenResponse;
+import kz.mb.project.mb_project.dto.UpdateUserRequest;
 import kz.mb.project.mb_project.dto.UserLockedResponse;
 import kz.mb.project.mb_project.dto.keycloak.CreateKUser;
 import kz.mb.project.mb_project.dto.keycloak.KAction;
@@ -50,7 +50,9 @@ public class UserServiceImpl implements UserService {
   protected final KeycloakService keycloakService;
   protected final KUserLoginResponseConverter kUserLoginResponseConverter;
   protected final UserBusinessRepository userBusinessRepository;
-  protected final SmsService smsService;
+
+  protected final NotificationService notificationService;
+
   protected final OtpService otpService;
   protected final BusinessRepository businessRepository;
 
@@ -58,6 +60,7 @@ public class UserServiceImpl implements UserService {
     String[] uidParts = url.split("/");
     return uidParts[uidParts.length - 1];
   };
+
   public UserServiceImpl(
       @Autowired
       UsersRepository usersRepository,
@@ -66,14 +69,15 @@ public class UserServiceImpl implements UserService {
       ConversionService conversionService,
       KeycloakService keycloakService,
       KUserLoginResponseConverter kUserLoginResponseConverter,
-      UserBusinessRepository userBusinessRepository, SmsService smsService, OtpService otpService,
+      UserBusinessRepository userBusinessRepository,
+      NotificationService notificationService, OtpService otpService,
       BusinessRepository businessRepository) {
     this.usersRepository = usersRepository;
     this.conversionService = conversionService;
     this.keycloakService = keycloakService;
     this.kUserLoginResponseConverter = kUserLoginResponseConverter;
     this.userBusinessRepository = userBusinessRepository;
-    this.smsService = smsService;
+    this.notificationService = notificationService;
     this.otpService = otpService;
     this.businessRepository = businessRepository;
   }
@@ -113,12 +117,32 @@ public class UserServiceImpl implements UserService {
       throw new InternalServerException(ErrorMessage.USER_CREATE_EXCEPTION);
     }
 
-
-
     UserDetail detail = UserDetail.builder().username(createUserRequest.getPhone_number())
         .id(UUID.fromString(uid)).temporal(true).firstName(createUserRequest.getFirstname())
         .lastName(createUserRequest.getLastname())
         .email(createUserRequest.getEmail()).build();
+    usersRepository.save(detail);
+  }
+
+  @Override
+  public void updateUser(UpdateUserRequest updateUserRequest) {
+    TokenResponse token = keycloakService.getClientCredentialToken().block();
+
+    if (token == null) {
+      throw new NotAuthorizedException(ErrorMessage.AUTHORIZATION_ERROR);
+    }
+    if (usersRepository.findUserDetailByUsername(updateUserRequest.getPhone_number()).isEmpty()
+        && keycloakService.getUsers(token).stream()
+        .noneMatch(user -> user.getUsername().equals(updateUserRequest.getPhone_number()))) {
+      throw new FoundException(ErrorMessage.USER_NOT_FOUND_EXCEPTION);
+    }
+    KUser user = conversionService.convert(updateUserRequest, KUser.class);
+    keycloakService.updateUser(user,token);
+    UserDetail detail = UserDetail.builder().username(updateUserRequest.getPhone_number())
+        .id(updateUserRequest.getId()).temporal(updateUserRequest.getToTemporal())
+        .firstName(updateUserRequest.getFirstname())
+        .lastName(updateUserRequest.getLastname())
+        .email(updateUserRequest.getEmail()).build();
     usersRepository.save(detail);
   }
 
@@ -170,6 +194,7 @@ public class UserServiceImpl implements UserService {
     UserDetail toUpdateUser = user.get();
     toUpdateUser.setTemporal(false);
     kUser.setEnabled(true);
+
     keycloakService.setCredentials(kUser.getId(), password, token);
     keycloakService.updateUser(kUser, token);
     usersRepository.save(toUpdateUser);
@@ -192,6 +217,7 @@ public class UserServiceImpl implements UserService {
     }
     List<UserBusiness> userBusiness = userBusinessRepository.findAllByUserUsername(username);
     LoginResponseDto loginResponseDto = kUserLoginResponseConverter.convert(kUser);
+
     loginResponseDto.setPhoto(user.get().getPhoto());
     loginResponseDto.setMembership(userBusiness);
     loginResponseDto.setDetail(user.get());
@@ -225,11 +251,7 @@ public class UserServiceImpl implements UserService {
       throw new InternalServerException(ErrorMessage.INVALID_PHONE_NUMBER);
     }
     OtpDto otpDto = otpService.generateOtp(username, 180, messageText);
-    messageText = String.format(messageText, otpDto.getOtp());
-    SmsResponse response = smsService.sendSMS(username, messageText).block();
-    if (response == null) {
-      throw new InternalServerException(ErrorMessage.SMS_SENDING_ERROR);
-    }
+    notificationService.performSMSNotification(username, "", messageText);
     log.info("СМС с проверечным кодом был отправлен.Текст SMS : " + messageText);
   }
 

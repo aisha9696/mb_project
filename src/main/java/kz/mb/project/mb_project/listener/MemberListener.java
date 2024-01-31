@@ -4,21 +4,20 @@ import java.util.List;
 
 import lombok.extern.slf4j.Slf4j;
 
-import org.springframework.data.rest.core.annotation.HandleAfterCreate;
 import org.springframework.data.rest.core.annotation.HandleBeforeCreate;
 import org.springframework.data.rest.core.annotation.RepositoryEventHandler;
 import org.springframework.transaction.annotation.Transactional;
 
-import kz.mb.project.mb_project.dto.SmsResponse;
+import kz.mb.project.mb_project.dto.UpdateUserRequest;
 import kz.mb.project.mb_project.entity.UserBusiness;
 import kz.mb.project.mb_project.entity.UserRole;
 import kz.mb.project.mb_project.exception.ErrorMessage;
-import kz.mb.project.mb_project.exception.InternalServerException;
+import kz.mb.project.mb_project.exception.FoundException;
 import kz.mb.project.mb_project.exception.InvalidRequestException;
 import kz.mb.project.mb_project.exception.NotFoundException;
 import kz.mb.project.mb_project.repo.UserBusinessRepository;
+import kz.mb.project.mb_project.service.NotificationService;
 import kz.mb.project.mb_project.service.PropertyService;
-import kz.mb.project.mb_project.service.SmsService;
 import kz.mb.project.mb_project.service.UserService;
 import kz.mb.project.mb_project.utils.RandomUtils;
 
@@ -26,7 +25,7 @@ import kz.mb.project.mb_project.utils.RandomUtils;
 @Slf4j
 public class MemberListener {
 
-  private final SmsService service;
+  private final NotificationService notificationService;
   private final UserBusinessRepository userBusinessRepository;
   private final UserService userService;
 
@@ -34,9 +33,10 @@ public class MemberListener {
 
   private static final String COUNT_OF_EMPLOYEE = "COUNT_OF_EMPLOYEE";
 
-  public MemberListener(SmsService service, UserBusinessRepository userBusinessRepository,
+  public MemberListener(NotificationService notificationService,
+      UserBusinessRepository userBusinessRepository,
       UserService userService, PropertyService propertyService) {
-    this.service = service;
+    this.notificationService = notificationService;
     this.userBusinessRepository = userBusinessRepository;
     this.userService = userService;
     this.propertyService = propertyService;
@@ -44,28 +44,28 @@ public class MemberListener {
 
   /**
    * Данный метод ограничивает создание пользователей в бизнесе
-   * */
-
-  @HandleBeforeCreate
-  public void handleMemberRestrictionBeforeCreate(UserBusiness member) {
-    long count_of_employee = Long.parseLong(propertyService.get(COUNT_OF_EMPLOYEE));
-    long countOfCurrentEmployee = userBusinessRepository.findAllByBusiness(
-            member.getBusiness()).stream()
-        .filter(userBusiness -> (userBusiness.getUserRoles().equals(UserRole.Cacher)
-            || userBusiness.getUserRoles().equals(UserRole.Stockman))).count();
-
-    if(countOfCurrentEmployee > count_of_employee){
-      throw new InvalidRequestException(ErrorMessage.EMPLOYEE_COUNT_EXCEED_EXCEPTION);
-    }
-  }
+   */
 
   /**
    * Данный метод отправляет генерированный пароль для employee owner-у бизнеса
    */
 
-  @HandleAfterCreate
-  @Transactional
+  @HandleBeforeCreate
+  @Transactional(rollbackFor = {FoundException.class, InvalidRequestException.class,})
   public void handleMemberAfterCreate(UserBusiness member) {
+    long count_of_employee = Long.parseLong(propertyService.get(COUNT_OF_EMPLOYEE));
+    List<UserBusiness> members = userBusinessRepository.findAllByBusiness(
+        member.getBusiness());
+    if (members.stream().anyMatch(dbMember -> dbMember.getUser().equals(member.getUser()))) {
+      throw new FoundException(ErrorMessage.MEMBER_FOUND_EXCEPTION);
+    }
+    long countOfCurrentEmployee = members.stream()
+        .filter(userBusiness -> (userBusiness.getUserRoles().equals(UserRole.Cacher)
+            || userBusiness.getUserRoles().equals(UserRole.Stockman))).count();
+
+    if (countOfCurrentEmployee > count_of_employee) {
+      throw new InvalidRequestException(ErrorMessage.EMPLOYEE_COUNT_EXCEED_EXCEPTION);
+    }
     log.info("UserBusiness logger is listened ");
     String password = RandomUtils.generateRandomString();
     if (member.getUserRoles() == UserRole.Cacher || member.getUserRoles() == UserRole.Stockman) {
@@ -75,13 +75,18 @@ public class MemberListener {
       String messageText = String.format("MB_App:%s-пароль для доступа %s",
           password, member.getUser().getUsername());
       if (owners != null) {
-        SmsResponse response = service.sendSMS(owners.get(0).getUser().getUsername(), messageText)
-            .block();
-        if (response == null) {
-          throw new InternalServerException(ErrorMessage.SMS_SENDING_ERROR);
-        }
+
+        notificationService.performSMSNotification(owners.get(0).getUser().getUsername(), "",
+            messageText);
+        // notificationService.performEmailNotification(owners.get(0).getUser().getEmail(), "Пароли для пользователя", messageText);
         log.info("СМС с проверечным кодом был отправлен.Текст SMS : " + messageText);
       }
+      UpdateUserRequest toUpdate = UpdateUserRequest.builder().id(member.getUser().getId())
+          .email(member.getUser().getEmail()).firstname(member.getUser().getFirstName())
+          .lastname(member.getUser().getLastName()).toTemporal(member.getUser().getTemporal())
+          .toEnable(true).phone_number(member.getUser().getUsername())
+          .toVerifyEmail(false).toVerifyOtp(false).toPasswordUpdate(false).build();
+      userService.updateUser(toUpdate);
       userService.setPassword(member.getUser().getUsername(), password);
 
     }
