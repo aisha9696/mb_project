@@ -11,5 +11,6 @@ public class WebConfig implements WebMvcConfigurer {
   public void addFormatters(FormatterRegistry registry) {
     registry.addConverter(new CreateUserRequestToKUserConverter());
     registry.addConverter(new KUserLoginResponseConverter());
+    registry.addConverter(new UpdateUserRequestToKUserConverter());
   }
 }
