@@ -1,9 +1,14 @@
 package kz.mb.project.mb_project.service;
 
 import java.util.Base64;
+import java.util.List;
+import java.util.Objects;
+
 import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.i18n.LocaleContextHolder;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;
@@ -42,7 +47,6 @@ public class KeycloakServiceImpl implements KeycloakService {
     Mono<CreateKUser> userMono = Mono.just(user);
     String url = String.format(keycloakConfiguration.serverURL + keycloakConfiguration.userURL,
         keycloakConfiguration.realm);
-    log.info(userMono.block().toString());
     return webClient.post()
         .uri(url)
         .header("Authorization", "Bearer " + token.getAccess_token())
@@ -56,22 +60,19 @@ public class KeycloakServiceImpl implements KeycloakService {
           throw new InternalServerException(ErrorMessage.USER_CREATE_EXCEPTION);
         })
         .toEntity(String.class)
-        .flatMap(responseEntity -> {
-          System.out.println("Status: " + responseEntity.getStatusCode().value());
-          System.out.println(
-              "Location URI: " + responseEntity.getHeaders().getLocation().toString());
-          System.out.println("Created New Employee : " + responseEntity.getBody());
-          return Mono.just(responseEntity);
-        }).map(responseEntity -> responseEntity.getHeaders().getLocation().toString()).block();
+        .flatMap(Mono::just).map(responseEntity -> Objects.requireNonNull(
+            responseEntity.getHeaders().getLocation()).toString()).block();
   }
 
   @Override
+  @Cacheable(value = "token",key = "#root.methodName", unless = "#result == null")
   public Mono<TokenResponse> getClientCredentialToken() {
     String url = String.format(keycloakConfiguration.serverURL + keycloakConfiguration.tokenURL,
         keycloakConfiguration.realm);
     String token = keycloakConfiguration.clientID + ":" + keycloakConfiguration.clientSecret;
     String encodedClientData =
         Base64.getEncoder().encodeToString(token.getBytes());
+    log.info("token used!");
     return webClient.post()
         .uri(url)
         .header("Authorization", "Basic " + encodedClientData)
@@ -143,6 +144,7 @@ public class KeycloakServiceImpl implements KeycloakService {
 
     Mono<KPassword> passwordMono = Mono.just(
         KPassword.builder().temporary(true).type("PASSWORD").value(password).build());
+    log.info("here " + url.concat(" ").concat(token.getAccess_token()));
     webClient.put().uri(url)
         .header("Authorization", "Bearer " + token.getAccess_token())
         .contentType(MediaType.APPLICATION_JSON)
@@ -176,6 +178,29 @@ public class KeycloakServiceImpl implements KeycloakService {
         .onStatus(HttpStatusCode::is5xxServerError, response -> {
           throw new InternalServerException(ErrorMessage.INCORRECT_USER);
         }).bodyToMono(KUser.class).block();
+  }
+
+  @Override
+  @Cacheable(value = "keycloak_user",key = "#root.methodName", unless = "#result == null")
+  public List<KUser> getUsers(TokenResponse token) {
+    String url = String.format(
+        keycloakConfiguration.serverURL + keycloakConfiguration.userURL,
+        keycloakConfiguration.realm);
+
+    Mono<List<KUser>> request = webClient.get()
+        .uri(url)
+        .header("Authorization", "Bearer " + token.getAccess_token())
+        .accept(MediaType.APPLICATION_JSON)
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          throw new InvalidRequestException(ErrorMessage.USER_NOT_FOUND_EXCEPTION);
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          throw new InternalServerException(ErrorMessage.INCORRECT_USER);
+        })
+        .bodyToMono(new ParameterizedTypeReference<List<KUser>>() {});
+
+    return request.block();
   }
 
   @Override

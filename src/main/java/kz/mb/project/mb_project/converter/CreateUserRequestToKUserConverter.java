@@ -23,7 +23,7 @@ public class CreateUserRequestToKUserConverter implements
         .lastName(source.getLastname())
         .email(source.getEmail())
         .requiredActions(new KAction[]{KAction.CONFIGURE_TOTP, KAction.UPDATE_PASSWORD})
-        .attributes(KAttributes.builder().face_id(new String[]{source.getFace_id().toString()})
+        .attributes(KAttributes.builder().face_id(source.getFace_id() == null? new String[]{Boolean.FALSE.toString()}:new String[]{source.getFace_id().toString()})
             .build())
         .build();
   }

@@ -10,5 +10,10 @@ databaseChangeLog:
 
   - include:
       author: aisha96906
-      file: DDl/002_warehouse_init.sql
+      file: DDL/002_create_project_conf_table.sql
+      relativeToChangelogFile: true
+
+  - include:
+      author: aisha96906
+      file: DDL/003_insert_project_conf_table.sql
       relativeToChangelogFile: true
