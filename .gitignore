@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+/server/.DS_Store
+/server/certs/.DS_Store
+.DS_Store
