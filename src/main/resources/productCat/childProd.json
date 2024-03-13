@@ -1,0 +1,511 @@
+[
+  {
+    "id": ":category:Child goods",
+    "title": "Детские товары",
+    "link": "https://kaspi.kz/shop/c/child%20goods/",
+    "active": true,
+    "count": 169013,
+    "popularity": 359892,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Toys",
+        "title": "Игрушки",
+        "link": "https://kaspi.kz/shop/c/toys/",
+        "active": false,
+        "count": 118051,
+        "popularity": 157189,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Educational toys",
+            "title": "Развивающие игрушки",
+            "link": "https://kaspi.kz/shop/c/educational%20toys/",
+            "active": false,
+            "count": 24945,
+            "popularity": 50333,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stuffed toys",
+            "title": "Мягкие игрушки",
+            "link": "https://kaspi.kz/shop/c/stuffed%20toys/",
+            "active": false,
+            "count": 14897,
+            "popularity": 17964,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toy sets",
+            "title": "Наборы игрушек",
+            "link": "https://kaspi.kz/shop/c/toy%20sets/",
+            "active": false,
+            "count": 10411,
+            "popularity": 13831,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dolls and accessories",
+            "title": "Куклы и аксессуары",
+            "link": "https://kaspi.kz/shop/c/dolls%20and%20accessories/",
+            "active": false,
+            "count": 13010,
+            "popularity": 11342,
+            "expanded": true
+          },
+          {
+            "id": ":category:Play vehicles",
+            "title": "Игрушечный транспорт",
+            "link": "https://kaspi.kz/shop/c/play%20vehicles/",
+            "active": false,
+            "count": 13232,
+            "popularity": 11036,
+            "expanded": true
+          },
+          {
+            "id": ":category:Play mats for kids",
+            "title": "Детские игровые коврики",
+            "link": "https://kaspi.kz/shop/c/play%20mats%20for%20kids/",
+            "active": false,
+            "count": 1965,
+            "popularity": 9521,
+            "expanded": true
+          },
+          {
+            "id": ":category:Construction",
+            "title": "Конструкторы",
+            "link": "https://kaspi.kz/shop/c/construction/",
+            "active": false,
+            "count": 12522,
+            "popularity": 9363,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toy weapons and blasters",
+            "title": "Игрушечное оружие и бластеры",
+            "link": "https://kaspi.kz/shop/c/toy%20weapons%20and%20blasters/",
+            "active": false,
+            "count": 5170,
+            "popularity": 7255,
+            "expanded": true
+          },
+          {
+            "id": ":category:Remote control toys",
+            "title": "Радиоуправляемые игрушки",
+            "link": "https://kaspi.kz/shop/c/remote%20control%20toys/",
+            "active": false,
+            "count": 4767,
+            "popularity": 6444,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toy figures",
+            "title": "Фигурки персонажей",
+            "link": "https://kaspi.kz/shop/c/toy%20figures/",
+            "active": false,
+            "count": 7874,
+            "popularity": 4681,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stress relief toys",
+            "title": "Игрушки-антистресс",
+            "link": "https://kaspi.kz/shop/c/stress%20relief%20toys/",
+            "active": false,
+            "count": 1912,
+            "popularity": 3944,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toy robots and transformers",
+            "title": "Игрушечные роботы и трансформеры",
+            "link": "https://kaspi.kz/shop/c/toy%20robots%20and%20transformers/",
+            "active": false,
+            "count": 2416,
+            "popularity": 3387,
+            "expanded": true
+          },
+          {
+            "id": ":category:Outdoor games",
+            "title": "Игры на свежем воздухе",
+            "link": "https://kaspi.kz/shop/c/outdoor%20games/",
+            "active": false,
+            "count": 1880,
+            "popularity": 3156,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bath toys",
+            "title": "Игрушки для купания",
+            "link": "https://kaspi.kz/shop/c/bath%20toys/",
+            "active": false,
+            "count": 1148,
+            "popularity": 3061,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kids science kits",
+            "title": "Детские наборы для исследований",
+            "link": "https://kaspi.kz/shop/c/kids%20science%20kits/",
+            "active": false,
+            "count": 1699,
+            "popularity": 1301,
+            "expanded": true
+          },
+          {
+            "id": ":category:Inflatable toys",
+            "title": "Надувные игрушки",
+            "link": "https://kaspi.kz/shop/c/inflatable%20toys/",
+            "active": false,
+            "count": 202,
+            "popularity": 569,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for children transportura",
+            "title": "Аксессуары для детского транспорта",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20children%20transportura/",
+            "active": false,
+            "count": 1,
+            "popularity": 1,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Baby care",
+        "title": "Для малыша и мамы",
+        "link": "https://kaspi.kz/shop/c/baby%20care/",
+        "active": false,
+        "count": 29044,
+        "popularity": 103799,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Care and hygiene",
+            "title": "Уход и гигиена малыша",
+            "link": "https://kaspi.kz/shop/c/care%20and%20hygiene/",
+            "active": false,
+            "count": 9520,
+            "popularity": 68376,
+            "expanded": true
+          },
+          {
+            "id": ":category:Products for feeding",
+            "title": "Товары для кормления",
+            "link": "https://kaspi.kz/shop/c/products%20for%20feeding/",
+            "active": false,
+            "count": 10407,
+            "popularity": 15276,
+            "expanded": true
+          },
+          {
+            "id": ":category:Goods for mothers",
+            "title": "Товары для мам",
+            "link": "https://kaspi.kz/shop/c/goods%20for%20mothers/",
+            "active": false,
+            "count": 1661,
+            "popularity": 5918,
+            "expanded": true
+          },
+          {
+            "id": ":category:Childrens room",
+            "title": "Для детской комнаты",
+            "link": "https://kaspi.kz/shop/c/childrens%20room/",
+            "active": false,
+            "count": 3886,
+            "popularity": 4524,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby swings and bouncers",
+            "title": "Шезлонги для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20swings%20and%20bouncers/",
+            "active": false,
+            "count": 922,
+            "popularity": 3674,
+            "expanded": true
+          },
+          {
+            "id": ":category:Child safety",
+            "title": "Безопасность ребенка",
+            "link": "https://kaspi.kz/shop/c/child%20safety/",
+            "active": false,
+            "count": 1001,
+            "popularity": 3585,
+            "expanded": true
+          },
+          {
+            "id": ":category:Teethers and food feeders",
+            "title": "Прорезыватели",
+            "link": "https://kaspi.kz/shop/c/teethers%20and%20food%20feeders/",
+            "active": false,
+            "count": 961,
+            "popularity": 1968,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gift sets for babies",
+            "title": "Подарочные наборы для малышей",
+            "link": "https://kaspi.kz/shop/c/gift%20sets%20for%20babies/",
+            "active": false,
+            "count": 678,
+            "popularity": 442,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hammocks on the plane",
+            "title": "Гамаки в самолёт, автобус",
+            "link": "https://kaspi.kz/shop/c/hammocks%20on%20the%20plane/",
+            "active": false,
+            "count": 2,
+            "popularity": 25,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sun lounger accessories",
+            "title": "Аксессуары для детских шезлонгов",
+            "link": "https://kaspi.kz/shop/c/sun%20lounger%20accessories/",
+            "active": false,
+            "count": 6,
+            "popularity": 11,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Baby feeding",
+        "title": "Детское питание",
+        "link": "https://kaspi.kz/shop/c/baby%20feeding/",
+        "active": false,
+        "count": 1327,
+        "popularity": 48921,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Baby meals",
+            "title": "Детское пюре",
+            "link": "https://kaspi.kz/shop/c/baby%20meals/",
+            "active": false,
+            "count": 477,
+            "popularity": 16984,
+            "expanded": true
+          },
+          {
+            "id": ":category:Milk formula",
+            "title": "Молочные смеси",
+            "link": "https://kaspi.kz/shop/c/milk%20formula/",
+            "active": false,
+            "count": 266,
+            "popularity": 12237,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby juices",
+            "title": "Детские соки, вода, компоты, нектары",
+            "link": "https://kaspi.kz/shop/c/baby%20juices/",
+            "active": false,
+            "count": 161,
+            "popularity": 7063,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby cereals",
+            "title": "Детские каши",
+            "link": "https://kaspi.kz/shop/c/baby%20cereals/",
+            "active": false,
+            "count": 307,
+            "popularity": 6721,
+            "expanded": true
+          },
+          {
+            "id": ":category:Biscuit",
+            "title": "Детское печенье, батончики, сухарики",
+            "link": "https://kaspi.kz/shop/c/biscuit/",
+            "active": false,
+            "count": 116,
+            "popularity": 5916,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Childrens transport",
+        "title": "Детский транспорт",
+        "link": "https://kaspi.kz/shop/c/childrens%20transport/",
+        "active": false,
+        "count": 6730,
+        "popularity": 13717,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Kids electric vehicles",
+            "title": "Детские электромобили",
+            "link": "https://kaspi.kz/shop/c/kids%20electric%20vehicles/",
+            "active": false,
+            "count": 2887,
+            "popularity": 6268,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ride-on toys",
+            "title": "Каталки, качалки, прыгуны",
+            "link": "https://kaspi.kz/shop/c/ride-on%20toys/",
+            "active": false,
+            "count": 2088,
+            "popularity": 3953,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tricycle",
+            "title": "Детские велосипеды и веломобили",
+            "link": "https://kaspi.kz/shop/c/tricycle/",
+            "active": false,
+            "count": 1366,
+            "popularity": 2978,
+            "expanded": true
+          },
+          {
+            "id": ":category:Run bikes",
+            "title": "Беговелы",
+            "link": "https://kaspi.kz/shop/c/run%20bikes/",
+            "active": false,
+            "count": 352,
+            "popularity": 470,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for electric vehicles",
+            "title": "Аксессуары для электромобилей",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20electric%20vehicles/",
+            "active": false,
+            "count": 37,
+            "popularity": 48,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Baby strolls and trips",
+        "title": "Прогулки и поездки",
+        "link": "https://kaspi.kz/shop/c/baby%20strolls%20and%20trips/",
+        "active": false,
+        "count": 10299,
+        "popularity": 13308,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Strollers and accessories",
+            "title": "Коляски и аксессуары",
+            "link": "https://kaspi.kz/shop/c/strollers%20and%20accessories/",
+            "active": false,
+            "count": 6688,
+            "popularity": 8133,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sledding",
+            "title": "Санки и снегокаты",
+            "link": "https://kaspi.kz/shop/c/sledding/",
+            "active": false,
+            "count": 1429,
+            "popularity": 2649,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car seats and accessories",
+            "title": "Авто и велокресла, жд-манежи",
+            "link": "https://kaspi.kz/shop/c/car%20seats%20and%20accessories/",
+            "active": false,
+            "count": 1666,
+            "popularity": 1726,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ergobaby carriers and soft carriers",
+            "title": "Эргорюкзаки и кенгуру для малышей",
+            "link": "https://kaspi.kz/shop/c/ergobaby%20carriers%20and%20soft%20carriers/",
+            "active": false,
+            "count": 307,
+            "popularity": 577,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby carriers",
+            "title": "Люльки-переноски, прогулочные и спальные блоки",
+            "link": "https://kaspi.kz/shop/c/baby%20carriers/",
+            "active": false,
+            "count": 209,
+            "popularity": 223,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Playground",
+        "title": "Игровая площадка",
+        "link": "https://kaspi.kz/shop/c/playground/",
+        "active": false,
+        "count": 3562,
+        "popularity": 10323,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Kids playhouses and tents",
+            "title": "Детские игровые домики и палатки",
+            "link": "https://kaspi.kz/shop/c/kids%20playhouses%20and%20tents/",
+            "active": false,
+            "count": 1103,
+            "popularity": 4866,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dry pool and accessories",
+            "title": "Сухие бассейны, игровые манежи и шарики",
+            "link": "https://kaspi.kz/shop/c/dry%20pool%20and%20accessories/",
+            "active": false,
+            "count": 818,
+            "popularity": 2141,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby swing",
+            "title": "Детские качели для дома и улицы",
+            "link": "https://kaspi.kz/shop/c/baby%20swing/",
+            "active": false,
+            "count": 431,
+            "popularity": 1082,
+            "expanded": true
+          },
+          {
+            "id": ":category:Play sets",
+            "title": "Игровые комплексы",
+            "link": "https://kaspi.kz/shop/c/play%20sets/",
+            "active": false,
+            "count": 760,
+            "popularity": 991,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kids sandboxes",
+            "title": "Детские песочницы и горки",
+            "link": "https://kaspi.kz/shop/c/kids%20sandboxes/",
+            "active": false,
+            "count": 342,
+            "popularity": 692,
+            "expanded": true
+          },
+          {
+            "id": ":category:Inflatable bouncers",
+            "title": "Надувные комплексы и батуты",
+            "link": "https://kaspi.kz/shop/c/inflatable%20bouncers/",
+            "active": false,
+            "count": 108,
+            "popularity": 551,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -13,8 +13,8 @@ import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import javax.persistence.Column;
 
-@Entity
-@Table(name = "product_standart")
+//@Entity
+//@Table(name = "product_standart")
 @Getter
 @Setter
 public class ProductStandart {
@@ -25,7 +25,7 @@ public class ProductStandart {
 
   @Column(name ="unit")
   @OneToOne
-  private CatalogUnit unit;
+  private CatalogUnitSpr unit;
 
   @Column(name ="standart_quantity")
   private Integer standartQuantity;

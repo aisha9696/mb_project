@@ -19,6 +19,7 @@ public class WebSecurityConfig {
 
   private final String[] IGNORE_URL = {
       "/api/users/public/**",
+      "/api/helper/public/**",
       "v3/**",
       "/swagger-ui/**"
   };

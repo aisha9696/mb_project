@@ -15,8 +15,8 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import kz.mb.project.mb_project.entity.Business;
 
-@Entity
-@Table(name = "business_product")
+//@Entity
+//@Table(name = "business_product")
 @Getter
 @Setter
 public class BusinessProduct {

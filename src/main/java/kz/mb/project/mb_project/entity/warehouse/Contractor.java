@@ -13,8 +13,8 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import kz.mb.project.mb_project.entity.AbstractEntity;
 
-@Entity
-@Table(name = "contractor")
+//@Entity
+//@Table(name = "contractor")
 @Getter
 @Setter
 public class Contractor extends AbstractEntity {

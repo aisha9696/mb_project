@@ -1,0 +1,977 @@
+[
+  {
+    "id": ":category:Construction and repair",
+    "title": "Строительство, ремонт",
+    "link": "https://kaspi.kz/shop/c/construction%20and%20repair/",
+    "active": true,
+    "count": 268014,
+    "popularity": 210054,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Power tools",
+        "title": "Инструменты",
+        "link": "https://kaspi.kz/shop/c/power%20tools/",
+        "active": false,
+        "count": 97091,
+        "popularity": 81320,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Electrical tools",
+            "title": "Электроинструменты",
+            "link": "https://kaspi.kz/shop/c/electrical%20tools/",
+            "active": false,
+            "count": 8876,
+            "popularity": 16161,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hand tools",
+            "title": "Ручные инструменты",
+            "link": "https://kaspi.kz/shop/c/hand%20tools/",
+            "active": false,
+            "count": 20190,
+            "popularity": 13938,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tool sets",
+            "title": "Наборы инструментов",
+            "link": "https://kaspi.kz/shop/c/tool%20sets/",
+            "active": false,
+            "count": 5492,
+            "popularity": 11713,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tooling equipment",
+            "title": "Оснастка и расходники для инструмента",
+            "link": "https://kaspi.kz/shop/c/tooling%20equipment/",
+            "active": false,
+            "count": 33271,
+            "popularity": 10591,
+            "expanded": true
+          },
+          {
+            "id": ":category:Measurement tools",
+            "title": "Измерительные инструменты",
+            "link": "https://kaspi.kz/shop/c/measurement%20tools/",
+            "active": false,
+            "count": 6569,
+            "popularity": 7157,
+            "expanded": true
+          },
+          {
+            "id": ":category:Electric and gasoline saws",
+            "title": "Электро- и бензопилы",
+            "link": "https://kaspi.kz/shop/c/electric%20and%20gasoline%20saws/",
+            "active": false,
+            "count": 2508,
+            "popularity": 5569,
+            "expanded": true
+          },
+          {
+            "id": ":category:Construction protective equipment",
+            "title": "Средства индивидуальной защиты",
+            "link": "https://kaspi.kz/shop/c/construction%20protective%20equipment/",
+            "active": false,
+            "count": 2620,
+            "popularity": 3887,
+            "expanded": true
+          },
+          {
+            "id": ":category:Welding equipment",
+            "title": "Сварочное оборудование",
+            "link": "https://kaspi.kz/shop/c/welding%20equipment/",
+            "active": false,
+            "count": 4181,
+            "popularity": 2636,
+            "expanded": true
+          },
+          {
+            "id": ":category:Plastering and painting tools",
+            "title": "Инструменты для штукатурных и малярных работ",
+            "link": "https://kaspi.kz/shop/c/plastering%20and%20painting%20tools/",
+            "active": false,
+            "count": 5178,
+            "popularity": 2359,
+            "expanded": true
+          },
+          {
+            "id": ":category:Electric soldering irons and accessories",
+            "title": "Электрические паяльники и комплектующие",
+            "link": "https://kaspi.kz/shop/c/electric%20soldering%20irons%20and%20accessories/",
+            "active": false,
+            "count": 1120,
+            "popularity": 1813,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tool bags and boxes",
+            "title": "Системы хранения инструмента",
+            "link": "https://kaspi.kz/shop/c/tool%20bags%20and%20boxes/",
+            "active": false,
+            "count": 1416,
+            "popularity": 1651,
+            "expanded": true
+          },
+          {
+            "id": ":category:Spray guns",
+            "title": "Краскопульты",
+            "link": "https://kaspi.kz/shop/c/spray%20guns/",
+            "active": false,
+            "count": 786,
+            "popularity": 1556,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pneumatic tools",
+            "title": "Пневмоинструменты",
+            "link": "https://kaspi.kz/shop/c/pneumatic%20tools/",
+            "active": false,
+            "count": 2594,
+            "popularity": 1375,
+            "expanded": true
+          },
+          {
+            "id": ":category:Carpentry tools",
+            "title": "Инструменты для столярных работ",
+            "link": "https://kaspi.kz/shop/c/carpentry%20tools/",
+            "active": false,
+            "count": 1147,
+            "popularity": 914,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Doors",
+        "title": "Двери, окна, лестницы",
+        "link": "https://kaspi.kz/shop/c/doors/",
+        "active": false,
+        "count": 15224,
+        "popularity": 43279,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Entry doors",
+            "title": "Входные двери",
+            "link": "https://kaspi.kz/shop/c/entry%20doors/",
+            "active": false,
+            "count": 2392,
+            "popularity": 24960,
+            "expanded": true
+          },
+          {
+            "id": ":category:Interior doors and frames",
+            "title": "Межкомнатные двери и коробки",
+            "link": "https://kaspi.kz/shop/c/interior%20doors%20and%20frames/",
+            "active": false,
+            "count": 4174,
+            "popularity": 14687,
+            "expanded": true
+          },
+          {
+            "id": ":category:Door furniture",
+            "title": "Ручки, замки и фурнитура для дверей",
+            "link": "https://kaspi.kz/shop/c/door%20furniture/",
+            "active": false,
+            "count": 5602,
+            "popularity": 2676,
+            "expanded": true
+          },
+          {
+            "id": ":category:Limiters for doors and windows",
+            "title": "Ограничители открывания для дверей и окон",
+            "link": "https://kaspi.kz/shop/c/limiters%20for%20doors%20and%20windows/",
+            "active": false,
+            "count": 410,
+            "popularity": 721,
+            "expanded": true
+          },
+          {
+            "id": ":category:Window sills and accessories",
+            "title": "Окна, подоконники и аксессуары",
+            "link": "https://kaspi.kz/shop/c/window%20sills%20and%20accessories/",
+            "active": false,
+            "count": 1949,
+            "popularity": 235,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Plumbing",
+        "title": "Сантехника",
+        "link": "https://kaspi.kz/shop/c/plumbing/",
+        "active": false,
+        "count": 37817,
+        "popularity": 32124,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Faucets and accessories",
+            "title": "Смесители и аксессуары",
+            "link": "https://kaspi.kz/shop/c/faucets%20and%20accessories/",
+            "active": false,
+            "count": 12227,
+            "popularity": 15395,
+            "expanded": true
+          },
+          {
+            "id": ":category:Showers and accessories",
+            "title": "Души, гарнитуры и аксессуары",
+            "link": "https://kaspi.kz/shop/c/showers%20and%20accessories/",
+            "active": false,
+            "count": 4523,
+            "popularity": 4514,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toilet bowls bidets and accessories",
+            "title": "Унитазы, биде и аксессуары",
+            "link": "https://kaspi.kz/shop/c/toilet%20bowls%20bidets%20and%20accessories/",
+            "active": false,
+            "count": 4649,
+            "popularity": 3547,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kitchen sinks",
+            "title": "Кухонные мойки",
+            "link": "https://kaspi.kz/shop/c/kitchen%20sinks/",
+            "active": false,
+            "count": 4945,
+            "popularity": 3109,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sinks and pedestals",
+            "title": "Раковины, пьедесталы и аксессуары",
+            "link": "https://kaspi.kz/shop/c/sinks%20and%20pedestals/",
+            "active": false,
+            "count": 2880,
+            "popularity": 1718,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baths and accessories",
+            "title": "Ванны и комплектующие",
+            "link": "https://kaspi.kz/shop/c/baths%20and%20accessories/",
+            "active": false,
+            "count": 2597,
+            "popularity": 1452,
+            "expanded": true
+          },
+          {
+            "id": ":category:Siphons and traps",
+            "title": "Сифоны",
+            "link": "https://kaspi.kz/shop/c/siphons%20and%20traps/",
+            "active": false,
+            "count": 1027,
+            "popularity": 1128,
+            "expanded": true
+          },
+          {
+            "id": ":category:Showers fences and accessories",
+            "title": "Душевые кабины, ограждения и аксессуары",
+            "link": "https://kaspi.kz/shop/c/showers%20fences%20and%20accessories/",
+            "active": false,
+            "count": 3289,
+            "popularity": 715,
+            "expanded": true
+          },
+          {
+            "id": ":category:Plumbing drains",
+            "title": "Трапы сливные",
+            "link": "https://kaspi.kz/shop/c/plumbing%20drains/",
+            "active": false,
+            "count": 837,
+            "popularity": 285,
+            "expanded": true
+          },
+          {
+            "id": ":category:Flexible liners",
+            "title": "Гибкие подводки",
+            "link": "https://kaspi.kz/shop/c/flexible%20liners/",
+            "active": false,
+            "count": 601,
+            "popularity": 261,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Electrical equipment",
+        "title": "Электрика",
+        "link": "https://kaspi.kz/shop/c/electrical%20equipment/",
+        "active": false,
+        "count": 28831,
+        "popularity": 16454,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Extension cords and adapters",
+            "title": "Удлинители и переходники",
+            "link": "https://kaspi.kz/shop/c/extension%20cords%20and%20adapters/",
+            "active": false,
+            "count": 3026,
+            "popularity": 7112,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sockets and switches",
+            "title": "Розетки и выключатели",
+            "link": "https://kaspi.kz/shop/c/sockets%20and%20switches/",
+            "active": false,
+            "count": 7529,
+            "popularity": 3649,
+            "expanded": true
+          },
+          {
+            "id": ":category:Products for electrical work",
+            "title": "Изделия для электромонтажных работ",
+            "link": "https://kaspi.kz/shop/c/products%20for%20electrical%20work/",
+            "active": false,
+            "count": 6200,
+            "popularity": 2931,
+            "expanded": true
+          },
+          {
+            "id": ":category:Circuit breakers and differential breakers",
+            "title": "Автоматические выключатели и дифференциальные автоматы",
+            "link": "https://kaspi.kz/shop/c/circuit%20breakers%20and%20differential%20breakers/",
+            "active": false,
+            "count": 4191,
+            "popularity": 1058,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cable production",
+            "title": "Кабельная продукция",
+            "link": "https://kaspi.kz/shop/c/cable%20production/",
+            "active": false,
+            "count": 3028,
+            "popularity": 973,
+            "expanded": true
+          },
+          {
+            "id": ":category:Electrical panels and accessories",
+            "title": "Электрические щиты и комплектующие",
+            "link": "https://kaspi.kz/shop/c/electrical%20panels%20and%20accessories/",
+            "active": false,
+            "count": 2268,
+            "popularity": 422,
+            "expanded": true
+          },
+          {
+            "id": ":category:Power supply devices and power plants",
+            "title": "Устройства электропитания и электростанции",
+            "link": "https://kaspi.kz/shop/c/power%20supply%20devices%20and%20power%20plants/",
+            "active": false,
+            "count": 885,
+            "popularity": 201,
+            "expanded": true
+          },
+          {
+            "id": ":category:Contactors and accessories",
+            "title": "Контакторы и аксессуары",
+            "link": "https://kaspi.kz/shop/c/contactors%20and%20accessories/",
+            "active": false,
+            "count": 851,
+            "popularity": 108,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cable support systems",
+            "title": "Кабеленесущие системы",
+            "link": "https://kaspi.kz/shop/c/cable%20support%20systems/",
+            "active": false,
+            "count": 740,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Water supply",
+        "title": "Водоснабжение",
+        "link": "https://kaspi.kz/shop/c/water%20supply/",
+        "active": false,
+        "count": 17970,
+        "popularity": 9181,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Water filters and accessories",
+            "title": "Фильтры для воды и комплектующие",
+            "link": "https://kaspi.kz/shop/c/water%20filters%20and%20accessories/",
+            "active": false,
+            "count": 2682,
+            "popularity": 4828,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water pumps",
+            "title": "Водяные насосы",
+            "link": "https://kaspi.kz/shop/c/water%20pumps/",
+            "active": false,
+            "count": 3958,
+            "popularity": 2774,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shut-off valves",
+            "title": "Запорная арматура",
+            "link": "https://kaspi.kz/shop/c/shut-off%20valves/",
+            "active": false,
+            "count": 2086,
+            "popularity": 483,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fittings for polypropylene pipes",
+            "title": "Комплектующие к трубам из полипропилена",
+            "link": "https://kaspi.kz/shop/c/fittings%20for%20polypropylene%20pipes/",
+            "active": false,
+            "count": 3106,
+            "popularity": 434,
+            "expanded": true
+          },
+          {
+            "id": ":category:Revision hatches",
+            "title": "Ревизионные люки",
+            "link": "https://kaspi.kz/shop/c/revision%20hatches/",
+            "active": false,
+            "count": 860,
+            "popularity": 195,
+            "expanded": true
+          },
+          {
+            "id": ":category:Plumbing clamps",
+            "title": "Сантехнические хомуты",
+            "link": "https://kaspi.kz/shop/c/plumbing%20clamps/",
+            "active": false,
+            "count": 612,
+            "popularity": 157,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water pipes",
+            "title": "Водопроводные и канализационные трубы",
+            "link": "https://kaspi.kz/shop/c/water%20pipes/",
+            "active": false,
+            "count": 487,
+            "popularity": 133,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fittings for metal pipes",
+            "title": "Фитинги для металлических труб",
+            "link": "https://kaspi.kz/shop/c/fittings%20for%20metal%20pipes/",
+            "active": false,
+            "count": 1454,
+            "popularity": 120,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fittings for reinforced plastic pipes",
+            "title": "Фитинги для металлопластиковых труб",
+            "link": "https://kaspi.kz/shop/c/fittings%20for%20reinforced%20plastic%20pipes/",
+            "active": false,
+            "count": 1481,
+            "popularity": 57,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Heating equipment",
+        "title": "Системы отопления и вентиляции",
+        "link": "https://kaspi.kz/shop/c/heating%20equipment/",
+        "active": false,
+        "count": 13857,
+        "popularity": 5957,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Air heating guns",
+            "title": "Тепловые пушки",
+            "link": "https://kaspi.kz/shop/c/air%20heating%20guns/",
+            "active": false,
+            "count": 1003,
+            "popularity": 1975,
+            "expanded": true
+          },
+          {
+            "id": ":category:Radiators and accessories",
+            "title": "Радиаторы и аксессуары",
+            "link": "https://kaspi.kz/shop/c/radiators%20and%20accessories/",
+            "active": false,
+            "count": 1845,
+            "popularity": 1314,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ventilation and accessories",
+            "title": "Вентиляция и комплектующие",
+            "link": "https://kaspi.kz/shop/c/ventilation%20and%20accessories/",
+            "active": false,
+            "count": 3004,
+            "popularity": 1112,
+            "expanded": true
+          },
+          {
+            "id": ":category:Heated towel rails and accessories",
+            "title": "Полотенцесушители и комплектующие",
+            "link": "https://kaspi.kz/shop/c/heated%20towel%20rails%20and%20accessories/",
+            "active": false,
+            "count": 2150,
+            "popularity": 663,
+            "expanded": true
+          },
+          {
+            "id": ":category:Equipment for boiler rooms",
+            "title": "Оборудование для котельных, тепловых пунктов",
+            "link": "https://kaspi.kz/shop/c/equipment%20for%20boiler%20rooms/",
+            "active": false,
+            "count": 2508,
+            "popularity": 345,
+            "expanded": true
+          },
+          {
+            "id": ":category:Warm floor and accessories",
+            "title": "Теплый пол и аксессуары",
+            "link": "https://kaspi.kz/shop/c/warm%20floor%20and%20accessories/",
+            "active": false,
+            "count": 1735,
+            "popularity": 324,
+            "expanded": true
+          },
+          {
+            "id": ":category:Electric fireplaces",
+            "title": "Электрокамины",
+            "link": "https://kaspi.kz/shop/c/electric%20fireplaces/",
+            "active": false,
+            "count": 428,
+            "popularity": 224,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Security systems",
+        "title": "Системы безопасности",
+        "link": "https://kaspi.kz/shop/c/security%20systems/",
+        "active": false,
+        "count": 6844,
+        "popularity": 5531,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Security cameras and accessories",
+            "title": "Системы видеонаблюдения",
+            "link": "https://kaspi.kz/shop/c/security%20cameras%20and%20accessories/",
+            "active": false,
+            "count": 3464,
+            "popularity": 3480,
+            "expanded": true
+          },
+          {
+            "id": ":category:Safes",
+            "title": "Сейфы",
+            "link": "https://kaspi.kz/shop/c/safes/",
+            "active": false,
+            "count": 662,
+            "popularity": 918,
+            "expanded": true
+          },
+          {
+            "id": ":category:Intercoms and accessories",
+            "title": "Домофоны и аксессуары",
+            "link": "https://kaspi.kz/shop/c/intercoms%20and%20accessories/",
+            "active": false,
+            "count": 830,
+            "popularity": 725,
+            "expanded": true
+          },
+          {
+            "id": ":category:ACS",
+            "title": "Системы контроля и управления доступом",
+            "link": "https://kaspi.kz/shop/c/acs/",
+            "active": false,
+            "count": 1169,
+            "popularity": 408,
+            "expanded": true
+          },
+          {
+            "id": ":category:Security and fire alarm",
+            "title": "Охранно-пожарная сигнализация",
+            "link": "https://kaspi.kz/shop/c/security%20and%20fire%20alarm/",
+            "active": false,
+            "count": 505,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Decoration materials",
+        "title": "Отделочные материалы",
+        "link": "https://kaspi.kz/shop/c/decoration%20materials/",
+        "active": false,
+        "count": 24055,
+        "popularity": 5482,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Wallpapers",
+            "title": "Обои",
+            "link": "https://kaspi.kz/shop/c/wallpapers/",
+            "active": false,
+            "count": 14973,
+            "popularity": 1867,
+            "expanded": true
+          },
+          {
+            "id": ":category:Self adhesive wallpaper",
+            "title": "Самоклеящиеся обои и пленки",
+            "link": "https://kaspi.kz/shop/c/self%20adhesive%20wallpaper/",
+            "active": false,
+            "count": 751,
+            "popularity": 1220,
+            "expanded": true
+          },
+          {
+            "id": ":category:Floor coverings",
+            "title": "Напольные покрытия",
+            "link": "https://kaspi.kz/shop/c/floor%20coverings/",
+            "active": false,
+            "count": 3632,
+            "popularity": 973,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tiles",
+            "title": "Плитка",
+            "link": "https://kaspi.kz/shop/c/tiles/",
+            "active": false,
+            "count": 2428,
+            "popularity": 524,
+            "expanded": true
+          },
+          {
+            "id": ":category:PVC panels",
+            "title": "3D и ПВХ панели для стен",
+            "link": "https://kaspi.kz/shop/c/pvc%20panels/",
+            "active": false,
+            "count": 359,
+            "popularity": 389,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ceiling skirting boards",
+            "title": "Потолочные плинтусы",
+            "link": "https://kaspi.kz/shop/c/ceiling%20skirting%20boards/",
+            "active": false,
+            "count": 627,
+            "popularity": 246,
+            "expanded": true
+          },
+          {
+            "id": ":category:Finishing corners",
+            "title": "Уголки и профили отделочные",
+            "link": "https://kaspi.kz/shop/c/finishing%20corners/",
+            "active": false,
+            "count": 446,
+            "popularity": 158,
+            "expanded": true
+          },
+          {
+            "id": ":category:Decorative stucco",
+            "title": "Декоративная лепнина",
+            "link": "https://kaspi.kz/shop/c/decorative%20stucco/",
+            "active": false,
+            "count": 457,
+            "popularity": 105,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Building materials",
+        "title": "Строительные материалы",
+        "link": "https://kaspi.kz/shop/c/building%20materials/",
+        "active": false,
+        "count": 7146,
+        "popularity": 3194,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Construction tapes and nets",
+            "title": "Ленты и сетки строительные",
+            "link": "https://kaspi.kz/shop/c/construction%20tapes%20and%20nets/",
+            "active": false,
+            "count": 1578,
+            "popularity": 2418,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mounting foams sealants glue",
+            "title": "Монтажные пены, герметики, клей",
+            "link": "https://kaspi.kz/shop/c/mounting%20foams%20sealants%20glue/",
+            "active": false,
+            "count": 1888,
+            "popularity": 748,
+            "expanded": true
+          },
+          {
+            "id": ":category:Joinery",
+            "title": "Столярные изделия",
+            "link": "https://kaspi.kz/shop/c/joinery/",
+            "active": false,
+            "count": 907,
+            "popularity": 28,
+            "expanded": true
+          },
+          {
+            "id": ":category:Insulation materials",
+            "title": "Изоляционные материалы, тенты",
+            "link": "https://kaspi.kz/shop/c/insulation%20materials/",
+            "active": false,
+            "count": 495,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mortar",
+            "title": "Строительные смеси",
+            "link": "https://kaspi.kz/shop/c/mortar/",
+            "active": false,
+            "count": 986,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Construction equipment",
+        "title": "Строительное оборудование",
+        "link": "https://kaspi.kz/shop/c/construction%20equipment/",
+        "active": false,
+        "count": 5777,
+        "popularity": 2835,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Building ladders and stepladders",
+            "title": "Строительные лестницы и стремянки",
+            "link": "https://kaspi.kz/shop/c/building%20ladders%20and%20stepladders/",
+            "active": false,
+            "count": 1274,
+            "popularity": 2438,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lifting equipment",
+            "title": "Грузоподъемное оборудование",
+            "link": "https://kaspi.kz/shop/c/lifting%20equipment/",
+            "active": false,
+            "count": 439,
+            "popularity": 383,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tool machine equipments",
+            "title": "Станочное оборудование",
+            "link": "https://kaspi.kz/shop/c/tool%20machine%20equipments/",
+            "active": false,
+            "count": 1436,
+            "popularity": 12,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bearings",
+            "title": "Подшипники",
+            "link": "https://kaspi.kz/shop/c/bearings/",
+            "active": false,
+            "count": 854,
+            "popularity": 2,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Paints and varnishes",
+        "title": "Лакокрасочные материалы",
+        "link": "https://kaspi.kz/shop/c/paints%20and%20varnishes/",
+        "active": false,
+        "count": 4517,
+        "popularity": 2139,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Paints",
+            "title": "Строительные краски",
+            "link": "https://kaspi.kz/shop/c/paints/",
+            "active": false,
+            "count": 1257,
+            "popularity": 1233,
+            "expanded": true
+          },
+          {
+            "id": ":category:Spray paints",
+            "title": "Аэрозольные краски",
+            "link": "https://kaspi.kz/shop/c/spray%20paints/",
+            "active": false,
+            "count": 738,
+            "popularity": 514,
+            "expanded": true
+          },
+          {
+            "id": ":category:Enamels",
+            "title": "Строительные эмали",
+            "link": "https://kaspi.kz/shop/c/enamels/",
+            "active": false,
+            "count": 807,
+            "popularity": 392,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Construction fasteners",
+        "title": "Строительный крепеж",
+        "link": "https://kaspi.kz/shop/c/construction%20fasteners/",
+        "active": false,
+        "count": 5616,
+        "popularity": 1650,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Construction screws",
+            "title": "Шурупы и саморезы",
+            "link": "https://kaspi.kz/shop/c/construction%20screws/",
+            "active": false,
+            "count": 1603,
+            "popularity": 664,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dowels and dowel-nails",
+            "title": "Дюбели и дюбель-гвозди",
+            "link": "https://kaspi.kz/shop/c/dowels%20and%20dowel-nails/",
+            "active": false,
+            "count": 965,
+            "popularity": 554,
+            "expanded": true
+          },
+          {
+            "id": ":category:Construction rivets",
+            "title": "Заклепки строительные",
+            "link": "https://kaspi.kz/shop/c/construction%20rivets/",
+            "active": false,
+            "count": 391,
+            "popularity": 183,
+            "expanded": true
+          },
+          {
+            "id": ":category:Screws and bolts",
+            "title": "Винты и болты",
+            "link": "https://kaspi.kz/shop/c/screws%20and%20bolts/",
+            "active": false,
+            "count": 447,
+            "popularity": 105,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rigging items",
+            "title": "Такелаж",
+            "link": "https://kaspi.kz/shop/c/rigging%20items/",
+            "active": false,
+            "count": 563,
+            "popularity": 79,
+            "expanded": true
+          },
+          {
+            "id": ":category:Anchor bolts",
+            "title": "Анкерные болты и химические анкеры",
+            "link": "https://kaspi.kz/shop/c/anchor%20bolts/",
+            "active": false,
+            "count": 443,
+            "popularity": 65,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Bath goods",
+        "title": "Баня и сауна",
+        "link": "https://kaspi.kz/shop/c/bath%20goods/",
+        "active": false,
+        "count": 1138,
+        "popularity": 178,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Sauna stoves",
+            "title": "Банные печи",
+            "link": "https://kaspi.kz/shop/c/sauna%20stoves/",
+            "active": false,
+            "count": 829,
+            "popularity": 178,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Roofing Facade Gates and fences",
+        "title": "Кровля, фасад, ворота и ограждения",
+        "link": "https://kaspi.kz/shop/c/roofing%20facade%20gates%20and%20fences/",
+        "active": false,
+        "count": 2435,
+        "popularity": 94,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Water disposal and drainage",
+            "title": "Водоотведение и системы дренажа",
+            "link": "https://kaspi.kz/shop/c/water%20disposal%20and%20drainage/",
+            "active": false,
+            "count": 480,
+            "popularity": 52,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gates and barriers",
+            "title": "Ворота и ограждения",
+            "link": "https://kaspi.kz/shop/c/gates%20and%20barriers/",
+            "active": false,
+            "count": 732,
+            "popularity": 42,
+            "expanded": true
+          },
+          {
+            "id": ":category:Roofing materials",
+            "title": "Кровельные материалы",
+            "link": "https://kaspi.kz/shop/c/roofing%20materials/",
+            "active": false,
+            "count": 779,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cladding and facade materials",
+            "title": "Фасадные материалы",
+            "link": "https://kaspi.kz/shop/c/cladding%20and%20facade%20materials/",
+            "active": false,
+            "count": 404,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

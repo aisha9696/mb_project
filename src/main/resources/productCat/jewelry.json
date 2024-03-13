@@ -1,0 +1,344 @@
+[
+  {
+    "id": ":category:Jewelry and Bijouterie",
+    "title": "Украшения",
+    "link": "https://kaspi.kz/shop/c/jewelry%20and%20bijouterie/",
+    "active": true,
+    "count": 542773,
+    "popularity": 89705,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Jewelry",
+        "title": "Ювелирные украшения",
+        "link": "https://kaspi.kz/shop/c/jewelry/",
+        "active": false,
+        "count": 487987,
+        "popularity": 47667,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Rings",
+            "title": "Кольца",
+            "link": "https://kaspi.kz/shop/c/rings/",
+            "active": false,
+            "count": 181670,
+            "popularity": 10717,
+            "expanded": true
+          },
+          {
+            "id": ":category:Earrings",
+            "title": "Серьги",
+            "link": "https://kaspi.kz/shop/c/earrings/",
+            "active": false,
+            "count": 116033,
+            "popularity": 8403,
+            "expanded": true
+          },
+          {
+            "id": ":category:Necklaces",
+            "title": "Цепи",
+            "link": "https://kaspi.kz/shop/c/necklaces/",
+            "active": false,
+            "count": 38228,
+            "popularity": 7925,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bracelets",
+            "title": "Браслеты",
+            "link": "https://kaspi.kz/shop/c/bracelets/",
+            "active": false,
+            "count": 36507,
+            "popularity": 7258,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jewelry sets",
+            "title": "Комплекты ювелирных украшений",
+            "link": "https://kaspi.kz/shop/c/jewelry%20sets/",
+            "active": false,
+            "count": 54570,
+            "popularity": 7008,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pendants",
+            "title": "Подвески",
+            "link": "https://kaspi.kz/shop/c/pendants/",
+            "active": false,
+            "count": 39154,
+            "popularity": 3897,
+            "expanded": true
+          },
+          {
+            "id": ":category:Collars",
+            "title": "Колье",
+            "link": "https://kaspi.kz/shop/c/collars/",
+            "active": false,
+            "count": 15474,
+            "popularity": 1425,
+            "expanded": true
+          },
+          {
+            "id": ":category:Brooches",
+            "title": "Броши",
+            "link": "https://kaspi.kz/shop/c/brooches/",
+            "active": false,
+            "count": 3495,
+            "popularity": 480,
+            "expanded": true
+          },
+          {
+            "id": ":category:Piercing jewelry",
+            "title": "Пирсинг",
+            "link": "https://kaspi.kz/shop/c/piercing%20jewelry/",
+            "active": false,
+            "count": 533,
+            "popularity": 210,
+            "expanded": true
+          },
+          {
+            "id": ":category:Charms",
+            "title": "Шармы",
+            "link": "https://kaspi.kz/shop/c/charms/",
+            "active": false,
+            "count": 1064,
+            "popularity": 169,
+            "expanded": true
+          },
+          {
+            "id": ":category:Precious metal souvenirs",
+            "title": "Посуда и сувениры из драгоценных металлов",
+            "link": "https://kaspi.kz/shop/c/precious%20metal%20souvenirs/",
+            "active": false,
+            "count": 1033,
+            "popularity": 101,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cufflinks and tie clips",
+            "title": "Запонки и зажимы",
+            "link": "https://kaspi.kz/shop/c/cufflinks%20and%20tie%20clips/",
+            "active": false,
+            "count": 134,
+            "popularity": 45,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair jewelry",
+            "title": "Ювелирные изделия для волос",
+            "link": "https://kaspi.kz/shop/c/hair%20jewelry/",
+            "active": false,
+            "count": 11,
+            "popularity": 15,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jewelry rosary",
+            "title": "Ювелирные четки",
+            "link": "https://kaspi.kz/shop/c/jewelry%20rosary/",
+            "active": false,
+            "count": 81,
+            "popularity": 14,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Imitation jewelry",
+        "title": "Бижутерия",
+        "link": "https://kaspi.kz/shop/c/imitation%20jewelry/",
+        "active": false,
+        "count": 53164,
+        "popularity": 24861,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Imitation earrings",
+            "title": "Серьги бижутерные",
+            "link": "https://kaspi.kz/shop/c/imitation%20earrings/",
+            "active": false,
+            "count": 17249,
+            "popularity": 7709,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rosary",
+            "title": "Четки",
+            "link": "https://kaspi.kz/shop/c/rosary/",
+            "active": false,
+            "count": 753,
+            "popularity": 3539,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation necklaces",
+            "title": "Цепи и бусы бижутерные",
+            "link": "https://kaspi.kz/shop/c/imitation%20necklaces/",
+            "active": false,
+            "count": 5942,
+            "popularity": 3493,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation bracelets",
+            "title": "Браслеты бижутерные",
+            "link": "https://kaspi.kz/shop/c/imitation%20bracelets/",
+            "active": false,
+            "count": 9409,
+            "popularity": 3255,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation jewelry sets",
+            "title": "Комплекты бижутерии",
+            "link": "https://kaspi.kz/shop/c/imitation%20jewelry%20sets/",
+            "active": false,
+            "count": 6515,
+            "popularity": 2822,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation rings",
+            "title": "Кольца бижутерные",
+            "link": "https://kaspi.kz/shop/c/imitation%20rings/",
+            "active": false,
+            "count": 5317,
+            "popularity": 2228,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation collars",
+            "title": "Колье бижутерные",
+            "link": "https://kaspi.kz/shop/c/imitation%20collars/",
+            "active": false,
+            "count": 3296,
+            "popularity": 822,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation pendants",
+            "title": "Подвески и шармы бижутерные",
+            "link": "https://kaspi.kz/shop/c/imitation%20pendants/",
+            "active": false,
+            "count": 1765,
+            "popularity": 517,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation brooches",
+            "title": "Броши бижутерные",
+            "link": "https://kaspi.kz/shop/c/imitation%20brooches/",
+            "active": false,
+            "count": 1694,
+            "popularity": 266,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation piercing jewelry",
+            "title": "Пирсинг бижутерный",
+            "link": "https://kaspi.kz/shop/c/imitation%20piercing%20jewelry/",
+            "active": false,
+            "count": 735,
+            "popularity": 97,
+            "expanded": true
+          },
+          {
+            "id": ":category:Head jewelry",
+            "title": "Украшения на тело",
+            "link": "https://kaspi.kz/shop/c/head%20jewelry/",
+            "active": false,
+            "count": 138,
+            "popularity": 81,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation cufflinks",
+            "title": "Запонки и зажимы бижутерные",
+            "link": "https://kaspi.kz/shop/c/imitation%20cufflinks/",
+            "active": false,
+            "count": 205,
+            "popularity": 32,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair accessories1",
+            "title": "Диадемы",
+            "link": "https://kaspi.kz/shop/c/hair%20accessories1/",
+            "active": false,
+            "count": 146,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Jewelry Equipment",
+        "title": "Ювелирное оборудование, подставки и фурнитура",
+        "link": "https://kaspi.kz/shop/c/jewelry%20equipment/",
+        "active": false,
+        "count": 1619,
+        "popularity": 1508,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Jewelry stands and holders",
+            "title": "Подставки и держатели для украшений",
+            "link": "https://kaspi.kz/shop/c/jewelry%20stands%20and%20holders/",
+            "active": false,
+            "count": 928,
+            "popularity": 799,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jewelry scales",
+            "title": "Ювелирные весы",
+            "link": "https://kaspi.kz/shop/c/jewelry%20scales/",
+            "active": false,
+            "count": 75,
+            "popularity": 544,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for jewelry",
+            "title": "Фурнитура для украшений",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20jewelry/",
+            "active": false,
+            "count": 500,
+            "popularity": 94,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jewelry cleaners",
+            "title": "Средства для чистки ювелирных изделий",
+            "link": "https://kaspi.kz/shop/c/jewelry%20cleaners/",
+            "active": false,
+            "count": 69,
+            "popularity": 47,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jewelry enlargers",
+            "title": "Ювелирное оборудование и расходные материалы",
+            "link": "https://kaspi.kz/shop/c/jewelry%20enlargers/",
+            "active": false,
+            "count": 47,
+            "popularity": 24,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Jewelry watch straps",
+        "title": "Ювелирные ремешки и браслеты для часов",
+        "link": "https://kaspi.kz/shop/c/jewelry%20watch%20straps/",
+        "active": false,
+        "count": 3,
+        "popularity": 0,
+        "expanded": true,
+        "items": []
+      }
+    ]
+  }
+]

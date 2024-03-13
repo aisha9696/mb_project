@@ -1,0 +1,1086 @@
+[
+  {
+    "id": ":category:Office and school supplies",
+    "title": "Канцелярские товары",
+    "link": "https://kaspi.kz/shop/c/office%20and%20school%20supplies/",
+    "active": true,
+    "count": 46242,
+    "popularity": 64125,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Paper products",
+        "title": "Бумага и бумажная продукция",
+        "link": "https://kaspi.kz/shop/c/paper%20products/",
+        "active": false,
+        "count": 16386,
+        "popularity": 23711,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Paper notebooks",
+            "title": "Ежедневники, блокноты, скетчбуки",
+            "link": "https://kaspi.kz/shop/c/paper%20notebooks/",
+            "active": false,
+            "count": 8544,
+            "popularity": 11186,
+            "expanded": true
+          },
+          {
+            "id": ":category:Office paper",
+            "title": "Офисная бумага",
+            "link": "https://kaspi.kz/shop/c/office%20paper/",
+            "active": false,
+            "count": 1057,
+            "popularity": 4071,
+            "expanded": true
+          },
+          {
+            "id": ":category:Exercise notebooks",
+            "title": "Тетради",
+            "link": "https://kaspi.kz/shop/c/exercise%20notebooks/",
+            "active": false,
+            "count": 3042,
+            "popularity": 3166,
+            "expanded": true
+          },
+          {
+            "id": ":category:Envelope mailers",
+            "title": "Конверты и пакеты почтовые",
+            "link": "https://kaspi.kz/shop/c/envelope%20mailers/",
+            "active": false,
+            "count": 696,
+            "popularity": 1642,
+            "expanded": true
+          },
+          {
+            "id": ":category:Memo sheets",
+            "title": "Бумага для заметок, визитки, закладки",
+            "link": "https://kaspi.kz/shop/c/memo%20sheets/",
+            "active": false,
+            "count": 958,
+            "popularity": 995,
+            "expanded": true
+          },
+          {
+            "id": ":category:Calendars",
+            "title": "Календари",
+            "link": "https://kaspi.kz/shop/c/calendars/",
+            "active": false,
+            "count": 483,
+            "popularity": 701,
+            "expanded": true
+          },
+          {
+            "id": ":category:Account books and journals",
+            "title": "Книги, журналы учета, каталоги",
+            "link": "https://kaspi.kz/shop/c/account%20books%20and%20journals/",
+            "active": false,
+            "count": 232,
+            "popularity": 398,
+            "expanded": true
+          },
+          {
+            "id": ":category:Receipt paper",
+            "title": "Рулоны для кассовых аппаратов и терминалов",
+            "link": "https://kaspi.kz/shop/c/receipt%20paper/",
+            "active": false,
+            "count": 197,
+            "popularity": 370,
+            "expanded": true
+          },
+          {
+            "id": ":category:Drawing and copying paper",
+            "title": "Бумага для чертежных и копировальных работ",
+            "link": "https://kaspi.kz/shop/c/drawing%20and%20copying%20paper/",
+            "active": false,
+            "count": 200,
+            "popularity": 340,
+            "expanded": true
+          },
+          {
+            "id": ":category:Colored paper and cardstock paper kits",
+            "title": "Наборы цветной бумаги и картона",
+            "link": "https://kaspi.kz/shop/c/colored%20paper%20and%20cardstock%20paper%20kits/",
+            "active": false,
+            "count": 373,
+            "popularity": 313,
+            "expanded": true
+          },
+          {
+            "id": ":category:Posters",
+            "title": "Плакаты",
+            "link": "https://kaspi.kz/shop/c/posters/",
+            "active": false,
+            "count": 422,
+            "popularity": 250,
+            "expanded": true
+          },
+          {
+            "id": ":category:Document forms",
+            "title": "Бланки",
+            "link": "https://kaspi.kz/shop/c/document%20forms/",
+            "active": false,
+            "count": 119,
+            "popularity": 206,
+            "expanded": true
+          },
+          {
+            "id": ":category:Flipchart pads",
+            "title": "Блокноты для флипчартов",
+            "link": "https://kaspi.kz/shop/c/flipchart%20pads/",
+            "active": false,
+            "count": 32,
+            "popularity": 41,
+            "expanded": true
+          },
+          {
+            "id": ":category:Replaceable notebook",
+            "title": "Сменные блоки для тетрадей",
+            "link": "https://kaspi.kz/shop/c/replaceable%20notebook/",
+            "active": false,
+            "count": 31,
+            "popularity": 32,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Writing Supplies",
+        "title": "Письменные принадлежности",
+        "link": "https://kaspi.kz/shop/c/writing%20supplies/",
+        "active": false,
+        "count": 9769,
+        "popularity": 14175,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Pens",
+            "title": "Ручки",
+            "link": "https://kaspi.kz/shop/c/pens/",
+            "active": false,
+            "count": 4581,
+            "popularity": 7238,
+            "expanded": true
+          },
+          {
+            "id": ":category:Writing markers",
+            "title": "Маркеры",
+            "link": "https://kaspi.kz/shop/c/writing%20markers/",
+            "active": false,
+            "count": 2299,
+            "popularity": 3132,
+            "expanded": true
+          },
+          {
+            "id": ":category:Graphite pencils",
+            "title": "Карандаши чернографитные",
+            "link": "https://kaspi.kz/shop/c/graphite%20pencils/",
+            "active": false,
+            "count": 873,
+            "popularity": 932,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pencil erasers",
+            "title": "Ластики",
+            "link": "https://kaspi.kz/shop/c/pencil%20erasers/",
+            "active": false,
+            "count": 638,
+            "popularity": 852,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pencil sharpeners",
+            "title": "Точилки для карандашей",
+            "link": "https://kaspi.kz/shop/c/pencil%20sharpeners/",
+            "active": false,
+            "count": 473,
+            "popularity": 656,
+            "expanded": true
+          },
+          {
+            "id": ":category:Correction materials",
+            "title": "Корректирующие средства для текста",
+            "link": "https://kaspi.kz/shop/c/correction%20materials/",
+            "active": false,
+            "count": 232,
+            "popularity": 598,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pens and pencils refills",
+            "title": "Стержни для ручек",
+            "link": "https://kaspi.kz/shop/c/pens%20and%20pencils%20refills/",
+            "active": false,
+            "count": 109,
+            "popularity": 206,
+            "expanded": true
+          },
+          {
+            "id": ":category:Writing implement kits",
+            "title": "Наборы письменных принадлежностей",
+            "link": "https://kaspi.kz/shop/c/writing%20implement%20kits/",
+            "active": false,
+            "count": 180,
+            "popularity": 192,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mechanical pencils",
+            "title": "Карандаши механические",
+            "link": "https://kaspi.kz/shop/c/mechanical%20pencils/",
+            "active": false,
+            "count": 167,
+            "popularity": 184,
+            "expanded": true
+          },
+          {
+            "id": ":category:Leads",
+            "title": "Грифели для карандашей",
+            "link": "https://kaspi.kz/shop/c/leads/",
+            "active": false,
+            "count": 84,
+            "popularity": 93,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ink and cartridges",
+            "title": "Чернила и картриджи для ручек",
+            "link": "https://kaspi.kz/shop/c/ink%20and%20cartridges/",
+            "active": false,
+            "count": 132,
+            "popularity": 89,
+            "expanded": true
+          },
+          {
+            "id": ":category:Marker Accessories",
+            "title": "Заправка и аксессуары для маркеров",
+            "link": "https://kaspi.kz/shop/c/marker%20accessories/",
+            "active": false,
+            "count": 1,
+            "popularity": 3,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Office supplies",
+        "title": "Офисные принадлежности",
+        "link": "https://kaspi.kz/shop/c/office%20supplies/",
+        "active": false,
+        "count": 9785,
+        "popularity": 13291,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Office folders",
+            "title": "Папки",
+            "link": "https://kaspi.kz/shop/c/office%20folders/",
+            "active": false,
+            "count": 2638,
+            "popularity": 2268,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stationery tape",
+            "title": "Клейкая лента, клейкие пластины",
+            "link": "https://kaspi.kz/shop/c/stationery%20tape/",
+            "active": false,
+            "count": 821,
+            "popularity": 1826,
+            "expanded": true
+          },
+          {
+            "id": ":category:Glue",
+            "title": "Канцелярский клей",
+            "link": "https://kaspi.kz/shop/c/glue/",
+            "active": false,
+            "count": 481,
+            "popularity": 1280,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stationery pen knives",
+            "title": "Канцелярские ножи и лезвия",
+            "link": "https://kaspi.kz/shop/c/stationery%20pen%20knives/",
+            "active": false,
+            "count": 806,
+            "popularity": 1114,
+            "expanded": true
+          },
+          {
+            "id": ":category:Calculators",
+            "title": "Калькуляторы",
+            "link": "https://kaspi.kz/shop/c/calculators/",
+            "active": false,
+            "count": 596,
+            "popularity": 996,
+            "expanded": true
+          },
+          {
+            "id": ":category:Consumables for laminators",
+            "title": "Расходные материалы для ламинаторов",
+            "link": "https://kaspi.kz/shop/c/consumables%20for%20laminators/",
+            "active": false,
+            "count": 191,
+            "popularity": 971,
+            "expanded": true
+          },
+          {
+            "id": ":category:Desk organizers for stationery",
+            "title": "Настольные органайзеры, подставки, держатели стикеров",
+            "link": "https://kaspi.kz/shop/c/desk%20organizers%20for%20stationery/",
+            "active": false,
+            "count": 692,
+            "popularity": 790,
+            "expanded": true
+          },
+          {
+            "id": ":category:Office scissors",
+            "title": "Канцелярские ножницы",
+            "link": "https://kaspi.kz/shop/c/office%20scissors/",
+            "active": false,
+            "count": 578,
+            "popularity": 687,
+            "expanded": true
+          },
+          {
+            "id": ":category:Book stands",
+            "title": "Подставки для книг",
+            "link": "https://kaspi.kz/shop/c/book%20stands/",
+            "active": false,
+            "count": 286,
+            "popularity": 535,
+            "expanded": true
+          },
+          {
+            "id": ":category:Paper trays",
+            "title": "Лотки для бумаг и архивные коробки",
+            "link": "https://kaspi.kz/shop/c/paper%20trays/",
+            "active": false,
+            "count": 394,
+            "popularity": 473,
+            "expanded": true
+          },
+          {
+            "id": ":category:Badges and badge holders",
+            "title": "Бейджи и держатели",
+            "link": "https://kaspi.kz/shop/c/badges%20and%20badge%20holders/",
+            "active": false,
+            "count": 455,
+            "popularity": 466,
+            "expanded": true
+          },
+          {
+            "id": ":category:Staplers and staple removers",
+            "title": "Степлеры и антистеплеры",
+            "link": "https://kaspi.kz/shop/c/staplers%20and%20staple%20removers/",
+            "active": false,
+            "count": 425,
+            "popularity": 402,
+            "expanded": true
+          },
+          {
+            "id": ":category:Staples",
+            "title": "Скобы для степлера",
+            "link": "https://kaspi.kz/shop/c/staples/",
+            "active": false,
+            "count": 132,
+            "popularity": 300,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hole punches",
+            "title": "Дыроколы",
+            "link": "https://kaspi.kz/shop/c/hole%20punches/",
+            "active": false,
+            "count": 379,
+            "popularity": 296,
+            "expanded": true
+          },
+          {
+            "id": ":category:Desk organizer sets",
+            "title": "Настольные наборы",
+            "link": "https://kaspi.kz/shop/c/desk%20organizer%20sets/",
+            "active": false,
+            "count": 254,
+            "popularity": 232,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dispensers for adhesive tape",
+            "title": "Диспенсеры для клейкой ленты",
+            "link": "https://kaspi.kz/shop/c/dispensers%20for%20adhesive%20tape/",
+            "active": false,
+            "count": 84,
+            "popularity": 187,
+            "expanded": true
+          },
+          {
+            "id": ":category:Binding covers and combs",
+            "title": "Расходные материалы для переплета",
+            "link": "https://kaspi.kz/shop/c/binding%20covers%20and%20combs/",
+            "active": false,
+            "count": 311,
+            "popularity": 180,
+            "expanded": true
+          },
+          {
+            "id": ":category:Waste baskets",
+            "title": "Корзины для бумаг",
+            "link": "https://kaspi.kz/shop/c/waste%20baskets/",
+            "active": false,
+            "count": 80,
+            "popularity": 113,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bookbinding supplies",
+            "title": "Станки и материалы для архивного переплета",
+            "link": "https://kaspi.kz/shop/c/bookbinding%20supplies/",
+            "active": false,
+            "count": 19,
+            "popularity": 66,
+            "expanded": true
+          },
+          {
+            "id": ":category:Office desk mats",
+            "title": "Офисные настольные коврики",
+            "link": "https://kaspi.kz/shop/c/office%20desk%20mats/",
+            "active": false,
+            "count": 57,
+            "popularity": 48,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dividers",
+            "title": "Разделители листов",
+            "link": "https://kaspi.kz/shop/c/dividers/",
+            "active": false,
+            "count": 60,
+            "popularity": 32,
+            "expanded": true
+          },
+          {
+            "id": ":category:Binder mechanisms",
+            "title": "Механизмы для скоросшивания",
+            "link": "https://kaspi.kz/shop/c/binder%20mechanisms/",
+            "active": false,
+            "count": 19,
+            "popularity": 12,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dispensers for paper clips",
+            "title": "Диспенсеры для скрепок",
+            "link": "https://kaspi.kz/shop/c/dispensers%20for%20paper%20clips/",
+            "active": false,
+            "count": 8,
+            "popularity": 8,
+            "expanded": true
+          },
+          {
+            "id": ":category:Self adhesive pockets",
+            "title": "Карманы самоклеящиеся",
+            "link": "https://kaspi.kz/shop/c/self%20adhesive%20pockets/",
+            "active": false,
+            "count": 4,
+            "popularity": 4,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hole punch accessories",
+            "title": "Аксессуары для дырокола",
+            "link": "https://kaspi.kz/shop/c/hole%20punch%20accessories/",
+            "active": false,
+            "count": 9,
+            "popularity": 3,
+            "expanded": true
+          },
+          {
+            "id": ":category:Flag holders",
+            "title": "Держатели для флагов",
+            "link": "https://kaspi.kz/shop/c/flag%20holders/",
+            "active": false,
+            "count": 5,
+            "popularity": 2,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dispensers for bookmarks and blocks",
+            "title": "Диспенсеры для закладок и блоков",
+            "link": "https://kaspi.kz/shop/c/dispensers%20for%20bookmarks%20and%20blocks/",
+            "active": false,
+            "count": 1,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:School supplies",
+        "title": "Школьные принадлежности",
+        "link": "https://kaspi.kz/shop/c/school%20supplies/",
+        "active": false,
+        "count": 6104,
+        "popularity": 5422,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Pencil cases",
+            "title": "Пеналы",
+            "link": "https://kaspi.kz/shop/c/pencil%20cases/",
+            "active": false,
+            "count": 2849,
+            "popularity": 1391,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rulers",
+            "title": "Линейки",
+            "link": "https://kaspi.kz/shop/c/rulers/",
+            "active": false,
+            "count": 566,
+            "popularity": 703,
+            "expanded": true
+          },
+          {
+            "id": ":category:First class kit",
+            "title": "Школьные наборы",
+            "link": "https://kaspi.kz/shop/c/first%20class%20kit/",
+            "active": false,
+            "count": 435,
+            "popularity": 584,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stretchable exercise notebook covers",
+            "title": "Обложки для книг и тетрадей",
+            "link": "https://kaspi.kz/shop/c/stretchable%20exercise%20notebook%20covers/",
+            "active": false,
+            "count": 237,
+            "popularity": 544,
+            "expanded": true
+          },
+          {
+            "id": ":category:Geographic maps and atlases",
+            "title": "Географические карты и атласы",
+            "link": "https://kaspi.kz/shop/c/geographic%20maps%20and%20atlases/",
+            "active": false,
+            "count": 189,
+            "popularity": 431,
+            "expanded": true
+          },
+          {
+            "id": ":category:Counting materials",
+            "title": "Счетные материалы",
+            "link": "https://kaspi.kz/shop/c/counting%20materials/",
+            "active": false,
+            "count": 120,
+            "popularity": 283,
+            "expanded": true
+          },
+          {
+            "id": ":category:Colored and foil paper",
+            "title": "Цветная бумага и фольга",
+            "link": "https://kaspi.kz/shop/c/colored%20and%20foil%20paper/",
+            "active": false,
+            "count": 512,
+            "popularity": 281,
+            "expanded": true
+          },
+          {
+            "id": ":category:Drafting compasses for geometry sets",
+            "title": "Циркули и готовальни",
+            "link": "https://kaspi.kz/shop/c/drafting%20compasses%20for%20geometry%20sets/",
+            "active": false,
+            "count": 245,
+            "popularity": 275,
+            "expanded": true
+          },
+          {
+            "id": ":category:Globes",
+            "title": "Глобусы",
+            "link": "https://kaspi.kz/shop/c/globes/",
+            "active": false,
+            "count": 169,
+            "popularity": 253,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cardstock paper",
+            "title": "Цветной и белый картон",
+            "link": "https://kaspi.kz/shop/c/cardstock%20paper/",
+            "active": false,
+            "count": 329,
+            "popularity": 235,
+            "expanded": true
+          },
+          {
+            "id": ":category:Student record books",
+            "title": "Дневники для школы",
+            "link": "https://kaspi.kz/shop/c/student%20record%20books/",
+            "active": false,
+            "count": 198,
+            "popularity": 222,
+            "expanded": true
+          },
+          {
+            "id": ":category:Templates and stencils",
+            "title": "Шаблоны, трафареты, лекала",
+            "link": "https://kaspi.kz/shop/c/templates%20and%20stencils/",
+            "active": false,
+            "count": 103,
+            "popularity": 58,
+            "expanded": true
+          },
+          {
+            "id": ":category:Geometry rulers set",
+            "title": "Наборы чертежные",
+            "link": "https://kaspi.kz/shop/c/geometry%20rulers%20set/",
+            "active": false,
+            "count": 54,
+            "popularity": 53,
+            "expanded": true
+          },
+          {
+            "id": ":category:Drawing tubes",
+            "title": "Тубусы для чертежей",
+            "link": "https://kaspi.kz/shop/c/drawing%20tubes/",
+            "active": false,
+            "count": 56,
+            "popularity": 52,
+            "expanded": true
+          },
+          {
+            "id": ":category:Protractors",
+            "title": "Транспортиры",
+            "link": "https://kaspi.kz/shop/c/protractors/",
+            "active": false,
+            "count": 23,
+            "popularity": 39,
+            "expanded": true
+          },
+          {
+            "id": ":category:Triangular rulers",
+            "title": "Треугольники",
+            "link": "https://kaspi.kz/shop/c/triangular%20rulers/",
+            "active": false,
+            "count": 12,
+            "popularity": 16,
+            "expanded": true
+          },
+          {
+            "id": ":category:Anatomical models",
+            "title": "Анатомические модели",
+            "link": "https://kaspi.kz/shop/c/anatomical%20models/",
+            "active": false,
+            "count": 7,
+            "popularity": 2,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Demonstration boards",
+        "title": "Демонстрационные доски",
+        "link": "https://kaspi.kz/shop/c/demonstration%20boards/",
+        "active": false,
+        "count": 900,
+        "popularity": 2914,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Office boards accessories",
+            "title": "Аксессуары для досок",
+            "link": "https://kaspi.kz/shop/c/office%20boards%20accessories/",
+            "active": false,
+            "count": 303,
+            "popularity": 1580,
+            "expanded": true
+          },
+          {
+            "id": ":category:Flipcharts and office boards",
+            "title": "Флипчарты и офисные доски",
+            "link": "https://kaspi.kz/shop/c/flipcharts%20and%20office%20boards/",
+            "active": false,
+            "count": 497,
+            "popularity": 1254,
+            "expanded": true
+          },
+          {
+            "id": ":category:Magnetic gliders",
+            "title": "Магнитные планеры",
+            "link": "https://kaspi.kz/shop/c/magnetic%20gliders/",
+            "active": false,
+            "count": 100,
+            "popularity": 80,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Trade supplies",
+        "title": "Торговые и рекламные принадлежности",
+        "link": "https://kaspi.kz/shop/c/trade%20supplies/",
+        "active": false,
+        "count": 1755,
+        "popularity": 2257,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Adhesive labels",
+            "title": "Этикетки, ценники, бирки",
+            "link": "https://kaspi.kz/shop/c/adhesive%20labels/",
+            "active": false,
+            "count": 566,
+            "popularity": 1082,
+            "expanded": true
+          },
+          {
+            "id": ":category:Label guns",
+            "title": "Этикет-пистолеты и аксессуары",
+            "link": "https://kaspi.kz/shop/c/label%20guns/",
+            "active": false,
+            "count": 108,
+            "popularity": 379,
+            "expanded": true
+          },
+          {
+            "id": ":category:Service and information stickers",
+            "title": "Служебно-информационные таблички, наклейки, табло",
+            "link": "https://kaspi.kz/shop/c/service%20and%20information%20stickers/",
+            "active": false,
+            "count": 541,
+            "popularity": 369,
+            "expanded": true
+          },
+          {
+            "id": ":category:Business card holders and stands",
+            "title": "Информационные стойки, холдеры, демосистемы",
+            "link": "https://kaspi.kz/shop/c/business%20card%20holders%20and%20stands/",
+            "active": false,
+            "count": 245,
+            "popularity": 207,
+            "expanded": true
+          },
+          {
+            "id": ":category:Advertising equipment",
+            "title": "Выставочное оборудование",
+            "link": "https://kaspi.kz/shop/c/advertising%20equipment/",
+            "active": false,
+            "count": 70,
+            "popularity": 74,
+            "expanded": true
+          },
+          {
+            "id": ":category:Staff call buttons",
+            "title": "Кнопки вызова персонала",
+            "link": "https://kaspi.kz/shop/c/staff%20call%20buttons/",
+            "active": false,
+            "count": 85,
+            "popularity": 61,
+            "expanded": true
+          },
+          {
+            "id": ":category:Information boards",
+            "title": "Информационные табло",
+            "link": "https://kaspi.kz/shop/c/information%20boards/",
+            "active": false,
+            "count": 104,
+            "popularity": 60,
+            "expanded": true
+          },
+          {
+            "id": ":category:Checkout accessories",
+            "title": "Аксессуары для кассовых боксов",
+            "link": "https://kaspi.kz/shop/c/checkout%20accessories/",
+            "active": false,
+            "count": 5,
+            "popularity": 9,
+            "expanded": true
+          },
+          {
+            "id": ":category:Information desks",
+            "title": "Визитницы",
+            "link": "https://kaspi.kz/shop/c/information%20desks/",
+            "active": false,
+            "count": 15,
+            "popularity": 8,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lottery drums and donation boxes",
+            "title": "Лототроны, боксы для голосования и пожертвования",
+            "link": "https://kaspi.kz/shop/c/lottery%20drums%20and%20donation%20boxes/",
+            "active": false,
+            "count": 12,
+            "popularity": 7,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accountants",
+            "title": "Счетницы для кафе и ресторанов",
+            "link": "https://kaspi.kz/shop/c/accountants/",
+            "active": false,
+            "count": 1,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Banner fabric",
+            "title": "Баннерная ткань",
+            "link": "https://kaspi.kz/shop/c/banner%20fabric/",
+            "active": false,
+            "count": 3,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Small office supplies",
+        "title": "Мелкоофисные принадлежности",
+        "link": "https://kaspi.kz/shop/c/small%20office%20supplies/",
+        "active": false,
+        "count": 968,
+        "popularity": 1542,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Magnifying glasses",
+            "title": "Лупы",
+            "link": "https://kaspi.kz/shop/c/magnifying%20glasses/",
+            "active": false,
+            "count": 267,
+            "popularity": 470,
+            "expanded": true
+          },
+          {
+            "id": ":category:Push pins office tacks",
+            "title": "Кнопки канцелярские, шило",
+            "link": "https://kaspi.kz/shop/c/push%20pins%20office%20tacks/",
+            "active": false,
+            "count": 100,
+            "popularity": 191,
+            "expanded": true
+          },
+          {
+            "id": ":category:Binder clips",
+            "title": "Зажимы для бумаг",
+            "link": "https://kaspi.kz/shop/c/binder%20clips/",
+            "active": false,
+            "count": 163,
+            "popularity": 185,
+            "expanded": true
+          },
+          {
+            "id": ":category:Paper clips",
+            "title": "Скрепки канцелярские",
+            "link": "https://kaspi.kz/shop/c/paper%20clips/",
+            "active": false,
+            "count": 137,
+            "popularity": 181,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rubber bands",
+            "title": "Резинки канцелярские, бандероли, накладки для банкнот",
+            "link": "https://kaspi.kz/shop/c/rubber%20bands/",
+            "active": false,
+            "count": 96,
+            "popularity": 173,
+            "expanded": true
+          },
+          {
+            "id": ":category:Finger moistener",
+            "title": "Напальчники, увлажнители для пальцев",
+            "link": "https://kaspi.kz/shop/c/finger%20moistener/",
+            "active": false,
+            "count": 35,
+            "popularity": 150,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stationery pins",
+            "title": "Булавки офисные",
+            "link": "https://kaspi.kz/shop/c/stationery%20pins/",
+            "active": false,
+            "count": 136,
+            "popularity": 123,
+            "expanded": true
+          },
+          {
+            "id": ":category:Office stationery sets",
+            "title": "Наборы мелкоофисных принадлежностей",
+            "link": "https://kaspi.kz/shop/c/office%20stationery%20sets/",
+            "active": false,
+            "count": 34,
+            "popularity": 69,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Post-press tools",
+        "title": "Постпечатное оборудование",
+        "link": "https://kaspi.kz/shop/c/post-press%20tools/",
+        "active": false,
+        "count": 292,
+        "popularity": 432,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Paper trimmers",
+            "title": "Резаки для бумаги",
+            "link": "https://kaspi.kz/shop/c/paper%20trimmers/",
+            "active": false,
+            "count": 86,
+            "popularity": 364,
+            "expanded": true
+          },
+          {
+            "id": ":category:Raquel",
+            "title": "Ракель",
+            "link": "https://kaspi.kz/shop/c/raquel/",
+            "active": false,
+            "count": 181,
+            "popularity": 29,
+            "expanded": true
+          },
+          {
+            "id": ":category:Business card cutters",
+            "title": "Вырубщики визиток",
+            "link": "https://kaspi.kz/shop/c/business%20card%20cutters/",
+            "active": false,
+            "count": 9,
+            "popularity": 20,
+            "expanded": true
+          },
+          {
+            "id": ":category:Running machines",
+            "title": "Биговальные машины",
+            "link": "https://kaspi.kz/shop/c/running%20machines/",
+            "active": false,
+            "count": 5,
+            "popularity": 11,
+            "expanded": true
+          },
+          {
+            "id": ":category:Caimarez and tongs for stretching",
+            "title": "Каймарезы и щипцы для натяжки баннера",
+            "link": "https://kaspi.kz/shop/c/caimarez%20and%20tongs%20for%20stretching/",
+            "active": false,
+            "count": 3,
+            "popularity": 5,
+            "expanded": true
+          },
+          {
+            "id": ":category:Roll clamps",
+            "title": "Зажимы для рулонов",
+            "link": "https://kaspi.kz/shop/c/roll%20clamps/",
+            "active": false,
+            "count": 4,
+            "popularity": 2,
+            "expanded": true
+          },
+          {
+            "id": ":category:Thermoforming equipment",
+            "title": "Термогибочное оборудование",
+            "link": "https://kaspi.kz/shop/c/thermoforming%20equipment/",
+            "active": false,
+            "count": 1,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Roll stand",
+            "title": "Подставки под рулоны",
+            "link": "https://kaspi.kz/shop/c/roll%20stand/",
+            "active": false,
+            "count": 3,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Stamp accessories",
+        "title": "Штемпельные принадлежности",
+        "link": "https://kaspi.kz/shop/c/stamp%20accessories/",
+        "active": false,
+        "count": 279,
+        "popularity": 360,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Rubber stamps and company seals",
+            "title": "Штампы и печати",
+            "link": "https://kaspi.kz/shop/c/rubber%20stamps%20and%20company%20seals/",
+            "active": false,
+            "count": 163,
+            "popularity": 135,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stamp ink refill",
+            "title": "Штемпельная краска",
+            "link": "https://kaspi.kz/shop/c/stamp%20ink%20refill/",
+            "active": false,
+            "count": 41,
+            "popularity": 121,
+            "expanded": true
+          },
+          {
+            "id": ":category:Date stamps and numberer stamps",
+            "title": "Датеры, нумераторы, счетчики",
+            "link": "https://kaspi.kz/shop/c/date%20stamps%20and%20numberer%20stamps/",
+            "active": false,
+            "count": 29,
+            "popularity": 69,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ink Pads",
+            "title": "Штемпельные подушки",
+            "link": "https://kaspi.kz/shop/c/ink%20pads/",
+            "active": false,
+            "count": 27,
+            "popularity": 23,
+            "expanded": true
+          },
+          {
+            "id": ":category:Essentials stamp bodies",
+            "title": "Оснастки для печатей и штампов, чехлы",
+            "link": "https://kaspi.kz/shop/c/essentials%20stamp%20bodies/",
+            "active": false,
+            "count": 19,
+            "popularity": 12,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Drawing supplies",
+        "title": "Чертежные принадлежности",
+        "link": "https://kaspi.kz/shop/c/drawing%20supplies/",
+        "active": false,
+        "count": 4,
+        "popularity": 13,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Drawing boards",
+            "title": "Чертежные доски",
+            "link": "https://kaspi.kz/shop/c/drawing%20boards/",
+            "active": false,
+            "count": 4,
+            "popularity": 13,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

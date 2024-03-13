@@ -1,24 +1,27 @@
-package kz.mb.project.mb_project.entity.warehouse;
+package kz.mb.project.mb_project.entity;
 
 import java.io.Serializable;
 import java.util.UUID;
 
 import lombok.Getter;
 import lombok.Setter;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import kz.mb.project.mb_project.entity.AbstractLanguageValue;
+
 
 @Entity
-@Table(name = "catalog_unit")
+@Table(name = "business_type")
 @Getter
 @Setter
-public class CatalogUnit extends AbstractLanguageValue implements Serializable {
+public class BusinessTypeSpr extends AbstractLanguageSprValue implements Serializable {
+
   @Id
   @GeneratedValue(strategy = GenerationType.UUID)
   private UUID id;
 
 }
+
