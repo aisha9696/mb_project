@@ -1,0 +1,915 @@
+[
+  {
+    "id": ":category:Pet goods",
+    "title": "Товары для животных",
+    "link": "https://kaspi.kz/shop/c/pet%20goods/",
+    "active": true,
+    "count": 40887,
+    "popularity": 106090,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Cat goods",
+        "title": "Для кошек",
+        "link": "https://kaspi.kz/shop/c/cat%20goods/",
+        "active": false,
+        "count": 7697,
+        "popularity": 49935,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Wet cat food",
+            "title": "Влажные корма для кошек",
+            "link": "https://kaspi.kz/shop/c/wet%20cat%20food/",
+            "active": false,
+            "count": 2105,
+            "popularity": 28737,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dry cat food",
+            "title": "Сухие корма для кошек",
+            "link": "https://kaspi.kz/shop/c/dry%20cat%20food/",
+            "active": false,
+            "count": 2267,
+            "popularity": 14738,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cat snacks",
+            "title": "Лакомства для кошек",
+            "link": "https://kaspi.kz/shop/c/cat%20snacks/",
+            "active": false,
+            "count": 594,
+            "popularity": 2993,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toys for cats",
+            "title": "Игрушки для кошек",
+            "link": "https://kaspi.kz/shop/c/toys%20for%20cats/",
+            "active": false,
+            "count": 1341,
+            "popularity": 2101,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cat scratching pads",
+            "title": "Когтеточки для кошек",
+            "link": "https://kaspi.kz/shop/c/cat%20scratching%20pads/",
+            "active": false,
+            "count": 1390,
+            "popularity": 1366,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Hygiene and care for animals",
+        "title": "Гигиена и уход за животными",
+        "link": "https://kaspi.kz/shop/c/hygiene%20and%20care%20for%20animals/",
+        "active": false,
+        "count": 3414,
+        "popularity": 14363,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Cat litter",
+            "title": "Наполнители туалета для животных",
+            "link": "https://kaspi.kz/shop/c/cat%20litter/",
+            "active": false,
+            "count": 1497,
+            "popularity": 10849,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shampoos and conditioners for animals",
+            "title": "Средства для ухода за животными",
+            "link": "https://kaspi.kz/shop/c/shampoos%20and%20conditioners%20for%20animals/",
+            "active": false,
+            "count": 862,
+            "popularity": 1505,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet underpads",
+            "title": "Полотенца и пеленки для животных",
+            "link": "https://kaspi.kz/shop/c/pet%20underpads/",
+            "active": false,
+            "count": 425,
+            "popularity": 843,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet odour eliminators",
+            "title": "Устранители запахов животных",
+            "link": "https://kaspi.kz/shop/c/pet%20odour%20eliminators/",
+            "active": false,
+            "count": 137,
+            "popularity": 392,
+            "expanded": true
+          },
+          {
+            "id": ":category:Animal repellent sprays",
+            "title": "Отучающие средства для животных",
+            "link": "https://kaspi.kz/shop/c/animal%20repellent%20sprays/",
+            "active": false,
+            "count": 66,
+            "popularity": 204,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet serums and oils",
+            "title": "Сыворотки и масла для животных",
+            "link": "https://kaspi.kz/shop/c/pet%20serums%20and%20oils/",
+            "active": false,
+            "count": 87,
+            "popularity": 181,
+            "expanded": true
+          },
+          {
+            "id": ":category:Poop bags for pets",
+            "title": "Пакеты гигиенические для животных",
+            "link": "https://kaspi.kz/shop/c/poop%20bags%20for%20pets/",
+            "active": false,
+            "count": 119,
+            "popularity": 133,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pets toothbrushes",
+            "title": "Зубные щетки для животных",
+            "link": "https://kaspi.kz/shop/c/pets%20toothbrushes/",
+            "active": false,
+            "count": 53,
+            "popularity": 88,
+            "expanded": true
+          },
+          {
+            "id": ":category:Diapers for animals",
+            "title": "Подгузники для животных",
+            "link": "https://kaspi.kz/shop/c/diapers%20for%20animals/",
+            "active": false,
+            "count": 110,
+            "popularity": 80,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet paw washing machine",
+            "title": "Лапомойки для животных",
+            "link": "https://kaspi.kz/shop/c/pet%20paw%20washing%20machine/",
+            "active": false,
+            "count": 43,
+            "popularity": 78,
+            "expanded": true
+          },
+          {
+            "id": ":category:Perfumes for pets",
+            "title": "Парфюмерия для животных",
+            "link": "https://kaspi.kz/shop/c/perfumes%20for%20pets/",
+            "active": false,
+            "count": 15,
+            "popularity": 10,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Dog goods",
+        "title": "Для собак",
+        "link": "https://kaspi.kz/shop/c/dog%20goods/",
+        "active": false,
+        "count": 8526,
+        "popularity": 12131,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Dry dog food",
+            "title": "Сухие корма для собак",
+            "link": "https://kaspi.kz/shop/c/dry%20dog%20food/",
+            "active": false,
+            "count": 1985,
+            "popularity": 6313,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wet dog food",
+            "title": "Влажные корма для собак",
+            "link": "https://kaspi.kz/shop/c/wet%20dog%20food/",
+            "active": false,
+            "count": 950,
+            "popularity": 2539,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dog snacks",
+            "title": "Лакомства для собак",
+            "link": "https://kaspi.kz/shop/c/dog%20snacks/",
+            "active": false,
+            "count": 1523,
+            "popularity": 1692,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toys for animals",
+            "title": "Игрушки для собак",
+            "link": "https://kaspi.kz/shop/c/toys%20for%20animals/",
+            "active": false,
+            "count": 2229,
+            "popularity": 919,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet leashes",
+            "title": "Поводки для собак",
+            "link": "https://kaspi.kz/shop/c/pet%20leashes/",
+            "active": false,
+            "count": 1688,
+            "popularity": 505,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet playpens and houses",
+            "title": "Вольеры и будки",
+            "link": "https://kaspi.kz/shop/c/pet%20playpens%20and%20houses/",
+            "active": false,
+            "count": 151,
+            "popularity": 163,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Pet accessories",
+        "title": "Аксессуары для животных",
+        "link": "https://kaspi.kz/shop/c/pet%20accessories/",
+        "active": false,
+        "count": 11353,
+        "popularity": 10080,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Cat bowls",
+            "title": "Миски и поилки для животных",
+            "link": "https://kaspi.kz/shop/c/cat%20bowls/",
+            "active": false,
+            "count": 1930,
+            "popularity": 2589,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cat litter boxes",
+            "title": "Лотки для животных",
+            "link": "https://kaspi.kz/shop/c/cat%20litter%20boxes/",
+            "active": false,
+            "count": 789,
+            "popularity": 1855,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dog carriers",
+            "title": "Переноски для животных",
+            "link": "https://kaspi.kz/shop/c/dog%20carriers/",
+            "active": false,
+            "count": 1234,
+            "popularity": 1705,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dog beds",
+            "title": "Лежаки, домики и палатки для животных",
+            "link": "https://kaspi.kz/shop/c/dog%20beds/",
+            "active": false,
+            "count": 1819,
+            "popularity": 1687,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cat leashes and collars",
+            "title": "Шлейки и ошейники для животных",
+            "link": "https://kaspi.kz/shop/c/cat%20leashes%20and%20collars/",
+            "active": false,
+            "count": 2945,
+            "popularity": 869,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet mats",
+            "title": "Коврики для мисок и лотков",
+            "link": "https://kaspi.kz/shop/c/pet%20mats/",
+            "active": false,
+            "count": 197,
+            "popularity": 321,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cat litter scoops",
+            "title": "Совки для лотка",
+            "link": "https://kaspi.kz/shop/c/cat%20litter%20scoops/",
+            "active": false,
+            "count": 160,
+            "popularity": 267,
+            "expanded": true
+          },
+          {
+            "id": ":category:Clothes for animals",
+            "title": "Одежда для животных",
+            "link": "https://kaspi.kz/shop/c/clothes%20for%20animals/",
+            "active": false,
+            "count": 1672,
+            "popularity": 252,
+            "expanded": true
+          },
+          {
+            "id": ":category:Livestock GPS trackers",
+            "title": "GPS-трекеры и видеоняни для животных",
+            "link": "https://kaspi.kz/shop/c/livestock%20gps%20trackers/",
+            "active": false,
+            "count": 46,
+            "popularity": 231,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dog muzzles",
+            "title": "Намордники для животных",
+            "link": "https://kaspi.kz/shop/c/dog%20muzzles/",
+            "active": false,
+            "count": 205,
+            "popularity": 135,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shoes for animals",
+            "title": "Обувь для животных",
+            "link": "https://kaspi.kz/shop/c/shoes%20for%20animals/",
+            "active": false,
+            "count": 177,
+            "popularity": 81,
+            "expanded": true
+          },
+          {
+            "id": ":category:Id tags for pets",
+            "title": "Адресники и брелки на ошейник",
+            "link": "https://kaspi.kz/shop/c/id%20tags%20for%20pets/",
+            "active": false,
+            "count": 131,
+            "popularity": 47,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet doors and gates",
+            "title": "Дверцы и перегородки для животных",
+            "link": "https://kaspi.kz/shop/c/pet%20doors%20and%20gates/",
+            "active": false,
+            "count": 16,
+            "popularity": 22,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stairs for animals",
+            "title": "Лестницы для животных",
+            "link": "https://kaspi.kz/shop/c/stairs%20for%20animals/",
+            "active": false,
+            "count": 16,
+            "popularity": 11,
+            "expanded": true
+          },
+          {
+            "id": ":category:Elements for doors and cages",
+            "title": "Дополнительные элементы для дверей и клеток",
+            "link": "https://kaspi.kz/shop/c/elements%20for%20doors%20and%20cages/",
+            "active": false,
+            "count": 16,
+            "popularity": 8,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Veterinary pharmacy",
+        "title": "Ветаптека",
+        "link": "https://kaspi.kz/shop/c/veterinary%20pharmacy/",
+        "active": false,
+        "count": 2487,
+        "popularity": 7160,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Parasite control",
+            "title": "Антипаразитарные средства для животных",
+            "link": "https://kaspi.kz/shop/c/parasite%20control/",
+            "active": false,
+            "count": 844,
+            "popularity": 2717,
+            "expanded": true
+          },
+          {
+            "id": ":category:Veterinary drugs",
+            "title": "Ветеринарные препараты",
+            "link": "https://kaspi.kz/shop/c/veterinary%20drugs/",
+            "active": false,
+            "count": 685,
+            "popularity": 2255,
+            "expanded": true
+          },
+          {
+            "id": ":category:Vitamins and supplements",
+            "title": "Витамины и добавки для животных",
+            "link": "https://kaspi.kz/shop/c/vitamins%20and%20supplements/",
+            "active": false,
+            "count": 751,
+            "popularity": 1981,
+            "expanded": true
+          },
+          {
+            "id": ":category:Collar for animals",
+            "title": "Воротники для животных",
+            "link": "https://kaspi.kz/shop/c/collar%20for%20animals/",
+            "active": false,
+            "count": 103,
+            "popularity": 78,
+            "expanded": true
+          },
+          {
+            "id": ":category:Body recovery suit for pets",
+            "title": "Попоны, бинты и бандажи для животных",
+            "link": "https://kaspi.kz/shop/c/body%20recovery%20suit%20for%20pets/",
+            "active": false,
+            "count": 57,
+            "popularity": 55,
+            "expanded": true
+          },
+          {
+            "id": ":category:Veterinary syringes",
+            "title": "Шприцы ветеринарные",
+            "link": "https://kaspi.kz/shop/c/veterinary%20syringes/",
+            "active": false,
+            "count": 27,
+            "popularity": 44,
+            "expanded": true
+          },
+          {
+            "id": ":category:Chips and scanners for animals",
+            "title": "Чипы и сканеры для животных",
+            "link": "https://kaspi.kz/shop/c/chips%20and%20scanners%20for%20animals/",
+            "active": false,
+            "count": 12,
+            "popularity": 20,
+            "expanded": true
+          },
+          {
+            "id": ":category:Veterinary passports",
+            "title": "Ветеринарные паспорта",
+            "link": "https://kaspi.kz/shop/c/veterinary%20passports/",
+            "active": false,
+            "count": 8,
+            "popularity": 10,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Livestock goods",
+        "title": "Для сельскохозяйственных животных",
+        "link": "https://kaspi.kz/shop/c/livestock%20goods/",
+        "active": false,
+        "count": 830,
+        "popularity": 4770,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Egg incubators",
+            "title": "Инкубаторы для яиц",
+            "link": "https://kaspi.kz/shop/c/egg%20incubators/",
+            "active": false,
+            "count": 129,
+            "popularity": 2676,
+            "expanded": true
+          },
+          {
+            "id": ":category:Milk separators",
+            "title": "Сепараторы и маслобойки",
+            "link": "https://kaspi.kz/shop/c/milk%20separators/",
+            "active": false,
+            "count": 72,
+            "popularity": 688,
+            "expanded": true
+          },
+          {
+            "id": ":category:Grain crushers",
+            "title": "Комбикормовое оборудование",
+            "link": "https://kaspi.kz/shop/c/grain%20crushers/",
+            "active": false,
+            "count": 144,
+            "popularity": 518,
+            "expanded": true
+          },
+          {
+            "id": ":category:Milking machines",
+            "title": "Доильные аппараты",
+            "link": "https://kaspi.kz/shop/c/milking%20machines/",
+            "active": false,
+            "count": 71,
+            "popularity": 298,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hygiene of farm animals",
+            "title": "Гигиена сельскохозяйственных животных",
+            "link": "https://kaspi.kz/shop/c/hygiene%20of%20farm%20animals/",
+            "active": false,
+            "count": 70,
+            "popularity": 180,
+            "expanded": true
+          },
+          {
+            "id": ":category:Farm animals bowls",
+            "title": "Миски и поилки для сельскохозяйственных животных",
+            "link": "https://kaspi.kz/shop/c/farm%20animals%20bowls/",
+            "active": false,
+            "count": 70,
+            "popularity": 90,
+            "expanded": true
+          },
+          {
+            "id": ":category:Milking machine spare parts",
+            "title": "Запчасти и комплектующие для доильных аппаратов",
+            "link": "https://kaspi.kz/shop/c/milking%20machine%20spare%20parts/",
+            "active": false,
+            "count": 66,
+            "popularity": 70,
+            "expanded": true
+          },
+          {
+            "id": ":category:Poultry plucking machines",
+            "title": "Перощипальные машины",
+            "link": "https://kaspi.kz/shop/c/poultry%20plucking%20machines/",
+            "active": false,
+            "count": 19,
+            "popularity": 64,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shearing machines spare parts",
+            "title": "Стригальные машины, запчасти",
+            "link": "https://kaspi.kz/shop/c/shearing%20machines%20spare%20parts/",
+            "active": false,
+            "count": 25,
+            "popularity": 64,
+            "expanded": true
+          },
+          {
+            "id": ":category:Compound feed equipment",
+            "title": "Прочее оборудование для КРС",
+            "link": "https://kaspi.kz/shop/c/compound%20feed%20equipment/",
+            "active": false,
+            "count": 56,
+            "popularity": 51,
+            "expanded": true
+          },
+          {
+            "id": ":category:Compound feed",
+            "title": "Комбикорма для сельскохозяйственных животных",
+            "link": "https://kaspi.kz/shop/c/compound%20feed/",
+            "active": false,
+            "count": 21,
+            "popularity": 21,
+            "expanded": true
+          },
+          {
+            "id": ":category:Moisture meters for grain",
+            "title": "Влагомеры и измерители температуры зерна",
+            "link": "https://kaspi.kz/shop/c/moisture%20meters%20for%20grain/",
+            "active": false,
+            "count": 9,
+            "popularity": 18,
+            "expanded": true
+          },
+          {
+            "id": ":category:Animal marking",
+            "title": "Маркировка животных",
+            "link": "https://kaspi.kz/shop/c/animal%20marking/",
+            "active": false,
+            "count": 25,
+            "popularity": 16,
+            "expanded": true
+          },
+          {
+            "id": ":category:Agronavigators",
+            "title": "Агронавигаторы и курсоуказатели",
+            "link": "https://kaspi.kz/shop/c/agronavigators/",
+            "active": false,
+            "count": 3,
+            "popularity": 9,
+            "expanded": true
+          },
+          {
+            "id": ":category:Beekeeping Supplies",
+            "title": "Товары для пчеловодства",
+            "link": "https://kaspi.kz/shop/c/beekeeping%20supplies/",
+            "active": false,
+            "count": 43,
+            "popularity": 5,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bio-preservatives",
+            "title": "Биоконсерванты и средства утилизации",
+            "link": "https://kaspi.kz/shop/c/bio-preservatives/",
+            "active": false,
+            "count": 5,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cattle squeeze chutes",
+            "title": "Станки для сельскохозяйственных животных",
+            "link": "https://kaspi.kz/shop/c/cattle%20squeeze%20chutes/",
+            "active": false,
+            "count": 1,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Animal scales",
+            "title": "Весовое оборудование для животных",
+            "link": "https://kaspi.kz/shop/c/animal%20scales/",
+            "active": false,
+            "count": 1,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Pet grooming",
+        "title": "Груминг",
+        "link": "https://kaspi.kz/shop/c/pet%20grooming/",
+        "active": false,
+        "count": 1321,
+        "popularity": 3133,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Furminators for animals",
+            "title": "Фурминаторы, расчески, пуходерки",
+            "link": "https://kaspi.kz/shop/c/furminators%20for%20animals/",
+            "active": false,
+            "count": 793,
+            "popularity": 1940,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair clippers for animals",
+            "title": "Машинки для стрижки животных",
+            "link": "https://kaspi.kz/shop/c/hair%20clippers%20for%20animals/",
+            "active": false,
+            "count": 154,
+            "popularity": 523,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nail clippers for animals",
+            "title": "Когтерезы и пилки для животных",
+            "link": "https://kaspi.kz/shop/c/nail%20clippers%20for%20animals/",
+            "active": false,
+            "count": 281,
+            "popularity": 477,
+            "expanded": true
+          },
+          {
+            "id": ":category:Animal shears",
+            "title": "Ножницы для стрижки животных",
+            "link": "https://kaspi.kz/shop/c/animal%20shears/",
+            "active": false,
+            "count": 38,
+            "popularity": 108,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet hair dryers",
+            "title": "Фены для животных",
+            "link": "https://kaspi.kz/shop/c/pet%20hair%20dryers/",
+            "active": false,
+            "count": 28,
+            "popularity": 45,
+            "expanded": true
+          },
+          {
+            "id": ":category:Grooming equipment",
+            "title": "Оборудование для груминга",
+            "link": "https://kaspi.kz/shop/c/grooming%20equipment/",
+            "active": false,
+            "count": 27,
+            "popularity": 40,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Fish and reptiles goods",
+        "title": "Для рыб и рептилий",
+        "link": "https://kaspi.kz/shop/c/fish%20and%20reptiles%20goods/",
+        "active": false,
+        "count": 3591,
+        "popularity": 2134,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Equipment for aquariums and terrariums",
+            "title": "Оборудование для аквариумов и террариумов",
+            "link": "https://kaspi.kz/shop/c/equipment%20for%20aquariums%20and%20terrariums/",
+            "active": false,
+            "count": 1376,
+            "popularity": 878,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fish and reptile food",
+            "title": "Корма для рыб и рептилий",
+            "link": "https://kaspi.kz/shop/c/fish%20and%20reptile%20food/",
+            "active": false,
+            "count": 587,
+            "popularity": 443,
+            "expanded": true
+          },
+          {
+            "id": ":category:Aquarium water treatments",
+            "title": "Аквариумная химия",
+            "link": "https://kaspi.kz/shop/c/aquarium%20water%20treatments/",
+            "active": false,
+            "count": 284,
+            "popularity": 238,
+            "expanded": true
+          },
+          {
+            "id": ":category:Decor for aquariums and terrariums",
+            "title": "Декорации для аквариумов и террариумов",
+            "link": "https://kaspi.kz/shop/c/decor%20for%20aquariums%20and%20terrariums/",
+            "active": false,
+            "count": 685,
+            "popularity": 169,
+            "expanded": true
+          },
+          {
+            "id": ":category:Soils for aquariums and terrariums",
+            "title": "Грунты для аквариумов и террариумов",
+            "link": "https://kaspi.kz/shop/c/soils%20for%20aquariums%20and%20terrariums/",
+            "active": false,
+            "count": 215,
+            "popularity": 158,
+            "expanded": true
+          },
+          {
+            "id": ":category:Aquarium accessories tools",
+            "title": "Инвентарь для обслуживания аквариумов и террариумов",
+            "link": "https://kaspi.kz/shop/c/aquarium%20accessories%20tools/",
+            "active": false,
+            "count": 160,
+            "popularity": 139,
+            "expanded": true
+          },
+          {
+            "id": ":category:Aquariums",
+            "title": "Аквариумы и террариумы",
+            "link": "https://kaspi.kz/shop/c/aquariums/",
+            "active": false,
+            "count": 146,
+            "popularity": 68,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fish feeders",
+            "title": "Кормушки для рыб и рептилий",
+            "link": "https://kaspi.kz/shop/c/fish%20feeders/",
+            "active": false,
+            "count": 25,
+            "popularity": 28,
+            "expanded": true
+          },
+          {
+            "id": ":category:Background pictures for aquariums and terrariums",
+            "title": "Фоны для аквариумов и террариумов",
+            "link": "https://kaspi.kz/shop/c/background%20pictures%20for%20aquariums%20and%20terrariums/",
+            "active": false,
+            "count": 113,
+            "popularity": 13,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Bird goods",
+        "title": "Для птиц",
+        "link": "https://kaspi.kz/shop/c/bird%20goods/",
+        "active": false,
+        "count": 804,
+        "popularity": 1295,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Bird food",
+            "title": "Корма для птиц",
+            "link": "https://kaspi.kz/shop/c/bird%20food/",
+            "active": false,
+            "count": 270,
+            "popularity": 665,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bird snacks",
+            "title": "Лакомства для птиц",
+            "link": "https://kaspi.kz/shop/c/bird%20snacks/",
+            "active": false,
+            "count": 191,
+            "popularity": 284,
+            "expanded": true
+          },
+          {
+            "id": ":category:Birds cages",
+            "title": "Клетки и домики для птиц",
+            "link": "https://kaspi.kz/shop/c/birds%20cages/",
+            "active": false,
+            "count": 216,
+            "popularity": 207,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pet cage accessories",
+            "title": "Аксессуары для клеток",
+            "link": "https://kaspi.kz/shop/c/pet%20cage%20accessories/",
+            "active": false,
+            "count": 51,
+            "popularity": 56,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toys for birds",
+            "title": "Игрушки для птиц",
+            "link": "https://kaspi.kz/shop/c/toys%20for%20birds/",
+            "active": false,
+            "count": 73,
+            "popularity": 54,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bird brooders",
+            "title": "Брудеры для птиц",
+            "link": "https://kaspi.kz/shop/c/bird%20brooders/",
+            "active": false,
+            "count": 3,
+            "popularity": 29,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Rodents goods",
+        "title": "Для грызунов",
+        "link": "https://kaspi.kz/shop/c/rodents%20goods/",
+        "active": false,
+        "count": 864,
+        "popularity": 1089,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Rodents food",
+            "title": "Корма для грызунов",
+            "link": "https://kaspi.kz/shop/c/rodents%20food/",
+            "active": false,
+            "count": 276,
+            "popularity": 569,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rodent snacks",
+            "title": "Лакомства для грызунов",
+            "link": "https://kaspi.kz/shop/c/rodent%20snacks/",
+            "active": false,
+            "count": 216,
+            "popularity": 250,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rodents cages",
+            "title": "Клетки и домики для грызунов",
+            "link": "https://kaspi.kz/shop/c/rodents%20cages/",
+            "active": false,
+            "count": 302,
+            "popularity": 183,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rodent toys",
+            "title": "Игрушки для грызунов",
+            "link": "https://kaspi.kz/shop/c/rodent%20toys/",
+            "active": false,
+            "count": 70,
+            "popularity": 87,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

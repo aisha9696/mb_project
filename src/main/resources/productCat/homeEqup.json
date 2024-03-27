@@ -1,0 +1,572 @@
+[
+  {
+    "id": ":category:Home equipment",
+    "title": "Бытовая техника",
+    "link": "https://kaspi.kz/shop/c/home%20equipment/",
+    "active": true,
+    "count": 50250,
+    "popularity": 185841,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Kitchen appliances",
+        "title": "Мелкая техника для кухни",
+        "link": "https://kaspi.kz/shop/c/kitchen%20appliances/",
+        "active": false,
+        "count": 19976,
+        "popularity": 88897,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Mixers blenders and choppers",
+            "title": "Миксеры, блендеры и измельчители",
+            "link": "https://kaspi.kz/shop/c/mixers%20blenders%20and%20choppers/",
+            "active": false,
+            "count": 3375,
+            "popularity": 16987,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kettles",
+            "title": "Электрочайники и термопоты",
+            "link": "https://kaspi.kz/shop/c/kettles/",
+            "active": false,
+            "count": 3135,
+            "popularity": 14595,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stoves and grills",
+            "title": "Печи и грили",
+            "link": "https://kaspi.kz/shop/c/stoves%20and%20grills/",
+            "active": false,
+            "count": 2341,
+            "popularity": 12181,
+            "expanded": true
+          },
+          {
+            "id": ":category:Making desserts",
+            "title": "Техника для приготовления десертов",
+            "link": "https://kaspi.kz/shop/c/making%20desserts/",
+            "active": false,
+            "count": 992,
+            "popularity": 10462,
+            "expanded": true
+          },
+          {
+            "id": ":category:Other kitchen appliances",
+            "title": "Прочая кухонная техника",
+            "link": "https://kaspi.kz/shop/c/other%20kitchen%20appliances/",
+            "active": false,
+            "count": 3494,
+            "popularity": 10061,
+            "expanded": true
+          },
+          {
+            "id": ":category:Coffee machines and coffee makers",
+            "title": "Кофемашины и кофеварки",
+            "link": "https://kaspi.kz/shop/c/coffee%20machines%20and%20coffee%20makers/",
+            "active": false,
+            "count": 1720,
+            "popularity": 5059,
+            "expanded": true
+          },
+          {
+            "id": ":category:Food processors and grinders",
+            "title": "Кухонные комбайны и мясорубки",
+            "link": "https://kaspi.kz/shop/c/food%20processors%20and%20grinders/",
+            "active": false,
+            "count": 1165,
+            "popularity": 4573,
+            "expanded": true
+          },
+          {
+            "id": ":category:Table stoves",
+            "title": "Настольные плиты",
+            "link": "https://kaspi.kz/shop/c/table%20stoves/",
+            "active": false,
+            "count": 696,
+            "popularity": 3917,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pumps for water",
+            "title": "Помпы для воды",
+            "link": "https://kaspi.kz/shop/c/pumps%20for%20water/",
+            "active": false,
+            "count": 182,
+            "popularity": 2525,
+            "expanded": true
+          },
+          {
+            "id": ":category:Multicooker and cooking equipment",
+            "title": "Мультиварки и техника для варки",
+            "link": "https://kaspi.kz/shop/c/multicooker%20and%20cooking%20equipment/",
+            "active": false,
+            "count": 443,
+            "popularity": 2297,
+            "expanded": true
+          },
+          {
+            "id": ":category:Juicers",
+            "title": "Соковыжималки",
+            "link": "https://kaspi.kz/shop/c/juicers/",
+            "active": false,
+            "count": 496,
+            "popularity": 2279,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toasters",
+            "title": "Тостеры",
+            "link": "https://kaspi.kz/shop/c/toasters/",
+            "active": false,
+            "count": 441,
+            "popularity": 2051,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for small kitchen appliances",
+            "title": "Аксессуары для кухонной техники",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20small%20kitchen%20appliances/",
+            "active": false,
+            "count": 1496,
+            "popularity": 1910,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Small home appliances",
+        "title": "Малая техника для дома",
+        "link": "https://kaspi.kz/shop/c/small%20home%20appliances/",
+        "active": false,
+        "count": 7747,
+        "popularity": 34753,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Vacuum cleaners",
+            "title": "Пылесосы",
+            "link": "https://kaspi.kz/shop/c/vacuum%20cleaners/",
+            "active": false,
+            "count": 1835,
+            "popularity": 13295,
+            "expanded": true
+          },
+          {
+            "id": ":category:Garment steamers",
+            "title": "Отпариватели",
+            "link": "https://kaspi.kz/shop/c/garment%20steamers/",
+            "active": false,
+            "count": 649,
+            "popularity": 5875,
+            "expanded": true
+          },
+          {
+            "id": ":category:Irons",
+            "title": "Утюги",
+            "link": "https://kaspi.kz/shop/c/irons/",
+            "active": false,
+            "count": 1084,
+            "popularity": 5462,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for small household appliances",
+            "title": "Аксессуары для малой бытовой техники",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20small%20household%20appliances/",
+            "active": false,
+            "count": 2168,
+            "popularity": 2399,
+            "expanded": true
+          },
+          {
+            "id": ":category:Robot vacuum cleaners",
+            "title": "Роботы-пылесосы",
+            "link": "https://kaspi.kz/shop/c/robot%20vacuum%20cleaners/",
+            "active": false,
+            "count": 491,
+            "popularity": 2391,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sewing machines",
+            "title": "Швейные машины",
+            "link": "https://kaspi.kz/shop/c/sewing%20machines/",
+            "active": false,
+            "count": 669,
+            "popularity": 2074,
+            "expanded": true
+          },
+          {
+            "id": ":category:Window vacuums",
+            "title": "Электрические стеклоочистители",
+            "link": "https://kaspi.kz/shop/c/window%20vacuums/",
+            "active": false,
+            "count": 152,
+            "popularity": 1011,
+            "expanded": true
+          },
+          {
+            "id": ":category:Steam generators",
+            "title": "Парогенераторы",
+            "link": "https://kaspi.kz/shop/c/steam%20generators/",
+            "active": false,
+            "count": 237,
+            "popularity": 703,
+            "expanded": true
+          },
+          {
+            "id": ":category:Steam cleaners",
+            "title": "Пароочистители",
+            "link": "https://kaspi.kz/shop/c/steam%20cleaners/",
+            "active": false,
+            "count": 143,
+            "popularity": 516,
+            "expanded": true
+          },
+          {
+            "id": ":category:Overlock machines",
+            "title": "Оверлоки",
+            "link": "https://kaspi.kz/shop/c/overlock%20machines/",
+            "active": false,
+            "count": 166,
+            "popularity": 438,
+            "expanded": true
+          },
+          {
+            "id": ":category:Electric brooms and mops",
+            "title": "Электровеники и электрошвабры",
+            "link": "https://kaspi.kz/shop/c/electric%20brooms%20and%20mops/",
+            "active": false,
+            "count": 81,
+            "popularity": 254,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ironing systems",
+            "title": "Гладильные системы",
+            "link": "https://kaspi.kz/shop/c/ironing%20systems/",
+            "active": false,
+            "count": 22,
+            "popularity": 115,
+            "expanded": true
+          },
+          {
+            "id": ":category:Embroidery machines",
+            "title": "Вышивальные машины",
+            "link": "https://kaspi.kz/shop/c/embroidery%20machines/",
+            "active": false,
+            "count": 12,
+            "popularity": 86,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ultrasonic washing devices",
+            "title": "Ультразвуковые устройства для стирки",
+            "link": "https://kaspi.kz/shop/c/ultrasonic%20washing%20devices/",
+            "active": false,
+            "count": 16,
+            "popularity": 71,
+            "expanded": true
+          },
+          {
+            "id": ":category:Knitting machines",
+            "title": "Вязальные машины",
+            "link": "https://kaspi.kz/shop/c/knitting%20machines/",
+            "active": false,
+            "count": 12,
+            "popularity": 50,
+            "expanded": true
+          },
+          {
+            "id": ":category:Self-cleaning stations for vacuum cleaners",
+            "title": "Станции самоочистки для пылесосов и роботов-пылесосов",
+            "link": "https://kaspi.kz/shop/c/self-cleaning%20stations%20for%20vacuum%20cleaners/",
+            "active": false,
+            "count": 6,
+            "popularity": 8,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ironing presses",
+            "title": "Гладильные прессы",
+            "link": "https://kaspi.kz/shop/c/ironing%20presses/",
+            "active": false,
+            "count": 4,
+            "popularity": 5,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Climate equipment",
+        "title": "Климатическая техника",
+        "link": "https://kaspi.kz/shop/c/climate%20equipment/",
+        "active": false,
+        "count": 9925,
+        "popularity": 31446,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Cleaners and humidifiers",
+            "title": "Очистители и увлажнители",
+            "link": "https://kaspi.kz/shop/c/cleaners%20and%20humidifiers/",
+            "active": false,
+            "count": 1337,
+            "popularity": 6987,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fans",
+            "title": "Вентиляторы",
+            "link": "https://kaspi.kz/shop/c/fans/",
+            "active": false,
+            "count": 816,
+            "popularity": 6840,
+            "expanded": true
+          },
+          {
+            "id": ":category:Heaters",
+            "title": "Электрические обогреватели",
+            "link": "https://kaspi.kz/shop/c/heaters/",
+            "active": false,
+            "count": 1821,
+            "popularity": 6372,
+            "expanded": true
+          },
+          {
+            "id": ":category:Air conditioners",
+            "title": "Кондиционеры",
+            "link": "https://kaspi.kz/shop/c/air%20conditioners/",
+            "active": false,
+            "count": 1603,
+            "popularity": 4170,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water heaters",
+            "title": "Водонагреватели",
+            "link": "https://kaspi.kz/shop/c/water%20heaters/",
+            "active": false,
+            "count": 1466,
+            "popularity": 4135,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boilers",
+            "title": "Отопительные котлы",
+            "link": "https://kaspi.kz/shop/c/boilers/",
+            "active": false,
+            "count": 2131,
+            "popularity": 1913,
+            "expanded": true
+          },
+          {
+            "id": ":category:HVAC accessories",
+            "title": "Комплектующие для климатической техники",
+            "link": "https://kaspi.kz/shop/c/hvac%20accessories/",
+            "active": false,
+            "count": 578,
+            "popularity": 511,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dehumidifiers",
+            "title": "Осушители воздуха",
+            "link": "https://kaspi.kz/shop/c/dehumidifiers/",
+            "active": false,
+            "count": 99,
+            "popularity": 369,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ozonizers",
+            "title": "Озонаторы",
+            "link": "https://kaspi.kz/shop/c/ozonizers/",
+            "active": false,
+            "count": 36,
+            "popularity": 109,
+            "expanded": true
+          },
+          {
+            "id": ":category:Recuperators",
+            "title": "Рекуператоры",
+            "link": "https://kaspi.kz/shop/c/recuperators/",
+            "active": false,
+            "count": 35,
+            "popularity": 29,
+            "expanded": true
+          },
+          {
+            "id": ":category:Barometers",
+            "title": "Барометры",
+            "link": "https://kaspi.kz/shop/c/barometers/",
+            "active": false,
+            "count": 3,
+            "popularity": 11,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Big home appliances",
+        "title": "Крупная техника для дома",
+        "link": "https://kaspi.kz/shop/c/big%20home%20appliances/",
+        "active": false,
+        "count": 12579,
+        "popularity": 30331,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Washers",
+            "title": "Стиральные машины",
+            "link": "https://kaspi.kz/shop/c/washers/",
+            "active": false,
+            "count": 1017,
+            "popularity": 8146,
+            "expanded": true
+          },
+          {
+            "id": ":category:Refrigerators",
+            "title": "Холодильники",
+            "link": "https://kaspi.kz/shop/c/refrigerators/",
+            "active": false,
+            "count": 1409,
+            "popularity": 4614,
+            "expanded": true
+          },
+          {
+            "id": ":category:Freezers",
+            "title": "Морозильники",
+            "link": "https://kaspi.kz/shop/c/freezers/",
+            "active": false,
+            "count": 853,
+            "popularity": 3530,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cooktops",
+            "title": "Варочные поверхности",
+            "link": "https://kaspi.kz/shop/c/cooktops/",
+            "active": false,
+            "count": 2114,
+            "popularity": 2945,
+            "expanded": true
+          },
+          {
+            "id": ":category:Funnels",
+            "title": "Вытяжки",
+            "link": "https://kaspi.kz/shop/c/funnels/",
+            "active": false,
+            "count": 2138,
+            "popularity": 2835,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kitcheners",
+            "title": "Кухонные плиты",
+            "link": "https://kaspi.kz/shop/c/kitcheners/",
+            "active": false,
+            "count": 1011,
+            "popularity": 2278,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ovens",
+            "title": "Духовые шкафы",
+            "link": "https://kaspi.kz/shop/c/ovens/",
+            "active": false,
+            "count": 1340,
+            "popularity": 1953,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dishwashers",
+            "title": "Посудомоечные машины",
+            "link": "https://kaspi.kz/shop/c/dishwashers/",
+            "active": false,
+            "count": 389,
+            "popularity": 1413,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for large household appliances",
+            "title": "Аксессуары для крупной бытовой техники",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20large%20household%20appliances/",
+            "active": false,
+            "count": 1957,
+            "popularity": 1293,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water coolers",
+            "title": "Кулеры для воды",
+            "link": "https://kaspi.kz/shop/c/water%20coolers/",
+            "active": false,
+            "count": 267,
+            "popularity": 839,
+            "expanded": true
+          },
+          {
+            "id": ":category:Clothes dryers",
+            "title": "Сушильные машины",
+            "link": "https://kaspi.kz/shop/c/clothes%20dryers/",
+            "active": false,
+            "count": 73,
+            "popularity": 419,
+            "expanded": true
+          },
+          {
+            "id": ":category:Steam Clothing Care System",
+            "title": "Паровые шкафы",
+            "link": "https://kaspi.kz/shop/c/steam%20clothing%20care%20system/",
+            "active": false,
+            "count": 11,
+            "popularity": 66,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Vending machines",
+        "title": "Торговые автоматы",
+        "link": "https://kaspi.kz/shop/c/vending%20machines/",
+        "active": false,
+        "count": 23,
+        "popularity": 414,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Snack machines",
+            "title": "Снековые автоматы",
+            "link": "https://kaspi.kz/shop/c/snack%20machines/",
+            "active": false,
+            "count": 14,
+            "popularity": 391,
+            "expanded": true
+          },
+          {
+            "id": ":category:Vending coffee machines",
+            "title": "Кофейные автоматы",
+            "link": "https://kaspi.kz/shop/c/vending%20coffee%20machines/",
+            "active": false,
+            "count": 3,
+            "popularity": 14,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water filling machine",
+            "title": "Водоматы",
+            "link": "https://kaspi.kz/shop/c/water%20filling%20machine/",
+            "active": false,
+            "count": 6,
+            "popularity": 9,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

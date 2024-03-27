@@ -1,0 +1,896 @@
+[
+  {
+    "id": ":category:Fashion",
+    "title": "Одежда",
+    "link": "https://kaspi.kz/shop/c/fashion/",
+    "active": true,
+    "count": 355535,
+    "popularity": 139667,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Women fashion",
+        "title": "Женщинам",
+        "link": "https://kaspi.kz/shop/c/women%20fashion/",
+        "active": false,
+        "count": 177695,
+        "popularity": 79108,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Women underwear",
+            "title": "Женское нижнее белье",
+            "link": "https://kaspi.kz/shop/c/women%20underwear/",
+            "active": false,
+            "count": 35443,
+            "popularity": 23550,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women leisurewear",
+            "title": "Женская домашняя одежда",
+            "link": "https://kaspi.kz/shop/c/women%20leisurewear/",
+            "active": false,
+            "count": 15468,
+            "popularity": 7680,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women outerwear",
+            "title": "Женская верхняя одежда",
+            "link": "https://kaspi.kz/shop/c/women%20outerwear/",
+            "active": false,
+            "count": 23480,
+            "popularity": 7594,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women dresses",
+            "title": "Женские платья и сарафаны",
+            "link": "https://kaspi.kz/shop/c/women%20dresses/",
+            "active": false,
+            "count": 21587,
+            "popularity": 6096,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women cardigans",
+            "title": "Женские кардиганы и джемперы",
+            "link": "https://kaspi.kz/shop/c/women%20cardigans/",
+            "active": false,
+            "count": 9436,
+            "popularity": 4756,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women pants",
+            "title": "Женские брюки",
+            "link": "https://kaspi.kz/shop/c/women%20pants/",
+            "active": false,
+            "count": 8600,
+            "popularity": 3913,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women t-shirts",
+            "title": "Женские футболки и лонгсливы",
+            "link": "https://kaspi.kz/shop/c/women%20t-shirts/",
+            "active": false,
+            "count": 11746,
+            "popularity": 3850,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women sport suits",
+            "title": "Женские спортивные костюмы",
+            "link": "https://kaspi.kz/shop/c/women%20sport%20suits/",
+            "active": false,
+            "count": 5971,
+            "popularity": 2880,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women suits and sport suits",
+            "title": "Женские костюмы и пиджаки",
+            "link": "https://kaspi.kz/shop/c/women%20suits%20and%20sport%20suits/",
+            "active": false,
+            "count": 8862,
+            "popularity": 2726,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women swimwear",
+            "title": "Женская пляжная одежда",
+            "link": "https://kaspi.kz/shop/c/women%20swimwear/",
+            "active": false,
+            "count": 6619,
+            "popularity": 2426,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women tanks and camis",
+            "title": "Женские топы и майки",
+            "link": "https://kaspi.kz/shop/c/women%20tanks%20and%20camis/",
+            "active": false,
+            "count": 4597,
+            "popularity": 2116,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women blouses and shirts",
+            "title": "Женские блузки и рубашки",
+            "link": "https://kaspi.kz/shop/c/women%20blouses%20and%20shirts/",
+            "active": false,
+            "count": 5815,
+            "popularity": 2055,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women skirts",
+            "title": "Женские юбки",
+            "link": "https://kaspi.kz/shop/c/women%20skirts/",
+            "active": false,
+            "count": 3434,
+            "popularity": 1929,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women hoodies",
+            "title": "Женские толстовки и свитшоты",
+            "link": "https://kaspi.kz/shop/c/women%20hoodies/",
+            "active": false,
+            "count": 5222,
+            "popularity": 1750,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women jeans",
+            "title": "Женские джинсы",
+            "link": "https://kaspi.kz/shop/c/women%20jeans/",
+            "active": false,
+            "count": 3449,
+            "popularity": 1527,
+            "expanded": true
+          },
+          {
+            "id": ":category:Maternity clothes",
+            "title": "Одежда для беременных и кормящих",
+            "link": "https://kaspi.kz/shop/c/maternity%20clothes/",
+            "active": false,
+            "count": 2390,
+            "popularity": 1454,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women shorts",
+            "title": "Женские шорты",
+            "link": "https://kaspi.kz/shop/c/women%20shorts/",
+            "active": false,
+            "count": 1788,
+            "popularity": 792,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women bodysuits",
+            "title": "Женские боди и корсеты",
+            "link": "https://kaspi.kz/shop/c/women%20bodysuits/",
+            "active": false,
+            "count": 635,
+            "popularity": 766,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women workwear",
+            "title": "Спецодежда для женщин",
+            "link": "https://kaspi.kz/shop/c/women%20workwear/",
+            "active": false,
+            "count": 2216,
+            "popularity": 610,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women jumpsuits",
+            "title": "Женские комбинезоны",
+            "link": "https://kaspi.kz/shop/c/women%20jumpsuits/",
+            "active": false,
+            "count": 566,
+            "popularity": 342,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women costumes",
+            "title": "Женские карнавальные костюмы",
+            "link": "https://kaspi.kz/shop/c/women%20costumes/",
+            "active": false,
+            "count": 118,
+            "popularity": 271,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women national costumes",
+            "title": "Женские национальные костюмы",
+            "link": "https://kaspi.kz/shop/c/women%20national%20costumes/",
+            "active": false,
+            "count": 253,
+            "popularity": 25,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Men fashion",
+        "title": "Мужчинам",
+        "link": "https://kaspi.kz/shop/c/men%20fashion/",
+        "active": false,
+        "count": 64826,
+        "popularity": 24992,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Men underwear",
+            "title": "Мужское нижнее белье",
+            "link": "https://kaspi.kz/shop/c/men%20underwear/",
+            "active": false,
+            "count": 11312,
+            "popularity": 8384,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men t-shirts",
+            "title": "Мужские футболки и майки",
+            "link": "https://kaspi.kz/shop/c/men%20t-shirts/",
+            "active": false,
+            "count": 17047,
+            "popularity": 3536,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men outerwear",
+            "title": "Мужская верхняя одежда",
+            "link": "https://kaspi.kz/shop/c/men%20outerwear/",
+            "active": false,
+            "count": 8503,
+            "popularity": 2759,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men hoodies",
+            "title": "Мужские толстовки и свитшоты",
+            "link": "https://kaspi.kz/shop/c/men%20hoodies/",
+            "active": false,
+            "count": 6183,
+            "popularity": 1652,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men sport suits",
+            "title": "Мужские спортивные и повседневные костюмы",
+            "link": "https://kaspi.kz/shop/c/men%20sport%20suits/",
+            "active": false,
+            "count": 2016,
+            "popularity": 1445,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men pants",
+            "title": "Мужские брюки",
+            "link": "https://kaspi.kz/shop/c/men%20pants/",
+            "active": false,
+            "count": 4537,
+            "popularity": 1339,
+            "expanded": true
+          },
+          {
+            "id": ":category:Workwear",
+            "title": "Спецодежда для мужчин",
+            "link": "https://kaspi.kz/shop/c/workwear/",
+            "active": false,
+            "count": 2552,
+            "popularity": 1189,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men cardigans",
+            "title": "Мужские кардиганы и джемперы",
+            "link": "https://kaspi.kz/shop/c/men%20cardigans/",
+            "active": false,
+            "count": 3214,
+            "popularity": 1182,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men leisurewear",
+            "title": "Мужская домашняя одежда",
+            "link": "https://kaspi.kz/shop/c/men%20leisurewear/",
+            "active": false,
+            "count": 1744,
+            "popularity": 1117,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men shorts",
+            "title": "Мужские шорты",
+            "link": "https://kaspi.kz/shop/c/men%20shorts/",
+            "active": false,
+            "count": 1940,
+            "popularity": 554,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men shirts",
+            "title": "Мужские рубашки",
+            "link": "https://kaspi.kz/shop/c/men%20shirts/",
+            "active": false,
+            "count": 2110,
+            "popularity": 526,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men jeans",
+            "title": "Мужские джинсы",
+            "link": "https://kaspi.kz/shop/c/men%20jeans/",
+            "active": false,
+            "count": 1863,
+            "popularity": 477,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men swim briefs and shorts",
+            "title": "Мужские плавки и шорты для плавания",
+            "link": "https://kaspi.kz/shop/c/men%20swim%20briefs%20and%20shorts/",
+            "active": false,
+            "count": 879,
+            "popularity": 363,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men costumes",
+            "title": "Мужские карнавальные костюмы",
+            "link": "https://kaspi.kz/shop/c/men%20costumes/",
+            "active": false,
+            "count": 220,
+            "popularity": 361,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men suits and sport suits",
+            "title": "Мужские костюмы и пиджаки",
+            "link": "https://kaspi.kz/shop/c/men%20suits%20and%20sport%20suits/",
+            "active": false,
+            "count": 627,
+            "popularity": 94,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men national costumes",
+            "title": "Мужские национальные костюмы",
+            "link": "https://kaspi.kz/shop/c/men%20national%20costumes/",
+            "active": false,
+            "count": 79,
+            "popularity": 14,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Girl fashion",
+        "title": "Девочкам",
+        "link": "https://kaspi.kz/shop/c/girl%20fashion/",
+        "active": false,
+        "count": 44491,
+        "popularity": 13438,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Girl underwear",
+            "title": "Нижнее белье для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20underwear/",
+            "active": false,
+            "count": 6158,
+            "popularity": 2332,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl outerwear",
+            "title": "Верхняя одежда для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20outerwear/",
+            "active": false,
+            "count": 5384,
+            "popularity": 1447,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl dresses",
+            "title": "Платья и сарафаны для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20dresses/",
+            "active": false,
+            "count": 5818,
+            "popularity": 1419,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl leisurewear",
+            "title": "Домашняя одежда для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20leisurewear/",
+            "active": false,
+            "count": 2355,
+            "popularity": 1269,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl clothing sets",
+            "title": "Комплекты одежды для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20clothing%20sets/",
+            "active": false,
+            "count": 4482,
+            "popularity": 1121,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl t-shirts",
+            "title": "Футболки и майки для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20t-shirts/",
+            "active": false,
+            "count": 3825,
+            "popularity": 1080,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl pants",
+            "title": "Брюки для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20pants/",
+            "active": false,
+            "count": 2949,
+            "popularity": 775,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl school uniforms",
+            "title": "Школьная форма для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20school%20uniforms/",
+            "active": false,
+            "count": 1604,
+            "popularity": 586,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl cardigans and pullovers",
+            "title": "Кардиганы и джемперы для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20cardigans%20and%20pullovers/",
+            "active": false,
+            "count": 2042,
+            "popularity": 516,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl costumes",
+            "title": "Карнавальные костюмы для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20costumes/",
+            "active": false,
+            "count": 1533,
+            "popularity": 489,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl hoodies",
+            "title": "Толстовки для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20hoodies/",
+            "active": false,
+            "count": 2095,
+            "popularity": 448,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl sport suits",
+            "title": "Спортивные костюмы для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20sport%20suits/",
+            "active": false,
+            "count": 1175,
+            "popularity": 375,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl swimwear",
+            "title": "Пляжная одежда для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20swimwear/",
+            "active": false,
+            "count": 1071,
+            "popularity": 342,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl jeans",
+            "title": "Джинсы для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20jeans/",
+            "active": false,
+            "count": 749,
+            "popularity": 309,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl jumpsuits",
+            "title": "Комбинезоны для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20jumpsuits/",
+            "active": false,
+            "count": 904,
+            "popularity": 261,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl shorts",
+            "title": "Шорты для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20shorts/",
+            "active": false,
+            "count": 834,
+            "popularity": 259,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl skirts",
+            "title": "Юбки для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20skirts/",
+            "active": false,
+            "count": 665,
+            "popularity": 199,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl shirts and blouses",
+            "title": "Рубашки и блузки для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20shirts%20and%20blouses/",
+            "active": false,
+            "count": 664,
+            "popularity": 191,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl blazers",
+            "title": "Пиджаки для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20blazers/",
+            "active": false,
+            "count": 35,
+            "popularity": 12,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl national costumes",
+            "title": "Национальные костюмы для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20national%20costumes/",
+            "active": false,
+            "count": 149,
+            "popularity": 8,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Boy fashion",
+        "title": "Мальчикам",
+        "link": "https://kaspi.kz/shop/c/boy%20fashion/",
+        "active": false,
+        "count": 33030,
+        "popularity": 11798,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Boy underwear",
+            "title": "Нижнее белье для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20underwear/",
+            "active": false,
+            "count": 2854,
+            "popularity": 1788,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy outerwear",
+            "title": "Верхняя одежда для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20outerwear/",
+            "active": false,
+            "count": 4829,
+            "popularity": 1491,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy t-shirts",
+            "title": "Футболки и майки для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20t-shirts/",
+            "active": false,
+            "count": 4512,
+            "popularity": 1372,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy clothing sets",
+            "title": "Комплекты одежды для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20clothing%20sets/",
+            "active": false,
+            "count": 4378,
+            "popularity": 1121,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy leisurewear",
+            "title": "Домашняя одежда для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20leisurewear/",
+            "active": false,
+            "count": 1846,
+            "popularity": 1116,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy pants",
+            "title": "Брюки для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20pants/",
+            "active": false,
+            "count": 2833,
+            "popularity": 882,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy hoodies",
+            "title": "Толстовки для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20hoodies/",
+            "active": false,
+            "count": 2432,
+            "popularity": 629,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy costumes",
+            "title": "Карнавальные костюмы для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20costumes/",
+            "active": false,
+            "count": 1288,
+            "popularity": 589,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy sport suits",
+            "title": "Спортивные костюмы для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20sport%20suits/",
+            "active": false,
+            "count": 1473,
+            "popularity": 561,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy school uniforms",
+            "title": "Школьная форма для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20school%20uniforms/",
+            "active": false,
+            "count": 970,
+            "popularity": 471,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy cardigans and pullovers",
+            "title": "Кардиганы и джемперы для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20cardigans%20and%20pullovers/",
+            "active": false,
+            "count": 1590,
+            "popularity": 435,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy shorts",
+            "title": "Шорты для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20shorts/",
+            "active": false,
+            "count": 993,
+            "popularity": 317,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy shirts",
+            "title": "Рубашки для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20shirts/",
+            "active": false,
+            "count": 745,
+            "popularity": 295,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy jumpsuits",
+            "title": "Комбинезоны для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20jumpsuits/",
+            "active": false,
+            "count": 719,
+            "popularity": 262,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy swim briefs and shorts",
+            "title": "Купальные костюмы и плавки для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20swim%20briefs%20and%20shorts/",
+            "active": false,
+            "count": 873,
+            "popularity": 232,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy jeans",
+            "title": "Джинсы для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20jeans/",
+            "active": false,
+            "count": 624,
+            "popularity": 228,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy national costumes",
+            "title": "Национальные костюмы для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20national%20costumes/",
+            "active": false,
+            "count": 48,
+            "popularity": 6,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy blazers",
+            "title": "Пиджаки для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20blazers/",
+            "active": false,
+            "count": 23,
+            "popularity": 3,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Newborn clothing",
+        "title": "Одежда для новорожденных",
+        "link": "https://kaspi.kz/shop/c/newborn%20clothing/",
+        "active": false,
+        "count": 35493,
+        "popularity": 10331,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Newborn babies clothing sets",
+            "title": "Комплекты одежды для малышей",
+            "link": "https://kaspi.kz/shop/c/newborn%20babies%20clothing%20sets/",
+            "active": false,
+            "count": 8177,
+            "popularity": 1996,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby jumpsuits and sleepsuits",
+            "title": "Комбинезоны и слипы для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20jumpsuits%20and%20sleepsuits/",
+            "active": false,
+            "count": 4742,
+            "popularity": 1540,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby bodysuits and rompers",
+            "title": "Боди и песочники для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20bodysuits%20and%20rompers/",
+            "active": false,
+            "count": 3223,
+            "popularity": 1058,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby socks",
+            "title": "Носки и пинетки для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20socks/",
+            "active": false,
+            "count": 3107,
+            "popularity": 1054,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby jackets",
+            "title": "Верхняя одежда для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20jackets/",
+            "active": false,
+            "count": 3089,
+            "popularity": 830,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby trousers and shorts",
+            "title": "Брюки и шорты для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20trousers%20and%20shorts/",
+            "active": false,
+            "count": 1963,
+            "popularity": 607,
+            "expanded": true
+          },
+          {
+            "id": ":category:Swaddling blankets",
+            "title": "Конверты для малышей",
+            "link": "https://kaspi.kz/shop/c/swaddling%20blankets/",
+            "active": false,
+            "count": 1498,
+            "popularity": 487,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby sweaters",
+            "title": "Распашонки, лонгсливы, толстовки для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20sweaters/",
+            "active": false,
+            "count": 2136,
+            "popularity": 475,
+            "expanded": true
+          },
+          {
+            "id": ":category:Babies hats and caps",
+            "title": "Головные уборы и варежки для малышей",
+            "link": "https://kaspi.kz/shop/c/babies%20hats%20and%20caps/",
+            "active": false,
+            "count": 2340,
+            "popularity": 465,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby tees and undershirts",
+            "title": "Футболки и майки для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20tees%20and%20undershirts/",
+            "active": false,
+            "count": 1312,
+            "popularity": 432,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby girl dresses",
+            "title": "Платья и юбки для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20girl%20dresses/",
+            "active": false,
+            "count": 1319,
+            "popularity": 406,
+            "expanded": true
+          },
+          {
+            "id": ":category:childrens home clothes",
+            "title": "Домашняя одежда",
+            "link": "https://kaspi.kz/shop/c/childrens%20home%20clothes/",
+            "active": false,
+            "count": 487,
+            "popularity": 279,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toddler tights",
+            "title": "Колготки для малышей",
+            "link": "https://kaspi.kz/shop/c/toddler%20tights/",
+            "active": false,
+            "count": 635,
+            "popularity": 272,
+            "expanded": true
+          },
+          {
+            "id": ":category:Footie pants",
+            "title": "Ползунки",
+            "link": "https://kaspi.kz/shop/c/footie%20pants/",
+            "active": false,
+            "count": 981,
+            "popularity": 264,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby swimwear",
+            "title": "Купальники и плавки для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20swimwear/",
+            "active": false,
+            "count": 371,
+            "popularity": 111,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby shirts and blouses",
+            "title": "Рубашки и блузки для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20shirts%20and%20blouses/",
+            "active": false,
+            "count": 113,
+            "popularity": 55,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

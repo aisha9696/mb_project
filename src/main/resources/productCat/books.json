@@ -1,0 +1,657 @@
+[
+  {
+    "id": ":category:Leisure",
+    "title": "Досуг, книги",
+    "link": "https://kaspi.kz/shop/c/leisure/",
+    "active": true,
+    "count": 344791,
+    "popularity": 131548,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Hobbies and crafts",
+        "title": "Хобби и творчество",
+        "link": "https://kaspi.kz/shop/c/hobbies%20and%20crafts/",
+        "active": false,
+        "count": 105014,
+        "popularity": 48050,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Painting goods",
+            "title": "Товары для рисования",
+            "link": "https://kaspi.kz/shop/c/painting%20goods/",
+            "active": false,
+            "count": 25779,
+            "popularity": 19482,
+            "expanded": true
+          },
+          {
+            "id": ":category:Crafting goods",
+            "title": "Товары для рукоделия",
+            "link": "https://kaspi.kz/shop/c/crafting%20goods/",
+            "active": false,
+            "count": 29876,
+            "popularity": 14047,
+            "expanded": true
+          },
+          {
+            "id": ":category:Modelling goods",
+            "title": "Товары для лепки",
+            "link": "https://kaspi.kz/shop/c/modelling%20goods/",
+            "active": false,
+            "count": 2839,
+            "popularity": 5280,
+            "expanded": true
+          },
+          {
+            "id": ":category:Knitting goods",
+            "title": "Товары для вязания",
+            "link": "https://kaspi.kz/shop/c/knitting%20goods/",
+            "active": false,
+            "count": 16447,
+            "popularity": 3910,
+            "expanded": true
+          },
+          {
+            "id": ":category:Goods for sewing and embroidery",
+            "title": "Товары для шитья и вышивания",
+            "link": "https://kaspi.kz/shop/c/goods%20for%20sewing%20and%20embroidery/",
+            "active": false,
+            "count": 24523,
+            "popularity": 3688,
+            "expanded": true
+          },
+          {
+            "id": ":category:Collecting and modeling",
+            "title": "Коллекционирование и моделирование",
+            "link": "https://kaspi.kz/shop/c/collecting%20and%20modeling/",
+            "active": false,
+            "count": 2845,
+            "popularity": 1062,
+            "expanded": true
+          },
+          {
+            "id": ":category:Scrapbooking goods",
+            "title": "Товары для скрапбукинга",
+            "link": "https://kaspi.kz/shop/c/scrapbooking%20goods/",
+            "active": false,
+            "count": 2082,
+            "popularity": 553,
+            "expanded": true
+          },
+          {
+            "id": ":category:Decoupage goods",
+            "title": "Товары для декупажа",
+            "link": "https://kaspi.kz/shop/c/decoupage%20goods/",
+            "active": false,
+            "count": 623,
+            "popularity": 28,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Books",
+        "title": "Книги",
+        "link": "https://kaspi.kz/shop/c/books/",
+        "active": false,
+        "count": 204930,
+        "popularity": 45191,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Fiction",
+            "title": "Художественная литература",
+            "link": "https://kaspi.kz/shop/c/fiction/",
+            "active": false,
+            "count": 21028,
+            "popularity": 13784,
+            "expanded": true
+          },
+          {
+            "id": ":category:Self-help literature",
+            "title": "Психологическая литература",
+            "link": "https://kaspi.kz/shop/c/self-help%20literature/",
+            "active": false,
+            "count": 5349,
+            "popularity": 9953,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kids books",
+            "title": "Детская литература",
+            "link": "https://kaspi.kz/shop/c/kids%20books/",
+            "active": false,
+            "count": 19586,
+            "popularity": 6140,
+            "expanded": true
+          },
+          {
+            "id": ":category:Schoolbooks and study guides",
+            "title": "Учебники и пособия",
+            "link": "https://kaspi.kz/shop/c/schoolbooks%20and%20study%20guides/",
+            "active": false,
+            "count": 8154,
+            "popularity": 5589,
+            "expanded": true
+          },
+          {
+            "id": ":category:Business literature",
+            "title": "Бизнес-литература",
+            "link": "https://kaspi.kz/shop/c/business%20literature/",
+            "active": false,
+            "count": 4332,
+            "popularity": 3063,
+            "expanded": true
+          },
+          {
+            "id": ":category:Science and education books",
+            "title": "Наука и образование",
+            "link": "https://kaspi.kz/shop/c/science%20and%20education%20books/",
+            "active": false,
+            "count": 23616,
+            "popularity": 1301,
+            "expanded": true
+          },
+          {
+            "id": ":category:Law literature",
+            "title": "Юридическая литература",
+            "link": "https://kaspi.kz/shop/c/law%20literature/",
+            "active": false,
+            "count": 2010,
+            "popularity": 1032,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dictionaries and encyclopedias",
+            "title": "Словари, энциклопедии",
+            "link": "https://kaspi.kz/shop/c/dictionaries%20and%20encyclopedias/",
+            "active": false,
+            "count": 1946,
+            "popularity": 862,
+            "expanded": true
+          },
+          {
+            "id": ":category:Esoterics",
+            "title": "Эзотерика",
+            "link": "https://kaspi.kz/shop/c/esoterics/",
+            "active": false,
+            "count": 1066,
+            "popularity": 568,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medical books",
+            "title": "Медицина",
+            "link": "https://kaspi.kz/shop/c/medical%20books/",
+            "active": false,
+            "count": 2811,
+            "popularity": 546,
+            "expanded": true
+          },
+          {
+            "id": ":category:Arts books",
+            "title": "Искусство и культура",
+            "link": "https://kaspi.kz/shop/c/arts%20books/",
+            "active": false,
+            "count": 1593,
+            "popularity": 500,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hobby books",
+            "title": "Дом, досуг, хобби",
+            "link": "https://kaspi.kz/shop/c/hobby%20books/",
+            "active": false,
+            "count": 2030,
+            "popularity": 478,
+            "expanded": true
+          },
+          {
+            "id": ":category:Magazines and newspapers",
+            "title": "Журналы и газеты",
+            "link": "https://kaspi.kz/shop/c/magazines%20and%20newspapers/",
+            "active": false,
+            "count": 804,
+            "popularity": 450,
+            "expanded": true
+          },
+          {
+            "id": ":category:Graphic novels",
+            "title": "Комиксы и графическая литература",
+            "link": "https://kaspi.kz/shop/c/graphic%20novels/",
+            "active": false,
+            "count": 1686,
+            "popularity": 434,
+            "expanded": true
+          },
+          {
+            "id": ":category:Literature in foreign languages",
+            "title": "Литература на иностранных языках",
+            "link": "https://kaspi.kz/shop/c/literature%20in%20foreign%20languages/",
+            "active": false,
+            "count": 107272,
+            "popularity": 375,
+            "expanded": true
+          },
+          {
+            "id": ":category:Computer and tech books",
+            "title": "Компьютерные технологии",
+            "link": "https://kaspi.kz/shop/c/computer%20and%20tech%20books/",
+            "active": false,
+            "count": 1574,
+            "popularity": 106,
+            "expanded": true
+          },
+          {
+            "id": ":category:Print on demand",
+            "title": "Печать по требованию",
+            "link": "https://kaspi.kz/shop/c/print%20on%20demand/",
+            "active": false,
+            "count": 73,
+            "popularity": 10,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Party games",
+        "title": "Игры для компаний",
+        "link": "https://kaspi.kz/shop/c/party%20games/",
+        "active": false,
+        "count": 17884,
+        "popularity": 19157,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Board games",
+            "title": "Настольные игры",
+            "link": "https://kaspi.kz/shop/c/board%20games/",
+            "active": false,
+            "count": 8076,
+            "popularity": 10399,
+            "expanded": true
+          },
+          {
+            "id": ":category:Puzzles",
+            "title": "Пазлы",
+            "link": "https://kaspi.kz/shop/c/puzzles/",
+            "active": false,
+            "count": 6202,
+            "popularity": 2423,
+            "expanded": true
+          },
+          {
+            "id": ":category:Chess sport",
+            "title": "Шахматы",
+            "link": "https://kaspi.kz/shop/c/chess%20sport/",
+            "active": false,
+            "count": 724,
+            "popularity": 1532,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lotto",
+            "title": "Лото",
+            "link": "https://kaspi.kz/shop/c/lotto/",
+            "active": false,
+            "count": 317,
+            "popularity": 729,
+            "expanded": true
+          },
+          {
+            "id": ":category:Playing cards",
+            "title": "Игральные карты",
+            "link": "https://kaspi.kz/shop/c/playing%20cards/",
+            "active": false,
+            "count": 616,
+            "popularity": 720,
+            "expanded": true
+          },
+          {
+            "id": ":category:Poker sets",
+            "title": "Наборы для покера",
+            "link": "https://kaspi.kz/shop/c/poker%20sets/",
+            "active": false,
+            "count": 112,
+            "popularity": 454,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dominoes",
+            "title": "Домино",
+            "link": "https://kaspi.kz/shop/c/dominoes/",
+            "active": false,
+            "count": 206,
+            "popularity": 359,
+            "expanded": true
+          },
+          {
+            "id": ":category:Albums for storing cards",
+            "title": "Альбомы для хранения карт",
+            "link": "https://kaspi.kz/shop/c/albums%20for%20storing%20cards/",
+            "active": false,
+            "count": 289,
+            "popularity": 294,
+            "expanded": true
+          },
+          {
+            "id": ":category:Board game accessories",
+            "title": "Аксессуары для настольных игр",
+            "link": "https://kaspi.kz/shop/c/board%20game%20accessories/",
+            "active": false,
+            "count": 195,
+            "popularity": 283,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mosaics for children",
+            "title": "Мозаики",
+            "link": "https://kaspi.kz/shop/c/mosaics%20for%20children/",
+            "active": false,
+            "count": 506,
+            "popularity": 275,
+            "expanded": true
+          },
+          {
+            "id": ":category:Checkers",
+            "title": "Шашки",
+            "link": "https://kaspi.kz/shop/c/checkers/",
+            "active": false,
+            "count": 68,
+            "popularity": 180,
+            "expanded": true
+          },
+          {
+            "id": ":category:Backgammon sets",
+            "title": "Нарды",
+            "link": "https://kaspi.kz/shop/c/backgammon%20sets/",
+            "active": false,
+            "count": 198,
+            "popularity": 174,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dice",
+            "title": "Игральные кости",
+            "link": "https://kaspi.kz/shop/c/dice/",
+            "active": false,
+            "count": 212,
+            "popularity": 102,
+            "expanded": true
+          },
+          {
+            "id": ":category:Magic kits",
+            "title": "Наборы для фокусов",
+            "link": "https://kaspi.kz/shop/c/magic%20kits/",
+            "active": false,
+            "count": 45,
+            "popularity": 87,
+            "expanded": true
+          },
+          {
+            "id": ":category:Card protectors",
+            "title": "Протекторы для карт",
+            "link": "https://kaspi.kz/shop/c/card%20protectors/",
+            "active": false,
+            "count": 71,
+            "popularity": 64,
+            "expanded": true
+          },
+          {
+            "id": ":category:Board games extras",
+            "title": "Дополнения для настольных игр",
+            "link": "https://kaspi.kz/shop/c/board%20games%20extras/",
+            "active": false,
+            "count": 47,
+            "popularity": 17,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Musical instruments",
+        "title": "Музыкальные инструменты",
+        "link": "https://kaspi.kz/shop/c/musical%20instruments/",
+        "active": false,
+        "count": 8992,
+        "popularity": 7701,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Musical instruments accessories",
+            "title": "Аксессуары для музыкальных инструментов",
+            "link": "https://kaspi.kz/shop/c/musical%20instruments%20accessories/",
+            "active": false,
+            "count": 3923,
+            "popularity": 3782,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stringed instruments",
+            "title": "Струнные",
+            "link": "https://kaspi.kz/shop/c/stringed%20instruments/",
+            "active": false,
+            "count": 3143,
+            "popularity": 2364,
+            "expanded": true
+          },
+          {
+            "id": ":category:Keyboard instruments",
+            "title": "Клавишные",
+            "link": "https://kaspi.kz/shop/c/keyboard%20instruments/",
+            "active": false,
+            "count": 675,
+            "popularity": 896,
+            "expanded": true
+          },
+          {
+            "id": ":category:Percussion instruments",
+            "title": "Ударные",
+            "link": "https://kaspi.kz/shop/c/percussion%20instruments/",
+            "active": false,
+            "count": 839,
+            "popularity": 388,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wind instruments",
+            "title": "Духовые",
+            "link": "https://kaspi.kz/shop/c/wind%20instruments/",
+            "active": false,
+            "count": 300,
+            "popularity": 208,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bowed string instruments",
+            "title": "Смычковые",
+            "link": "https://kaspi.kz/shop/c/bowed%20string%20instruments/",
+            "active": false,
+            "count": 112,
+            "popularity": 63,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Fortune telling and esoteric",
+        "title": "Гадания и эзотерика",
+        "link": "https://kaspi.kz/shop/c/fortune%20telling%20and%20esoteric/",
+        "active": false,
+        "count": 5500,
+        "popularity": 2754,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Ritual candles",
+            "title": "Ритуальные свечи",
+            "link": "https://kaspi.kz/shop/c/ritual%20candles/",
+            "active": false,
+            "count": 989,
+            "popularity": 939,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tarot cards",
+            "title": "Карты Таро",
+            "link": "https://kaspi.kz/shop/c/tarot%20cards/",
+            "active": false,
+            "count": 1223,
+            "popularity": 763,
+            "expanded": true
+          },
+          {
+            "id": ":category:Metaphorical cards",
+            "title": "Метафорические ассоциативные карты",
+            "link": "https://kaspi.kz/shop/c/metaphorical%20cards/",
+            "active": false,
+            "count": 346,
+            "popularity": 286,
+            "expanded": true
+          },
+          {
+            "id": ":category:Amulets talismans and charms",
+            "title": "Амулеты, талисманы и зеркала",
+            "link": "https://kaspi.kz/shop/c/amulets%20talismans%20and%20charms/",
+            "active": false,
+            "count": 1219,
+            "popularity": 187,
+            "expanded": true
+          },
+          {
+            "id": ":category:Natural stones and minerals",
+            "title": "Натуральные камни и минералы",
+            "link": "https://kaspi.kz/shop/c/natural%20stones%20and%20minerals/",
+            "active": false,
+            "count": 1186,
+            "popularity": 167,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sets for creating wish cards",
+            "title": "Наборы для создания карты желаний",
+            "link": "https://kaspi.kz/shop/c/sets%20for%20creating%20wish%20cards/",
+            "active": false,
+            "count": 66,
+            "popularity": 139,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wind chimes",
+            "title": "Музыка ветра",
+            "link": "https://kaspi.kz/shop/c/wind%20chimes/",
+            "active": false,
+            "count": 76,
+            "popularity": 124,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bags caskets tablecloths for divination",
+            "title": "Мешочки, шкатулки, скатерти для гаданий",
+            "link": "https://kaspi.kz/shop/c/bags%20caskets%20tablecloths%20for%20divination/",
+            "active": false,
+            "count": 197,
+            "popularity": 74,
+            "expanded": true
+          },
+          {
+            "id": ":category:Runes",
+            "title": "Руны",
+            "link": "https://kaspi.kz/shop/c/runes/",
+            "active": false,
+            "count": 55,
+            "popularity": 44,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ouija boards",
+            "title": "Доски для гаданий и спиритических сеансов",
+            "link": "https://kaspi.kz/shop/c/ouija%20boards/",
+            "active": false,
+            "count": 49,
+            "popularity": 19,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pendulums for divination",
+            "title": "Маятники для гаданий",
+            "link": "https://kaspi.kz/shop/c/pendulums%20for%20divination/",
+            "active": false,
+            "count": 92,
+            "popularity": 12,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:CDs and vinyl",
+        "title": "Музыкальные диски и пластинки",
+        "link": "https://kaspi.kz/shop/c/cds%20and%20vinyl/",
+        "active": false,
+        "count": 2045,
+        "popularity": 543,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Vinyl records",
+            "title": "Виниловые пластинки",
+            "link": "https://kaspi.kz/shop/c/vinyl%20records/",
+            "active": false,
+            "count": 1901,
+            "popularity": 447,
+            "expanded": true
+          },
+          {
+            "id": ":category:Music discs",
+            "title": "Музыкальные диски",
+            "link": "https://kaspi.kz/shop/c/music%20discs/",
+            "active": false,
+            "count": 144,
+            "popularity": 96,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Optical instruments",
+        "title": "Оптические приборы",
+        "link": "https://kaspi.kz/shop/c/optical%20instruments/",
+        "active": false,
+        "count": 419,
+        "popularity": 325,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Microscopes",
+            "title": "Микроскопы",
+            "link": "https://kaspi.kz/shop/c/microscopes/",
+            "active": false,
+            "count": 260,
+            "popularity": 303,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for microscopes",
+            "title": "Аксессуары для микроскопов",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20microscopes/",
+            "active": false,
+            "count": 106,
+            "popularity": 19,
+            "expanded": true
+          },
+          {
+            "id": ":category:Telescope accessories",
+            "title": "Аксессуары для телескопов",
+            "link": "https://kaspi.kz/shop/c/telescope%20accessories/",
+            "active": false,
+            "count": 51,
+            "popularity": 3,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

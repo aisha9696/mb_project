@@ -17,7 +17,7 @@ import jakarta.persistence.Table;
 @Table(name = "business_type")
 @Getter
 @Setter
-public class BusinessType extends AbstractLanguageValue implements Serializable {
+public class BusinessTypeSpr extends AbstractLanguageSprValue implements Serializable {
 
   @Id
   @GeneratedValue(strategy = GenerationType.UUID)
