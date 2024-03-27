@@ -39,10 +39,6 @@ create table business_type
             primary key,
     value_ru   varchar(255),
     value_kz   varchar(255),
-    created_by_user varchar(255),
-    updated_by_user varchar(255),
-    created_at timestamp,
-    updated_at timestamp,
     archived   boolean
 );
 

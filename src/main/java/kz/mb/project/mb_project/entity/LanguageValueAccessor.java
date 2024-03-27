@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class LanguageValueAccessor {
 
-  public String getValueByLanguage(AbstractLanguageValue obj) {
+  public String getValueByLanguage(AbstractLanguageSprValue obj) {
     Locale currentLocale = LocaleContextHolder.getLocale();
     if (currentLocale.equals(new Locale("kk"))) {
       return obj.getValueKZ();

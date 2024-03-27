@@ -1,0 +1,1799 @@
+[
+  {
+    "id": ":category:Sports and outdoors",
+    "title": "Спорт, туризм",
+    "link": "https://kaspi.kz/shop/c/sports%20and%20outdoors/",
+    "active": true,
+    "count": 204737,
+    "popularity": 180862,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Camping and hiking",
+        "title": "Туризм и отдых на природе",
+        "link": "https://kaspi.kz/shop/c/camping%20and%20hiking/",
+        "active": false,
+        "count": 32339,
+        "popularity": 45069,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Camping flashlights",
+            "title": "Туристические фонари",
+            "link": "https://kaspi.kz/shop/c/camping%20flashlights/",
+            "active": false,
+            "count": 2991,
+            "popularity": 9185,
+            "expanded": true
+          },
+          {
+            "id": ":category:Thermoses and travel mugs",
+            "title": "Термосы и термокружки",
+            "link": "https://kaspi.kz/shop/c/thermoses%20and%20travel%20mugs/",
+            "active": false,
+            "count": 5462,
+            "popularity": 8824,
+            "expanded": true
+          },
+          {
+            "id": ":category:Camping",
+            "title": "Кемпинг",
+            "link": "https://kaspi.kz/shop/c/camping/",
+            "active": false,
+            "count": 9721,
+            "popularity": 8613,
+            "expanded": true
+          },
+          {
+            "id": ":category:Camping knives and multitools",
+            "title": "Туристические ножи, мультитулы и инструменты",
+            "link": "https://kaspi.kz/shop/c/camping%20knives%20and%20multitools/",
+            "active": false,
+            "count": 487,
+            "popularity": 5903,
+            "expanded": true
+          },
+          {
+            "id": ":category:Backpacking stoves",
+            "title": "Туристические горелки и обогреватели",
+            "link": "https://kaspi.kz/shop/c/backpacking%20stoves/",
+            "active": false,
+            "count": 719,
+            "popularity": 2399,
+            "expanded": true
+          },
+          {
+            "id": ":category:Binoculars and spotting scopes",
+            "title": "Бинокли и зрительные трубы",
+            "link": "https://kaspi.kz/shop/c/binoculars%20and%20spotting%20scopes/",
+            "active": false,
+            "count": 1095,
+            "popularity": 1318,
+            "expanded": true
+          },
+          {
+            "id": ":category:Backpacks and bags",
+            "title": "Рюкзаки и сумки",
+            "link": "https://kaspi.kz/shop/c/backpacks%20and%20bags/",
+            "active": false,
+            "count": 145,
+            "popularity": 1219,
+            "expanded": true
+          },
+          {
+            "id": ":category:Camping mats",
+            "title": "Туристические коврики",
+            "link": "https://kaspi.kz/shop/c/camping%20mats/",
+            "active": false,
+            "count": 786,
+            "popularity": 1102,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sleeping bags",
+            "title": "Спальные мешки",
+            "link": "https://kaspi.kz/shop/c/sleeping%20bags/",
+            "active": false,
+            "count": 972,
+            "popularity": 818,
+            "expanded": true
+          },
+          {
+            "id": ":category:Trekking poles",
+            "title": "Треккинговые палки",
+            "link": "https://kaspi.kz/shop/c/trekking%20poles/",
+            "active": false,
+            "count": 393,
+            "popularity": 765,
+            "expanded": true
+          },
+          {
+            "id": ":category:Telescopes",
+            "title": "Телескопы",
+            "link": "https://kaspi.kz/shop/c/telescopes/",
+            "active": false,
+            "count": 199,
+            "popularity": 150,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Fitness",
+        "title": "Товары для фитнеса",
+        "link": "https://kaspi.kz/shop/c/fitness/",
+        "active": false,
+        "count": 10313,
+        "popularity": 32977,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Hand strengtheners",
+            "title": "Эспандеры",
+            "link": "https://kaspi.kz/shop/c/hand%20strengtheners/",
+            "active": false,
+            "count": 1162,
+            "popularity": 5431,
+            "expanded": true
+          },
+          {
+            "id": ":category:Foam rollers",
+            "title": "Массажные валики и ролики",
+            "link": "https://kaspi.kz/shop/c/foam%20rollers/",
+            "active": false,
+            "count": 867,
+            "popularity": 3410,
+            "expanded": true
+          },
+          {
+            "id": ":category:Exercise mats",
+            "title": "Коврики для занятий йогой и фитнесом",
+            "link": "https://kaspi.kz/shop/c/exercise%20mats/",
+            "active": false,
+            "count": 933,
+            "popularity": 3254,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dumbbells",
+            "title": "Гантели и наборы гантелей",
+            "link": "https://kaspi.kz/shop/c/dumbbells/",
+            "active": false,
+            "count": 691,
+            "popularity": 3104,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hand grip strengtheners",
+            "title": "Кистевые тренажеры",
+            "link": "https://kaspi.kz/shop/c/hand%20grip%20strengtheners/",
+            "active": false,
+            "count": 501,
+            "popularity": 2712,
+            "expanded": true
+          },
+          {
+            "id": ":category:Clothes for slimming",
+            "title": "Одежда для похудения",
+            "link": "https://kaspi.kz/shop/c/clothes%20for%20slimming/",
+            "active": false,
+            "count": 1064,
+            "popularity": 2676,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sport duffels",
+            "title": "Спортивные сумки",
+            "link": "https://kaspi.kz/shop/c/sport%20duffels/",
+            "active": false,
+            "count": 702,
+            "popularity": 1681,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ab rollers",
+            "title": "Ролики для пресса",
+            "link": "https://kaspi.kz/shop/c/ab%20rollers/",
+            "active": false,
+            "count": 274,
+            "popularity": 1544,
+            "expanded": true
+          },
+          {
+            "id": ":category:Exercise and medicine balls",
+            "title": "Фитболы и медболы для занятий фитнесом",
+            "link": "https://kaspi.kz/shop/c/exercise%20and%20medicine%20balls/",
+            "active": false,
+            "count": 500,
+            "popularity": 1491,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pull-up bars",
+            "title": "Турники",
+            "link": "https://kaspi.kz/shop/c/pull-up%20bars/",
+            "active": false,
+            "count": 434,
+            "popularity": 1342,
+            "expanded": true
+          },
+          {
+            "id": ":category:Balance trainers",
+            "title": "Балансировочные тренажеры",
+            "link": "https://kaspi.kz/shop/c/balance%20trainers/",
+            "active": false,
+            "count": 249,
+            "popularity": 1298,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jump ropes",
+            "title": "Скакалки для фитнеса",
+            "link": "https://kaspi.kz/shop/c/jump%20ropes/",
+            "active": false,
+            "count": 440,
+            "popularity": 1159,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pushup stands",
+            "title": "Упоры для отжиманий",
+            "link": "https://kaspi.kz/shop/c/pushup%20stands/",
+            "active": false,
+            "count": 126,
+            "popularity": 775,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fitness weights",
+            "title": "Утяжелители",
+            "link": "https://kaspi.kz/shop/c/fitness%20weights/",
+            "active": false,
+            "count": 240,
+            "popularity": 746,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fitness hoola hoops",
+            "title": "Обручи для фитнеса",
+            "link": "https://kaspi.kz/shop/c/fitness%20hoola%20hoops/",
+            "active": false,
+            "count": 153,
+            "popularity": 699,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fitness trampolines",
+            "title": "Каркасные батуты",
+            "link": "https://kaspi.kz/shop/c/fitness%20trampolines/",
+            "active": false,
+            "count": 306,
+            "popularity": 602,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fitness sets",
+            "title": "Наборы для фитнеса",
+            "link": "https://kaspi.kz/shop/c/fitness%20sets/",
+            "active": false,
+            "count": 166,
+            "popularity": 283,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports mats",
+            "title": "Спортивные маты",
+            "link": "https://kaspi.kz/shop/c/sports%20mats/",
+            "active": false,
+            "count": 173,
+            "popularity": 245,
+            "expanded": true
+          },
+          {
+            "id": ":category:Swedish walls",
+            "title": "Шведские стенки",
+            "link": "https://kaspi.kz/shop/c/swedish%20walls/",
+            "active": false,
+            "count": 372,
+            "popularity": 218,
+            "expanded": true
+          },
+          {
+            "id": ":category:Balance boards",
+            "title": "Балансборды",
+            "link": "https://kaspi.kz/shop/c/balance%20boards/",
+            "active": false,
+            "count": 104,
+            "popularity": 184,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kettlebells",
+            "title": "Гири",
+            "link": "https://kaspi.kz/shop/c/kettlebells/",
+            "active": false,
+            "count": 119,
+            "popularity": 120,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports courts",
+            "title": "Спортивные площадки",
+            "link": "https://kaspi.kz/shop/c/sports%20courts/",
+            "active": false,
+            "count": 248,
+            "popularity": 3,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Sports nutrition",
+        "title": "Спортивное питание",
+        "link": "https://kaspi.kz/shop/c/sports%20nutrition/",
+        "active": false,
+        "count": 9712,
+        "popularity": 21007,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Sports water bottles and shakers",
+            "title": "Шейкеры и бутылки для спортсменов",
+            "link": "https://kaspi.kz/shop/c/sports%20water%20bottles%20and%20shakers/",
+            "active": false,
+            "count": 2098,
+            "popularity": 3635,
+            "expanded": true
+          },
+          {
+            "id": ":category:Creatine",
+            "title": "Креатин",
+            "link": "https://kaspi.kz/shop/c/creatine/",
+            "active": false,
+            "count": 352,
+            "popularity": 3381,
+            "expanded": true
+          },
+          {
+            "id": ":category:Protein",
+            "title": "Протеин",
+            "link": "https://kaspi.kz/shop/c/protein/",
+            "active": false,
+            "count": 2487,
+            "popularity": 3325,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fat burners",
+            "title": "Жиросжигатели",
+            "link": "https://kaspi.kz/shop/c/fat%20burners/",
+            "active": false,
+            "count": 635,
+            "popularity": 3259,
+            "expanded": true
+          },
+          {
+            "id": ":category:Amino acids",
+            "title": "Аминокислоты и BCAA",
+            "link": "https://kaspi.kz/shop/c/amino%20acids/",
+            "active": false,
+            "count": 1790,
+            "popularity": 2473,
+            "expanded": true
+          },
+          {
+            "id": ":category:Weight gainers",
+            "title": "Гейнеры",
+            "link": "https://kaspi.kz/shop/c/weight%20gainers/",
+            "active": false,
+            "count": 773,
+            "popularity": 2043,
+            "expanded": true
+          },
+          {
+            "id": ":category:Joints supplements",
+            "title": "Препараты для укрепления связок и суставов",
+            "link": "https://kaspi.kz/shop/c/joints%20supplements/",
+            "active": false,
+            "count": 223,
+            "popularity": 980,
+            "expanded": true
+          },
+          {
+            "id": ":category:Preworkout sports nutrition",
+            "title": "Предтренировочные комплексы для спортсменов",
+            "link": "https://kaspi.kz/shop/c/preworkout%20sports%20nutrition/",
+            "active": false,
+            "count": 530,
+            "popularity": 794,
+            "expanded": true
+          },
+          {
+            "id": ":category:Testosterone boosters",
+            "title": "Тестостероновые бустеры",
+            "link": "https://kaspi.kz/shop/c/testosterone%20boosters/",
+            "active": false,
+            "count": 158,
+            "popularity": 634,
+            "expanded": true
+          },
+          {
+            "id": ":category:Isotonics and energy gels",
+            "title": "Изотоники и энергетические гели",
+            "link": "https://kaspi.kz/shop/c/isotonics%20and%20energy%20gels/",
+            "active": false,
+            "count": 343,
+            "popularity": 246,
+            "expanded": true
+          },
+          {
+            "id": ":category:Postworkout sports nutrition",
+            "title": "Посттренировочные комплексы для спортсменов",
+            "link": "https://kaspi.kz/shop/c/postworkout%20sports%20nutrition/",
+            "active": false,
+            "count": 227,
+            "popularity": 237,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Fishing equipment",
+        "title": "Товары для рыбалки",
+        "link": "https://kaspi.kz/shop/c/fishing%20equipment/",
+        "active": false,
+        "count": 67016,
+        "popularity": 18027,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Goods for fishing equipment",
+            "title": "Товары для оснасток",
+            "link": "https://kaspi.kz/shop/c/goods%20for%20fishing%20equipment/",
+            "active": false,
+            "count": 30023,
+            "popularity": 2141,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing clothing",
+            "title": "Одежда и обувь для рыбалки",
+            "link": "https://kaspi.kz/shop/c/fishing%20clothing/",
+            "active": false,
+            "count": 5661,
+            "popularity": 2099,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing rods",
+            "title": "Удилища",
+            "link": "https://kaspi.kz/shop/c/fishing%20rods/",
+            "active": false,
+            "count": 5843,
+            "popularity": 1620,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hunting and fishing bags",
+            "title": "Сумки и ящики для рыбалки",
+            "link": "https://kaspi.kz/shop/c/hunting%20and%20fishing%20bags/",
+            "active": false,
+            "count": 3285,
+            "popularity": 1472,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing accessories",
+            "title": "Аксессуары для рыбалки",
+            "link": "https://kaspi.kz/shop/c/fishing%20accessories/",
+            "active": false,
+            "count": 2103,
+            "popularity": 1462,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing reels",
+            "title": "Рыболовные катушки",
+            "link": "https://kaspi.kz/shop/c/fishing%20reels/",
+            "active": false,
+            "count": 2593,
+            "popularity": 1292,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing line and tippets",
+            "title": "Рыболовная леска и поводки",
+            "link": "https://kaspi.kz/shop/c/fishing%20line%20and%20tippets/",
+            "active": false,
+            "count": 4440,
+            "popularity": 1208,
+            "expanded": true
+          },
+          {
+            "id": ":category:Feed for fishing",
+            "title": "Прикормки для рыбалки",
+            "link": "https://kaspi.kz/shop/c/feed%20for%20fishing/",
+            "active": false,
+            "count": 4654,
+            "popularity": 764,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ice augers",
+            "title": "Ледобуры для рыбалки",
+            "link": "https://kaspi.kz/shop/c/ice%20augers/",
+            "active": false,
+            "count": 389,
+            "popularity": 686,
+            "expanded": true
+          },
+          {
+            "id": ":category:Inflatable boats",
+            "title": "Надувные лодки",
+            "link": "https://kaspi.kz/shop/c/inflatable%20boats/",
+            "active": false,
+            "count": 715,
+            "popularity": 659,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing nets",
+            "title": "Садки и подсачеки",
+            "link": "https://kaspi.kz/shop/c/fishing%20nets/",
+            "active": false,
+            "count": 561,
+            "popularity": 505,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fish and depth finders",
+            "title": "Эхолоты",
+            "link": "https://kaspi.kz/shop/c/fish%20and%20depth%20finders/",
+            "active": false,
+            "count": 183,
+            "popularity": 475,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ice fishing tip-ups",
+            "title": "Жерлицы",
+            "link": "https://kaspi.kz/shop/c/ice%20fishing%20tip-ups/",
+            "active": false,
+            "count": 326,
+            "popularity": 424,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bite indicators",
+            "title": "Сигнализаторы поклевки",
+            "link": "https://kaspi.kz/shop/c/bite%20indicators/",
+            "active": false,
+            "count": 504,
+            "popularity": 421,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing kits",
+            "title": "Рыболовные наборы",
+            "link": "https://kaspi.kz/shop/c/fishing%20kits/",
+            "active": false,
+            "count": 566,
+            "popularity": 415,
+            "expanded": true
+          },
+          {
+            "id": ":category:Life jackets",
+            "title": "Спасательные жилеты и пояса",
+            "link": "https://kaspi.kz/shop/c/life%20jackets/",
+            "active": false,
+            "count": 345,
+            "popularity": 373,
+            "expanded": true
+          },
+          {
+            "id": ":category:Inflatable boat accessories",
+            "title": "Комплектующие для лодок",
+            "link": "https://kaspi.kz/shop/c/inflatable%20boat%20accessories/",
+            "active": false,
+            "count": 444,
+            "popularity": 350,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boat motors",
+            "title": "Лодочные моторы",
+            "link": "https://kaspi.kz/shop/c/boat%20motors/",
+            "active": false,
+            "count": 225,
+            "popularity": 309,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing rod holders",
+            "title": "Подставки под удилища",
+            "link": "https://kaspi.kz/shop/c/fishing%20rod%20holders/",
+            "active": false,
+            "count": 582,
+            "popularity": 294,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing sleds",
+            "title": "Санки рыбацкие",
+            "link": "https://kaspi.kz/shop/c/fishing%20sleds/",
+            "active": false,
+            "count": 131,
+            "popularity": 290,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for ice augers",
+            "title": "Комплектующие для ледобуров",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20ice%20augers/",
+            "active": false,
+            "count": 194,
+            "popularity": 235,
+            "expanded": true
+          },
+          {
+            "id": ":category:Blades for ice augers",
+            "title": "Ножи для ледобуров",
+            "link": "https://kaspi.kz/shop/c/blades%20for%20ice%20augers/",
+            "active": false,
+            "count": 167,
+            "popularity": 213,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing floats",
+            "title": "Поплавки для рыбалки",
+            "link": "https://kaspi.kz/shop/c/fishing%20floats/",
+            "active": false,
+            "count": 498,
+            "popularity": 166,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fishing feeders",
+            "title": "Кормушки для рыбалки",
+            "link": "https://kaspi.kz/shop/c/fishing%20feeders/",
+            "active": false,
+            "count": 630,
+            "popularity": 132,
+            "expanded": true
+          },
+          {
+            "id": ":category:Propellers for outboard motors",
+            "title": "Винты для лодочных моторов",
+            "link": "https://kaspi.kz/shop/c/propellers%20for%20outboard%20motors/",
+            "active": false,
+            "count": 244,
+            "popularity": 16,
+            "expanded": true
+          },
+          {
+            "id": ":category:Spare parts for outboard motors",
+            "title": "Запчасти для лодочных моторов",
+            "link": "https://kaspi.kz/shop/c/spare%20parts%20for%20outboard%20motors/",
+            "active": false,
+            "count": 957,
+            "popularity": 6,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Cycling",
+        "title": "Велоспорт",
+        "link": "https://kaspi.kz/shop/c/cycling/",
+        "active": false,
+        "count": 17671,
+        "popularity": 13518,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Bicycles",
+            "title": "Велосипеды",
+            "link": "https://kaspi.kz/shop/c/bicycles/",
+            "active": false,
+            "count": 6980,
+            "popularity": 5273,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bicycle parts",
+            "title": "Запчасти для велосипедов",
+            "link": "https://kaspi.kz/shop/c/bicycle%20parts/",
+            "active": false,
+            "count": 5794,
+            "popularity": 3137,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bicycle accessories",
+            "title": "Аксессуары для велосипедов",
+            "link": "https://kaspi.kz/shop/c/bicycle%20accessories/",
+            "active": false,
+            "count": 3536,
+            "popularity": 2947,
+            "expanded": true
+          },
+          {
+            "id": ":category:Electric bicycles",
+            "title": "Электровелосипеды",
+            "link": "https://kaspi.kz/shop/c/electric%20bicycles/",
+            "active": false,
+            "count": 379,
+            "popularity": 1740,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bicycle repair tools",
+            "title": "Инструменты для ремонта и чистки велосипеда",
+            "link": "https://kaspi.kz/shop/c/bicycle%20repair%20tools/",
+            "active": false,
+            "count": 588,
+            "popularity": 388,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cycling shoes",
+            "title": "Велотуфли",
+            "link": "https://kaspi.kz/shop/c/cycling%20shoes/",
+            "active": false,
+            "count": 316,
+            "popularity": 33,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Sports protection",
+        "title": "Спортивная защита и экипировка",
+        "link": "https://kaspi.kz/shop/c/sports%20protection/",
+        "active": false,
+        "count": 10611,
+        "popularity": 8190,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Knee pads",
+            "title": "Наколенники",
+            "link": "https://kaspi.kz/shop/c/knee%20pads/",
+            "active": false,
+            "count": 781,
+            "popularity": 1937,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kinesio tapes",
+            "title": "Кинезио тейпы",
+            "link": "https://kaspi.kz/shop/c/kinesio%20tapes/",
+            "active": false,
+            "count": 464,
+            "popularity": 1062,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sport helmets",
+            "title": "Шлемы спортивные",
+            "link": "https://kaspi.kz/shop/c/sport%20helmets/",
+            "active": false,
+            "count": 2684,
+            "popularity": 986,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports gloves",
+            "title": "Спортивные перчатки и варежки",
+            "link": "https://kaspi.kz/shop/c/sports%20gloves/",
+            "active": false,
+            "count": 2719,
+            "popularity": 902,
+            "expanded": true
+          },
+          {
+            "id": ":category:Elbow pads",
+            "title": "Налокотники",
+            "link": "https://kaspi.kz/shop/c/elbow%20pads/",
+            "active": false,
+            "count": 549,
+            "popularity": 575,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports mouthguards",
+            "title": "Капы спортивные",
+            "link": "https://kaspi.kz/shop/c/sports%20mouthguards/",
+            "active": false,
+            "count": 169,
+            "popularity": 540,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports supports",
+            "title": "Спортивные бандажи",
+            "link": "https://kaspi.kz/shop/c/sports%20supports/",
+            "active": false,
+            "count": 377,
+            "popularity": 451,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shin guards",
+            "title": "Щитки",
+            "link": "https://kaspi.kz/shop/c/shin%20guards/",
+            "active": false,
+            "count": 701,
+            "popularity": 448,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sport headbands",
+            "title": "Спортивные повязки на голову",
+            "link": "https://kaspi.kz/shop/c/sport%20headbands/",
+            "active": false,
+            "count": 151,
+            "popularity": 282,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports protection kits",
+            "title": "Наборы спортивной защиты",
+            "link": "https://kaspi.kz/shop/c/sports%20protection%20kits/",
+            "active": false,
+            "count": 437,
+            "popularity": 246,
+            "expanded": true
+          },
+          {
+            "id": ":category:Weight belts",
+            "title": "Атлетические пояса",
+            "link": "https://kaspi.kz/shop/c/weight%20belts/",
+            "active": false,
+            "count": 288,
+            "popularity": 201,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sport wristbands",
+            "title": "Спортивные напульсники",
+            "link": "https://kaspi.kz/shop/c/sport%20wristbands/",
+            "active": false,
+            "count": 103,
+            "popularity": 187,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports glasses",
+            "title": "Спортивные очки",
+            "link": "https://kaspi.kz/shop/c/sports%20glasses/",
+            "active": false,
+            "count": 312,
+            "popularity": 140,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shoulder pads",
+            "title": "Нагрудники",
+            "link": "https://kaspi.kz/shop/c/shoulder%20pads/",
+            "active": false,
+            "count": 367,
+            "popularity": 81,
+            "expanded": true
+          },
+          {
+            "id": ":category:Protective shorts",
+            "title": "Защитные шорты",
+            "link": "https://kaspi.kz/shop/c/protective%20shorts/",
+            "active": false,
+            "count": 356,
+            "popularity": 77,
+            "expanded": true
+          },
+          {
+            "id": ":category:Protective masks for shooting",
+            "title": "Спортивные защитные маски",
+            "link": "https://kaspi.kz/shop/c/protective%20masks%20for%20shooting/",
+            "active": false,
+            "count": 114,
+            "popularity": 75,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Leisure sports",
+        "title": "Спортивные игры",
+        "link": "https://kaspi.kz/shop/c/leisure%20sports/",
+        "active": false,
+        "count": 4786,
+        "popularity": 7662,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Accessories for sports games",
+            "title": "Аксессуары и тренажеры для спортивных игр",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20sports%20games/",
+            "active": false,
+            "count": 332,
+            "popularity": 2635,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports balls",
+            "title": "Спортивные мячи",
+            "link": "https://kaspi.kz/shop/c/sports%20balls/",
+            "active": false,
+            "count": 1443,
+            "popularity": 2500,
+            "expanded": true
+          },
+          {
+            "id": ":category:Table tennis accessories",
+            "title": "Аксессуары для настольного тенниса",
+            "link": "https://kaspi.kz/shop/c/table%20tennis%20accessories/",
+            "active": false,
+            "count": 929,
+            "popularity": 1170,
+            "expanded": true
+          },
+          {
+            "id": ":category:Basketball goals and hoops",
+            "title": "Стойки и кольца для баскетбола",
+            "link": "https://kaspi.kz/shop/c/basketball%20goals%20and%20hoops/",
+            "active": false,
+            "count": 152,
+            "popularity": 377,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dartboards",
+            "title": "Мишени для дартса",
+            "link": "https://kaspi.kz/shop/c/dartboards/",
+            "active": false,
+            "count": 119,
+            "popularity": 376,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports nets",
+            "title": "Спортивные сетки",
+            "link": "https://kaspi.kz/shop/c/sports%20nets/",
+            "active": false,
+            "count": 122,
+            "popularity": 175,
+            "expanded": true
+          },
+          {
+            "id": ":category:Badminton racquets",
+            "title": "Ракетки для бадминтона",
+            "link": "https://kaspi.kz/shop/c/badminton%20racquets/",
+            "active": false,
+            "count": 130,
+            "popularity": 174,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tennis tables",
+            "title": "Столы для настольного тенниса",
+            "link": "https://kaspi.kz/shop/c/tennis%20tables/",
+            "active": false,
+            "count": 110,
+            "popularity": 146,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tennis racquets",
+            "title": "Ракетки для большого тенниса",
+            "link": "https://kaspi.kz/shop/c/tennis%20racquets/",
+            "active": false,
+            "count": 701,
+            "popularity": 109,
+            "expanded": true
+          },
+          {
+            "id": ":category:Billiard supplies",
+            "title": "Бильярд",
+            "link": "https://kaspi.kz/shop/c/billiard%20supplies/",
+            "active": false,
+            "count": 217,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Winter sports",
+        "title": "Зимний спорт",
+        "link": "https://kaspi.kz/shop/c/winter%20sports/",
+        "active": false,
+        "count": 11272,
+        "popularity": 5814,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Snow tubes",
+            "title": "Тюбинги",
+            "link": "https://kaspi.kz/shop/c/snow%20tubes/",
+            "active": false,
+            "count": 1381,
+            "popularity": 2478,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ice skates",
+            "title": "Коньки",
+            "link": "https://kaspi.kz/shop/c/ice%20skates/",
+            "active": false,
+            "count": 1442,
+            "popularity": 1365,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ski goggles",
+            "title": "Маски горнолыжные",
+            "link": "https://kaspi.kz/shop/c/ski%20goggles/",
+            "active": false,
+            "count": 771,
+            "popularity": 466,
+            "expanded": true
+          },
+          {
+            "id": ":category:Snow sleds",
+            "title": "Ледянки",
+            "link": "https://kaspi.kz/shop/c/snow%20sleds/",
+            "active": false,
+            "count": 499,
+            "popularity": 402,
+            "expanded": true
+          },
+          {
+            "id": ":category:Skis",
+            "title": "Лыжи",
+            "link": "https://kaspi.kz/shop/c/skis/",
+            "active": false,
+            "count": 1364,
+            "popularity": 255,
+            "expanded": true
+          },
+          {
+            "id": ":category:Winter sports bags and cases",
+            "title": "Сумки и чехлы для зимнего снаряжения",
+            "link": "https://kaspi.kz/shop/c/winter%20sports%20bags%20and%20cases/",
+            "active": false,
+            "count": 403,
+            "popularity": 201,
+            "expanded": true
+          },
+          {
+            "id": ":category:Snowboards",
+            "title": "Сноуборды",
+            "link": "https://kaspi.kz/shop/c/snowboards/",
+            "active": false,
+            "count": 611,
+            "popularity": 112,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ski boots",
+            "title": "Ботинки для лыж",
+            "link": "https://kaspi.kz/shop/c/ski%20boots/",
+            "active": false,
+            "count": 1606,
+            "popularity": 103,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ski poles",
+            "title": "Палки для лыж",
+            "link": "https://kaspi.kz/shop/c/ski%20poles/",
+            "active": false,
+            "count": 648,
+            "popularity": 97,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hockey",
+            "title": "Хоккей",
+            "link": "https://kaspi.kz/shop/c/hockey/",
+            "active": false,
+            "count": 1225,
+            "popularity": 88,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ski bindings",
+            "title": "Крепления для лыж",
+            "link": "https://kaspi.kz/shop/c/ski%20bindings/",
+            "active": false,
+            "count": 118,
+            "popularity": 82,
+            "expanded": true
+          },
+          {
+            "id": ":category:Snowboard boots",
+            "title": "Ботинки для сноубордов",
+            "link": "https://kaspi.kz/shop/c/snowboard%20boots/",
+            "active": false,
+            "count": 545,
+            "popularity": 65,
+            "expanded": true
+          },
+          {
+            "id": ":category:Snowboard bindings",
+            "title": "Крепления для сноубордов",
+            "link": "https://kaspi.kz/shop/c/snowboard%20bindings/",
+            "active": false,
+            "count": 311,
+            "popularity": 59,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for winter equipment",
+            "title": "Аксессуары для зимнего снаряжения",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20winter%20equipment/",
+            "active": false,
+            "count": 108,
+            "popularity": 33,
+            "expanded": true
+          },
+          {
+            "id": ":category:Skating blades",
+            "title": "Лезвия для коньков",
+            "link": "https://kaspi.kz/shop/c/skating%20blades/",
+            "active": false,
+            "count": 104,
+            "popularity": 8,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Outdoor",
+        "title": "Самокаты, гироскутеры, моноколеса",
+        "link": "https://kaspi.kz/shop/c/outdoor/",
+        "active": false,
+        "count": 4970,
+        "popularity": 5686,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Kick scooters",
+            "title": "Самокаты",
+            "link": "https://kaspi.kz/shop/c/kick%20scooters/",
+            "active": false,
+            "count": 2626,
+            "popularity": 4077,
+            "expanded": true
+          },
+          {
+            "id": ":category:Skateboards and longboards",
+            "title": "Скейтборды и лонгборды",
+            "link": "https://kaspi.kz/shop/c/skateboards%20and%20longboards/",
+            "active": false,
+            "count": 650,
+            "popularity": 769,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gyroscooters",
+            "title": "Гироскутеры и моноколеса",
+            "link": "https://kaspi.kz/shop/c/gyroscooters/",
+            "active": false,
+            "count": 240,
+            "popularity": 335,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories and spare parts for scooters",
+            "title": "Аксессуары и запчасти для самокатов",
+            "link": "https://kaspi.kz/shop/c/accessories%20and%20spare%20parts%20for%20scooters/",
+            "active": false,
+            "count": 572,
+            "popularity": 304,
+            "expanded": true
+          },
+          {
+            "id": ":category:Scooter wheels",
+            "title": "Колеса для самокатов",
+            "link": "https://kaspi.kz/shop/c/scooter%20wheels/",
+            "active": false,
+            "count": 226,
+            "popularity": 162,
+            "expanded": true
+          },
+          {
+            "id": ":category:Scooter decks and skins",
+            "title": "Деки и шкурки для самокатов",
+            "link": "https://kaspi.kz/shop/c/scooter%20decks%20and%20skins/",
+            "active": false,
+            "count": 181,
+            "popularity": 39,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories and spare parts for skateboards",
+            "title": "Аксессуары и запчасти для скейтбордов",
+            "link": "https://kaspi.kz/shop/c/accessories%20and%20spare%20parts%20for%20skateboards/",
+            "active": false,
+            "count": 274,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Exercise and fitness",
+        "title": "Тренажеры",
+        "link": "https://kaspi.kz/shop/c/exercise%20and%20fitness/",
+        "active": false,
+        "count": 2571,
+        "popularity": 4992,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Treadmills",
+            "title": "Беговые дорожки",
+            "link": "https://kaspi.kz/shop/c/treadmills/",
+            "active": false,
+            "count": 362,
+            "popularity": 1510,
+            "expanded": true
+          },
+          {
+            "id": ":category:Exercise bikes",
+            "title": "Велотренажеры",
+            "link": "https://kaspi.kz/shop/c/exercise%20bikes/",
+            "active": false,
+            "count": 365,
+            "popularity": 1075,
+            "expanded": true
+          },
+          {
+            "id": ":category:Inversion Tables",
+            "title": "Инверсионные столы",
+            "link": "https://kaspi.kz/shop/c/inversion%20tables/",
+            "active": false,
+            "count": 107,
+            "popularity": 647,
+            "expanded": true
+          },
+          {
+            "id": ":category:Elliptical trainers",
+            "title": "Эллиптические тренажеры",
+            "link": "https://kaspi.kz/shop/c/elliptical%20trainers/",
+            "active": false,
+            "count": 161,
+            "popularity": 396,
+            "expanded": true
+          },
+          {
+            "id": ":category:Barbells",
+            "title": "Штанги",
+            "link": "https://kaspi.kz/shop/c/barbells/",
+            "active": false,
+            "count": 187,
+            "popularity": 382,
+            "expanded": true
+          },
+          {
+            "id": ":category:Strength training stations",
+            "title": "Силовые тренажеры",
+            "link": "https://kaspi.kz/shop/c/strength%20training%20stations/",
+            "active": false,
+            "count": 501,
+            "popularity": 365,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bench and racks",
+            "title": "Скамьи и стойки",
+            "link": "https://kaspi.kz/shop/c/bench%20and%20racks/",
+            "active": false,
+            "count": 294,
+            "popularity": 333,
+            "expanded": true
+          },
+          {
+            "id": ":category:Additional equipment for trainers",
+            "title": "Дополнительное оборудование для тренажеров",
+            "link": "https://kaspi.kz/shop/c/additional%20equipment%20for%20trainers/",
+            "active": false,
+            "count": 103,
+            "popularity": 151,
+            "expanded": true
+          },
+          {
+            "id": ":category:Barbell plates",
+            "title": "Диски для штанг",
+            "link": "https://kaspi.kz/shop/c/barbell%20plates/",
+            "active": false,
+            "count": 159,
+            "popularity": 133,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Boxing and martial arts",
+        "title": "Бокс и единоборства",
+        "link": "https://kaspi.kz/shop/c/boxing%20and%20martial%20arts/",
+        "active": false,
+        "count": 2656,
+        "popularity": 4705,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Training punching implements",
+            "title": "Тренировочные снаряды для бокса и единоборств",
+            "link": "https://kaspi.kz/shop/c/training%20punching%20implements/",
+            "active": false,
+            "count": 930,
+            "popularity": 2665,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boxing gloves",
+            "title": "Боксерские перчатки",
+            "link": "https://kaspi.kz/shop/c/boxing%20gloves/",
+            "active": false,
+            "count": 1081,
+            "popularity": 1084,
+            "expanded": true
+          },
+          {
+            "id": ":category:Martial arts hand wraps",
+            "title": "Бинты для единоборств",
+            "link": "https://kaspi.kz/shop/c/martial%20arts%20hand%20wraps/",
+            "active": false,
+            "count": 224,
+            "popularity": 594,
+            "expanded": true
+          },
+          {
+            "id": ":category:Training gloves",
+            "title": "Перчатки для единоборств",
+            "link": "https://kaspi.kz/shop/c/training%20gloves/",
+            "active": false,
+            "count": 401,
+            "popularity": 362,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Water sports",
+        "title": "Водный спорт",
+        "link": "https://kaspi.kz/shop/c/water%20sports/",
+        "active": false,
+        "count": 7005,
+        "popularity": 3706,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Watersport goggles",
+            "title": "Очки для плавания",
+            "link": "https://kaspi.kz/shop/c/watersport%20goggles/",
+            "active": false,
+            "count": 1083,
+            "popularity": 1055,
+            "expanded": true
+          },
+          {
+            "id": ":category:Swim caps",
+            "title": "Шапочки для плавания",
+            "link": "https://kaspi.kz/shop/c/swim%20caps/",
+            "active": false,
+            "count": 864,
+            "popularity": 828,
+            "expanded": true
+          },
+          {
+            "id": ":category:Diving masks and snorkels",
+            "title": "Маски и трубки для подводного плавания",
+            "link": "https://kaspi.kz/shop/c/diving%20masks%20and%20snorkels/",
+            "active": false,
+            "count": 654,
+            "popularity": 410,
+            "expanded": true
+          },
+          {
+            "id": ":category:Swim fins",
+            "title": "Ласты для плавания",
+            "link": "https://kaspi.kz/shop/c/swim%20fins/",
+            "active": false,
+            "count": 899,
+            "popularity": 336,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water shoes",
+            "title": "Гидрообувь",
+            "link": "https://kaspi.kz/shop/c/water%20shoes/",
+            "active": false,
+            "count": 1584,
+            "popularity": 327,
+            "expanded": true
+          },
+          {
+            "id": ":category:Swimming earplugs",
+            "title": "Беруши для плавания",
+            "link": "https://kaspi.kz/shop/c/swimming%20earplugs/",
+            "active": false,
+            "count": 105,
+            "popularity": 296,
+            "expanded": true
+          },
+          {
+            "id": ":category:Swimming kickboards",
+            "title": "Доски для плавания",
+            "link": "https://kaspi.kz/shop/c/swimming%20kickboards/",
+            "active": false,
+            "count": 140,
+            "popularity": 142,
+            "expanded": true
+          },
+          {
+            "id": ":category:Swimming hand paddles",
+            "title": "Лопатки для плавания",
+            "link": "https://kaspi.kz/shop/c/swimming%20hand%20paddles/",
+            "active": false,
+            "count": 124,
+            "popularity": 134,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sup-surfing kickboards",
+            "title": "Доски для SUP-серфинга",
+            "link": "https://kaspi.kz/shop/c/sup-surfing%20kickboards/",
+            "active": false,
+            "count": 149,
+            "popularity": 115,
+            "expanded": true
+          },
+          {
+            "id": ":category:Diving suits",
+            "title": "Гидрокостюмы",
+            "link": "https://kaspi.kz/shop/c/diving%20suits/",
+            "active": false,
+            "count": 1128,
+            "popularity": 63,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Hunting equipment",
+        "title": "Товары для охоты и стрельбы",
+        "link": "https://kaspi.kz/shop/c/hunting%20equipment/",
+        "active": false,
+        "count": 9785,
+        "popularity": 2450,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Hunting clothing",
+            "title": "Одежда и обувь для охоты",
+            "link": "https://kaspi.kz/shop/c/hunting%20clothing/",
+            "active": false,
+            "count": 6324,
+            "popularity": 1052,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sights for hunting and shooting",
+            "title": "Прицелы для охоты и стрельбы",
+            "link": "https://kaspi.kz/shop/c/sights%20for%20hunting%20and%20shooting/",
+            "active": false,
+            "count": 608,
+            "popularity": 327,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hunting bags",
+            "title": "Сумки и ящики для охоты",
+            "link": "https://kaspi.kz/shop/c/hunting%20bags/",
+            "active": false,
+            "count": 643,
+            "popularity": 312,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for hunting and shooting",
+            "title": "Аксессуары для охоты и стрельбы",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20hunting%20and%20shooting/",
+            "active": false,
+            "count": 242,
+            "popularity": 151,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gun holsters",
+            "title": "Кобуры для оружия",
+            "link": "https://kaspi.kz/shop/c/gun%20holsters/",
+            "active": false,
+            "count": 199,
+            "popularity": 134,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sports bows",
+            "title": "Спортивные луки и арбалеты",
+            "link": "https://kaspi.kz/shop/c/sports%20bows/",
+            "active": false,
+            "count": 150,
+            "popularity": 126,
+            "expanded": true
+          },
+          {
+            "id": ":category:Decoys",
+            "title": "Чучела для охоты",
+            "link": "https://kaspi.kz/shop/c/decoys/",
+            "active": false,
+            "count": 124,
+            "popularity": 121,
+            "expanded": true
+          },
+          {
+            "id": ":category:Magazine pouches",
+            "title": "Патронташи для охоты",
+            "link": "https://kaspi.kz/shop/c/magazine%20pouches/",
+            "active": false,
+            "count": 218,
+            "popularity": 101,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hunting calls",
+            "title": "Манки для охоты",
+            "link": "https://kaspi.kz/shop/c/hunting%20calls/",
+            "active": false,
+            "count": 208,
+            "popularity": 76,
+            "expanded": true
+          },
+          {
+            "id": ":category:Products for diving and spearfishing",
+            "title": "Товары для дайвинга и подводной охоты",
+            "link": "https://kaspi.kz/shop/c/products%20for%20diving%20and%20spearfishing/",
+            "active": false,
+            "count": 272,
+            "popularity": 50,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Sports clothing",
+        "title": "Спортивная одежда и обувь",
+        "link": "https://kaspi.kz/shop/c/sports%20clothing/",
+        "active": false,
+        "count": 9877,
+        "popularity": 1950,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Sports uniforms",
+            "title": "Спортивная форма",
+            "link": "https://kaspi.kz/shop/c/sports%20uniforms/",
+            "active": false,
+            "count": 3589,
+            "popularity": 1410,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ski suits",
+            "title": "Горнолыжные костюмы",
+            "link": "https://kaspi.kz/shop/c/ski%20suits/",
+            "active": false,
+            "count": 1991,
+            "popularity": 395,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ski pants",
+            "title": "Горнолыжные брюки",
+            "link": "https://kaspi.kz/shop/c/ski%20pants/",
+            "active": false,
+            "count": 1842,
+            "popularity": 74,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ski jackets",
+            "title": "Горнолыжные куртки",
+            "link": "https://kaspi.kz/shop/c/ski%20jackets/",
+            "active": false,
+            "count": 2433,
+            "popularity": 71,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Climbing equipment",
+        "title": "Альпинизм и скалолазание",
+        "link": "https://kaspi.kz/shop/c/climbing%20equipment/",
+        "active": false,
+        "count": 1166,
+        "popularity": 1555,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Ice climbing grips",
+            "title": "Ледоступы альпинистские",
+            "link": "https://kaspi.kz/shop/c/ice%20climbing%20grips/",
+            "active": false,
+            "count": 250,
+            "popularity": 1181,
+            "expanded": true
+          },
+          {
+            "id": ":category:Locking carabiners",
+            "title": "Карабины для альпинизма",
+            "link": "https://kaspi.kz/shop/c/locking%20carabiners/",
+            "active": false,
+            "count": 148,
+            "popularity": 150,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gaiters for tourism",
+            "title": "Гамаши для туризма и альпинизма",
+            "link": "https://kaspi.kz/shop/c/gaiters%20for%20tourism/",
+            "active": false,
+            "count": 104,
+            "popularity": 140,
+            "expanded": true
+          },
+          {
+            "id": ":category:Climbing harnesses",
+            "title": "Страховочные системы",
+            "link": "https://kaspi.kz/shop/c/climbing%20harnesses/",
+            "active": false,
+            "count": 188,
+            "popularity": 63,
+            "expanded": true
+          },
+          {
+            "id": ":category:Climbing rock shoes",
+            "title": "Скальные туфли для альпинизма",
+            "link": "https://kaspi.kz/shop/c/climbing%20rock%20shoes/",
+            "active": false,
+            "count": 190,
+            "popularity": 21,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Roller skating",
+        "title": "Роликовые коньки и лыжероллеры",
+        "link": "https://kaspi.kz/shop/c/roller%20skating/",
+        "active": false,
+        "count": 1075,
+        "popularity": 1116,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Roller skates",
+            "title": "Роликовые коньки",
+            "link": "https://kaspi.kz/shop/c/roller%20skates/",
+            "active": false,
+            "count": 1011,
+            "popularity": 1116,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Yoga goods",
+        "title": "Товары для йоги",
+        "link": "https://kaspi.kz/shop/c/yoga%20goods/",
+        "active": false,
+        "count": 420,
+        "popularity": 676,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Yoga blocks",
+            "title": "Блоки для йоги",
+            "link": "https://kaspi.kz/shop/c/yoga%20blocks/",
+            "active": false,
+            "count": 158,
+            "popularity": 549,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sadhu boards",
+            "title": "Доски Садху",
+            "link": "https://kaspi.kz/shop/c/sadhu%20boards/",
+            "active": false,
+            "count": 197,
+            "popularity": 127,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Rhythmic gymnastics and dance",
+        "title": "Художественная гимнастика и танцы",
+        "link": "https://kaspi.kz/shop/c/rhythmic%20gymnastics%20and%20dance/",
+        "active": false,
+        "count": 998,
+        "popularity": 439,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Leotards for rhythmic gymnastics and dance",
+            "title": "Купальники и комбинезоны",
+            "link": "https://kaspi.kz/shop/c/leotards%20for%20rhythmic%20gymnastics%20and%20dance/",
+            "active": false,
+            "count": 363,
+            "popularity": 213,
+            "expanded": true
+          },
+          {
+            "id": ":category:Balls for rhythmic gymnastics",
+            "title": "Мячи для художественной гимнастики",
+            "link": "https://kaspi.kz/shop/c/balls%20for%20rhythmic%20gymnastics/",
+            "active": false,
+            "count": 213,
+            "popularity": 162,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ribbons or rhythmic gymnastics",
+            "title": "Ленты для художественной гимнастики",
+            "link": "https://kaspi.kz/shop/c/ribbons%20or%20rhythmic%20gymnastics/",
+            "active": false,
+            "count": 103,
+            "popularity": 64,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Powerlifting",
+        "title": "Пауэрлифтинг",
+        "link": "https://kaspi.kz/shop/c/powerlifting/",
+        "active": false,
+        "count": 157,
+        "popularity": 303,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Weightlifting rods and cuffs",
+            "title": "Лямки и манжеты для тяги",
+            "link": "https://kaspi.kz/shop/c/weightlifting%20rods%20and%20cuffs/",
+            "active": false,
+            "count": 136,
+            "popularity": 303,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Equestrian equipment",
+        "title": "Конный спорт",
+        "link": "https://kaspi.kz/shop/c/equestrian%20equipment/",
+        "active": false,
+        "count": 322,
+        "popularity": 125,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Horse saddles",
+            "title": "Седла для лошади",
+            "link": "https://kaspi.kz/shop/c/horse%20saddles/",
+            "active": false,
+            "count": 144,
+            "popularity": 125,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

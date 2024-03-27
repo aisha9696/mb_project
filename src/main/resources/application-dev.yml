@@ -35,7 +35,7 @@ spring:
           my-client:
             authorization-grant-type: client_credentials
             client-id: mbprojectclient
-            client-secret:
+            client-secret: u7bs3CiLtuYVXvUDYJ6Pu8MHL6j372yR
         provider:
           my-client:
             token-uri: http://localhost:8080/realms/mb_project/protocol/openid-connect/token
@@ -51,7 +51,7 @@ keycloak:
   authorization_url: /realms/%s/protocol/openid-connect/certs
   user_locked_url: /admin/realms/%s/attack-detection/brute-force/users/
   credentials:
-    secret:
+    secret: u7bs3CiLtuYVXvUDYJ6Pu8MHL6j372yR
     use-resource-role-mappings: true
     bearer-only: true
 
@@ -77,4 +77,7 @@ cloud:
     credentials:
       accessKey:
       secretKey:
+
+
+
 

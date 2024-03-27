@@ -1,0 +1,336 @@
+[
+  {
+    "id": ":category:Smartphones and gadgets",
+    "title": "Телефоны и гаджеты",
+    "link": "https://kaspi.kz/shop/c/smartphones%20and%20gadgets/",
+    "active": true,
+    "count": 141344,
+    "popularity": 154825,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Phone accessories",
+        "title": "Аксессуары для телефонов",
+        "link": "https://kaspi.kz/shop/c/phone%20accessories/",
+        "active": false,
+        "count": 129929,
+        "popularity": 82510,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Phone cases",
+            "title": "Чехлы для смартфонов",
+            "link": "https://kaspi.kz/shop/c/phone%20cases/",
+            "active": false,
+            "count": 107533,
+            "popularity": 45012,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wireless chargers",
+            "title": "Зарядные устройства",
+            "link": "https://kaspi.kz/shop/c/wireless%20chargers/",
+            "active": false,
+            "count": 2657,
+            "popularity": 10123,
+            "expanded": true
+          },
+          {
+            "id": ":category:Smartphones screen protection",
+            "title": "Защитные пленки и стекла для смартфонов",
+            "link": "https://kaspi.kz/shop/c/smartphones%20screen%20protection/",
+            "active": false,
+            "count": 10670,
+            "popularity": 9394,
+            "expanded": true
+          },
+          {
+            "id": ":category:Phone holders",
+            "title": "Держатели для телефонов",
+            "link": "https://kaspi.kz/shop/c/phone%20holders/",
+            "active": false,
+            "count": 2373,
+            "popularity": 6080,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cables and adapters",
+            "title": "Кабели и переходники для смартфонов",
+            "link": "https://kaspi.kz/shop/c/cables%20and%20adapters/",
+            "active": false,
+            "count": 2726,
+            "popularity": 4480,
+            "expanded": true
+          },
+          {
+            "id": ":category:Power banks",
+            "title": "Внешние аккумуляторы",
+            "link": "https://kaspi.kz/shop/c/power%20banks/",
+            "active": false,
+            "count": 1433,
+            "popularity": 4263,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cases for chargers and cables",
+            "title": "Чехлы для зарядных устройств и кабелей",
+            "link": "https://kaspi.kz/shop/c/cases%20for%20chargers%20and%20cables/",
+            "active": false,
+            "count": 443,
+            "popularity": 1087,
+            "expanded": true
+          },
+          {
+            "id": ":category:Smart lenses for smartphones",
+            "title": "Смарт-линзы для смартфонов",
+            "link": "https://kaspi.kz/shop/c/smart%20lenses%20for%20smartphones/",
+            "active": false,
+            "count": 114,
+            "popularity": 530,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cooling systems for smartphones",
+            "title": "Системы охлаждения для смартфонов",
+            "link": "https://kaspi.kz/shop/c/cooling%20systems%20for%20smartphones/",
+            "active": false,
+            "count": 65,
+            "popularity": 526,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cell phone batteries",
+            "title": "Аккумуляторы для телефонов",
+            "link": "https://kaspi.kz/shop/c/cell%20phone%20batteries/",
+            "active": false,
+            "count": 810,
+            "popularity": 461,
+            "expanded": true
+          },
+          {
+            "id": ":category:Smartphone displays",
+            "title": "Дисплеи для смартфонов",
+            "link": "https://kaspi.kz/shop/c/smartphone%20displays/",
+            "active": false,
+            "count": 1020,
+            "popularity": 278,
+            "expanded": true
+          },
+          {
+            "id": ":category:Magnifying screens for smartphones",
+            "title": "Увеличительные экраны для смартфонов",
+            "link": "https://kaspi.kz/shop/c/magnifying%20screens%20for%20smartphones/",
+            "active": false,
+            "count": 13,
+            "popularity": 182,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stickers for phones",
+            "title": "Наклейки для телефонов",
+            "link": "https://kaspi.kz/shop/c/stickers%20for%20phones/",
+            "active": false,
+            "count": 52,
+            "popularity": 76,
+            "expanded": true
+          },
+          {
+            "id": ":category:Vacuum separators",
+            "title": "Вакуумные сепараторы",
+            "link": "https://kaspi.kz/shop/c/vacuum%20separators/",
+            "active": false,
+            "count": 15,
+            "popularity": 12,
+            "expanded": true
+          },
+          {
+            "id": ":category:Smartphone maintenance tools",
+            "title": "Инструменты для обслуживания смартфонов",
+            "link": "https://kaspi.kz/shop/c/smartphone%20maintenance%20tools/",
+            "active": false,
+            "count": 5,
+            "popularity": 6,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Smartphones",
+        "title": "Смартфоны",
+        "link": "https://kaspi.kz/shop/c/smartphones/",
+        "active": false,
+        "count": 2558,
+        "popularity": 54247,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Gadgets",
+        "title": "Гаджеты",
+        "link": "https://kaspi.kz/shop/c/gadgets/",
+        "active": false,
+        "count": 8126,
+        "popularity": 15686,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Smart watches",
+            "title": "Смарт-часы",
+            "link": "https://kaspi.kz/shop/c/smart%20watches/",
+            "active": false,
+            "count": 1560,
+            "popularity": 7690,
+            "expanded": true
+          },
+          {
+            "id": ":category:Smart watch bands",
+            "title": "Ремешки для смарт-часов и фитнес-браслетов",
+            "link": "https://kaspi.kz/shop/c/smart%20watch%20bands/",
+            "active": false,
+            "count": 4761,
+            "popularity": 3047,
+            "expanded": true
+          },
+          {
+            "id": ":category:CB radios",
+            "title": "Рации и радиостанции",
+            "link": "https://kaspi.kz/shop/c/cb%20radios/",
+            "active": false,
+            "count": 409,
+            "popularity": 1370,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wearables",
+            "title": "Фитнес-браслеты",
+            "link": "https://kaspi.kz/shop/c/wearables/",
+            "active": false,
+            "count": 147,
+            "popularity": 1214,
+            "expanded": true
+          },
+          {
+            "id": ":category:Chargers for smartwatches and fitness bracelets",
+            "title": "Зарядные устройства для смарт-часов и фитнес-браслетов",
+            "link": "https://kaspi.kz/shop/c/chargers%20for%20smartwatches%20and%20fitness%20bracelets/",
+            "active": false,
+            "count": 86,
+            "popularity": 528,
+            "expanded": true
+          },
+          {
+            "id": ":category:Heated tobacco systems",
+            "title": "Системы нагревания",
+            "link": "https://kaspi.kz/shop/c/heated%20tobacco%20systems/",
+            "active": false,
+            "count": 23,
+            "popularity": 484,
+            "expanded": true
+          },
+          {
+            "id": ":category:eBooks",
+            "title": "Электронные книги",
+            "link": "https://kaspi.kz/shop/c/ebooks/",
+            "active": false,
+            "count": 88,
+            "popularity": 372,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for walkie-talkies and radio stations",
+            "title": "Аксессуары для раций и радиостанций",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20walkie-talkies%20and%20radio%20stations/",
+            "active": false,
+            "count": 183,
+            "popularity": 257,
+            "expanded": true
+          },
+          {
+            "id": ":category:Smart rings",
+            "title": "Смарт-кольца",
+            "link": "https://kaspi.kz/shop/c/smart%20rings/",
+            "active": false,
+            "count": 56,
+            "popularity": 200,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bluetooth trackers",
+            "title": "Bluetooth-трекеры",
+            "link": "https://kaspi.kz/shop/c/bluetooth%20trackers/",
+            "active": false,
+            "count": 16,
+            "popularity": 163,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cases for smartwatches and fitness bracelets",
+            "title": "Чехлы для смарт-часов и фитнес-браслетов",
+            "link": "https://kaspi.kz/shop/c/cases%20for%20smartwatches%20and%20fitness%20bracelets/",
+            "active": false,
+            "count": 537,
+            "popularity": 161,
+            "expanded": true
+          },
+          {
+            "id": ":category:Protective films for smart watches and fitness bracelets",
+            "title": "Защитные пленки и стекла для смарт-часов, фитнес-браслетов",
+            "link": "https://kaspi.kz/shop/c/protective%20films%20for%20smart%20watches%20and%20fitness%20bracelets/",
+            "active": false,
+            "count": 179,
+            "popularity": 108,
+            "expanded": true
+          },
+          {
+            "id": ":category:E-book covers",
+            "title": "Чехлы для электронных книг",
+            "link": "https://kaspi.kz/shop/c/e-book%20covers/",
+            "active": false,
+            "count": 46,
+            "popularity": 84,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for tobacco heating systems",
+            "title": "Аксессуары для систем нагревания",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20tobacco%20heating%20systems/",
+            "active": false,
+            "count": 35,
+            "popularity": 8,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Mobiles",
+        "title": "Мобильные телефоны",
+        "link": "https://kaspi.kz/shop/c/mobiles/",
+        "active": false,
+        "count": 606,
+        "popularity": 1948,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Cordless telephones",
+        "title": "Радиотелефоны",
+        "link": "https://kaspi.kz/shop/c/cordless%20telephones/",
+        "active": false,
+        "count": 117,
+        "popularity": 378,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Satellite phones and communicators",
+        "title": "Спутниковые телефоны и коммуникаторы",
+        "link": "https://kaspi.kz/shop/c/satellite%20phones%20and%20communicators/",
+        "active": false,
+        "count": 8,
+        "popularity": 56,
+        "expanded": true,
+        "items": []
+      }
+    ]
+  }
+]
