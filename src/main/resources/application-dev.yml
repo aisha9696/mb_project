@@ -35,7 +35,7 @@ spring:
           my-client:
             authorization-grant-type: client_credentials
             client-id: mbprojectclient
-            client-secret: u7bs3CiLtuYVXvUDYJ6Pu8MHL6j372yR
+            client-secret:
         provider:
           my-client:
             token-uri: http://localhost:8080/realms/mb_project/protocol/openid-connect/token
@@ -51,7 +51,7 @@ keycloak:
   authorization_url: /realms/%s/protocol/openid-connect/certs
   user_locked_url: /admin/realms/%s/attack-detection/brute-force/users/
   credentials:
-    secret: u7bs3CiLtuYVXvUDYJ6Pu8MHL6j372yR
+    secret:
     use-resource-role-mappings: true
     bearer-only: true
 
@@ -69,5 +69,12 @@ sms:
 
 springdoc:
   enable-spring-security: true
-
+cloud:
+  aws:
+    s3:
+      url: https://my-bussiness-bucket.s3.eu-west-3.amazonaws.com
+      bucket: my-bussiness-bucket
+    credentials:
+      accessKey:
+      secretKey:
 
