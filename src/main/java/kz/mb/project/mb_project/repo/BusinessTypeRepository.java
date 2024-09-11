@@ -12,5 +12,4 @@ import kz.mb.project.mb_project.entity.projection.BusinessTypeProjection;
 @RepositoryRestResource(excerptProjection = BusinessTypeProjection.class)
 public interface BusinessTypeRepository extends CrudRepository<BusinessTypeSpr, UUID> {
 
-
 }

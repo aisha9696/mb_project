@@ -21,7 +21,8 @@ public class WebSecurityConfig {
       "/api/users/public/**",
       "/api/helper/public/**",
       "v3/**",
-      "/swagger-ui/**"
+      "/swagger-ui/**",
+      "/s3/partners/**"
   };
 
   @Autowired
