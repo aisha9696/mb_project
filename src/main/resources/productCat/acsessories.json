@@ -1,0 +1,342 @@
+[
+  {
+    "id": ":category:Fashion accessories",
+    "title": "Аксессуары",
+    "link": "https://kaspi.kz/shop/c/fashion%20accessories/",
+    "active": true,
+    "count": 203037,
+    "popularity": 94521,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Travel gear",
+        "title": "Сумки, чемоданы, кошельки",
+        "link": "https://kaspi.kz/shop/c/travel%20gear/",
+        "active": false,
+        "count": 98516,
+        "popularity": 55211,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Fashion handbags",
+            "title": "Сумки",
+            "link": "https://kaspi.kz/shop/c/fashion%20handbags/",
+            "active": false,
+            "count": 50783,
+            "popularity": 27510,
+            "expanded": true
+          },
+          {
+            "id": ":category:Backpacks",
+            "title": "Рюкзаки",
+            "link": "https://kaspi.kz/shop/c/backpacks/",
+            "active": false,
+            "count": 22713,
+            "popularity": 10589,
+            "expanded": true
+          },
+          {
+            "id": ":category:Suitcases",
+            "title": "Чемоданы",
+            "link": "https://kaspi.kz/shop/c/suitcases/",
+            "active": false,
+            "count": 9331,
+            "popularity": 5390,
+            "expanded": true
+          },
+          {
+            "id": ":category:Travel duffels",
+            "title": "Дорожные сумки",
+            "link": "https://kaspi.kz/shop/c/travel%20duffels/",
+            "active": false,
+            "count": 4275,
+            "popularity": 5070,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wallets",
+            "title": "Кошельки и визитницы",
+            "link": "https://kaspi.kz/shop/c/wallets/",
+            "active": false,
+            "count": 8935,
+            "popularity": 3792,
+            "expanded": true
+          },
+          {
+            "id": ":category:Passport holders",
+            "title": "Обложки для документов",
+            "link": "https://kaspi.kz/shop/c/passport%20holders/",
+            "active": false,
+            "count": 752,
+            "popularity": 1135,
+            "expanded": true
+          },
+          {
+            "id": ":category:Travel accessories",
+            "title": "Дорожные аксессуары",
+            "link": "https://kaspi.kz/shop/c/travel%20accessories/",
+            "active": false,
+            "count": 425,
+            "popularity": 1107,
+            "expanded": true
+          },
+          {
+            "id": ":category:Suitcase covers",
+            "title": "Чехлы для чемоданов",
+            "link": "https://kaspi.kz/shop/c/suitcase%20covers/",
+            "active": false,
+            "count": 1257,
+            "popularity": 618,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Hats and scarves",
+        "title": "Шапки, шарфы, перчатки",
+        "link": "https://kaspi.kz/shop/c/hats%20and%20scarves/",
+        "active": false,
+        "count": 49364,
+        "popularity": 18757,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Fashion hats and caps",
+            "title": "Головные уборы",
+            "link": "https://kaspi.kz/shop/c/fashion%20hats%20and%20caps/",
+            "active": false,
+            "count": 34024,
+            "popularity": 12147,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fashion scarves",
+            "title": "Шарфы и платки",
+            "link": "https://kaspi.kz/shop/c/fashion%20scarves/",
+            "active": false,
+            "count": 8995,
+            "popularity": 4095,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fashion gloves and mittens",
+            "title": "Перчатки и варежки",
+            "link": "https://kaspi.kz/shop/c/fashion%20gloves%20and%20mittens/",
+            "active": false,
+            "count": 6345,
+            "popularity": 2515,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Watches",
+        "title": "Часы",
+        "link": "https://kaspi.kz/shop/c/watches/",
+        "active": false,
+        "count": 33430,
+        "popularity": 8169,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Wrist watches",
+            "title": "Часы наручные",
+            "link": "https://kaspi.kz/shop/c/wrist%20watches/",
+            "active": false,
+            "count": 30254,
+            "popularity": 7781,
+            "expanded": true
+          },
+          {
+            "id": ":category:Watch straps and bracelets",
+            "title": "Ремешки и браслеты для часов",
+            "link": "https://kaspi.kz/shop/c/watch%20straps%20and%20bracelets/",
+            "active": false,
+            "count": 2244,
+            "popularity": 235,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jewelry watches",
+            "title": "Ювелирные часы",
+            "link": "https://kaspi.kz/shop/c/jewelry%20watches/",
+            "active": false,
+            "count": 887,
+            "popularity": 99,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pocket watch",
+            "title": "Карманные часы",
+            "link": "https://kaspi.kz/shop/c/pocket%20watch/",
+            "active": false,
+            "count": 45,
+            "popularity": 54,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Accessories",
+        "title": "Зонты, брелоки и портсигары",
+        "link": "https://kaspi.kz/shop/c/accessories/",
+        "active": false,
+        "count": 6694,
+        "popularity": 5058,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Umbrellas",
+            "title": "Зонты",
+            "link": "https://kaspi.kz/shop/c/umbrellas/",
+            "active": false,
+            "count": 1760,
+            "popularity": 2977,
+            "expanded": true
+          },
+          {
+            "id": ":category:Key wallets and keychains",
+            "title": "Брелоки и ключницы",
+            "link": "https://kaspi.kz/shop/c/key%20wallets%20and%20keychains/",
+            "active": false,
+            "count": 4831,
+            "popularity": 1948,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lighter accessories",
+            "title": "Портсигары и аксессуары для зажигалок",
+            "link": "https://kaspi.kz/shop/c/lighter%20accessories/",
+            "active": false,
+            "count": 103,
+            "popularity": 133,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Fashion glasses and accessories",
+        "title": "Очки и аксессуары",
+        "link": "https://kaspi.kz/shop/c/fashion%20glasses%20and%20accessories/",
+        "active": false,
+        "count": 6002,
+        "popularity": 3509,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Sunglasses",
+            "title": "Солнцезащитные очки",
+            "link": "https://kaspi.kz/shop/c/sunglasses/",
+            "active": false,
+            "count": 5355,
+            "popularity": 2844,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eyeglass cases",
+            "title": "Футляры для очков",
+            "link": "https://kaspi.kz/shop/c/eyeglass%20cases/",
+            "active": false,
+            "count": 404,
+            "popularity": 414,
+            "expanded": true
+          },
+          {
+            "id": ":category:Holders for glasses",
+            "title": "Держатели для очков",
+            "link": "https://kaspi.kz/shop/c/holders%20for%20glasses/",
+            "active": false,
+            "count": 200,
+            "popularity": 212,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eyeglass care products",
+            "title": "Уход за очками",
+            "link": "https://kaspi.kz/shop/c/eyeglass%20care%20products/",
+            "active": false,
+            "count": 43,
+            "popularity": 39,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Clothing accessories",
+        "title": "Аксессуары для одежды и обуви",
+        "link": "https://kaspi.kz/shop/c/clothing%20accessories/",
+        "active": false,
+        "count": 8265,
+        "popularity": 3019,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Belts",
+            "title": "Ремни",
+            "link": "https://kaspi.kz/shop/c/belts/",
+            "active": false,
+            "count": 6208,
+            "popularity": 2086,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ties and bow ties",
+            "title": "Галстуки и бабочки",
+            "link": "https://kaspi.kz/shop/c/ties%20and%20bow%20ties/",
+            "active": false,
+            "count": 1639,
+            "popularity": 531,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fashion suspenders",
+            "title": "Подтяжки",
+            "link": "https://kaspi.kz/shop/c/fashion%20suspenders/",
+            "active": false,
+            "count": 225,
+            "popularity": 275,
+            "expanded": true
+          },
+          {
+            "id": ":category:Workwear accessories",
+            "title": "Аксессуары для одежды",
+            "link": "https://kaspi.kz/shop/c/workwear%20accessories/",
+            "active": false,
+            "count": 171,
+            "popularity": 108,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jibbitz",
+            "title": "Джиббитсы",
+            "link": "https://kaspi.kz/shop/c/jibbitz/",
+            "active": false,
+            "count": 22,
+            "popularity": 19,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Sleep masks",
+        "title": "Маски для сна",
+        "link": "https://kaspi.kz/shop/c/sleep%20masks/",
+        "active": false,
+        "count": 296,
+        "popularity": 701,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Wedding accessories",
+        "title": "Свадебные аксессуары",
+        "link": "https://kaspi.kz/shop/c/wedding%20accessories/",
+        "active": false,
+        "count": 515,
+        "popularity": 97,
+        "expanded": true,
+        "items": []
+      }
+    ]
+  }
+]

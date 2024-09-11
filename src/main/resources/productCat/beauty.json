@@ -1,0 +1,1402 @@
+[
+  {
+    "id": ":category:Beauty care",
+    "title": "Красота и здоровье",
+    "link": "https://kaspi.kz/shop/c/beauty%20care/",
+    "active": true,
+    "count": 224665,
+    "popularity": 758205,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Skin care",
+        "title": "Уход за лицом",
+        "link": "https://kaspi.kz/shop/c/skin%20care/",
+        "active": false,
+        "count": 25184,
+        "popularity": 142422,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Creams",
+            "title": "Кремы и сыворотки",
+            "link": "https://kaspi.kz/shop/c/creams/",
+            "active": false,
+            "count": 11531,
+            "popularity": 50737,
+            "expanded": true
+          },
+          {
+            "id": ":category:Makeup removers",
+            "title": "Средства для умывания и очищения",
+            "link": "https://kaspi.kz/shop/c/makeup%20removers/",
+            "active": false,
+            "count": 2896,
+            "popularity": 28791,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cotton pads and stems",
+            "title": "Ватные палочки и диски",
+            "link": "https://kaspi.kz/shop/c/cotton%20pads%20and%20stems/",
+            "active": false,
+            "count": 359,
+            "popularity": 16397,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lotions",
+            "title": "Тоники, тонеры, термальная вода",
+            "link": "https://kaspi.kz/shop/c/lotions/",
+            "active": false,
+            "count": 2356,
+            "popularity": 16156,
+            "expanded": true
+          },
+          {
+            "id": ":category:Facial masks",
+            "title": "Маски для лица",
+            "link": "https://kaspi.kz/shop/c/facial%20masks/",
+            "active": false,
+            "count": 4050,
+            "popularity": 11880,
+            "expanded": true
+          },
+          {
+            "id": ":category:Scrubs and peelings",
+            "title": "Скрабы и пилинги",
+            "link": "https://kaspi.kz/shop/c/scrubs%20and%20peelings/",
+            "active": false,
+            "count": 1119,
+            "popularity": 5282,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lip care products",
+            "title": "Средства для ухода за кожей губ",
+            "link": "https://kaspi.kz/shop/c/lip%20care%20products/",
+            "active": false,
+            "count": 1174,
+            "popularity": 4686,
+            "expanded": true
+          },
+          {
+            "id": ":category:Makeup remover",
+            "title": "Средства для снятия макияжа",
+            "link": "https://kaspi.kz/shop/c/makeup%20remover/",
+            "active": false,
+            "count": 784,
+            "popularity": 3585,
+            "expanded": true
+          },
+          {
+            "id": ":category:Patches",
+            "title": "Патчи",
+            "link": "https://kaspi.kz/shop/c/patches/",
+            "active": false,
+            "count": 537,
+            "popularity": 2664,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cosmetic tweezers",
+            "title": "Косметологические инструменты",
+            "link": "https://kaspi.kz/shop/c/cosmetic%20tweezers/",
+            "active": false,
+            "count": 250,
+            "popularity": 1863,
+            "expanded": true
+          },
+          {
+            "id": ":category:Matting napkins",
+            "title": "Салфетки матирующие и для снятия макияжа",
+            "link": "https://kaspi.kz/shop/c/matting%20napkins/",
+            "active": false,
+            "count": 128,
+            "popularity": 381,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Hair care",
+        "title": "Уход за волосами",
+        "link": "https://kaspi.kz/shop/c/hair%20care/",
+        "active": false,
+        "count": 37704,
+        "popularity": 95941,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Hair shampoos",
+            "title": "Шампуни для волос",
+            "link": "https://kaspi.kz/shop/c/hair%20shampoos/",
+            "active": false,
+            "count": 6116,
+            "popularity": 31211,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair masks",
+            "title": "Маски и бальзамы для волос",
+            "link": "https://kaspi.kz/shop/c/hair%20masks/",
+            "active": false,
+            "count": 5405,
+            "popularity": 16882,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair care products",
+            "title": "Средства по уходу за волосами",
+            "link": "https://kaspi.kz/shop/c/hair%20care%20products/",
+            "active": false,
+            "count": 2611,
+            "popularity": 12909,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair accessories",
+            "title": "Аксессуары для волос",
+            "link": "https://kaspi.kz/shop/c/hair%20accessories/",
+            "active": false,
+            "count": 11013,
+            "popularity": 11614,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair brushes",
+            "title": "Расчески и щетки для волос",
+            "link": "https://kaspi.kz/shop/c/hair%20brushes/",
+            "active": false,
+            "count": 3934,
+            "popularity": 7438,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair color products",
+            "title": "Краска и оттеночные средства для волос",
+            "link": "https://kaspi.kz/shop/c/hair%20color%20products/",
+            "active": false,
+            "count": 5487,
+            "popularity": 5379,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair fixation sprays",
+            "title": "Средства для укладки",
+            "link": "https://kaspi.kz/shop/c/hair%20fixation%20sprays/",
+            "active": false,
+            "count": 1540,
+            "popularity": 4029,
+            "expanded": true
+          },
+          {
+            "id": ":category:Curlers",
+            "title": "Бигуди",
+            "link": "https://kaspi.kz/shop/c/curlers/",
+            "active": false,
+            "count": 552,
+            "popularity": 2333,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dry hair shampoos",
+            "title": "Сухие шампуни для волос",
+            "link": "https://kaspi.kz/shop/c/dry%20hair%20shampoos/",
+            "active": false,
+            "count": 109,
+            "popularity": 1370,
+            "expanded": true
+          },
+          {
+            "id": ":category:Scrubs and peels for hair",
+            "title": "Скрабы и пилинги для кожи головы",
+            "link": "https://kaspi.kz/shop/c/scrubs%20and%20peels%20for%20hair/",
+            "active": false,
+            "count": 97,
+            "popularity": 992,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair color developers",
+            "title": "Окислители для краски",
+            "link": "https://kaspi.kz/shop/c/hair%20color%20developers/",
+            "active": false,
+            "count": 348,
+            "popularity": 851,
+            "expanded": true
+          },
+          {
+            "id": ":category:Compositions for straightening",
+            "title": "Составы для выпрямления и восстановления волос",
+            "link": "https://kaspi.kz/shop/c/compositions%20for%20straightening/",
+            "active": false,
+            "count": 344,
+            "popularity": 496,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men beard and mustache care",
+            "title": "Уход за бородой и усами",
+            "link": "https://kaspi.kz/shop/c/men%20beard%20and%20mustache%20care/",
+            "active": false,
+            "count": 148,
+            "popularity": 437,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Body care",
+        "title": "Уход за телом",
+        "link": "https://kaspi.kz/shop/c/body%20care/",
+        "active": false,
+        "count": 18940,
+        "popularity": 79546,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Sanitary napkins",
+            "title": "Гигиенические прокладки и тампоны",
+            "link": "https://kaspi.kz/shop/c/sanitary%20napkins/",
+            "active": false,
+            "count": 1297,
+            "popularity": 27581,
+            "expanded": true
+          },
+          {
+            "id": ":category:Body creams",
+            "title": "Кремы, масла и сыворотки для тела",
+            "link": "https://kaspi.kz/shop/c/body%20creams/",
+            "active": false,
+            "count": 7586,
+            "popularity": 17694,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bath and shower gels",
+            "title": "Средства для душа",
+            "link": "https://kaspi.kz/shop/c/bath%20and%20shower%20gels/",
+            "active": false,
+            "count": 3252,
+            "popularity": 10447,
+            "expanded": true
+          },
+          {
+            "id": ":category:Deodorants",
+            "title": "Дезодоранты, антиперспиранты",
+            "link": "https://kaspi.kz/shop/c/deodorants/",
+            "active": false,
+            "count": 1439,
+            "popularity": 10110,
+            "expanded": true
+          },
+          {
+            "id": ":category:Skin care accessories",
+            "title": "Принадлежности для ванны и душа",
+            "link": "https://kaspi.kz/shop/c/skin%20care%20accessories/",
+            "active": false,
+            "count": 1978,
+            "popularity": 6253,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bath products",
+            "title": "Бомбочки и соль для ванны",
+            "link": "https://kaspi.kz/shop/c/bath%20products/",
+            "active": false,
+            "count": 1153,
+            "popularity": 2910,
+            "expanded": true
+          },
+          {
+            "id": ":category:Body scrubs",
+            "title": "Скрабы и пилинги для тела",
+            "link": "https://kaspi.kz/shop/c/body%20scrubs/",
+            "active": false,
+            "count": 1311,
+            "popularity": 2585,
+            "expanded": true
+          },
+          {
+            "id": ":category:Anti-cellulite products",
+            "title": "Средства против целлюлита и растяжек",
+            "link": "https://kaspi.kz/shop/c/anti-cellulite%20products/",
+            "active": false,
+            "count": 477,
+            "popularity": 1095,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bath foam",
+            "title": "Пена, масло для ванны",
+            "link": "https://kaspi.kz/shop/c/bath%20foam/",
+            "active": false,
+            "count": 271,
+            "popularity": 536,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cosmetic paraffin",
+            "title": "Парафин косметический",
+            "link": "https://kaspi.kz/shop/c/cosmetic%20paraffin/",
+            "active": false,
+            "count": 176,
+            "popularity": 335,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Decorative cosmetics",
+        "title": "Декоративная косметика",
+        "link": "https://kaspi.kz/shop/c/decorative%20cosmetics/",
+        "active": false,
+        "count": 22172,
+        "popularity": 69237,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Foundation",
+            "title": "Тональные средства",
+            "link": "https://kaspi.kz/shop/c/foundation/",
+            "active": false,
+            "count": 2490,
+            "popularity": 17295,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lipsticks",
+            "title": "Помады, контуры, блески",
+            "link": "https://kaspi.kz/shop/c/lipsticks/",
+            "active": false,
+            "count": 6143,
+            "popularity": 10933,
+            "expanded": true
+          },
+          {
+            "id": ":category:Makeup brush sets and kits",
+            "title": "Кисти, спонжи, точилки",
+            "link": "https://kaspi.kz/shop/c/makeup%20brush%20sets%20and%20kits/",
+            "active": false,
+            "count": 3219,
+            "popularity": 10761,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mascaras",
+            "title": "Тушь",
+            "link": "https://kaspi.kz/shop/c/mascaras/",
+            "active": false,
+            "count": 863,
+            "popularity": 8131,
+            "expanded": true
+          },
+          {
+            "id": ":category:Face blushes and bronzers",
+            "title": "Румяна, бронзеры, скульптурирующие средства",
+            "link": "https://kaspi.kz/shop/c/face%20blushes%20and%20bronzers/",
+            "active": false,
+            "count": 1825,
+            "popularity": 5062,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eyeliners",
+            "title": "Контур для глаз",
+            "link": "https://kaspi.kz/shop/c/eyeliners/",
+            "active": false,
+            "count": 1517,
+            "popularity": 4469,
+            "expanded": true
+          },
+          {
+            "id": ":category:Powders",
+            "title": "Пудры",
+            "link": "https://kaspi.kz/shop/c/powders/",
+            "active": false,
+            "count": 1107,
+            "popularity": 3926,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eyeshadow",
+            "title": "Тени для век",
+            "link": "https://kaspi.kz/shop/c/eyeshadow/",
+            "active": false,
+            "count": 2879,
+            "popularity": 2897,
+            "expanded": true
+          },
+          {
+            "id": ":category:Concealers and neutralizers",
+            "title": "Корректоры и консилеры",
+            "link": "https://kaspi.kz/shop/c/concealers%20and%20neutralizers/",
+            "active": false,
+            "count": 748,
+            "popularity": 2892,
+            "expanded": true
+          },
+          {
+            "id": ":category:Foundation primers",
+            "title": "Основы и фиксаторы для макияжа",
+            "link": "https://kaspi.kz/shop/c/foundation%20primers/",
+            "active": false,
+            "count": 441,
+            "popularity": 2125,
+            "expanded": true
+          },
+          {
+            "id": ":category:Children makeup",
+            "title": "Детская декоративная косметика",
+            "link": "https://kaspi.kz/shop/c/children%20makeup/",
+            "active": false,
+            "count": 940,
+            "popularity": 744,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Beauty care equipment",
+        "title": "Техника и оборудование для красоты",
+        "link": "https://kaspi.kz/shop/c/beauty%20care%20equipment/",
+        "active": false,
+        "count": 10019,
+        "popularity": 47486,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Hair clippers",
+            "title": "Машинки для стрижки волос",
+            "link": "https://kaspi.kz/shop/c/hair%20clippers/",
+            "active": false,
+            "count": 2150,
+            "popularity": 10569,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair crimpers",
+            "title": "Щипцы",
+            "link": "https://kaspi.kz/shop/c/hair%20crimpers/",
+            "active": false,
+            "count": 2127,
+            "popularity": 9846,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair dryers",
+            "title": "Фены",
+            "link": "https://kaspi.kz/shop/c/hair%20dryers/",
+            "active": false,
+            "count": 2089,
+            "popularity": 8666,
+            "expanded": true
+          },
+          {
+            "id": ":category:Body weight scales",
+            "title": "Напольные весы",
+            "link": "https://kaspi.kz/shop/c/body%20weight%20scales/",
+            "active": false,
+            "count": 794,
+            "popularity": 6297,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shavers",
+            "title": "Электробритвы",
+            "link": "https://kaspi.kz/shop/c/shavers/",
+            "active": false,
+            "count": 804,
+            "popularity": 5714,
+            "expanded": true
+          },
+          {
+            "id": ":category:Facial cleansing devices",
+            "title": "Малая косметологическая техника",
+            "link": "https://kaspi.kz/shop/c/facial%20cleansing%20devices/",
+            "active": false,
+            "count": 824,
+            "popularity": 3152,
+            "expanded": true
+          },
+          {
+            "id": ":category:Epilators",
+            "title": "Эпиляторы",
+            "link": "https://kaspi.kz/shop/c/epilators/",
+            "active": false,
+            "count": 405,
+            "popularity": 2137,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hardware cosmetology",
+            "title": "Оборудование для аппаратной косметологии",
+            "link": "https://kaspi.kz/shop/c/hardware%20cosmetology/",
+            "active": false,
+            "count": 347,
+            "popularity": 433,
+            "expanded": true
+          },
+          {
+            "id": ":category:Refrigerators for cosmetics",
+            "title": "Холодильники для косметики",
+            "link": "https://kaspi.kz/shop/c/refrigerators%20for%20cosmetics/",
+            "active": false,
+            "count": 42,
+            "popularity": 201,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nozzles and accessories for clippers",
+            "title": "Аксессуары к бритвам и машинкам для стрижки",
+            "link": "https://kaspi.kz/shop/c/nozzles%20and%20accessories%20for%20clippers/",
+            "active": false,
+            "count": 299,
+            "popularity": 143,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shaving heads and foils",
+            "title": "Бритвенные головки и сетки",
+            "link": "https://kaspi.kz/shop/c/shaving%20heads%20and%20foils/",
+            "active": false,
+            "count": 58,
+            "popularity": 122,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair dryer attachments",
+            "title": "Насадки для фена",
+            "link": "https://kaspi.kz/shop/c/hair%20dryer%20attachments/",
+            "active": false,
+            "count": 27,
+            "popularity": 86,
+            "expanded": true
+          },
+          {
+            "id": ":category:Piercing Tools",
+            "title": "Инструменты для пирсинга",
+            "link": "https://kaspi.kz/shop/c/piercing%20tools/",
+            "active": false,
+            "count": 45,
+            "popularity": 79,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hot hair rollers",
+            "title": "Электробигуди",
+            "link": "https://kaspi.kz/shop/c/hot%20hair%20rollers/",
+            "active": false,
+            "count": 8,
+            "popularity": 41,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Oral care",
+        "title": "Уход за полостью рта",
+        "link": "https://kaspi.kz/shop/c/oral%20care/",
+        "active": false,
+        "count": 5605,
+        "popularity": 44762,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Toothpaste",
+            "title": "Зубные пасты, гели, порошки",
+            "link": "https://kaspi.kz/shop/c/toothpaste/",
+            "active": false,
+            "count": 1618,
+            "popularity": 26447,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toothbrushes",
+            "title": "Зубные щетки, очистители языка",
+            "link": "https://kaspi.kz/shop/c/toothbrushes/",
+            "active": false,
+            "count": 2111,
+            "popularity": 9926,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mouthwashes",
+            "title": "Ополаскиватели для полости рта, воск для брекетов",
+            "link": "https://kaspi.kz/shop/c/mouthwashes/",
+            "active": false,
+            "count": 341,
+            "popularity": 2237,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water flossers",
+            "title": "Ирригаторы, скалеры",
+            "link": "https://kaspi.kz/shop/c/water%20flossers/",
+            "active": false,
+            "count": 421,
+            "popularity": 2222,
+            "expanded": true
+          },
+          {
+            "id": ":category:Electric toothbrushes",
+            "title": "Электрические зубные щетки",
+            "link": "https://kaspi.kz/shop/c/electric%20toothbrushes/",
+            "active": false,
+            "count": 532,
+            "popularity": 1594,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dental floss",
+            "title": "Зубные нити",
+            "link": "https://kaspi.kz/shop/c/dental%20floss/",
+            "active": false,
+            "count": 135,
+            "popularity": 1133,
+            "expanded": true
+          },
+          {
+            "id": ":category:Replacement toothbrush heads",
+            "title": "Насадки для электрических зубных щеток и ирригаторов",
+            "link": "https://kaspi.kz/shop/c/replacement%20toothbrush%20heads/",
+            "active": false,
+            "count": 211,
+            "popularity": 596,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toothbrush accessories",
+            "title": "Аксессуары для зубных щеток",
+            "link": "https://kaspi.kz/shop/c/toothbrush%20accessories/",
+            "active": false,
+            "count": 155,
+            "popularity": 225,
+            "expanded": true
+          },
+          {
+            "id": ":category:Teeth whitening kits",
+            "title": "Отбеливание зубов",
+            "link": "https://kaspi.kz/shop/c/teeth%20whitening%20kits/",
+            "active": false,
+            "count": 45,
+            "popularity": 186,
+            "expanded": true
+          },
+          {
+            "id": ":category:Orthodontic bands",
+            "title": "Ортодонтические резинки",
+            "link": "https://kaspi.kz/shop/c/orthodontic%20bands/",
+            "active": false,
+            "count": 29,
+            "popularity": 167,
+            "expanded": true
+          },
+          {
+            "id": ":category:Toothbrush sterilizer",
+            "title": "Стерилизаторы для зубных щеток",
+            "link": "https://kaspi.kz/shop/c/toothbrush%20sterilizer/",
+            "active": false,
+            "count": 7,
+            "popularity": 29,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Nail care",
+        "title": "Для маникюра и педикюра",
+        "link": "https://kaspi.kz/shop/c/nail%20care/",
+        "active": false,
+        "count": 52037,
+        "popularity": 39165,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Manicure and pedicure tools",
+            "title": "Инструменты для маникюра и педикюра",
+            "link": "https://kaspi.kz/shop/c/manicure%20and%20pedicure%20tools/",
+            "active": false,
+            "count": 8359,
+            "popularity": 15096,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gel nail polish",
+            "title": "Базовое и верхнее покрытие, гель-лаки",
+            "link": "https://kaspi.kz/shop/c/gel%20nail%20polish/",
+            "active": false,
+            "count": 23694,
+            "popularity": 4257,
+            "expanded": true
+          },
+          {
+            "id": ":category:Consumables for manicure",
+            "title": "Расходные материалы для маникюра и педикюра",
+            "link": "https://kaspi.kz/shop/c/consumables%20for%20manicure/",
+            "active": false,
+            "count": 866,
+            "popularity": 3867,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nail extension system",
+            "title": "Система наращивания",
+            "link": "https://kaspi.kz/shop/c/nail%20extension%20system/",
+            "active": false,
+            "count": 4047,
+            "popularity": 3458,
+            "expanded": true
+          },
+          {
+            "id": ":category:Oils serums",
+            "title": "Масла, сыворотки для ногтей",
+            "link": "https://kaspi.kz/shop/c/oils%20serums/",
+            "active": false,
+            "count": 745,
+            "popularity": 2225,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nail design",
+            "title": "Дизайн ногтей",
+            "link": "https://kaspi.kz/shop/c/nail%20design/",
+            "active": false,
+            "count": 8349,
+            "popularity": 1924,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nail polish",
+            "title": "Лаки для ногтей",
+            "link": "https://kaspi.kz/shop/c/nail%20polish/",
+            "active": false,
+            "count": 1758,
+            "popularity": 1598,
+            "expanded": true
+          },
+          {
+            "id": ":category:Liquid nail polish remover",
+            "title": "Жидкости для нанесения и снятия покрытия",
+            "link": "https://kaspi.kz/shop/c/liquid%20nail%20polish%20remover/",
+            "active": false,
+            "count": 457,
+            "popularity": 1211,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nail drill machines",
+            "title": "Аппараты для маникюра и педикюра",
+            "link": "https://kaspi.kz/shop/c/nail%20drill%20machines/",
+            "active": false,
+            "count": 340,
+            "popularity": 1146,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nail lamps",
+            "title": "Лампы для сушки ногтей",
+            "link": "https://kaspi.kz/shop/c/nail%20lamps/",
+            "active": false,
+            "count": 258,
+            "popularity": 1012,
+            "expanded": true
+          },
+          {
+            "id": ":category:Keratolics and cuticles",
+            "title": "Кератолики и кутиклеры",
+            "link": "https://kaspi.kz/shop/c/keratolics%20and%20cuticles/",
+            "active": false,
+            "count": 184,
+            "popularity": 928,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sterilizers for manicure tools",
+            "title": "Стерилизаторы маникюрных инструментов",
+            "link": "https://kaspi.kz/shop/c/sterilizers%20for%20manicure%20tools/",
+            "active": false,
+            "count": 139,
+            "popularity": 605,
+            "expanded": true
+          },
+          {
+            "id": ":category:Products for stamping",
+            "title": "Товары для стемпинга",
+            "link": "https://kaspi.kz/shop/c/products%20for%20stamping/",
+            "active": false,
+            "count": 2402,
+            "popularity": 605,
+            "expanded": true
+          },
+          {
+            "id": ":category:Disinfection for manicure",
+            "title": "Дезинфекция",
+            "link": "https://kaspi.kz/shop/c/disinfection%20for%20manicure/",
+            "active": false,
+            "count": 138,
+            "popularity": 572,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nail vacuum cleaners",
+            "title": "Вытяжки, пылесосы",
+            "link": "https://kaspi.kz/shop/c/nail%20vacuum%20cleaners/",
+            "active": false,
+            "count": 164,
+            "popularity": 464,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nail care sets",
+            "title": "Стартовый набор для аппаратного маникюра и дезинфекции",
+            "link": "https://kaspi.kz/shop/c/nail%20care%20sets/",
+            "active": false,
+            "count": 137,
+            "popularity": 192,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Massagers",
+        "title": "Массажеры, массажные кресла, миостимуляторы",
+        "link": "https://kaspi.kz/shop/c/massagers/",
+        "active": false,
+        "count": 5058,
+        "popularity": 28453,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Massage mats and pillows",
+            "title": "Массажные приборы, акупунктурные массажеры",
+            "link": "https://kaspi.kz/shop/c/massage%20mats%20and%20pillows/",
+            "active": false,
+            "count": 3493,
+            "popularity": 20471,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mesoscooters",
+            "title": "Механические массажеры, роллеры, скребки",
+            "link": "https://kaspi.kz/shop/c/mesoscooters/",
+            "active": false,
+            "count": 1234,
+            "popularity": 7527,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hydrotherapy massagers",
+            "title": "Гидромассажеры",
+            "link": "https://kaspi.kz/shop/c/hydrotherapy%20massagers/",
+            "active": false,
+            "count": 110,
+            "popularity": 223,
+            "expanded": true
+          },
+          {
+            "id": ":category:Massage chairs",
+            "title": "Массажные кресла",
+            "link": "https://kaspi.kz/shop/c/massage%20chairs/",
+            "active": false,
+            "count": 179,
+            "popularity": 201,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for massagers",
+            "title": "Аксессуары для массажеров",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20massagers/",
+            "active": false,
+            "count": 42,
+            "popularity": 31,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Cosmetics and accessories for eyebrows and eyelashes",
+        "title": "Косметика и аксессуары для бровей и ресниц",
+        "link": "https://kaspi.kz/shop/c/cosmetics%20and%20accessories%20for%20eyebrows%20and%20eyelashes/",
+        "active": false,
+        "count": 9101,
+        "popularity": 23997,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Eyebrow pencils",
+            "title": "Уходовая и декоративная косметика для бровей и ресниц",
+            "link": "https://kaspi.kz/shop/c/eyebrow%20pencils/",
+            "active": false,
+            "count": 1691,
+            "popularity": 8834,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eyebrow tools and accessories",
+            "title": "Инструменты и аксессуары для бровей и ресниц",
+            "link": "https://kaspi.kz/shop/c/eyebrow%20tools%20and%20accessories/",
+            "active": false,
+            "count": 2129,
+            "popularity": 5186,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eyelash extension products",
+            "title": "Накладные ресницы",
+            "link": "https://kaspi.kz/shop/c/eyelash%20extension%20products/",
+            "active": false,
+            "count": 3901,
+            "popularity": 2836,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eyebrow and eyelash lamination",
+            "title": "Косметика для наращивания и ламинирования",
+            "link": "https://kaspi.kz/shop/c/eyebrow%20and%20eyelash%20lamination/",
+            "active": false,
+            "count": 952,
+            "popularity": 2516,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eyebrow Tinting Products",
+            "title": "Товары для окрашивания",
+            "link": "https://kaspi.kz/shop/c/eyebrow%20tinting%20products/",
+            "active": false,
+            "count": 428,
+            "popularity": 782,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Perfumes",
+        "title": "Парфюмерия",
+        "link": "https://kaspi.kz/shop/c/perfumes/",
+        "active": false,
+        "count": 14232,
+        "popularity": 19139,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Tools and accessories",
+        "title": "Аксессуары для красоты",
+        "link": "https://kaspi.kz/shop/c/tools%20and%20accessories/",
+        "active": false,
+        "count": 5857,
+        "popularity": 16971,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Organizers cosmetic bags",
+            "title": "Органайзеры, косметички и несессеры",
+            "link": "https://kaspi.kz/shop/c/organizers%20cosmetic%20bags/",
+            "active": false,
+            "count": 4236,
+            "popularity": 11649,
+            "expanded": true
+          },
+          {
+            "id": ":category:Atomizers",
+            "title": "Атомайзеры и флаконы",
+            "link": "https://kaspi.kz/shop/c/atomizers/",
+            "active": false,
+            "count": 887,
+            "popularity": 2831,
+            "expanded": true
+          },
+          {
+            "id": ":category:Makeup and skin care tools",
+            "title": "Зеркала косметические",
+            "link": "https://kaspi.kz/shop/c/makeup%20and%20skin%20care%20tools/",
+            "active": false,
+            "count": 704,
+            "popularity": 2477,
+            "expanded": true
+          },
+          {
+            "id": ":category:Solarium accessories",
+            "title": "Аксессуары для солярия",
+            "link": "https://kaspi.kz/shop/c/solarium%20accessories/",
+            "active": false,
+            "count": 30,
+            "popularity": 14,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Shaving and hair removal",
+        "title": "Депиляция и эпиляция",
+        "link": "https://kaspi.kz/shop/c/shaving%20and%20hair%20removal/",
+        "active": false,
+        "count": 2342,
+        "popularity": 9317,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Depilation products",
+            "title": "Средства для депиляции и эпиляции",
+            "link": "https://kaspi.kz/shop/c/depilation%20products/",
+            "active": false,
+            "count": 530,
+            "popularity": 2895,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sugaring paste",
+            "title": "Паста для шугаринга",
+            "link": "https://kaspi.kz/shop/c/sugaring%20paste/",
+            "active": false,
+            "count": 481,
+            "popularity": 1727,
+            "expanded": true
+          },
+          {
+            "id": ":category:Consumables for depilation and epilation",
+            "title": "Расходные материалы для депиляции и эпиляции",
+            "link": "https://kaspi.kz/shop/c/consumables%20for%20depilation%20and%20epilation/",
+            "active": false,
+            "count": 261,
+            "popularity": 1563,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair removal wax",
+            "title": "Воск для депиляции",
+            "link": "https://kaspi.kz/shop/c/hair%20removal%20wax/",
+            "active": false,
+            "count": 721,
+            "popularity": 1378,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wax warmers and paraffin baths",
+            "title": "Воскоплавы и парафиновые ванны",
+            "link": "https://kaspi.kz/shop/c/wax%20warmers%20and%20paraffin%20baths/",
+            "active": false,
+            "count": 171,
+            "popularity": 1183,
+            "expanded": true
+          },
+          {
+            "id": ":category:Waxing kits",
+            "title": "Наборы для депиляции воском и сахаром",
+            "link": "https://kaspi.kz/shop/c/waxing%20kits/",
+            "active": false,
+            "count": 178,
+            "popularity": 571,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Cosmetics sets",
+        "title": "Наборы косметики",
+        "link": "https://kaspi.kz/shop/c/cosmetics%20sets/",
+        "active": false,
+        "count": 4872,
+        "popularity": 7942,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Skin care sets",
+            "title": "Декоративные и уходовые наборы косметики",
+            "link": "https://kaspi.kz/shop/c/skin%20care%20sets/",
+            "active": false,
+            "count": 4246,
+            "popularity": 7942,
+            "expanded": true
+          },
+          {
+            "id": ":category:Perfume sets",
+            "title": "Парфюмерные наборы",
+            "link": "https://kaspi.kz/shop/c/perfume%20sets/",
+            "active": false,
+            "count": 626,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Shaving products",
+        "title": "Товары для бритья",
+        "link": "https://kaspi.kz/shop/c/shaving%20products/",
+        "active": false,
+        "count": 1639,
+        "popularity": 6815,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Razors and blades",
+            "title": "Бритвенные станки и лезвия",
+            "link": "https://kaspi.kz/shop/c/razors%20and%20blades/",
+            "active": false,
+            "count": 847,
+            "popularity": 5028,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mens shaving products",
+            "title": "Средства до и после бритья",
+            "link": "https://kaspi.kz/shop/c/mens%20shaving%20products/",
+            "active": false,
+            "count": 709,
+            "popularity": 1724,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shaving accessories",
+            "title": "Аксессуары для бритья",
+            "link": "https://kaspi.kz/shop/c/shaving%20accessories/",
+            "active": false,
+            "count": 83,
+            "popularity": 63,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Hair styling and care tools",
+        "title": "Инструменты для укладки, ухода и наращивания волос",
+        "link": "https://kaspi.kz/shop/c/hair%20styling%20and%20care%20tools/",
+        "active": false,
+        "count": 5259,
+        "popularity": 3412,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Hairdressing supplies",
+            "title": "Парикмахерские принадлежности",
+            "link": "https://kaspi.kz/shop/c/hairdressing%20supplies/",
+            "active": false,
+            "count": 1710,
+            "popularity": 2388,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wigs and hairpieces",
+            "title": "Парики, шиньоны, канекалон",
+            "link": "https://kaspi.kz/shop/c/wigs%20and%20hairpieces/",
+            "active": false,
+            "count": 2781,
+            "popularity": 533,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair cutting shears",
+            "title": "Ножницы парикмахерские",
+            "link": "https://kaspi.kz/shop/c/hair%20cutting%20shears/",
+            "active": false,
+            "count": 642,
+            "popularity": 421,
+            "expanded": true
+          },
+          {
+            "id": ":category:Training dummies",
+            "title": "Манекены тренировочные",
+            "link": "https://kaspi.kz/shop/c/training%20dummies/",
+            "active": false,
+            "count": 90,
+            "popularity": 38,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair Extension Materials",
+            "title": "Инструменты и материалы для наращивания волос",
+            "link": "https://kaspi.kz/shop/c/hair%20extension%20materials/",
+            "active": false,
+            "count": 30,
+            "popularity": 24,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dryers and climazones",
+            "title": "Сушуары и климазоны",
+            "link": "https://kaspi.kz/shop/c/dryers%20and%20climazones/",
+            "active": false,
+            "count": 6,
+            "popularity": 5,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Products for tattoos and permanent makeup",
+        "title": "Товары для тату и перманентного макияжа",
+        "link": "https://kaspi.kz/shop/c/products%20for%20tattoos%20and%20permanent%20makeup/",
+        "active": false,
+        "count": 2640,
+        "popularity": 2334,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Consumables for tattoo",
+            "title": "Расходные материалы для перманентного макияжа и тату",
+            "link": "https://kaspi.kz/shop/c/consumables%20for%20tattoo/",
+            "active": false,
+            "count": 991,
+            "popularity": 1060,
+            "expanded": true
+          },
+          {
+            "id": ":category:Consumables for permanent makeup",
+            "title": "Расходные средства для перманентного макияжа и тату",
+            "link": "https://kaspi.kz/shop/c/consumables%20for%20permanent%20makeup/",
+            "active": false,
+            "count": 209,
+            "popularity": 843,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tattoo machines",
+            "title": "Тату-машинки",
+            "link": "https://kaspi.kz/shop/c/tattoo%20machines/",
+            "active": false,
+            "count": 406,
+            "popularity": 208,
+            "expanded": true
+          },
+          {
+            "id": ":category:Permanent makeup pigments",
+            "title": "Пигменты для перманентного макияжа и тату",
+            "link": "https://kaspi.kz/shop/c/permanent%20makeup%20pigments/",
+            "active": false,
+            "count": 968,
+            "popularity": 188,
+            "expanded": true
+          },
+          {
+            "id": ":category:Power sources for tattoo machines",
+            "title": "Источники питания для тату машинок",
+            "link": "https://kaspi.kz/shop/c/power%20sources%20for%20tattoo%20machines/",
+            "active": false,
+            "count": 66,
+            "popularity": 35,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Products for aromatherapy",
+        "title": "Товары для ароматерапии",
+        "link": "https://kaspi.kz/shop/c/products%20for%20aromatherapy/",
+        "active": false,
+        "count": 1376,
+        "popularity": 1810,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Aromatherapy and essential oils",
+            "title": "Масла и эфирные масла",
+            "link": "https://kaspi.kz/shop/c/aromatherapy%20and%20essential%20oils/",
+            "active": false,
+            "count": 1376,
+            "popularity": 1810,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Beauty salon equipment",
+        "title": "Мебель и оборудование для салонов красоты",
+        "link": "https://kaspi.kz/shop/c/beauty%20salon%20equipment/",
+        "active": false,
+        "count": 1254,
+        "popularity": 1560,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Massage tables",
+            "title": "Массажные столы",
+            "link": "https://kaspi.kz/shop/c/massage%20tables/",
+            "active": false,
+            "count": 585,
+            "popularity": 907,
+            "expanded": true
+          },
+          {
+            "id": ":category:Salon chairs and stools",
+            "title": "Парикмахерское оборудование",
+            "link": "https://kaspi.kz/shop/c/salon%20chairs%20and%20stools/",
+            "active": false,
+            "count": 669,
+            "popularity": 653,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Tanning and sun protection",
+        "title": "Защита от солнца",
+        "link": "https://kaspi.kz/shop/c/tanning%20and%20sun%20protection/",
+        "active": false,
+        "count": 1765,
+        "popularity": 0,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Sunscreens and facial serums",
+            "title": "Солнцезащитные кремы и сыворотки для лица",
+            "link": "https://kaspi.kz/shop/c/sunscreens%20and%20facial%20serums/",
+            "active": false,
+            "count": 1152,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sun lotions",
+            "title": "Солнцезащитные лосьоны",
+            "link": "https://kaspi.kz/shop/c/sun%20lotions/",
+            "active": false,
+            "count": 15,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lip sunscreen",
+            "title": "Солнцезащитные средства для губ",
+            "link": "https://kaspi.kz/shop/c/lip%20sunscreen/",
+            "active": false,
+            "count": 79,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Body sunscreen",
+            "title": "Солнцезащитные средства для тела",
+            "link": "https://kaspi.kz/shop/c/body%20sunscreen/",
+            "active": false,
+            "count": 434,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair styling sunscreen",
+            "title": "Солнцезащитные средства для укладки волос",
+            "link": "https://kaspi.kz/shop/c/hair%20styling%20sunscreen/",
+            "active": false,
+            "count": 68,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hair sunscreen",
+            "title": "Солнцезащитные средства для ухода за волосами",
+            "link": "https://kaspi.kz/shop/c/hair%20sunscreen/",
+            "active": false,
+            "count": 17,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+
+
+]

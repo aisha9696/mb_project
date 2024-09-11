@@ -1,0 +1,18 @@
+version: "3.8"
+
+volumes:
+  postgres_data:
+    driver: local
+
+services:
+  postgres:
+    container_name: mbprojectsql
+    image: library/postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Mzoi2bV1%
+      POSTGRES_DB: mbbusiness
+    ports:
+      - "5432:5432"

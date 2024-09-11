@@ -6,12 +6,14 @@ import lombok.Getter;
 import lombok.Setter;
 
 import jakarta.persistence.Column;
+import jakarta.persistence.MappedSuperclass;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 @Getter
 @Setter
-public abstract class AbstractEntity {
+@MappedSuperclass
+public abstract class AbstractSprEntity extends AbstractLanguageSprValue {
 
   /**
    * Логин создателя
@@ -37,9 +39,5 @@ public abstract class AbstractEntity {
   @UpdateTimestamp
   private OffsetDateTime updatedAt;
 
-  /**
-   * Признак архивирования.
-   */
-  @Column(name = "archived")
-  private boolean archived;
 }
+

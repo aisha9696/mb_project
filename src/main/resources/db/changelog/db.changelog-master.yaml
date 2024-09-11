@@ -17,3 +17,13 @@ databaseChangeLog:
       author: aisha96906
       file: DDL/003_insert_project_conf_table.sql
       relativeToChangelogFile: true
+
+  - include:
+      author: aisha96906
+      file: DDL/004_warehouse_init.sql
+      relativeToChangelogFile: true
+
+  - include:
+      author: aisha96906
+      file: DDL/005_catalog_unit.sql
+      relativeToChangelogFile: true
