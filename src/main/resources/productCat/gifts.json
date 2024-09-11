@@ -1,0 +1,558 @@
+[
+  {
+    "id": ":category:Gifts and party supplies",
+    "title": "Подарки, товары для праздников",
+    "link": "https://kaspi.kz/shop/c/gifts%20and%20party%20supplies/",
+    "active": true,
+    "count": 93627,
+    "popularity": 98692,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Gifts",
+        "title": "Подарки",
+        "link": "https://kaspi.kz/shop/c/gifts/",
+        "active": false,
+        "count": 39286,
+        "popularity": 33784,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Gift value sets",
+            "title": "Подарочные наборы",
+            "link": "https://kaspi.kz/shop/c/gift%20value%20sets/",
+            "active": false,
+            "count": 5271,
+            "popularity": 4595,
+            "expanded": true
+          },
+          {
+            "id": ":category:Edible bouquets and baskets",
+            "title": "Съедобные букеты, корзины, коробки",
+            "link": "https://kaspi.kz/shop/c/edible%20bouquets%20and%20baskets/",
+            "active": false,
+            "count": 3872,
+            "popularity": 2958,
+            "expanded": true
+          },
+          {
+            "id": ":category:Photo albums",
+            "title": "Фотоальбомы, фотокниги",
+            "link": "https://kaspi.kz/shop/c/photo%20albums/",
+            "active": false,
+            "count": 533,
+            "popularity": 529,
+            "expanded": true
+          },
+          {
+            "id": ":category:Congratulation cards and envelopes",
+            "title": "Открытки и конверты для денег",
+            "link": "https://kaspi.kz/shop/c/congratulation%20cards%20and%20envelopes/",
+            "active": false,
+            "count": 2202,
+            "popularity": 526,
+            "expanded": true
+          },
+          {
+            "id": ":category:Personalized gifts",
+            "title": "Именные подарки",
+            "link": "https://kaspi.kz/shop/c/personalized%20gifts/",
+            "active": false,
+            "count": 3059,
+            "popularity": 441,
+            "expanded": true
+          },
+          {
+            "id": ":category:Awards and congratulatory products",
+            "title": "Награды и поздравительная продукция",
+            "link": "https://kaspi.kz/shop/c/awards%20and%20congratulatory%20products/",
+            "active": false,
+            "count": 1198,
+            "popularity": 339,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bouquets of toys",
+            "title": "Букеты из игрушек",
+            "link": "https://kaspi.kz/shop/c/bouquets%20of%20toys/",
+            "active": false,
+            "count": 126,
+            "popularity": 101,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gift cards",
+            "title": "Подарочные сертификаты и абонементы",
+            "link": "https://kaspi.kz/shop/c/gift%20cards/",
+            "active": false,
+            "count": 18,
+            "popularity": 42,
+            "expanded": true
+          },
+          {
+            "id": ":category:Party games1",
+            "title": "Настольные и карточные игры",
+            "link": "https://kaspi.kz/shop/c/party%20games1/",
+            "active": false,
+            "count": 8696,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Imitation jewelry1",
+            "title": "Украшения из бижутерии",
+            "link": "https://kaspi.kz/shop/c/imitation%20jewelry1/",
+            "active": false,
+            "count": 14311,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:New year decor",
+        "title": "Новогодние товары",
+        "link": "https://kaspi.kz/shop/c/new%20year%20decor/",
+        "active": false,
+        "count": 17458,
+        "popularity": 28648,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Electric string lights",
+            "title": "Электрогирлянды",
+            "link": "https://kaspi.kz/shop/c/electric%20string%20lights/",
+            "active": false,
+            "count": 3844,
+            "popularity": 10699,
+            "expanded": true
+          },
+          {
+            "id": ":category:New Year trees",
+            "title": "Новогодние елки",
+            "link": "https://kaspi.kz/shop/c/new%20year%20trees/",
+            "active": false,
+            "count": 3568,
+            "popularity": 7181,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tree ornaments",
+            "title": "Елочные игрушки",
+            "link": "https://kaspi.kz/shop/c/tree%20ornaments/",
+            "active": false,
+            "count": 4355,
+            "popularity": 4426,
+            "expanded": true
+          },
+          {
+            "id": ":category:New year decorations",
+            "title": "Новогодний декор",
+            "link": "https://kaspi.kz/shop/c/new%20year%20decorations/",
+            "active": false,
+            "count": 3167,
+            "popularity": 2728,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tinsel rain",
+            "title": "Мишура, дождик, бусы",
+            "link": "https://kaspi.kz/shop/c/tinsel%20rain/",
+            "active": false,
+            "count": 493,
+            "popularity": 950,
+            "expanded": true
+          },
+          {
+            "id": ":category:Illuminated decorations",
+            "title": "Световые фигуры",
+            "link": "https://kaspi.kz/shop/c/illuminated%20decorations/",
+            "active": false,
+            "count": 1014,
+            "popularity": 886,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hooks and accessories for garlands",
+            "title": "Крючки и аксессуары для гирлянд",
+            "link": "https://kaspi.kz/shop/c/hooks%20and%20accessories%20for%20garlands/",
+            "active": false,
+            "count": 76,
+            "popularity": 645,
+            "expanded": true
+          },
+          {
+            "id": ":category:New Year wreaths",
+            "title": "Новогодние венки",
+            "link": "https://kaspi.kz/shop/c/new%20year%20wreaths/",
+            "active": false,
+            "count": 350,
+            "popularity": 430,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fir needle decorations",
+            "title": "Хвойные украшения",
+            "link": "https://kaspi.kz/shop/c/fir%20needle%20decorations/",
+            "active": false,
+            "count": 383,
+            "popularity": 406,
+            "expanded": true
+          },
+          {
+            "id": ":category:Artificial snow",
+            "title": "Искусственный снег",
+            "link": "https://kaspi.kz/shop/c/artificial%20snow/",
+            "active": false,
+            "count": 32,
+            "popularity": 187,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fireworks",
+            "title": "Фейерверки, бенгальские огни",
+            "link": "https://kaspi.kz/shop/c/fireworks/",
+            "active": false,
+            "count": 176,
+            "popularity": 110,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Holiday decorations",
+        "title": "Украшения для праздников",
+        "link": "https://kaspi.kz/shop/c/holiday%20decorations/",
+        "active": false,
+        "count": 9780,
+        "popularity": 9856,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Party balloons",
+            "title": "Воздушные шары",
+            "link": "https://kaspi.kz/shop/c/party%20balloons/",
+            "active": false,
+            "count": 4682,
+            "popularity": 4264,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cake candles",
+            "title": "Свечи для торта",
+            "link": "https://kaspi.kz/shop/c/cake%20candles/",
+            "active": false,
+            "count": 1548,
+            "popularity": 1445,
+            "expanded": true
+          },
+          {
+            "id": ":category:Garlands",
+            "title": "Фотозоны, хлопушки",
+            "link": "https://kaspi.kz/shop/c/garlands/",
+            "active": false,
+            "count": 1020,
+            "popularity": 1061,
+            "expanded": true
+          },
+          {
+            "id": ":category:Balloon pumps",
+            "title": "Насосы и держатели для воздушных шаров",
+            "link": "https://kaspi.kz/shop/c/balloon%20pumps/",
+            "active": false,
+            "count": 133,
+            "popularity": 1034,
+            "expanded": true
+          },
+          {
+            "id": ":category:Festive decorations",
+            "title": "Праздничный декор",
+            "link": "https://kaspi.kz/shop/c/festive%20decorations/",
+            "active": false,
+            "count": 1011,
+            "popularity": 862,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cocktail decorations",
+            "title": "Украшения для коктейлей",
+            "link": "https://kaspi.kz/shop/c/cocktail%20decorations/",
+            "active": false,
+            "count": 307,
+            "popularity": 485,
+            "expanded": true
+          },
+          {
+            "id": ":category:Photo booth props",
+            "title": "Фотобутафория",
+            "link": "https://kaspi.kz/shop/c/photo%20booth%20props/",
+            "active": false,
+            "count": 415,
+            "popularity": 251,
+            "expanded": true
+          },
+          {
+            "id": ":category:Color smoke bombs",
+            "title": "Цветной дым",
+            "link": "https://kaspi.kz/shop/c/color%20smoke%20bombs/",
+            "active": false,
+            "count": 91,
+            "popularity": 163,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sky lanterns",
+            "title": "Небесные фонарики",
+            "link": "https://kaspi.kz/shop/c/sky%20lanterns/",
+            "active": false,
+            "count": 41,
+            "popularity": 147,
+            "expanded": true
+          },
+          {
+            "id": ":category:Balloons",
+            "title": "Наполненные воздушные шары",
+            "link": "https://kaspi.kz/shop/c/balloons/",
+            "active": false,
+            "count": 532,
+            "popularity": 144,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Gift wrapping supplies",
+        "title": "Подарочная упаковка",
+        "link": "https://kaspi.kz/shop/c/gift%20wrapping%20supplies/",
+        "active": false,
+        "count": 9290,
+        "popularity": 5498,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Gift bags",
+            "title": "Подарочные пакеты",
+            "link": "https://kaspi.kz/shop/c/gift%20bags/",
+            "active": false,
+            "count": 2672,
+            "popularity": 1852,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gift boxes",
+            "title": "Подарочные коробки",
+            "link": "https://kaspi.kz/shop/c/gift%20boxes/",
+            "active": false,
+            "count": 3196,
+            "popularity": 1324,
+            "expanded": true
+          },
+          {
+            "id": ":category:Decorative bows and ribbons",
+            "title": "Декоративные банты и ленты",
+            "link": "https://kaspi.kz/shop/c/decorative%20bows%20and%20ribbons/",
+            "active": false,
+            "count": 1372,
+            "popularity": 978,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wrapping paper",
+            "title": "Подарочная упаковочная бумага",
+            "link": "https://kaspi.kz/shop/c/wrapping%20paper/",
+            "active": false,
+            "count": 1270,
+            "popularity": 977,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bonbonnieres",
+            "title": "Бонбоньерки",
+            "link": "https://kaspi.kz/shop/c/bonbonnieres/",
+            "active": false,
+            "count": 455,
+            "popularity": 201,
+            "expanded": true
+          },
+          {
+            "id": ":category:Paper filler",
+            "title": "Бумажный наполнитель",
+            "link": "https://kaspi.kz/shop/c/paper%20filler/",
+            "active": false,
+            "count": 325,
+            "popularity": 166,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Carnival accessories",
+        "title": "Карнавальные костюмы, аксессуары для вечеринок",
+        "link": "https://kaspi.kz/shop/c/carnival%20accessories/",
+        "active": false,
+        "count": 7213,
+        "popularity": 4975,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Costume sets",
+            "title": "Аксессуары для карнавалов и вечеринок",
+            "link": "https://kaspi.kz/shop/c/costume%20sets/",
+            "active": false,
+            "count": 3345,
+            "popularity": 1847,
+            "expanded": true
+          },
+          {
+            "id": ":category:Costume hats",
+            "title": "Карнавальные головные уборы",
+            "link": "https://kaspi.kz/shop/c/costume%20hats/",
+            "active": false,
+            "count": 1445,
+            "popularity": 1745,
+            "expanded": true
+          },
+          {
+            "id": ":category:Costume masks",
+            "title": "Карнавальные маски",
+            "link": "https://kaspi.kz/shop/c/costume%20masks/",
+            "active": false,
+            "count": 822,
+            "popularity": 903,
+            "expanded": true
+          },
+          {
+            "id": ":category:Temporary tattoos",
+            "title": "Временные тату",
+            "link": "https://kaspi.kz/shop/c/temporary%20tattoos/",
+            "active": false,
+            "count": 1388,
+            "popularity": 318,
+            "expanded": true
+          },
+          {
+            "id": ":category:Costume wigs",
+            "title": "Карнавальные парики",
+            "link": "https://kaspi.kz/shop/c/costume%20wigs/",
+            "active": false,
+            "count": 213,
+            "popularity": 162,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Flowers and bouquets",
+        "title": "Цветы и букеты",
+        "link": "https://kaspi.kz/shop/c/flowers%20and%20bouquets/",
+        "active": false,
+        "count": 8418,
+        "popularity": 3676,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Flowers",
+            "title": "Цветы",
+            "link": "https://kaspi.kz/shop/c/flowers/",
+            "active": false,
+            "count": 7973,
+            "popularity": 3436,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dried flowers",
+            "title": "Сухоцветы",
+            "link": "https://kaspi.kz/shop/c/dried%20flowers/",
+            "active": false,
+            "count": 229,
+            "popularity": 94,
+            "expanded": true
+          },
+          {
+            "id": ":category:Floristry accessories",
+            "title": "Аксессуары для флористики",
+            "link": "https://kaspi.kz/shop/c/floristry%20accessories/",
+            "active": false,
+            "count": 102,
+            "popularity": 86,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stabilized flowers",
+            "title": "Стабилизированные цветы",
+            "link": "https://kaspi.kz/shop/c/stabilized%20flowers/",
+            "active": false,
+            "count": 85,
+            "popularity": 51,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wedding bouquets",
+            "title": "Свадебные букеты",
+            "link": "https://kaspi.kz/shop/c/wedding%20bouquets/",
+            "active": false,
+            "count": 29,
+            "popularity": 9,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Souvenirs",
+        "title": "Сувенирная продукция",
+        "link": "https://kaspi.kz/shop/c/souvenirs/",
+        "active": false,
+        "count": 2182,
+        "popularity": 2383,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Flags",
+            "title": "Флаги и гербы",
+            "link": "https://kaspi.kz/shop/c/flags/",
+            "active": false,
+            "count": 310,
+            "popularity": 1012,
+            "expanded": true
+          },
+          {
+            "id": ":category:Souvenir money",
+            "title": "Сувенирные деньги",
+            "link": "https://kaspi.kz/shop/c/souvenir%20money/",
+            "active": false,
+            "count": 747,
+            "popularity": 759,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stone souvenirs",
+            "title": "Сувениры",
+            "link": "https://kaspi.kz/shop/c/stone%20souvenirs/",
+            "active": false,
+            "count": 428,
+            "popularity": 281,
+            "expanded": true
+          },
+          {
+            "id": ":category:Souvenir magnets",
+            "title": "Магниты сувенирные",
+            "link": "https://kaspi.kz/shop/c/souvenir%20magnets/",
+            "active": false,
+            "count": 377,
+            "popularity": 183,
+            "expanded": true
+          },
+          {
+            "id": ":category:Souvenir weapon",
+            "title": "Сувенирное оружие",
+            "link": "https://kaspi.kz/shop/c/souvenir%20weapon/",
+            "active": false,
+            "count": 320,
+            "popularity": 148,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

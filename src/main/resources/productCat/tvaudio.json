@@ -1,0 +1,1015 @@
+[
+  {
+    "id": ":category:TV_Audio",
+    "title": "ТВ, Аудио, Видео",
+    "link": "https://kaspi.kz/shop/c/tv_audio/",
+    "active": true,
+    "count": 34179,
+    "popularity": 123393,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Headphones",
+        "title": "Наушники и гарнитуры",
+        "link": "https://kaspi.kz/shop/c/headphones/",
+        "active": false,
+        "count": 5443,
+        "popularity": 31440,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Audio",
+        "title": "Аудиотехника",
+        "link": "https://kaspi.kz/shop/c/audio/",
+        "active": false,
+        "count": 11242,
+        "popularity": 30483,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Portable speakers",
+            "title": "Портативные колонки",
+            "link": "https://kaspi.kz/shop/c/portable%20speakers/",
+            "active": false,
+            "count": 2385,
+            "popularity": 7609,
+            "expanded": true
+          },
+          {
+            "id": ":category:Microphones",
+            "title": "Микрофоны",
+            "link": "https://kaspi.kz/shop/c/microphones/",
+            "active": false,
+            "count": 1769,
+            "popularity": 6856,
+            "expanded": true
+          },
+          {
+            "id": ":category:Smart speakers",
+            "title": "Умные колонки",
+            "link": "https://kaspi.kz/shop/c/smart%20speakers/",
+            "active": false,
+            "count": 113,
+            "popularity": 4747,
+            "expanded": true
+          },
+          {
+            "id": ":category:Headphone cases",
+            "title": "Чехлы для наушников",
+            "link": "https://kaspi.kz/shop/c/headphone%20cases/",
+            "active": false,
+            "count": 2472,
+            "popularity": 3332,
+            "expanded": true
+          },
+          {
+            "id": ":category:Audio cables and adapters",
+            "title": "Аудио кабели и переходники",
+            "link": "https://kaspi.kz/shop/c/audio%20cables%20and%20adapters/",
+            "active": false,
+            "count": 1205,
+            "popularity": 2307,
+            "expanded": true
+          },
+          {
+            "id": ":category:Computer speakers",
+            "title": "Компьютерные колонки",
+            "link": "https://kaspi.kz/shop/c/computer%20speakers/",
+            "active": false,
+            "count": 417,
+            "popularity": 1184,
+            "expanded": true
+          },
+          {
+            "id": ":category:Acoustic systems",
+            "title": "Акустические системы",
+            "link": "https://kaspi.kz/shop/c/acoustic%20systems/",
+            "active": false,
+            "count": 1020,
+            "popularity": 776,
+            "expanded": true
+          },
+          {
+            "id": ":category:Radios",
+            "title": "Радиоприемники",
+            "link": "https://kaspi.kz/shop/c/radios/",
+            "active": false,
+            "count": 126,
+            "popularity": 724,
+            "expanded": true
+          },
+          {
+            "id": ":category:Karaoke systems",
+            "title": "Караоке-системы",
+            "link": "https://kaspi.kz/shop/c/karaoke%20systems/",
+            "active": false,
+            "count": 61,
+            "popularity": 385,
+            "expanded": true
+          },
+          {
+            "id": ":category:Soundbars and speaker systems",
+            "title": "Саундбары",
+            "link": "https://kaspi.kz/shop/c/soundbars%20and%20speaker%20systems/",
+            "active": false,
+            "count": 137,
+            "popularity": 373,
+            "expanded": true
+          },
+          {
+            "id": ":category:Microphone stands",
+            "title": "Микрофонные стойки",
+            "link": "https://kaspi.kz/shop/c/microphone%20stands/",
+            "active": false,
+            "count": 103,
+            "popularity": 358,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stereo systems",
+            "title": "Музыкальные центры",
+            "link": "https://kaspi.kz/shop/c/stereo%20systems/",
+            "active": false,
+            "count": 48,
+            "popularity": 261,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mixer boards",
+            "title": "Микшерные пульты",
+            "link": "https://kaspi.kz/shop/c/mixer%20boards/",
+            "active": false,
+            "count": 235,
+            "popularity": 257,
+            "expanded": true
+          },
+          {
+            "id": ":category:Turntables",
+            "title": "Виниловые проигрыватели",
+            "link": "https://kaspi.kz/shop/c/turntables/",
+            "active": false,
+            "count": 180,
+            "popularity": 206,
+            "expanded": true
+          },
+          {
+            "id": ":category:Headphone stands",
+            "title": "Подставки для наушников",
+            "link": "https://kaspi.kz/shop/c/headphone%20stands/",
+            "active": false,
+            "count": 54,
+            "popularity": 182,
+            "expanded": true
+          },
+          {
+            "id": ":category:Microphone accessories",
+            "title": "Аксессуары для микрофонов",
+            "link": "https://kaspi.kz/shop/c/microphone%20accessories/",
+            "active": false,
+            "count": 156,
+            "popularity": 173,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dictaphones",
+            "title": "Диктофоны и портативные рекордеры",
+            "link": "https://kaspi.kz/shop/c/dictaphones/",
+            "active": false,
+            "count": 70,
+            "popularity": 172,
+            "expanded": true
+          },
+          {
+            "id": ":category:Amplifiers and receivers",
+            "title": "Аудиоусилители и ресиверы",
+            "link": "https://kaspi.kz/shop/c/amplifiers%20and%20receivers/",
+            "active": false,
+            "count": 300,
+            "popularity": 157,
+            "expanded": true
+          },
+          {
+            "id": ":category:Turntable accessories",
+            "title": "Аксессуары для виниловых проигрывателей",
+            "link": "https://kaspi.kz/shop/c/turntable%20accessories/",
+            "active": false,
+            "count": 130,
+            "popularity": 98,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ear pads for headphones",
+            "title": "Амбушюры для наушников",
+            "link": "https://kaspi.kz/shop/c/ear%20pads%20for%20headphones/",
+            "active": false,
+            "count": 59,
+            "popularity": 88,
+            "expanded": true
+          },
+          {
+            "id": ":category:Portable players",
+            "title": "Цифровые плееры",
+            "link": "https://kaspi.kz/shop/c/portable%20players/",
+            "active": false,
+            "count": 28,
+            "popularity": 68,
+            "expanded": true
+          },
+          {
+            "id": ":category:Acoustic stands",
+            "title": "Акустические стойки",
+            "link": "https://kaspi.kz/shop/c/acoustic%20stands/",
+            "active": false,
+            "count": 53,
+            "popularity": 59,
+            "expanded": true
+          },
+          {
+            "id": ":category:DJ controllers",
+            "title": "DJ контроллеры",
+            "link": "https://kaspi.kz/shop/c/dj%20controllers/",
+            "active": false,
+            "count": 26,
+            "popularity": 44,
+            "expanded": true
+          },
+          {
+            "id": ":category:Video senders",
+            "title": "Видеосендеры",
+            "link": "https://kaspi.kz/shop/c/video%20senders/",
+            "active": false,
+            "count": 15,
+            "popularity": 17,
+            "expanded": true
+          },
+          {
+            "id": ":category:CD players",
+            "title": "CD-проигрыватели",
+            "link": "https://kaspi.kz/shop/c/cd%20players/",
+            "active": false,
+            "count": 15,
+            "popularity": 15,
+            "expanded": true
+          },
+          {
+            "id": ":category:Direct boxes",
+            "title": "Директ-боксы",
+            "link": "https://kaspi.kz/shop/c/direct%20boxes/",
+            "active": false,
+            "count": 7,
+            "popularity": 15,
+            "expanded": true
+          },
+          {
+            "id": ":category:Phono equalizers",
+            "title": "Фонокорректоры",
+            "link": "https://kaspi.kz/shop/c/phono%20equalizers/",
+            "active": false,
+            "count": 17,
+            "popularity": 7,
+            "expanded": true
+          },
+          {
+            "id": ":category:Brackets for acoustics",
+            "title": "Кронштейны для акустики",
+            "link": "https://kaspi.kz/shop/c/brackets%20for%20acoustics/",
+            "active": false,
+            "count": 18,
+            "popularity": 5,
+            "expanded": true
+          },
+          {
+            "id": ":category:Crossovers for sound",
+            "title": "Кроссоверы для звука",
+            "link": "https://kaspi.kz/shop/c/crossovers%20for%20sound/",
+            "active": false,
+            "count": 9,
+            "popularity": 5,
+            "expanded": true
+          },
+          {
+            "id": ":category:Batteries for portable speakers",
+            "title": "Аккумуляторы для портативных колонок",
+            "link": "https://kaspi.kz/shop/c/batteries%20for%20portable%20speakers/",
+            "active": false,
+            "count": 2,
+            "popularity": 2,
+            "expanded": true
+          },
+          {
+            "id": ":category:Grills and panels for acoustics",
+            "title": "Грили и панели для акустики",
+            "link": "https://kaspi.kz/shop/c/grills%20and%20panels%20for%20acoustics/",
+            "active": false,
+            "count": 11,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cases for players and audio systems",
+            "title": "Чехлы для плееров и аудиосистем",
+            "link": "https://kaspi.kz/shop/c/cases%20for%20players%20and%20audio%20systems/",
+            "active": false,
+            "count": 1,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Photo_Video",
+        "title": "Фото- и видеокамеры",
+        "link": "https://kaspi.kz/shop/c/photo_video/",
+        "active": false,
+        "count": 7701,
+        "popularity": 19022,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Batteries and accumulators",
+            "title": "Батарейки и аккумуляторы",
+            "link": "https://kaspi.kz/shop/c/batteries%20and%20accumulators/",
+            "active": false,
+            "count": 1844,
+            "popularity": 4424,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tripods",
+            "title": "Штативы",
+            "link": "https://kaspi.kz/shop/c/tripods/",
+            "active": false,
+            "count": 748,
+            "popularity": 4376,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ring lights",
+            "title": "Кольцевые лампы",
+            "link": "https://kaspi.kz/shop/c/ring%20lights/",
+            "active": false,
+            "count": 336,
+            "popularity": 3195,
+            "expanded": true
+          },
+          {
+            "id": ":category:Studio light",
+            "title": "Студийный свет",
+            "link": "https://kaspi.kz/shop/c/studio%20light/",
+            "active": false,
+            "count": 487,
+            "popularity": 940,
+            "expanded": true
+          },
+          {
+            "id": ":category:Camera stabilizers",
+            "title": "Стедикамы",
+            "link": "https://kaspi.kz/shop/c/camera%20stabilizers/",
+            "active": false,
+            "count": 183,
+            "popularity": 887,
+            "expanded": true
+          },
+          {
+            "id": ":category:Batteries and chargers for cameras and camcorders",
+            "title": "Аккумуляторы и зарядные устройства для фото- и видеокамер",
+            "link": "https://kaspi.kz/shop/c/batteries%20and%20chargers%20for%20cameras%20and%20camcorders/",
+            "active": false,
+            "count": 739,
+            "popularity": 618,
+            "expanded": true
+          },
+          {
+            "id": ":category:Photographic films",
+            "title": "Фотопленки",
+            "link": "https://kaspi.kz/shop/c/photographic%20films/",
+            "active": false,
+            "count": 51,
+            "popularity": 618,
+            "expanded": true
+          },
+          {
+            "id": ":category:Instant cameras",
+            "title": "Фотокамеры моментальной печати",
+            "link": "https://kaspi.kz/shop/c/instant%20cameras/",
+            "active": false,
+            "count": 69,
+            "popularity": 608,
+            "expanded": true
+          },
+          {
+            "id": ":category:Soft boxes",
+            "title": "Софтбоксы",
+            "link": "https://kaspi.kz/shop/c/soft%20boxes/",
+            "active": false,
+            "count": 180,
+            "popularity": 526,
+            "expanded": true
+          },
+          {
+            "id": ":category:Action cameras",
+            "title": "Экшн-камеры",
+            "link": "https://kaspi.kz/shop/c/action%20cameras/",
+            "active": false,
+            "count": 123,
+            "popularity": 480,
+            "expanded": true
+          },
+          {
+            "id": ":category:Action camera accessories",
+            "title": "Аксессуары для экшн камер",
+            "link": "https://kaspi.kz/shop/c/action%20camera%20accessories/",
+            "active": false,
+            "count": 442,
+            "popularity": 428,
+            "expanded": true
+          },
+          {
+            "id": ":category:Photo cameras",
+            "title": "Фотокамеры",
+            "link": "https://kaspi.kz/shop/c/photo%20cameras/",
+            "active": false,
+            "count": 242,
+            "popularity": 361,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bags and cases for cameras and camcorders",
+            "title": "Сумки и чехлы для фото- и видеокамер",
+            "link": "https://kaspi.kz/shop/c/bags%20and%20cases%20for%20cameras%20and%20camcorders/",
+            "active": false,
+            "count": 378,
+            "popularity": 266,
+            "expanded": true
+          },
+          {
+            "id": ":category:Photophones",
+            "title": "Фотофоны",
+            "link": "https://kaspi.kz/shop/c/photophones/",
+            "active": false,
+            "count": 407,
+            "popularity": 259,
+            "expanded": true
+          },
+          {
+            "id": ":category:Camera lenses",
+            "title": "Объективы",
+            "link": "https://kaspi.kz/shop/c/camera%20lenses/",
+            "active": false,
+            "count": 423,
+            "popularity": 226,
+            "expanded": true
+          },
+          {
+            "id": ":category:Video cameras",
+            "title": "Видеокамеры",
+            "link": "https://kaspi.kz/shop/c/video%20cameras/",
+            "active": false,
+            "count": 41,
+            "popularity": 167,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lighting stands",
+            "title": "Стойки для освещения",
+            "link": "https://kaspi.kz/shop/c/lighting%20stands/",
+            "active": false,
+            "count": 98,
+            "popularity": 89,
+            "expanded": true
+          },
+          {
+            "id": ":category:Camera flashes",
+            "title": "Фотовспышки",
+            "link": "https://kaspi.kz/shop/c/camera%20flashes/",
+            "active": false,
+            "count": 95,
+            "popularity": 72,
+            "expanded": true
+          },
+          {
+            "id": ":category:Reflectors",
+            "title": "Отражатели",
+            "link": "https://kaspi.kz/shop/c/reflectors/",
+            "active": false,
+            "count": 51,
+            "popularity": 66,
+            "expanded": true
+          },
+          {
+            "id": ":category:Remote controls for cameras",
+            "title": "Пульты ДУ для фотоаппаратов",
+            "link": "https://kaspi.kz/shop/c/remote%20controls%20for%20cameras/",
+            "active": false,
+            "count": 11,
+            "popularity": 65,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for steadicams",
+            "title": "Аксессуары для стедикамов",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20steadicams/",
+            "active": false,
+            "count": 229,
+            "popularity": 64,
+            "expanded": true
+          },
+          {
+            "id": ":category:Light filters",
+            "title": "Светофильтры",
+            "link": "https://kaspi.kz/shop/c/light%20filters/",
+            "active": false,
+            "count": 244,
+            "popularity": 60,
+            "expanded": true
+          },
+          {
+            "id": ":category:Background systems",
+            "title": "Фоновые системы",
+            "link": "https://kaspi.kz/shop/c/background%20systems/",
+            "active": false,
+            "count": 48,
+            "popularity": 54,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lens adapters",
+            "title": "Переходники для объективов",
+            "link": "https://kaspi.kz/shop/c/lens%20adapters/",
+            "active": false,
+            "count": 30,
+            "popularity": 35,
+            "expanded": true
+          },
+          {
+            "id": ":category:On-camera monitors",
+            "title": "Накамерные мониторы",
+            "link": "https://kaspi.kz/shop/c/on-camera%20monitors/",
+            "active": false,
+            "count": 41,
+            "popularity": 31,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rotary tables for 3D shooting",
+            "title": "Поворотные столы для 3D съемки",
+            "link": "https://kaspi.kz/shop/c/rotary%20tables%20for%203d%20shooting/",
+            "active": false,
+            "count": 15,
+            "popularity": 26,
+            "expanded": true
+          },
+          {
+            "id": ":category:Radio synchronizers",
+            "title": "Радиосинхронизаторы",
+            "link": "https://kaspi.kz/shop/c/radio%20synchronizers/",
+            "active": false,
+            "count": 35,
+            "popularity": 24,
+            "expanded": true
+          },
+          {
+            "id": ":category:Portable video recorders",
+            "title": "Портативные видеорегистраторы",
+            "link": "https://kaspi.kz/shop/c/portable%20video%20recorders/",
+            "active": false,
+            "count": 3,
+            "popularity": 12,
+            "expanded": true
+          },
+          {
+            "id": ":category:Digital photo frames",
+            "title": "Цифровые фоторамки",
+            "link": "https://kaspi.kz/shop/c/digital%20photo%20frames/",
+            "active": false,
+            "count": 3,
+            "popularity": 12,
+            "expanded": true
+          },
+          {
+            "id": ":category:Blends",
+            "title": "Бленды",
+            "link": "https://kaspi.kz/shop/c/blends/",
+            "active": false,
+            "count": 58,
+            "popularity": 10,
+            "expanded": true
+          },
+          {
+            "id": ":category:Photo umbrellas",
+            "title": "Фотозонты",
+            "link": "https://kaspi.kz/shop/c/photo%20umbrellas/",
+            "active": false,
+            "count": 14,
+            "popularity": 10,
+            "expanded": true
+          },
+          {
+            "id": ":category:Video sliders",
+            "title": "Слайдеры для видеосъемки",
+            "link": "https://kaspi.kz/shop/c/video%20sliders/",
+            "active": false,
+            "count": 7,
+            "popularity": 5,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cameras screen protection",
+            "title": "Защитные пленки и стекла для фото- и видеокамер",
+            "link": "https://kaspi.kz/shop/c/cameras%20screen%20protection/",
+            "active": false,
+            "count": 12,
+            "popularity": 4,
+            "expanded": true
+          },
+          {
+            "id": ":category:Battery cases",
+            "title": "Кейсы для аккумуляторов",
+            "link": "https://kaspi.kz/shop/c/battery%20cases/",
+            "active": false,
+            "count": 5,
+            "popularity": 3,
+            "expanded": true
+          },
+          {
+            "id": ":category:Video cassettes for camcorders",
+            "title": "Видеокассеты для видеокамер",
+            "link": "https://kaspi.kz/shop/c/video%20cassettes%20for%20camcorders/",
+            "active": false,
+            "count": 1,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lens converters",
+            "title": "Конвертеры для объективов",
+            "link": "https://kaspi.kz/shop/c/lens%20converters/",
+            "active": false,
+            "count": 6,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cooling systems for cameras",
+            "title": "Системы охлаждения для фотокамер",
+            "link": "https://kaspi.kz/shop/c/cooling%20systems%20for%20cameras/",
+            "active": false,
+            "count": 2,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Video",
+        "title": "Видеотехника",
+        "link": "https://kaspi.kz/shop/c/video/",
+        "active": false,
+        "count": 4194,
+        "popularity": 17125,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:TV mounts",
+            "title": "Кронштейны и подставки для ТВ",
+            "link": "https://kaspi.kz/shop/c/tv%20mounts/",
+            "active": false,
+            "count": 593,
+            "popularity": 3676,
+            "expanded": true
+          },
+          {
+            "id": ":category:Video cables and adapters",
+            "title": "Видеокабели и переходники",
+            "link": "https://kaspi.kz/shop/c/video%20cables%20and%20adapters/",
+            "active": false,
+            "count": 1544,
+            "popularity": 3672,
+            "expanded": true
+          },
+          {
+            "id": ":category:Streaming media players",
+            "title": "Медиаплееры",
+            "link": "https://kaspi.kz/shop/c/streaming%20media%20players/",
+            "active": false,
+            "count": 211,
+            "popularity": 2685,
+            "expanded": true
+          },
+          {
+            "id": ":category:TV remote controls",
+            "title": "Пульты для аудио и видеотехники",
+            "link": "https://kaspi.kz/shop/c/tv%20remote%20controls/",
+            "active": false,
+            "count": 549,
+            "popularity": 2364,
+            "expanded": true
+          },
+          {
+            "id": ":category:Video projectors",
+            "title": "Проекторы",
+            "link": "https://kaspi.kz/shop/c/video%20projectors/",
+            "active": false,
+            "count": 405,
+            "popularity": 2021,
+            "expanded": true
+          },
+          {
+            "id": ":category:Satellite TV",
+            "title": "Цифровое и спутниковое ТВ",
+            "link": "https://kaspi.kz/shop/c/satellite%20tv/",
+            "active": false,
+            "count": 210,
+            "popularity": 1187,
+            "expanded": true
+          },
+          {
+            "id": ":category:Television antennas",
+            "title": "Телевизионные антенны",
+            "link": "https://kaspi.kz/shop/c/television%20antennas/",
+            "active": false,
+            "count": 106,
+            "popularity": 607,
+            "expanded": true
+          },
+          {
+            "id": ":category:Projector screens",
+            "title": "Проекционные экраны",
+            "link": "https://kaspi.kz/shop/c/projector%20screens/",
+            "active": false,
+            "count": 184,
+            "popularity": 473,
+            "expanded": true
+          },
+          {
+            "id": ":category:Projector mounts",
+            "title": "Крепления для проекторов",
+            "link": "https://kaspi.kz/shop/c/projector%20mounts/",
+            "active": false,
+            "count": 58,
+            "popularity": 167,
+            "expanded": true
+          },
+          {
+            "id": ":category:Interactive whiteboards",
+            "title": "Интерактивные доски",
+            "link": "https://kaspi.kz/shop/c/interactive%20whiteboards/",
+            "active": false,
+            "count": 9,
+            "popularity": 45,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for video equipment",
+            "title": "Аксессуары для видеотехники",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20video%20equipment/",
+            "active": false,
+            "count": 107,
+            "popularity": 43,
+            "expanded": true
+          },
+          {
+            "id": ":category:Home theatres",
+            "title": "Домашние кинотеатры",
+            "link": "https://kaspi.kz/shop/c/home%20theatres/",
+            "active": false,
+            "count": 3,
+            "popularity": 43,
+            "expanded": true
+          },
+          {
+            "id": ":category:Remote control cases",
+            "title": "Чехлы для пультов",
+            "link": "https://kaspi.kz/shop/c/remote%20control%20cases/",
+            "active": false,
+            "count": 30,
+            "popularity": 41,
+            "expanded": true
+          },
+          {
+            "id": ":category:Video switchers",
+            "title": "Видеомикшеры",
+            "link": "https://kaspi.kz/shop/c/video%20switchers/",
+            "active": false,
+            "count": 25,
+            "popularity": 31,
+            "expanded": true
+          },
+          {
+            "id": ":category:Interactive panels",
+            "title": "Интерактивные панели",
+            "link": "https://kaspi.kz/shop/c/interactive%20panels/",
+            "active": false,
+            "count": 64,
+            "popularity": 24,
+            "expanded": true
+          },
+          {
+            "id": ":category:Teleprompters",
+            "title": "Телесуфлеры",
+            "link": "https://kaspi.kz/shop/c/teleprompters/",
+            "active": false,
+            "count": 12,
+            "popularity": 14,
+            "expanded": true
+          },
+          {
+            "id": ":category:Frames for TVs",
+            "title": "Рамки для телевизоров",
+            "link": "https://kaspi.kz/shop/c/frames%20for%20tvs/",
+            "active": false,
+            "count": 55,
+            "popularity": 13,
+            "expanded": true
+          },
+          {
+            "id": ":category:Projector bags and cases",
+            "title": "Сумки и чехлы для проекторов",
+            "link": "https://kaspi.kz/shop/c/projector%20bags%20and%20cases/",
+            "active": false,
+            "count": 9,
+            "popularity": 13,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lamps for projectors",
+            "title": "Лампы для проекторов",
+            "link": "https://kaspi.kz/shop/c/lamps%20for%20projectors/",
+            "active": false,
+            "count": 3,
+            "popularity": 2,
+            "expanded": true
+          },
+          {
+            "id": ":category:LED screens",
+            "title": "Светодиодные экраны",
+            "link": "https://kaspi.kz/shop/c/led%20screens/",
+            "active": false,
+            "count": 4,
+            "popularity": 2,
+            "expanded": true
+          },
+          {
+            "id": ":category:3D glasses for video equipment",
+            "title": "3D-очки для видеотехники",
+            "link": "https://kaspi.kz/shop/c/3d%20glasses%20for%20video%20equipment/",
+            "active": false,
+            "count": 3,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Equipment for video editing and color correction",
+            "title": "Оборудование для видеомонтажа и цветокоррекции",
+            "link": "https://kaspi.kz/shop/c/equipment%20for%20video%20editing%20and%20color%20correction/",
+            "active": false,
+            "count": 10,
+            "popularity": 1,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Entertainment",
+        "title": "Развлечения",
+        "link": "https://kaspi.kz/shop/c/entertainment/",
+        "active": false,
+        "count": 4349,
+        "popularity": 16847,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Videogames",
+            "title": "Видеоигры",
+            "link": "https://kaspi.kz/shop/c/videogames/",
+            "active": false,
+            "count": 1822,
+            "popularity": 4746,
+            "expanded": true
+          },
+          {
+            "id": ":category:Game consoles",
+            "title": "Игровые приставки",
+            "link": "https://kaspi.kz/shop/c/game%20consoles/",
+            "active": false,
+            "count": 614,
+            "popularity": 4605,
+            "expanded": true
+          },
+          {
+            "id": ":category:Controllers",
+            "title": "Игровые контроллеры",
+            "link": "https://kaspi.kz/shop/c/controllers/",
+            "active": false,
+            "count": 515,
+            "popularity": 2883,
+            "expanded": true
+          },
+          {
+            "id": ":category:Game console accessories",
+            "title": "Аксессуары для игровых приставок",
+            "link": "https://kaspi.kz/shop/c/game%20console%20accessories/",
+            "active": false,
+            "count": 659,
+            "popularity": 1563,
+            "expanded": true
+          },
+          {
+            "id": ":category:VR glasses",
+            "title": "Очки виртуальной реальности",
+            "link": "https://kaspi.kz/shop/c/vr%20glasses/",
+            "active": false,
+            "count": 130,
+            "popularity": 1463,
+            "expanded": true
+          },
+          {
+            "id": ":category:Drones",
+            "title": "Дроны и квадрокоптеры",
+            "link": "https://kaspi.kz/shop/c/drones/",
+            "active": false,
+            "count": 261,
+            "popularity": 1236,
+            "expanded": true
+          },
+          {
+            "id": ":category:Virtual reality glasses accessories",
+            "title": "Аксессуары для очков виртуальной реальности",
+            "link": "https://kaspi.kz/shop/c/virtual%20reality%20glasses%20accessories/",
+            "active": false,
+            "count": 104,
+            "popularity": 198,
+            "expanded": true
+          },
+          {
+            "id": ":category:Drones and quadcopters accessories",
+            "title": "Аксессуары для дронов и квадрокоптеров",
+            "link": "https://kaspi.kz/shop/c/drones%20and%20quadcopters%20accessories/",
+            "active": false,
+            "count": 221,
+            "popularity": 98,
+            "expanded": true
+          },
+          {
+            "id": ":category:Digital subscriptions",
+            "title": "Карты оплаты для игр",
+            "link": "https://kaspi.kz/shop/c/digital%20subscriptions/",
+            "active": false,
+            "count": 18,
+            "popularity": 49,
+            "expanded": true
+          },
+          {
+            "id": ":category:Augmented reality glasses",
+            "title": "Очки дополненной реальности",
+            "link": "https://kaspi.kz/shop/c/augmented%20reality%20glasses/",
+            "active": false,
+            "count": 5,
+            "popularity": 6,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:TVs",
+        "title": "Телевизоры",
+        "link": "https://kaspi.kz/shop/c/tvs/",
+        "active": false,
+        "count": 951,
+        "popularity": 8049,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Stage equipment",
+        "title": "Сценическое оборудование",
+        "link": "https://kaspi.kz/shop/c/stage%20equipment/",
+        "active": false,
+        "count": 299,
+        "popularity": 427,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Lighting equipment",
+            "title": "Световое оборудование",
+            "link": "https://kaspi.kz/shop/c/lighting%20equipment/",
+            "active": false,
+            "count": 216,
+            "popularity": 250,
+            "expanded": true
+          },
+          {
+            "id": ":category:Special effects and show technique",
+            "title": "Спецэффекты и шоу-техника",
+            "link": "https://kaspi.kz/shop/c/special%20effects%20and%20show%20technique/",
+            "active": false,
+            "count": 83,
+            "popularity": 177,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

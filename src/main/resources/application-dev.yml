@@ -69,5 +69,15 @@ sms:
 
 springdoc:
   enable-spring-security: true
+cloud:
+  aws:
+    s3:
+      url: https://my-bussiness-bucket.s3.eu-west-3.amazonaws.com
+      bucket: my-bussiness-bucket
+    credentials:
+      accessKey:
+      secretKey:
+
+
 
 

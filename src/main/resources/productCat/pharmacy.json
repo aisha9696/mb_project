@@ -1,0 +1,1188 @@
+[
+  {
+    "id": ":category:Pharmacy",
+    "title": "Аптека",
+    "link": "https://kaspi.kz/shop/c/pharmacy/",
+    "active": true,
+    "count": 71722,
+    "popularity": 372172,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Medications",
+        "title": "Лекарства",
+        "link": "https://kaspi.kz/shop/c/medications/",
+        "active": false,
+        "count": 4832,
+        "popularity": 148228,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Cold and flu",
+            "title": "Простуда, насморк, боль в горле",
+            "link": "https://kaspi.kz/shop/c/cold%20and%20flu/",
+            "active": false,
+            "count": 701,
+            "popularity": 33007,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stomach intestines liver",
+            "title": "Желудок, кишечник, печень",
+            "link": "https://kaspi.kz/shop/c/stomach%20intestines%20liver/",
+            "active": false,
+            "count": 541,
+            "popularity": 20422,
+            "expanded": true
+          },
+          {
+            "id": ":category:Inflammation and infections",
+            "title": "Боль и воспаления",
+            "link": "https://kaspi.kz/shop/c/inflammation%20and%20infections/",
+            "active": false,
+            "count": 551,
+            "popularity": 17633,
+            "expanded": true
+          },
+          {
+            "id": ":category:Obstetrics and gynecology",
+            "title": "Гинекология и урология",
+            "link": "https://kaspi.kz/shop/c/obstetrics%20and%20gynecology/",
+            "active": false,
+            "count": 394,
+            "popularity": 11867,
+            "expanded": true
+          },
+          {
+            "id": ":category:Healing creams",
+            "title": "Лечебные кремы, мази и масла",
+            "link": "https://kaspi.kz/shop/c/healing%20creams/",
+            "active": false,
+            "count": 397,
+            "popularity": 11243,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cardiovascular system",
+            "title": "Сердечно-сосудистые",
+            "link": "https://kaspi.kz/shop/c/cardiovascular%20system/",
+            "active": false,
+            "count": 684,
+            "popularity": 10159,
+            "expanded": true
+          },
+          {
+            "id": ":category:Antimicrobial drugs",
+            "title": "Противомикробные препараты",
+            "link": "https://kaspi.kz/shop/c/antimicrobial%20drugs/",
+            "active": false,
+            "count": 326,
+            "popularity": 9574,
+            "expanded": true
+          },
+          {
+            "id": ":category:Neurology",
+            "title": "Нервная система",
+            "link": "https://kaspi.kz/shop/c/neurology/",
+            "active": false,
+            "count": 321,
+            "popularity": 7831,
+            "expanded": true
+          },
+          {
+            "id": ":category:Disinfectants",
+            "title": "Дезинфицирующие средства",
+            "link": "https://kaspi.kz/shop/c/disinfectants/",
+            "active": false,
+            "count": 103,
+            "popularity": 4922,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boost immunity",
+            "title": "Витаминные препараты",
+            "link": "https://kaspi.kz/shop/c/boost%20immunity/",
+            "active": false,
+            "count": 119,
+            "popularity": 4619,
+            "expanded": true
+          },
+          {
+            "id": ":category:Vision",
+            "title": "Здоровье глаз",
+            "link": "https://kaspi.kz/shop/c/vision/",
+            "active": false,
+            "count": 176,
+            "popularity": 4216,
+            "expanded": true
+          },
+          {
+            "id": ":category:Allergy",
+            "title": "При аллергии",
+            "link": "https://kaspi.kz/shop/c/allergy/",
+            "active": false,
+            "count": 117,
+            "popularity": 3664,
+            "expanded": true
+          },
+          {
+            "id": ":category:Skin hair nails",
+            "title": "Кожа, волосы, ногти",
+            "link": "https://kaspi.kz/shop/c/skin%20hair%20nails/",
+            "active": false,
+            "count": 121,
+            "popularity": 3116,
+            "expanded": true
+          },
+          {
+            "id": ":category:Muscles bones joints",
+            "title": "Мышцы, кости и суставы",
+            "link": "https://kaspi.kz/shop/c/muscles%20bones%20joints/",
+            "active": false,
+            "count": 178,
+            "popularity": 3027,
+            "expanded": true
+          },
+          {
+            "id": ":category:Endocrinology",
+            "title": "Эндокринная система, диабет",
+            "link": "https://kaspi.kz/shop/c/endocrinology/",
+            "active": false,
+            "count": 103,
+            "popularity": 2928,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Vitamins",
+        "title": "Витамины и БАД",
+        "link": "https://kaspi.kz/shop/c/vitamins/",
+        "active": false,
+        "count": 19550,
+        "popularity": 93872,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Rehabilitation",
+        "title": "Реабилитация",
+        "link": "https://kaspi.kz/shop/c/rehabilitation/",
+        "active": false,
+        "count": 924,
+        "popularity": 29132,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Anti-decubitus mattresses and pillows",
+            "title": "Противопролежневые матрасы и подушки",
+            "link": "https://kaspi.kz/shop/c/anti-decubitus%20mattresses%20and%20pillows/",
+            "active": false,
+            "count": 69,
+            "popularity": 16496,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medical functional beds",
+            "title": "Кровати функциональные",
+            "link": "https://kaspi.kz/shop/c/medical%20functional%20beds/",
+            "active": false,
+            "count": 67,
+            "popularity": 9410,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sanitary chairs",
+            "title": "Санитарные кресла",
+            "link": "https://kaspi.kz/shop/c/sanitary%20chairs/",
+            "active": false,
+            "count": 43,
+            "popularity": 1536,
+            "expanded": true
+          },
+          {
+            "id": ":category:Canes and crutches",
+            "title": "Трости и костыли",
+            "link": "https://kaspi.kz/shop/c/canes%20and%20crutches/",
+            "active": false,
+            "count": 309,
+            "popularity": 587,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wheelchairs",
+            "title": "Кресла-коляски",
+            "link": "https://kaspi.kz/shop/c/wheelchairs/",
+            "active": false,
+            "count": 227,
+            "popularity": 518,
+            "expanded": true
+          },
+          {
+            "id": ":category:Supports and walkers",
+            "title": "Опоры и ходунки",
+            "link": "https://kaspi.kz/shop/c/supports%20and%20walkers/",
+            "active": false,
+            "count": 128,
+            "popularity": 341,
+            "expanded": true
+          },
+          {
+            "id": ":category:Verticalizers",
+            "title": "Вертикализаторы",
+            "link": "https://kaspi.kz/shop/c/verticalizers/",
+            "active": false,
+            "count": 26,
+            "popularity": 99,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rehabilitation simulators",
+            "title": "Реабилитационные тренажеры",
+            "link": "https://kaspi.kz/shop/c/rehabilitation%20simulators/",
+            "active": false,
+            "count": 15,
+            "popularity": 58,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rehabilitation accessories",
+            "title": "Аксессуары для реабилитационных товаров",
+            "link": "https://kaspi.kz/shop/c/rehabilitation%20accessories/",
+            "active": false,
+            "count": 15,
+            "popularity": 43,
+            "expanded": true
+          },
+          {
+            "id": ":category:Walkers and rollators",
+            "title": "Прогулочные опоры",
+            "link": "https://kaspi.kz/shop/c/walkers%20and%20rollators/",
+            "active": false,
+            "count": 6,
+            "popularity": 41,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mobile verticalizers",
+            "title": "Мобильные вертикализаторы",
+            "link": "https://kaspi.kz/shop/c/mobile%20verticalizers/",
+            "active": false,
+            "count": 13,
+            "popularity": 2,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ramps",
+            "title": "Вспомогательные средства для перемещения",
+            "link": "https://kaspi.kz/shop/c/ramps/",
+            "active": false,
+            "count": 6,
+            "popularity": 1,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Hygiene",
+        "title": "Личная гигиена",
+        "link": "https://kaspi.kz/shop/c/hygiene/",
+        "active": false,
+        "count": 2180,
+        "popularity": 26469,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Cosmetical tools",
+            "title": "Косметические средства",
+            "link": "https://kaspi.kz/shop/c/cosmetical%20tools/",
+            "active": false,
+            "count": 319,
+            "popularity": 19678,
+            "expanded": true
+          },
+          {
+            "id": ":category:Condoms",
+            "title": "Презервативы",
+            "link": "https://kaspi.kz/shop/c/condoms/",
+            "active": false,
+            "count": 500,
+            "popularity": 2664,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lubricants",
+            "title": "Лубриканты",
+            "link": "https://kaspi.kz/shop/c/lubricants/",
+            "active": false,
+            "count": 1150,
+            "popularity": 2453,
+            "expanded": true
+          },
+          {
+            "id": ":category:Incontinence pads",
+            "title": "Прокладки урологические",
+            "link": "https://kaspi.kz/shop/c/incontinence%20pads/",
+            "active": false,
+            "count": 61,
+            "popularity": 597,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lice combing tools",
+            "title": "Инструменты для вычесывания вшей",
+            "link": "https://kaspi.kz/shop/c/lice%20combing%20tools/",
+            "active": false,
+            "count": 19,
+            "popularity": 410,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hand sanitizers",
+            "title": "Антисептики для рук",
+            "link": "https://kaspi.kz/shop/c/hand%20sanitizers/",
+            "active": false,
+            "count": 84,
+            "popularity": 403,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hygienic garment liners",
+            "title": "Гигиенические вкладыши для одежды",
+            "link": "https://kaspi.kz/shop/c/hygienic%20garment%20liners/",
+            "active": false,
+            "count": 32,
+            "popularity": 151,
+            "expanded": true
+          },
+          {
+            "id": ":category:Virus blockers",
+            "title": "Блокаторы вирусов",
+            "link": "https://kaspi.kz/shop/c/virus%20blockers/",
+            "active": false,
+            "count": 15,
+            "popularity": 113,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Laboratory equipment",
+        "title": "Специальное оборудование",
+        "link": "https://kaspi.kz/shop/c/laboratory%20equipment/",
+        "active": false,
+        "count": 1518,
+        "popularity": 21188,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Medical furniture",
+            "title": "Медицинская мебель и интерьер",
+            "link": "https://kaspi.kz/shop/c/medical%20furniture/",
+            "active": false,
+            "count": 85,
+            "popularity": 7481,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sterilizers",
+            "title": "Стерилизаторы медицинские",
+            "link": "https://kaspi.kz/shop/c/sterilizers/",
+            "active": false,
+            "count": 64,
+            "popularity": 4774,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dental equipment",
+            "title": "Стоматология",
+            "link": "https://kaspi.kz/shop/c/dental%20equipment/",
+            "active": false,
+            "count": 756,
+            "popularity": 3569,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laboratory centrifuge",
+            "title": "Лабораторное оборудование",
+            "link": "https://kaspi.kz/shop/c/laboratory%20centrifuge/",
+            "active": false,
+            "count": 34,
+            "popularity": 2836,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medical instruments",
+            "title": "Медицинские инструменты",
+            "link": "https://kaspi.kz/shop/c/medical%20instruments/",
+            "active": false,
+            "count": 300,
+            "popularity": 1271,
+            "expanded": true
+          },
+          {
+            "id": ":category:Oxygen Accessories",
+            "title": "Аксессуары для медицинского оборудования",
+            "link": "https://kaspi.kz/shop/c/oxygen%20accessories/",
+            "active": false,
+            "count": 101,
+            "popularity": 606,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ophthalmology",
+            "title": "Офтальмология",
+            "link": "https://kaspi.kz/shop/c/ophthalmology/",
+            "active": false,
+            "count": 28,
+            "popularity": 355,
+            "expanded": true
+          },
+          {
+            "id": ":category:Conductive gels",
+            "title": "Гели проводники",
+            "link": "https://kaspi.kz/shop/c/conductive%20gels/",
+            "active": false,
+            "count": 39,
+            "popularity": 137,
+            "expanded": true
+          },
+          {
+            "id": ":category:X-ray films",
+            "title": "Расходные материалы для диагностического оборудования",
+            "link": "https://kaspi.kz/shop/c/x-ray%20films/",
+            "active": false,
+            "count": 28,
+            "popularity": 69,
+            "expanded": true
+          },
+          {
+            "id": ":category:Glassware",
+            "title": "Лабораторная посуда",
+            "link": "https://kaspi.kz/shop/c/glassware/",
+            "active": false,
+            "count": 27,
+            "popularity": 42,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laboratory analyzers",
+            "title": "Лабораторные анализаторы",
+            "link": "https://kaspi.kz/shop/c/laboratory%20analyzers/",
+            "active": false,
+            "count": 11,
+            "popularity": 32,
+            "expanded": true
+          },
+          {
+            "id": ":category:Surface disinfectants",
+            "title": "Средства для обработки",
+            "link": "https://kaspi.kz/shop/c/surface%20disinfectants/",
+            "active": false,
+            "count": 45,
+            "popularity": 16,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Medical equipment",
+        "title": "Медицинские приборы",
+        "link": "https://kaspi.kz/shop/c/medical%20equipment/",
+        "active": false,
+        "count": 1875,
+        "popularity": 15001,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Nebulizers",
+            "title": "Ингаляторы и небулайзеры",
+            "link": "https://kaspi.kz/shop/c/nebulizers/",
+            "active": false,
+            "count": 167,
+            "popularity": 3543,
+            "expanded": true
+          },
+          {
+            "id": ":category:Blood pressure monitors",
+            "title": "Тонометры",
+            "link": "https://kaspi.kz/shop/c/blood%20pressure%20monitors/",
+            "active": false,
+            "count": 264,
+            "popularity": 3339,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medical thermometers",
+            "title": "Медицинские термометры",
+            "link": "https://kaspi.kz/shop/c/medical%20thermometers/",
+            "active": false,
+            "count": 189,
+            "popularity": 1839,
+            "expanded": true
+          },
+          {
+            "id": ":category:Baby nasal aspirators",
+            "title": "Аспираторы для малышей",
+            "link": "https://kaspi.kz/shop/c/baby%20nasal%20aspirators/",
+            "active": false,
+            "count": 152,
+            "popularity": 1323,
+            "expanded": true
+          },
+          {
+            "id": ":category:Disinfection germicidal lamps",
+            "title": "Кварцевые лампы и облучатели",
+            "link": "https://kaspi.kz/shop/c/disinfection%20germicidal%20lamps/",
+            "active": false,
+            "count": 205,
+            "popularity": 886,
+            "expanded": true
+          },
+          {
+            "id": ":category:Blood glucose monitors",
+            "title": "Медицинские глюкометры и анализаторы крови",
+            "link": "https://kaspi.kz/shop/c/blood%20glucose%20monitors/",
+            "active": false,
+            "count": 49,
+            "popularity": 760,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pulse oximeters",
+            "title": "Пульсоксиметры",
+            "link": "https://kaspi.kz/shop/c/pulse%20oximeters/",
+            "active": false,
+            "count": 109,
+            "popularity": 677,
+            "expanded": true
+          },
+          {
+            "id": ":category:Surgical aspirator",
+            "title": "Хирургические отсасыватели",
+            "link": "https://kaspi.kz/shop/c/surgical%20aspirator/",
+            "active": false,
+            "count": 25,
+            "popularity": 431,
+            "expanded": true
+          },
+          {
+            "id": ":category:Physiotherapy equipment",
+            "title": "Физиотерапевтические аппараты",
+            "link": "https://kaspi.kz/shop/c/physiotherapy%20equipment/",
+            "active": false,
+            "count": 80,
+            "popularity": 375,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hearing aids",
+            "title": "Слуховые аппараты и усилители звука",
+            "link": "https://kaspi.kz/shop/c/hearing%20aids/",
+            "active": false,
+            "count": 202,
+            "popularity": 357,
+            "expanded": true
+          },
+          {
+            "id": ":category:Oxygen concentrators",
+            "title": "Концентраторы кислорода",
+            "link": "https://kaspi.kz/shop/c/oxygen%20concentrators/",
+            "active": false,
+            "count": 90,
+            "popularity": 315,
+            "expanded": true
+          },
+          {
+            "id": ":category:Breathalyzers",
+            "title": "Алкотестеры",
+            "link": "https://kaspi.kz/shop/c/breathalyzers/",
+            "active": false,
+            "count": 73,
+            "popularity": 172,
+            "expanded": true
+          },
+          {
+            "id": ":category:Massage cups",
+            "title": "Массажные банки",
+            "link": "https://kaspi.kz/shop/c/massage%20cups/",
+            "active": false,
+            "count": 21,
+            "popularity": 171,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hearing aid accessories",
+            "title": "Комплектующие для ингаляторов и небулайзеров",
+            "link": "https://kaspi.kz/shop/c/hearing%20aid%20accessories/",
+            "active": false,
+            "count": 29,
+            "popularity": 142,
+            "expanded": true
+          },
+          {
+            "id": ":category:Magnetic therapy devices",
+            "title": "Аппараты магнитотерапии",
+            "link": "https://kaspi.kz/shop/c/magnetic%20therapy%20devices/",
+            "active": false,
+            "count": 21,
+            "popularity": 106,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for blood pressure monitors",
+            "title": "Манжеты и аксессуары для тонометров",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20blood%20pressure%20monitors/",
+            "active": false,
+            "count": 46,
+            "popularity": 87,
+            "expanded": true
+          },
+          {
+            "id": ":category:Allergy Devices",
+            "title": "Устройства от насморка и аллергии",
+            "link": "https://kaspi.kz/shop/c/allergy%20devices/",
+            "active": false,
+            "count": 10,
+            "popularity": 85,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nitrate meters",
+            "title": "Нитратомеры и экотестеры",
+            "link": "https://kaspi.kz/shop/c/nitrate%20meters/",
+            "active": false,
+            "count": 26,
+            "popularity": 73,
+            "expanded": true
+          },
+          {
+            "id": ":category:Oxygen cylinders",
+            "title": "Кислородные баллоны",
+            "link": "https://kaspi.kz/shop/c/oxygen%20cylinders/",
+            "active": false,
+            "count": 17,
+            "popularity": 58,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hearing aid consumables",
+            "title": "Расходные материалы для слуховых аппаратов",
+            "link": "https://kaspi.kz/shop/c/hearing%20aid%20consumables/",
+            "active": false,
+            "count": 16,
+            "popularity": 55,
+            "expanded": true
+          },
+          {
+            "id": ":category:Defibrillators",
+            "title": "Дефибрилляторы",
+            "link": "https://kaspi.kz/shop/c/defibrillators/",
+            "active": false,
+            "count": 10,
+            "popularity": 53,
+            "expanded": true
+          },
+          {
+            "id": ":category:Illuminators and reflectors",
+            "title": "Осветители и рефлекторы",
+            "link": "https://kaspi.kz/shop/c/illuminators%20and%20reflectors/",
+            "active": false,
+            "count": 10,
+            "popularity": 45,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bioenergy massagers",
+            "title": "Биоэнергомассажеры и материалы",
+            "link": "https://kaspi.kz/shop/c/bioenergy%20massagers/",
+            "active": false,
+            "count": 14,
+            "popularity": 36,
+            "expanded": true
+          },
+          {
+            "id": ":category:Diagnostic equipment",
+            "title": "Диагностическое оборудование",
+            "link": "https://kaspi.kz/shop/c/diagnostic%20equipment/",
+            "active": false,
+            "count": 10,
+            "popularity": 19,
+            "expanded": true
+          },
+          {
+            "id": ":category:Voice devices",
+            "title": "Голосообразующие аппараты",
+            "link": "https://kaspi.kz/shop/c/voice%20devices/",
+            "active": false,
+            "count": 6,
+            "popularity": 15,
+            "expanded": true
+          },
+          {
+            "id": ":category:Height meters",
+            "title": "Ростомеры",
+            "link": "https://kaspi.kz/shop/c/height%20meters/",
+            "active": false,
+            "count": 4,
+            "popularity": 14,
+            "expanded": true
+          },
+          {
+            "id": ":category:Insulin pumps",
+            "title": "Инсулиновые помпы и аксессуары",
+            "link": "https://kaspi.kz/shop/c/insulin%20pumps/",
+            "active": false,
+            "count": 21,
+            "popularity": 13,
+            "expanded": true
+          },
+          {
+            "id": ":category:Massage beds",
+            "title": "Массажные кровати",
+            "link": "https://kaspi.kz/shop/c/massage%20beds/",
+            "active": false,
+            "count": 6,
+            "popularity": 10,
+            "expanded": true
+          },
+          {
+            "id": ":category:Masks and glasses for newborns",
+            "title": "Маски и очки для новорожденных",
+            "link": "https://kaspi.kz/shop/c/masks%20and%20glasses%20for%20newborns/",
+            "active": false,
+            "count": 2,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Neurostimulators",
+            "title": "Нейростимуляторы",
+            "link": "https://kaspi.kz/shop/c/neurostimulators/",
+            "active": false,
+            "count": 1,
+            "popularity": 1,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Consumables",
+        "title": "Маски, бинты, шприцы",
+        "link": "https://kaspi.kz/shop/c/consumables/",
+        "active": false,
+        "count": 1976,
+        "popularity": 13946,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Bandaging materials",
+            "title": "Бинты, пластыри, вата",
+            "link": "https://kaspi.kz/shop/c/bandaging%20materials/",
+            "active": false,
+            "count": 565,
+            "popularity": 4687,
+            "expanded": true
+          },
+          {
+            "id": ":category:Syringes needles and injectors",
+            "title": "Шприцы, иглы и инъекторы",
+            "link": "https://kaspi.kz/shop/c/syringes%20needles%20and%20injectors/",
+            "active": false,
+            "count": 197,
+            "popularity": 3050,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medicine storage boxes",
+            "title": "Аптечки и таблетницы",
+            "link": "https://kaspi.kz/shop/c/medicine%20storage%20boxes/",
+            "active": false,
+            "count": 408,
+            "popularity": 2061,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medical gloves",
+            "title": "Медицинские перчатки",
+            "link": "https://kaspi.kz/shop/c/medical%20gloves/",
+            "active": false,
+            "count": 302,
+            "popularity": 1114,
+            "expanded": true
+          },
+          {
+            "id": ":category:Analysis containers",
+            "title": "Контейнеры для анализов",
+            "link": "https://kaspi.kz/shop/c/analysis%20containers/",
+            "active": false,
+            "count": 40,
+            "popularity": 805,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medical face masks",
+            "title": "Защитные маски",
+            "link": "https://kaspi.kz/shop/c/medical%20face%20masks/",
+            "active": false,
+            "count": 164,
+            "popularity": 652,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shoe covers",
+            "title": "Бахилы медицинские",
+            "link": "https://kaspi.kz/shop/c/shoe%20covers/",
+            "active": false,
+            "count": 68,
+            "popularity": 448,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medical caps",
+            "title": "Шапочки медицинские",
+            "link": "https://kaspi.kz/shop/c/medical%20caps/",
+            "active": false,
+            "count": 84,
+            "popularity": 443,
+            "expanded": true
+          },
+          {
+            "id": ":category:Syringes and enemas",
+            "title": "Спринцовки и клизмы",
+            "link": "https://kaspi.kz/shop/c/syringes%20and%20enemas/",
+            "active": false,
+            "count": 86,
+            "popularity": 381,
+            "expanded": true
+          },
+          {
+            "id": ":category:Disinfectant wipes",
+            "title": "Салфетки для дезинфекции",
+            "link": "https://kaspi.kz/shop/c/disinfectant%20wipes/",
+            "active": false,
+            "count": 33,
+            "popularity": 251,
+            "expanded": true
+          },
+          {
+            "id": ":category:Disposable trousers",
+            "title": "Медицинская одежда",
+            "link": "https://kaspi.kz/shop/c/disposable%20trousers/",
+            "active": false,
+            "count": 17,
+            "popularity": 46,
+            "expanded": true
+          },
+          {
+            "id": ":category:Thermo containers medical",
+            "title": "Термоконтейнеры медицинские",
+            "link": "https://kaspi.kz/shop/c/thermo%20containers%20medical/",
+            "active": false,
+            "count": 12,
+            "popularity": 8,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Orthopedics",
+        "title": "Ортопедия",
+        "link": "https://kaspi.kz/shop/c/orthopedics/",
+        "active": false,
+        "count": 9662,
+        "popularity": 6817,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Bandages and orthoses",
+            "title": "Бандажи и ортезы",
+            "link": "https://kaspi.kz/shop/c/bandages%20and%20orthoses/",
+            "active": false,
+            "count": 3076,
+            "popularity": 2551,
+            "expanded": true
+          },
+          {
+            "id": ":category:Posture correctors",
+            "title": "Корректоры осанки",
+            "link": "https://kaspi.kz/shop/c/posture%20correctors/",
+            "active": false,
+            "count": 596,
+            "popularity": 1436,
+            "expanded": true
+          },
+          {
+            "id": ":category:Orthopedic corsets",
+            "title": "Ортопедические корсеты",
+            "link": "https://kaspi.kz/shop/c/orthopedic%20corsets/",
+            "active": false,
+            "count": 1040,
+            "popularity": 1275,
+            "expanded": true
+          },
+          {
+            "id": ":category:Orthopedic products",
+            "title": "Корректоры для ног и стопы",
+            "link": "https://kaspi.kz/shop/c/orthopedic%20products/",
+            "active": false,
+            "count": 391,
+            "popularity": 623,
+            "expanded": true
+          },
+          {
+            "id": ":category:Orthopedic insoles",
+            "title": "Ортопедические стельки",
+            "link": "https://kaspi.kz/shop/c/orthopedic%20insoles/",
+            "active": false,
+            "count": 935,
+            "popularity": 435,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medical compression hosiery",
+            "title": "Компрессионный трикотаж",
+            "link": "https://kaspi.kz/shop/c/medical%20compression%20hosiery/",
+            "active": false,
+            "count": 1464,
+            "popularity": 394,
+            "expanded": true
+          },
+          {
+            "id": ":category:Orthopedic Therapy Shoes",
+            "title": "Ортопедическая обувь",
+            "link": "https://kaspi.kz/shop/c/orthopedic%20therapy%20shoes/",
+            "active": false,
+            "count": 2150,
+            "popularity": 54,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ear correctors",
+            "title": "Ушные корректоры",
+            "link": "https://kaspi.kz/shop/c/ear%20correctors/",
+            "active": false,
+            "count": 10,
+            "popularity": 49,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Lenses glasses accessories",
+        "title": "Оптика",
+        "link": "https://kaspi.kz/shop/c/lenses%20glasses%20accessories/",
+        "active": false,
+        "count": 26758,
+        "popularity": 5892,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Contact lenses",
+            "title": "Контактные линзы",
+            "link": "https://kaspi.kz/shop/c/contact%20lenses/",
+            "active": false,
+            "count": 14433,
+            "popularity": 2726,
+            "expanded": true
+          },
+          {
+            "id": ":category:Soaking solutions",
+            "title": "Растворы для линз",
+            "link": "https://kaspi.kz/shop/c/soaking%20solutions/",
+            "active": false,
+            "count": 86,
+            "popularity": 1460,
+            "expanded": true
+          },
+          {
+            "id": ":category:Computer glasses",
+            "title": "Очки для зрения",
+            "link": "https://kaspi.kz/shop/c/computer%20glasses/",
+            "active": false,
+            "count": 11020,
+            "popularity": 1273,
+            "expanded": true
+          },
+          {
+            "id": ":category:Optics accessories",
+            "title": "Аксессуары для оптики",
+            "link": "https://kaspi.kz/shop/c/optics%20accessories/",
+            "active": false,
+            "count": 221,
+            "popularity": 305,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eyeglasses",
+            "title": "Оправы для очков",
+            "link": "https://kaspi.kz/shop/c/eyeglasses/",
+            "active": false,
+            "count": 799,
+            "popularity": 124,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lenses for glasses",
+            "title": "Линзы для очков",
+            "link": "https://kaspi.kz/shop/c/lenses%20for%20glasses/",
+            "active": false,
+            "count": 199,
+            "popularity": 4,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Dentistry",
+        "title": "Лечебное питание и травы",
+        "link": "https://kaspi.kz/shop/c/dentistry/",
+        "active": false,
+        "count": 1266,
+        "popularity": 4720,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Phytoteas and herbal preparations",
+            "title": "Фиточаи и травяные сборы",
+            "link": "https://kaspi.kz/shop/c/phytoteas%20and%20herbal%20preparations/",
+            "active": false,
+            "count": 1120,
+            "popularity": 4177,
+            "expanded": true
+          },
+          {
+            "id": ":category:Enteral nutrition",
+            "title": "Лечебное питание",
+            "link": "https://kaspi.kz/shop/c/enteral%20nutrition/",
+            "active": false,
+            "count": 145,
+            "popularity": 541,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water activators",
+            "title": "Активаторы воды",
+            "link": "https://kaspi.kz/shop/c/water%20activators/",
+            "active": false,
+            "count": 1,
+            "popularity": 2,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Patient care",
+        "title": "Уход за больными",
+        "link": "https://kaspi.kz/shop/c/patient%20care/",
+        "active": false,
+        "count": 1011,
+        "popularity": 4498,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Incontinence protective briefs and diapers",
+            "title": "Подгузники для взрослых",
+            "link": "https://kaspi.kz/shop/c/incontinence%20protective%20briefs%20and%20diapers/",
+            "active": false,
+            "count": 342,
+            "popularity": 1905,
+            "expanded": true
+          },
+          {
+            "id": ":category:Medical diapers and sheets",
+            "title": "Пеленки и простыни",
+            "link": "https://kaspi.kz/shop/c/medical%20diapers%20and%20sheets/",
+            "active": false,
+            "count": 311,
+            "popularity": 1209,
+            "expanded": true
+          },
+          {
+            "id": ":category:Heating pads",
+            "title": "Грелки и электрогрелки",
+            "link": "https://kaspi.kz/shop/c/heating%20pads/",
+            "active": false,
+            "count": 181,
+            "popularity": 647,
+            "expanded": true
+          },
+          {
+            "id": ":category:Feces bag",
+            "title": "Кало и мочеприемники",
+            "link": "https://kaspi.kz/shop/c/feces%20bag/",
+            "active": false,
+            "count": 99,
+            "popularity": 515,
+            "expanded": true
+          },
+          {
+            "id": ":category:Patient Care Products",
+            "title": "Косметика и предметы для ухода за больными",
+            "link": "https://kaspi.kz/shop/c/patient%20care%20products/",
+            "active": false,
+            "count": 55,
+            "popularity": 197,
+            "expanded": true
+          },
+          {
+            "id": ":category:Inflatable Nursing Baths",
+            "title": "Надувные ванны для ухода за больными",
+            "link": "https://kaspi.kz/shop/c/inflatable%20nursing%20baths/",
+            "active": false,
+            "count": 19,
+            "popularity": 21,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gypsum and Tires",
+            "title": "Гипс и шины",
+            "link": "https://kaspi.kz/shop/c/gypsum%20and%20tires/",
+            "active": false,
+            "count": 4,
+            "popularity": 4,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Diagnostic tests",
+        "title": "Диагностические тесты",
+        "link": "https://kaspi.kz/shop/c/diagnostic%20tests/",
+        "active": false,
+        "count": 170,
+        "popularity": 2409,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Accessories for blood glucose monitors",
+            "title": "Тест-полоски для глюкометров",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20blood%20glucose%20monitors/",
+            "active": false,
+            "count": 93,
+            "popularity": 1238,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gynecological tests",
+            "title": "Гинекологические тесты",
+            "link": "https://kaspi.kz/shop/c/gynecological%20tests/",
+            "active": false,
+            "count": 42,
+            "popularity": 1059,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rapid tests for COVID-19",
+            "title": "Экспресс-тесты",
+            "link": "https://kaspi.kz/shop/c/rapid%20tests%20for%20covid-19/",
+            "active": false,
+            "count": 35,
+            "popularity": 112,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -36,7 +36,7 @@ public class Business extends AbstractEntity implements Serializable {
   private String address;
 
   @OneToOne
-  private BusinessType businessType;
+  private BusinessTypeSpr businessType;
 
   @Enumerated(EnumType.STRING)
   @Column(

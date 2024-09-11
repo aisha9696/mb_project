@@ -1,0 +1,1446 @@
+[
+  {
+    "id": ":category:Computers",
+    "title": "Компьютеры",
+    "link": "https://kaspi.kz/shop/c/computers/",
+    "active": true,
+    "count": 677940,
+    "popularity": 101871,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Peripherals",
+        "title": "Периферия",
+        "link": "https://kaspi.kz/shop/c/peripherals/",
+        "active": false,
+        "count": 13671,
+        "popularity": 39210,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Mice",
+            "title": "Мыши",
+            "link": "https://kaspi.kz/shop/c/mice/",
+            "active": false,
+            "count": 2387,
+            "popularity": 8976,
+            "expanded": true
+          },
+          {
+            "id": ":category:Keyboards",
+            "title": "Клавиатуры",
+            "link": "https://kaspi.kz/shop/c/keyboards/",
+            "active": false,
+            "count": 1895,
+            "popularity": 5265,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mouse pads",
+            "title": "Коврики для мыши",
+            "link": "https://kaspi.kz/shop/c/mouse%20pads/",
+            "active": false,
+            "count": 1898,
+            "popularity": 4647,
+            "expanded": true
+          },
+          {
+            "id": ":category:Computer cables and adapters",
+            "title": "Компьютерные кабели и переходники",
+            "link": "https://kaspi.kz/shop/c/computer%20cables%20and%20adapters/",
+            "active": false,
+            "count": 1693,
+            "popularity": 3618,
+            "expanded": true
+          },
+          {
+            "id": ":category:Monitors",
+            "title": "Мониторы",
+            "link": "https://kaspi.kz/shop/c/monitors/",
+            "active": false,
+            "count": 1351,
+            "popularity": 3299,
+            "expanded": true
+          },
+          {
+            "id": ":category:USB Flash drives",
+            "title": "USB Flash карты",
+            "link": "https://kaspi.kz/shop/c/usb%20flash%20drives/",
+            "active": false,
+            "count": 874,
+            "popularity": 3029,
+            "expanded": true
+          },
+          {
+            "id": ":category:Memory cards",
+            "title": "Карты памяти",
+            "link": "https://kaspi.kz/shop/c/memory%20cards/",
+            "active": false,
+            "count": 593,
+            "popularity": 2321,
+            "expanded": true
+          },
+          {
+            "id": ":category:UPS",
+            "title": "ИБП и стабилизаторы",
+            "link": "https://kaspi.kz/shop/c/ups/",
+            "active": false,
+            "count": 904,
+            "popularity": 1419,
+            "expanded": true
+          },
+          {
+            "id": ":category:Storage devices",
+            "title": "Внешние накопители",
+            "link": "https://kaspi.kz/shop/c/storage%20devices/",
+            "active": false,
+            "count": 340,
+            "popularity": 1334,
+            "expanded": true
+          },
+          {
+            "id": ":category:Webcams",
+            "title": "Веб-камеры",
+            "link": "https://kaspi.kz/shop/c/webcams/",
+            "active": false,
+            "count": 182,
+            "popularity": 844,
+            "expanded": true
+          },
+          {
+            "id": ":category:Card readers",
+            "title": "Картридеры",
+            "link": "https://kaspi.kz/shop/c/card%20readers/",
+            "active": false,
+            "count": 170,
+            "popularity": 818,
+            "expanded": true
+          },
+          {
+            "id": ":category:Graphics tablets",
+            "title": "Графические планшеты",
+            "link": "https://kaspi.kz/shop/c/graphics%20tablets/",
+            "active": false,
+            "count": 162,
+            "popularity": 792,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mounts for monitors",
+            "title": "Крепления для мониторов",
+            "link": "https://kaspi.kz/shop/c/mounts%20for%20monitors/",
+            "active": false,
+            "count": 47,
+            "popularity": 586,
+            "expanded": true
+          },
+          {
+            "id": ":category:UPS batteries",
+            "title": "Аккумуляторы для ИБП",
+            "link": "https://kaspi.kz/shop/c/ups%20batteries/",
+            "active": false,
+            "count": 241,
+            "popularity": 360,
+            "expanded": true
+          },
+          {
+            "id": ":category:External boxes for drives",
+            "title": "Внешние боксы для накопителей",
+            "link": "https://kaspi.kz/shop/c/external%20boxes%20for%20drives/",
+            "active": false,
+            "count": 127,
+            "popularity": 327,
+            "expanded": true
+          },
+          {
+            "id": ":category:Keyboard stickers",
+            "title": "Наклейки на клавиатуру",
+            "link": "https://kaspi.kz/shop/c/keyboard%20stickers/",
+            "active": false,
+            "count": 45,
+            "popularity": 277,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fixtures for devices",
+            "title": "Светильники для устройств",
+            "link": "https://kaspi.kz/shop/c/fixtures%20for%20devices/",
+            "active": false,
+            "count": 44,
+            "popularity": 234,
+            "expanded": true
+          },
+          {
+            "id": ":category:Microcomputers and accessories",
+            "title": "Микрокомпьютеры и аксессуары",
+            "link": "https://kaspi.kz/shop/c/microcomputers%20and%20accessories/",
+            "active": false,
+            "count": 196,
+            "popularity": 194,
+            "expanded": true
+          },
+          {
+            "id": ":category:Holders for wires",
+            "title": "Держатели для проводов",
+            "link": "https://kaspi.kz/shop/c/holders%20for%20wires/",
+            "active": false,
+            "count": 66,
+            "popularity": 165,
+            "expanded": true
+          },
+          {
+            "id": ":category:Optical media",
+            "title": "Оптические носители",
+            "link": "https://kaspi.kz/shop/c/optical%20media/",
+            "active": false,
+            "count": 53,
+            "popularity": 116,
+            "expanded": true
+          },
+          {
+            "id": ":category:Video capture cards",
+            "title": "Карты видеозахвата",
+            "link": "https://kaspi.kz/shop/c/video%20capture%20cards/",
+            "active": false,
+            "count": 33,
+            "popularity": 113,
+            "expanded": true
+          },
+          {
+            "id": ":category:Graphics tablet gloves",
+            "title": "Перчатки для графических планшетов",
+            "link": "https://kaspi.kz/shop/c/graphics%20tablet%20gloves/",
+            "active": false,
+            "count": 14,
+            "popularity": 61,
+            "expanded": true
+          },
+          {
+            "id": ":category:Keycaps for keyboards",
+            "title": "Кейкапы для клавиатур",
+            "link": "https://kaspi.kz/shop/c/keycaps%20for%20keyboards/",
+            "active": false,
+            "count": 33,
+            "popularity": 57,
+            "expanded": true
+          },
+          {
+            "id": ":category:Monitor stands",
+            "title": "Подставки для мониторов",
+            "link": "https://kaspi.kz/shop/c/monitor%20stands/",
+            "active": false,
+            "count": 54,
+            "popularity": 53,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wrist rests",
+            "title": "Подставки под запястье",
+            "link": "https://kaspi.kz/shop/c/wrist%20rests/",
+            "active": false,
+            "count": 46,
+            "popularity": 53,
+            "expanded": true
+          },
+          {
+            "id": ":category:Storage drive docking station",
+            "title": "Док-станции для накопителей",
+            "link": "https://kaspi.kz/shop/c/storage%20drive%20docking%20station/",
+            "active": false,
+            "count": 22,
+            "popularity": 50,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mouse cable holder",
+            "title": "Держатели для провода мыши",
+            "link": "https://kaspi.kz/shop/c/mouse%20cable%20holder/",
+            "active": false,
+            "count": 11,
+            "popularity": 39,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hardware wallets",
+            "title": "Аппаратные кошельки",
+            "link": "https://kaspi.kz/shop/c/hardware%20wallets/",
+            "active": false,
+            "count": 38,
+            "popularity": 37,
+            "expanded": true
+          },
+          {
+            "id": ":category:Electronic translators",
+            "title": "Электронные переводчики",
+            "link": "https://kaspi.kz/shop/c/electronic%20translators/",
+            "active": false,
+            "count": 11,
+            "popularity": 26,
+            "expanded": true
+          },
+          {
+            "id": ":category:Switches for keyboards",
+            "title": "Переключатели для клавиатур",
+            "link": "https://kaspi.kz/shop/c/switches%20for%20keyboards/",
+            "active": false,
+            "count": 20,
+            "popularity": 20,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cases for discs",
+            "title": "Футляры для дисков",
+            "link": "https://kaspi.kz/shop/c/cases%20for%20discs/",
+            "active": false,
+            "count": 28,
+            "popularity": 18,
+            "expanded": true
+          },
+          {
+            "id": ":category:Power supplies for monitors",
+            "title": "Блоки питания для мониторов",
+            "link": "https://kaspi.kz/shop/c/power%20supplies%20for%20monitors/",
+            "active": false,
+            "count": 28,
+            "popularity": 16,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mouse feet",
+            "title": "Ножки для мыши",
+            "link": "https://kaspi.kz/shop/c/mouse%20feet/",
+            "active": false,
+            "count": 28,
+            "popularity": 12,
+            "expanded": true
+          },
+          {
+            "id": ":category:Controllers for streaming",
+            "title": "Контроллеры для стриминга",
+            "link": "https://kaspi.kz/shop/c/controllers%20for%20streaming/",
+            "active": false,
+            "count": 5,
+            "popularity": 8,
+            "expanded": true
+          },
+          {
+            "id": ":category:Keyboard maintenance tools",
+            "title": "Инструменты для обслуживания клавиатур",
+            "link": "https://kaspi.kz/shop/c/keyboard%20maintenance%20tools/",
+            "active": false,
+            "count": 6,
+            "popularity": 7,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mouse stickers",
+            "title": "Наклейки для мыши",
+            "link": "https://kaspi.kz/shop/c/mouse%20stickers/",
+            "active": false,
+            "count": 17,
+            "popularity": 7,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fasteners for system blocks",
+            "title": "Крепления для системных блоков",
+            "link": "https://kaspi.kz/shop/c/fasteners%20for%20system%20blocks/",
+            "active": false,
+            "count": 2,
+            "popularity": 6,
+            "expanded": true
+          },
+          {
+            "id": ":category:Charging docks for mice",
+            "title": "Зарядные док-станции для мышей",
+            "link": "https://kaspi.kz/shop/c/charging%20docks%20for%20mice/",
+            "active": false,
+            "count": 3,
+            "popularity": 5,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mouse panels",
+            "title": "Панели для мыши",
+            "link": "https://kaspi.kz/shop/c/mouse%20panels/",
+            "active": false,
+            "count": 4,
+            "popularity": 1,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Notebooks and accessories",
+        "title": "Ноутбуки и аксессуары",
+        "link": "https://kaspi.kz/shop/c/notebooks%20and%20accessories/",
+        "active": false,
+        "count": 8312,
+        "popularity": 15607,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Notebooks",
+            "title": "Ноутбуки",
+            "link": "https://kaspi.kz/shop/c/notebooks/",
+            "active": false,
+            "count": 2469,
+            "popularity": 5664,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laptop bags",
+            "title": "Сумки и чехлы для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/laptop%20bags/",
+            "active": false,
+            "count": 2485,
+            "popularity": 4596,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laptop stands",
+            "title": "Подставки для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/laptop%20stands/",
+            "active": false,
+            "count": 340,
+            "popularity": 2391,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laptop chargers",
+            "title": "Блоки питания для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/laptop%20chargers/",
+            "active": false,
+            "count": 802,
+            "popularity": 1221,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laptop docking stations",
+            "title": "Док-станции для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/laptop%20docking%20stations/",
+            "active": false,
+            "count": 456,
+            "popularity": 892,
+            "expanded": true
+          },
+          {
+            "id": ":category:Keyboard protectors",
+            "title": "Защитные накладки для клавиатуры",
+            "link": "https://kaspi.kz/shop/c/keyboard%20protectors/",
+            "active": false,
+            "count": 61,
+            "popularity": 327,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laptop batteries",
+            "title": "Аккумуляторы для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/laptop%20batteries/",
+            "active": false,
+            "count": 943,
+            "popularity": 239,
+            "expanded": true
+          },
+          {
+            "id": ":category:Keyboards for laptops",
+            "title": "Клавиатуры для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/keyboards%20for%20laptops/",
+            "active": false,
+            "count": 399,
+            "popularity": 75,
+            "expanded": true
+          },
+          {
+            "id": ":category:Coolers and cooling systems for laptops",
+            "title": "Кулеры и системы охлаждения для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/coolers%20and%20cooling%20systems%20for%20laptops/",
+            "active": false,
+            "count": 101,
+            "popularity": 61,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laptop matrices",
+            "title": "Матрицы для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/laptop%20matrices/",
+            "active": false,
+            "count": 162,
+            "popularity": 56,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laptop screen protectors",
+            "title": "Защитные пленки и стекла для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/laptop%20screen%20protectors/",
+            "active": false,
+            "count": 23,
+            "popularity": 38,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cases for laptops",
+            "title": "Корпуса для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/cases%20for%20laptops/",
+            "active": false,
+            "count": 42,
+            "popularity": 20,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laptop locks",
+            "title": "Замки для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/laptop%20locks/",
+            "active": false,
+            "count": 12,
+            "popularity": 14,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laptop hinges",
+            "title": "Петли для ноутбуков",
+            "link": "https://kaspi.kz/shop/c/laptop%20hinges/",
+            "active": false,
+            "count": 15,
+            "popularity": 10,
+            "expanded": true
+          },
+          {
+            "id": ":category:Plugs for connectors",
+            "title": "Заглушки для разъемов",
+            "link": "https://kaspi.kz/shop/c/plugs%20for%20connectors/",
+            "active": false,
+            "count": 2,
+            "popularity": 3,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Hardware",
+        "title": "Комплектующие",
+        "link": "https://kaspi.kz/shop/c/hardware/",
+        "active": false,
+        "count": 8342,
+        "popularity": 15405,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Hard drives",
+            "title": "Жесткие диски и твердотельные накопители",
+            "link": "https://kaspi.kz/shop/c/hard%20drives/",
+            "active": false,
+            "count": 1293,
+            "popularity": 3597,
+            "expanded": true
+          },
+          {
+            "id": ":category:RAM",
+            "title": "Оперативная память",
+            "link": "https://kaspi.kz/shop/c/ram/",
+            "active": false,
+            "count": 1433,
+            "popularity": 1944,
+            "expanded": true
+          },
+          {
+            "id": ":category:Videocards",
+            "title": "Видеокарты",
+            "link": "https://kaspi.kz/shop/c/videocards/",
+            "active": false,
+            "count": 769,
+            "popularity": 1836,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fans and cooling",
+            "title": "Кулеры и системы охлаждения",
+            "link": "https://kaspi.kz/shop/c/fans%20and%20cooling/",
+            "active": false,
+            "count": 1420,
+            "popularity": 1804,
+            "expanded": true
+          },
+          {
+            "id": ":category:Computer cases",
+            "title": "Корпуса",
+            "link": "https://kaspi.kz/shop/c/computer%20cases/",
+            "active": false,
+            "count": 952,
+            "popularity": 1423,
+            "expanded": true
+          },
+          {
+            "id": ":category:Power supplies",
+            "title": "Блоки питания",
+            "link": "https://kaspi.kz/shop/c/power%20supplies/",
+            "active": false,
+            "count": 743,
+            "popularity": 1357,
+            "expanded": true
+          },
+          {
+            "id": ":category:Thermal paste",
+            "title": "Термоинтерфейсы",
+            "link": "https://kaspi.kz/shop/c/thermal%20paste/",
+            "active": false,
+            "count": 278,
+            "popularity": 883,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motherboards",
+            "title": "Материнские платы",
+            "link": "https://kaspi.kz/shop/c/motherboards/",
+            "active": false,
+            "count": 716,
+            "popularity": 831,
+            "expanded": true
+          },
+          {
+            "id": ":category:CPUs",
+            "title": "Процессоры",
+            "link": "https://kaspi.kz/shop/c/cpus/",
+            "active": false,
+            "count": 322,
+            "popularity": 655,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sound cards",
+            "title": "Звуковые карты",
+            "link": "https://kaspi.kz/shop/c/sound%20cards/",
+            "active": false,
+            "count": 168,
+            "popularity": 427,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for modding",
+            "title": "Аксессуары для моддинга",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20modding/",
+            "active": false,
+            "count": 164,
+            "popularity": 309,
+            "expanded": true
+          },
+          {
+            "id": ":category:Optical drivers",
+            "title": "Оптические приводы",
+            "link": "https://kaspi.kz/shop/c/optical%20drivers/",
+            "active": false,
+            "count": 55,
+            "popularity": 270,
+            "expanded": true
+          },
+          {
+            "id": ":category:Holders for video cards",
+            "title": "Внешние корпуса и держатели для видеокарт",
+            "link": "https://kaspi.kz/shop/c/holders%20for%20video%20cards/",
+            "active": false,
+            "count": 14,
+            "popularity": 57,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mounts for fans",
+            "title": "Крепления для вентиляторов",
+            "link": "https://kaspi.kz/shop/c/mounts%20for%20fans/",
+            "active": false,
+            "count": 7,
+            "popularity": 6,
+            "expanded": true
+          },
+          {
+            "id": ":category:Grilles and filters for fans",
+            "title": "Решетки и фильтры для вентиляторов",
+            "link": "https://kaspi.kz/shop/c/grilles%20and%20filters%20for%20fans/",
+            "active": false,
+            "count": 8,
+            "popularity": 6,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Tablets and accessories",
+        "title": "Планшеты и аксессуары",
+        "link": "https://kaspi.kz/shop/c/tablets%20and%20accessories/",
+        "active": false,
+        "count": 3117,
+        "popularity": 9543,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Tablets",
+            "title": "Планшеты",
+            "link": "https://kaspi.kz/shop/c/tablets/",
+            "active": false,
+            "count": 638,
+            "popularity": 5219,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tablet cases",
+            "title": "Чехлы для планшетов",
+            "link": "https://kaspi.kz/shop/c/tablet%20cases/",
+            "active": false,
+            "count": 2187,
+            "popularity": 2411,
+            "expanded": true
+          },
+          {
+            "id": ":category:Styluses",
+            "title": "Стилусы",
+            "link": "https://kaspi.kz/shop/c/styluses/",
+            "active": false,
+            "count": 142,
+            "popularity": 1656,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tablet holders",
+            "title": "Держатели для планшетов",
+            "link": "https://kaspi.kz/shop/c/tablet%20holders/",
+            "active": false,
+            "count": 44,
+            "popularity": 142,
+            "expanded": true
+          },
+          {
+            "id": ":category:Protective films and glasses for tablets",
+            "title": "Защитные пленки и стекла для планшетов",
+            "link": "https://kaspi.kz/shop/c/protective%20films%20and%20glasses%20for%20tablets/",
+            "active": false,
+            "count": 48,
+            "popularity": 81,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for styluses",
+            "title": "Аксессуары для стилусов",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20styluses/",
+            "active": false,
+            "count": 12,
+            "popularity": 29,
+            "expanded": true
+          },
+          {
+            "id": ":category:Batteries for tablets",
+            "title": "Аккумуляторы для планшетов",
+            "link": "https://kaspi.kz/shop/c/batteries%20for%20tablets/",
+            "active": false,
+            "count": 10,
+            "popularity": 4,
+            "expanded": true
+          },
+          {
+            "id": ":category:Displays for tablets",
+            "title": "Дисплеи для планшетов",
+            "link": "https://kaspi.kz/shop/c/displays%20for%20tablets/",
+            "active": false,
+            "count": 36,
+            "popularity": 1,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Office equipment and consumables",
+        "title": "Оргтехника и расходные материалы",
+        "link": "https://kaspi.kz/shop/c/office%20equipment%20and%20consumables/",
+        "active": false,
+        "count": 5831,
+        "popularity": 8294,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:MF printers",
+            "title": "Принтеры и МФУ",
+            "link": "https://kaspi.kz/shop/c/mf%20printers/",
+            "active": false,
+            "count": 525,
+            "popularity": 2211,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cartridges",
+            "title": "Картриджи",
+            "link": "https://kaspi.kz/shop/c/cartridges/",
+            "active": false,
+            "count": 2994,
+            "popularity": 1274,
+            "expanded": true
+          },
+          {
+            "id": ":category:Laminators",
+            "title": "Ламинаторы",
+            "link": "https://kaspi.kz/shop/c/laminators/",
+            "active": false,
+            "count": 109,
+            "popularity": 1032,
+            "expanded": true
+          },
+          {
+            "id": ":category:Printer ink",
+            "title": "Чернила для принтера",
+            "link": "https://kaspi.kz/shop/c/printer%20ink/",
+            "active": false,
+            "count": 496,
+            "popularity": 894,
+            "expanded": true
+          },
+          {
+            "id": ":category:Portable photo printers",
+            "title": "Компактные фотопринтеры",
+            "link": "https://kaspi.kz/shop/c/portable%20photo%20printers/",
+            "active": false,
+            "count": 37,
+            "popularity": 624,
+            "expanded": true
+          },
+          {
+            "id": ":category:Filaments for 3D printing",
+            "title": "Пластик для 3D-печати",
+            "link": "https://kaspi.kz/shop/c/filaments%20for%203d%20printing/",
+            "active": false,
+            "count": 425,
+            "popularity": 512,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mini printers",
+            "title": "Мини-принтеры",
+            "link": "https://kaspi.kz/shop/c/mini%20printers/",
+            "active": false,
+            "count": 73,
+            "popularity": 511,
+            "expanded": true
+          },
+          {
+            "id": ":category:Stitchers",
+            "title": "Брошюровщики",
+            "link": "https://kaspi.kz/shop/c/stitchers/",
+            "active": false,
+            "count": 61,
+            "popularity": 212,
+            "expanded": true
+          },
+          {
+            "id": ":category:Corded phones",
+            "title": "Проводные телефоны",
+            "link": "https://kaspi.kz/shop/c/corded%20phones/",
+            "active": false,
+            "count": 74,
+            "popularity": 179,
+            "expanded": true
+          },
+          {
+            "id": ":category:Printer toners",
+            "title": "Тонеры для принтера",
+            "link": "https://kaspi.kz/shop/c/printer%20toners/",
+            "active": false,
+            "count": 130,
+            "popularity": 141,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shredders",
+            "title": "Уничтожители документов",
+            "link": "https://kaspi.kz/shop/c/shredders/",
+            "active": false,
+            "count": 107,
+            "popularity": 122,
+            "expanded": true
+          },
+          {
+            "id": ":category:3D printers",
+            "title": "3D-принтеры",
+            "link": "https://kaspi.kz/shop/c/3d%20printers/",
+            "active": false,
+            "count": 50,
+            "popularity": 91,
+            "expanded": true
+          },
+          {
+            "id": ":category:Heat presses",
+            "title": "Термопрессы",
+            "link": "https://kaspi.kz/shop/c/heat%20presses/",
+            "active": false,
+            "count": 42,
+            "popularity": 79,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cutting plotters",
+            "title": "Режущие плоттеры",
+            "link": "https://kaspi.kz/shop/c/cutting%20plotters/",
+            "active": false,
+            "count": 62,
+            "popularity": 64,
+            "expanded": true
+          },
+          {
+            "id": ":category:Scanners",
+            "title": "Сканеры",
+            "link": "https://kaspi.kz/shop/c/scanners/",
+            "active": false,
+            "count": 43,
+            "popularity": 62,
+            "expanded": true
+          },
+          {
+            "id": ":category:Printheads",
+            "title": "Печатающие головки",
+            "link": "https://kaspi.kz/shop/c/printheads/",
+            "active": false,
+            "count": 32,
+            "popularity": 48,
+            "expanded": true
+          },
+          {
+            "id": ":category:Drum units",
+            "title": "Фотобарабаны",
+            "link": "https://kaspi.kz/shop/c/drum%20units/",
+            "active": false,
+            "count": 101,
+            "popularity": 47,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for 3D printers",
+            "title": "Аксессуары для 3D-принтеров",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%203d%20printers/",
+            "active": false,
+            "count": 69,
+            "popularity": 45,
+            "expanded": true
+          },
+          {
+            "id": ":category:Waste ink tanks",
+            "title": "Емкости для отработанных чернил",
+            "link": "https://kaspi.kz/shop/c/waste%20ink%20tanks/",
+            "active": false,
+            "count": 34,
+            "popularity": 39,
+            "expanded": true
+          },
+          {
+            "id": ":category:Photopolymer resins for 3D printing",
+            "title": "Фотополимерные смолы для 3D-печати",
+            "link": "https://kaspi.kz/shop/c/photopolymer%20resins%20for%203d%20printing/",
+            "active": false,
+            "count": 42,
+            "popularity": 25,
+            "expanded": true
+          },
+          {
+            "id": ":category:Spare parts and accessories for printers",
+            "title": "Запчасти и комплектующие для принтеров",
+            "link": "https://kaspi.kz/shop/c/spare%20parts%20and%20accessories%20for%20printers/",
+            "active": false,
+            "count": 229,
+            "popularity": 24,
+            "expanded": true
+          },
+          {
+            "id": ":category:Resetters",
+            "title": "Программаторы",
+            "link": "https://kaspi.kz/shop/c/resetters/",
+            "active": false,
+            "count": 12,
+            "popularity": 23,
+            "expanded": true
+          },
+          {
+            "id": ":category:Refillable cartridges",
+            "title": "Перезаправляемые картриджи",
+            "link": "https://kaspi.kz/shop/c/refillable%20cartridges/",
+            "active": false,
+            "count": 20,
+            "popularity": 20,
+            "expanded": true
+          },
+          {
+            "id": ":category:CISS",
+            "title": "Системы непрерывной подачи чернил",
+            "link": "https://kaspi.kz/shop/c/ciss/",
+            "active": false,
+            "count": 29,
+            "popularity": 11,
+            "expanded": true
+          },
+          {
+            "id": ":category:Printers for printing plastic cards",
+            "title": "Принтеры для печати пластиковых карт",
+            "link": "https://kaspi.kz/shop/c/printers%20for%20printing%20plastic%20cards/",
+            "active": false,
+            "count": 5,
+            "popularity": 2,
+            "expanded": true
+          },
+          {
+            "id": ":category:Automatic feeders for printers and MFPs",
+            "title": "Автоподатчики для принтеров и МФУ",
+            "link": "https://kaspi.kz/shop/c/automatic%20feeders%20for%20printers%20and%20mfps/",
+            "active": false,
+            "count": 7,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Formatters",
+            "title": "Форматтеры",
+            "link": "https://kaspi.kz/shop/c/formatters/",
+            "active": false,
+            "count": 18,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Power supplies for landline phones",
+            "title": "Блоки питания для стационарных телефонов",
+            "link": "https://kaspi.kz/shop/c/power%20supplies%20for%20landline%20phones/",
+            "active": false,
+            "count": 1,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fuser modules",
+            "title": "Фьюзерные модули",
+            "link": "https://kaspi.kz/shop/c/fuser%20modules/",
+            "active": false,
+            "count": 4,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Network hardware",
+        "title": "Сетевое оборудование",
+        "link": "https://kaspi.kz/shop/c/network%20hardware/",
+        "active": false,
+        "count": 2741,
+        "popularity": 7894,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Wireless equipment",
+            "title": "Беспроводное оборудование",
+            "link": "https://kaspi.kz/shop/c/wireless%20equipment/",
+            "active": false,
+            "count": 948,
+            "popularity": 4959,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bluetooth adapters",
+            "title": "Bluetooth адаптеры",
+            "link": "https://kaspi.kz/shop/c/bluetooth%20adapters/",
+            "active": false,
+            "count": 84,
+            "popularity": 799,
+            "expanded": true
+          },
+          {
+            "id": ":category:Routers and switches",
+            "title": "Коммутаторы и маршрутизаторы",
+            "link": "https://kaspi.kz/shop/c/routers%20and%20switches/",
+            "active": false,
+            "count": 960,
+            "popularity": 769,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cellular signal boosters",
+            "title": "Усилители сотового сигнала",
+            "link": "https://kaspi.kz/shop/c/cellular%20signal%20boosters/",
+            "active": false,
+            "count": 129,
+            "popularity": 526,
+            "expanded": true
+          },
+          {
+            "id": ":category:Internet signal boosters",
+            "title": "Усилители интернет-сигнала",
+            "link": "https://kaspi.kz/shop/c/internet%20signal%20boosters/",
+            "active": false,
+            "count": 136,
+            "popularity": 478,
+            "expanded": true
+          },
+          {
+            "id": ":category:Network cards",
+            "title": "Сетевые карты",
+            "link": "https://kaspi.kz/shop/c/network%20cards/",
+            "active": false,
+            "count": 111,
+            "popularity": 169,
+            "expanded": true
+          },
+          {
+            "id": ":category:Media converters",
+            "title": "Медиаконвертеры",
+            "link": "https://kaspi.kz/shop/c/media%20converters/",
+            "active": false,
+            "count": 40,
+            "popularity": 55,
+            "expanded": true
+          },
+          {
+            "id": ":category:NAS",
+            "title": "Сетевые хранилища",
+            "link": "https://kaspi.kz/shop/c/nas/",
+            "active": false,
+            "count": 46,
+            "popularity": 36,
+            "expanded": true
+          },
+          {
+            "id": ":category:Server cabinets",
+            "title": "Серверные шкафы",
+            "link": "https://kaspi.kz/shop/c/server%20cabinets/",
+            "active": false,
+            "count": 99,
+            "popularity": 34,
+            "expanded": true
+          },
+          {
+            "id": ":category:Transceivers",
+            "title": "Трансиверы",
+            "link": "https://kaspi.kz/shop/c/transceivers/",
+            "active": false,
+            "count": 91,
+            "popularity": 32,
+            "expanded": true
+          },
+          {
+            "id": ":category:Patch panels",
+            "title": "Патч-панели",
+            "link": "https://kaspi.kz/shop/c/patch%20panels/",
+            "active": false,
+            "count": 19,
+            "popularity": 23,
+            "expanded": true
+          },
+          {
+            "id": ":category:Servers",
+            "title": "Серверы",
+            "link": "https://kaspi.kz/shop/c/servers/",
+            "active": false,
+            "count": 65,
+            "popularity": 8,
+            "expanded": true
+          },
+          {
+            "id": ":category:Satellite Internet",
+            "title": "Спутниковый интернет",
+            "link": "https://kaspi.kz/shop/c/satellite%20internet/",
+            "active": false,
+            "count": 2,
+            "popularity": 5,
+            "expanded": true
+          },
+          {
+            "id": ":category:Server power supplies",
+            "title": "Серверные блоки питания",
+            "link": "https://kaspi.kz/shop/c/server%20power%20supplies/",
+            "active": false,
+            "count": 10,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Firewalls",
+            "title": "Межсетевые экраны",
+            "link": "https://kaspi.kz/shop/c/firewalls/",
+            "active": false,
+            "count": 1,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Desktop computers",
+        "title": "Настольные компьютеры",
+        "link": "https://kaspi.kz/shop/c/desktop%20computers/",
+        "active": false,
+        "count": 634870,
+        "popularity": 3225,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Desktops",
+            "title": "Системные блоки",
+            "link": "https://kaspi.kz/shop/c/desktops/",
+            "active": false,
+            "count": 630316,
+            "popularity": 2793,
+            "expanded": true
+          },
+          {
+            "id": ":category:Monoblocks",
+            "title": "Моноблоки",
+            "link": "https://kaspi.kz/shop/c/monoblocks/",
+            "active": false,
+            "count": 4512,
+            "popularity": 337,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nettops",
+            "title": "Неттопы",
+            "link": "https://kaspi.kz/shop/c/nettops/",
+            "active": false,
+            "count": 38,
+            "popularity": 95,
+            "expanded": true
+          },
+          {
+            "id": ":category:OPS computers",
+            "title": "OPS-компьютеры",
+            "link": "https://kaspi.kz/shop/c/ops%20computers/",
+            "active": false,
+            "count": 4,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Electronic equipment for trade",
+        "title": "Электронное оборудование для торговли",
+        "link": "https://kaspi.kz/shop/c/electronic%20equipment%20for%20trade/",
+        "active": false,
+        "count": 878,
+        "popularity": 2601,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Receipt and label printers",
+            "title": "Принтеры чеков и этикеток",
+            "link": "https://kaspi.kz/shop/c/receipt%20and%20label%20printers/",
+            "active": false,
+            "count": 258,
+            "popularity": 791,
+            "expanded": true
+          },
+          {
+            "id": ":category:Trade scales",
+            "title": "Торговые весы",
+            "link": "https://kaspi.kz/shop/c/trade%20scales/",
+            "active": false,
+            "count": 154,
+            "popularity": 716,
+            "expanded": true
+          },
+          {
+            "id": ":category:Barcode scanners",
+            "title": "Сканеры штрих-кода",
+            "link": "https://kaspi.kz/shop/c/barcode%20scanners/",
+            "active": false,
+            "count": 170,
+            "popularity": 477,
+            "expanded": true
+          },
+          {
+            "id": ":category:Banknote counters",
+            "title": "Счетчики банкнот",
+            "link": "https://kaspi.kz/shop/c/banknote%20counters/",
+            "active": false,
+            "count": 63,
+            "popularity": 236,
+            "expanded": true
+          },
+          {
+            "id": ":category:POS systems",
+            "title": "POS-системы",
+            "link": "https://kaspi.kz/shop/c/pos%20systems/",
+            "active": false,
+            "count": 111,
+            "popularity": 194,
+            "expanded": true
+          },
+          {
+            "id": ":category:Data collection terminals",
+            "title": "Терминалы сбора данных",
+            "link": "https://kaspi.kz/shop/c/data%20collection%20terminals/",
+            "active": false,
+            "count": 38,
+            "popularity": 65,
+            "expanded": true
+          },
+          {
+            "id": ":category:Banknote detectors",
+            "title": "Детекторы банкнот",
+            "link": "https://kaspi.kz/shop/c/banknote%20detectors/",
+            "active": false,
+            "count": 37,
+            "popularity": 51,
+            "expanded": true
+          },
+          {
+            "id": ":category:Electronic cash registers",
+            "title": "Кассовые аппараты",
+            "link": "https://kaspi.kz/shop/c/electronic%20cash%20registers/",
+            "active": false,
+            "count": 10,
+            "popularity": 46,
+            "expanded": true
+          },
+          {
+            "id": ":category:Barcode scanner accessories",
+            "title": "Аксессуары для сканеров штрих-кода",
+            "link": "https://kaspi.kz/shop/c/barcode%20scanner%20accessories/",
+            "active": false,
+            "count": 16,
+            "popularity": 10,
+            "expanded": true
+          },
+          {
+            "id": ":category:Coin Counters",
+            "title": "Счетчики монет",
+            "link": "https://kaspi.kz/shop/c/coin%20counters/",
+            "active": false,
+            "count": 4,
+            "popularity": 5,
+            "expanded": true
+          },
+          {
+            "id": ":category:Visitor counters",
+            "title": "Счетчики посетителей",
+            "link": "https://kaspi.kz/shop/c/visitor%20counters/",
+            "active": false,
+            "count": 8,
+            "popularity": 5,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for commercial scales",
+            "title": "Аксессуары для торговых весов",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20commercial%20scales/",
+            "active": false,
+            "count": 3,
+            "popularity": 3,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for POS systems",
+            "title": "Аксессуары для POS-систем",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20pos%20systems/",
+            "active": false,
+            "count": 3,
+            "popularity": 2,
+            "expanded": true
+          },
+          {
+            "id": ":category:Batteries for data collection terminals",
+            "title": "Аккумуляторы для терминалов сбора данных",
+            "link": "https://kaspi.kz/shop/c/batteries%20for%20data%20collection%20terminals/",
+            "active": false,
+            "count": 3,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:IP telephony and conference equipment",
+        "title": "IP-телефония и конференц-оборудование",
+        "link": "https://kaspi.kz/shop/c/ip%20telephony%20and%20conference%20equipment/",
+        "active": false,
+        "count": 159,
+        "popularity": 69,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:IP phones",
+            "title": "IP-телефоны",
+            "link": "https://kaspi.kz/shop/c/ip%20phones/",
+            "active": false,
+            "count": 109,
+            "popularity": 52,
+            "expanded": true
+          },
+          {
+            "id": ":category:Speakerphones",
+            "title": "Спикерфоны",
+            "link": "https://kaspi.kz/shop/c/speakerphones/",
+            "active": false,
+            "count": 25,
+            "popularity": 9,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gateways",
+            "title": "Межсетевые шлюзы",
+            "link": "https://kaspi.kz/shop/c/gateways/",
+            "active": false,
+            "count": 12,
+            "popularity": 4,
+            "expanded": true
+          },
+          {
+            "id": ":category:Analog telephone adapters",
+            "title": "Аналоговые телефонные адаптеры",
+            "link": "https://kaspi.kz/shop/c/analog%20telephone%20adapters/",
+            "active": false,
+            "count": 2,
+            "popularity": 3,
+            "expanded": true
+          },
+          {
+            "id": ":category:Automatic telephone exchanges",
+            "title": "Автоматические телефонные станции",
+            "link": "https://kaspi.kz/shop/c/automatic%20telephone%20exchanges/",
+            "active": false,
+            "count": 8,
+            "popularity": 1,
+            "expanded": true
+          },
+          {
+            "id": ":category:Base stations",
+            "title": "Базовые станции",
+            "link": "https://kaspi.kz/shop/c/base%20stations/",
+            "active": false,
+            "count": 3,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Computer software",
+        "title": "Программное обеспечение",
+        "link": "https://kaspi.kz/shop/c/computer%20software/",
+        "active": false,
+        "count": 19,
+        "popularity": 23,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Operating systems",
+            "title": "Операционные системы",
+            "link": "https://kaspi.kz/shop/c/operating%20systems/",
+            "active": false,
+            "count": 14,
+            "popularity": 20,
+            "expanded": true
+          },
+          {
+            "id": ":category:Other software",
+            "title": "Прочее программное обеспечение",
+            "link": "https://kaspi.kz/shop/c/other%20software/",
+            "active": false,
+            "count": 5,
+            "popularity": 3,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

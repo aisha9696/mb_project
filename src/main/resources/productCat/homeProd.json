@@ -1,0 +1,747 @@
+[
+  {
+    "id": ":category:Home",
+    "title": "Товары для дома и дачи",
+    "link": "https://kaspi.kz/shop/c/home/",
+    "active": true,
+    "count": 542429,
+    "popularity": 810414,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Household goods",
+        "title": "Хозяйственные товары",
+        "link": "https://kaspi.kz/shop/c/household%20goods/",
+        "active": false,
+        "count": 67156,
+        "popularity": 371977,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Household chemicals",
+            "title": "Бытовая химия",
+            "link": "https://kaspi.kz/shop/c/household%20chemicals/",
+            "active": false,
+            "count": 11115,
+            "popularity": 132713,
+            "expanded": true
+          },
+          {
+            "id": ":category:Home paper products",
+            "title": "Бумажная продукция для дома",
+            "link": "https://kaspi.kz/shop/c/home%20paper%20products/",
+            "active": false,
+            "count": 2294,
+            "popularity": 91488,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cleaning tools",
+            "title": "Инвентарь для уборки",
+            "link": "https://kaspi.kz/shop/c/cleaning%20tools/",
+            "active": false,
+            "count": 9860,
+            "popularity": 60751,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bathroom and toilet accessories",
+            "title": "Аксессуары для ванной и туалета",
+            "link": "https://kaspi.kz/shop/c/bathroom%20and%20toilet%20accessories/",
+            "active": false,
+            "count": 18590,
+            "popularity": 26045,
+            "expanded": true
+          },
+          {
+            "id": ":category:Clothing care",
+            "title": "Уход за одеждой",
+            "link": "https://kaspi.kz/shop/c/clothing%20care/",
+            "active": false,
+            "count": 4355,
+            "popularity": 23174,
+            "expanded": true
+          },
+          {
+            "id": ":category:Storage boxes and crates",
+            "title": "Коробки, ящики и корзины для хранения",
+            "link": "https://kaspi.kz/shop/c/storage%20boxes%20and%20crates/",
+            "active": false,
+            "count": 7536,
+            "popularity": 13000,
+            "expanded": true
+          },
+          {
+            "id": ":category:Packaging materials",
+            "title": "Упаковочные материалы",
+            "link": "https://kaspi.kz/shop/c/packaging%20materials/",
+            "active": false,
+            "count": 3573,
+            "popularity": 6108,
+            "expanded": true
+          },
+          {
+            "id": ":category:Organizers for clothes and shoes",
+            "title": "Органайзеры и кофры для одежды и обуви",
+            "link": "https://kaspi.kz/shop/c/organizers%20for%20clothes%20and%20shoes/",
+            "active": false,
+            "count": 1983,
+            "popularity": 5987,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shoes care",
+            "title": "Уход за обувью",
+            "link": "https://kaspi.kz/shop/c/shoes%20care/",
+            "active": false,
+            "count": 4724,
+            "popularity": 5200,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kitchen gloves",
+            "title": "Перчатки хозяйственные",
+            "link": "https://kaspi.kz/shop/c/kitchen%20gloves/",
+            "active": false,
+            "count": 788,
+            "popularity": 3975,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for kitchen sinks",
+            "title": "Аксессуары для кухонных моек",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20kitchen%20sinks/",
+            "active": false,
+            "count": 431,
+            "popularity": 1252,
+            "expanded": true
+          },
+          {
+            "id": ":category:Household bags",
+            "title": "Хозяйственные сумки",
+            "link": "https://kaspi.kz/shop/c/household%20bags/",
+            "active": false,
+            "count": 345,
+            "popularity": 1029,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lighters",
+            "title": "Зажигалки",
+            "link": "https://kaspi.kz/shop/c/lighters/",
+            "active": false,
+            "count": 547,
+            "popularity": 690,
+            "expanded": true
+          },
+          {
+            "id": ":category:Household ropes",
+            "title": "Веревки",
+            "link": "https://kaspi.kz/shop/c/household%20ropes/",
+            "active": false,
+            "count": 620,
+            "popularity": 565,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Kitchenware",
+        "title": "Посуда и принадлежности",
+        "link": "https://kaspi.kz/shop/c/kitchenware/",
+        "active": false,
+        "count": 117898,
+        "popularity": 222032,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Kitchen accessories",
+            "title": "Кухонные принадлежности",
+            "link": "https://kaspi.kz/shop/c/kitchen%20accessories/",
+            "active": false,
+            "count": 17561,
+            "popularity": 50899,
+            "expanded": true
+          },
+          {
+            "id": ":category:Utensils for cooking",
+            "title": "Посуда для приготовления пищи",
+            "link": "https://kaspi.kz/shop/c/utensils%20for%20cooking/",
+            "active": false,
+            "count": 19392,
+            "popularity": 44933,
+            "expanded": true
+          },
+          {
+            "id": ":category:Table setting",
+            "title": "Сервировка стола",
+            "link": "https://kaspi.kz/shop/c/table%20setting/",
+            "active": false,
+            "count": 33925,
+            "popularity": 42083,
+            "expanded": true
+          },
+          {
+            "id": ":category:Food storage containers",
+            "title": "Посуда для хранения продуктов",
+            "link": "https://kaspi.kz/shop/c/food%20storage%20containers/",
+            "active": false,
+            "count": 13181,
+            "popularity": 27899,
+            "expanded": true
+          },
+          {
+            "id": ":category:Knives and cutting boards",
+            "title": "Ножи и разделочные доски",
+            "link": "https://kaspi.kz/shop/c/knives%20and%20cutting%20boards/",
+            "active": false,
+            "count": 7626,
+            "popularity": 18950,
+            "expanded": true
+          },
+          {
+            "id": ":category:Teapots and coffee pots",
+            "title": "Чайники, кофейники и самовары",
+            "link": "https://kaspi.kz/shop/c/teapots%20and%20coffee%20pots/",
+            "active": false,
+            "count": 4244,
+            "popularity": 16205,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mugs and glasses",
+            "title": "Кружки, стаканы и бокалы",
+            "link": "https://kaspi.kz/shop/c/mugs%20and%20glasses/",
+            "active": false,
+            "count": 16892,
+            "popularity": 13440,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bar supplies",
+            "title": "Барные принадлежности",
+            "link": "https://kaspi.kz/shop/c/bar%20supplies/",
+            "active": false,
+            "count": 1535,
+            "popularity": 2918,
+            "expanded": true
+          },
+          {
+            "id": ":category:Disposable tableware",
+            "title": "Одноразовая посуда",
+            "link": "https://kaspi.kz/shop/c/disposable%20tableware/",
+            "active": false,
+            "count": 1481,
+            "popularity": 2873,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jugs and decanters",
+            "title": "Кувшины и декантеры",
+            "link": "https://kaspi.kz/shop/c/jugs%20and%20decanters/",
+            "active": false,
+            "count": 1394,
+            "popularity": 1832,
+            "expanded": true
+          },
+          {
+            "id": ":category:Coffee grinders and turks for coffee",
+            "title": "Кофемолки и турки",
+            "link": "https://kaspi.kz/shop/c/coffee%20grinders%20and%20turks%20for%20coffee/",
+            "active": false,
+            "count": 262,
+            "popularity": 0,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water filter jugs and cartridges",
+            "title": "Фильтры-кувшины для воды и сменные модули",
+            "link": "https://kaspi.kz/shop/c/water%20filter%20jugs%20and%20cartridges/",
+            "active": false,
+            "count": 404,
+            "popularity": 0,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Home textiles",
+        "title": "Домашний текстиль",
+        "link": "https://kaspi.kz/shop/c/home%20textiles/",
+        "active": false,
+        "count": 181934,
+        "popularity": 99035,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Bed pillows and pillowcases",
+            "title": "Подушки и наволочки",
+            "link": "https://kaspi.kz/shop/c/bed%20pillows%20and%20pillowcases/",
+            "active": false,
+            "count": 14080,
+            "popularity": 14491,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bedding sets",
+            "title": "Комплекты постельного белья",
+            "link": "https://kaspi.kz/shop/c/bedding%20sets/",
+            "active": false,
+            "count": 28302,
+            "popularity": 13619,
+            "expanded": true
+          },
+          {
+            "id": ":category:Throws",
+            "title": "Пледы и покрывала",
+            "link": "https://kaspi.kz/shop/c/throws/",
+            "active": false,
+            "count": 11056,
+            "popularity": 12873,
+            "expanded": true
+          },
+          {
+            "id": ":category:Towels",
+            "title": "Полотенца",
+            "link": "https://kaspi.kz/shop/c/towels/",
+            "active": false,
+            "count": 10593,
+            "popularity": 12258,
+            "expanded": true
+          },
+          {
+            "id": ":category:Carpets and rugs",
+            "title": "Ковры и ковровые дорожки",
+            "link": "https://kaspi.kz/shop/c/carpets%20and%20rugs/",
+            "active": false,
+            "count": 52238,
+            "popularity": 11967,
+            "expanded": true
+          },
+          {
+            "id": ":category:Curtains and cornices",
+            "title": "Шторы и карнизы",
+            "link": "https://kaspi.kz/shop/c/curtains%20and%20cornices/",
+            "active": false,
+            "count": 32013,
+            "popularity": 10454,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kitchen textiles",
+            "title": "Текстиль для кухни",
+            "link": "https://kaspi.kz/shop/c/kitchen%20textiles/",
+            "active": false,
+            "count": 16110,
+            "popularity": 6642,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bed blankets",
+            "title": "Одеяла",
+            "link": "https://kaspi.kz/shop/c/bed%20blankets/",
+            "active": false,
+            "count": 3828,
+            "popularity": 5870,
+            "expanded": true
+          },
+          {
+            "id": ":category:Furniture covers",
+            "title": "Чехлы и накидки для мебели",
+            "link": "https://kaspi.kz/shop/c/furniture%20covers/",
+            "active": false,
+            "count": 3153,
+            "popularity": 4513,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mattress pads and protectors",
+            "title": "Наматрасники",
+            "link": "https://kaspi.kz/shop/c/mattress%20pads%20and%20protectors/",
+            "active": false,
+            "count": 5085,
+            "popularity": 2650,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bedsheets",
+            "title": "Простыни",
+            "link": "https://kaspi.kz/shop/c/bedsheets/",
+            "active": false,
+            "count": 3792,
+            "popularity": 1737,
+            "expanded": true
+          },
+          {
+            "id": ":category:Korpe",
+            "title": "Корпе",
+            "link": "https://kaspi.kz/shop/c/korpe/",
+            "active": false,
+            "count": 894,
+            "popularity": 1693,
+            "expanded": true
+          },
+          {
+            "id": ":category:Flat sheets",
+            "title": "Пододеяльники",
+            "link": "https://kaspi.kz/shop/c/flat%20sheets/",
+            "active": false,
+            "count": 730,
+            "popularity": 268,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Lighting",
+        "title": "Освещение",
+        "link": "https://kaspi.kz/shop/c/lighting/",
+        "active": false,
+        "count": 59993,
+        "popularity": 41838,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Chandeliers",
+            "title": "Люстры",
+            "link": "https://kaspi.kz/shop/c/chandeliers/",
+            "active": false,
+            "count": 20810,
+            "popularity": 11251,
+            "expanded": true
+          },
+          {
+            "id": ":category:Night lights and decorative lamps",
+            "title": "Ночники и декоративные светильники",
+            "link": "https://kaspi.kz/shop/c/night%20lights%20and%20decorative%20lamps/",
+            "active": false,
+            "count": 4328,
+            "popularity": 10052,
+            "expanded": true
+          },
+          {
+            "id": ":category:Table lamps",
+            "title": "Настольные и напольные лампы",
+            "link": "https://kaspi.kz/shop/c/table%20lamps/",
+            "active": false,
+            "count": 3524,
+            "popularity": 5424,
+            "expanded": true
+          },
+          {
+            "id": ":category:Light bulbs",
+            "title": "Лампочки",
+            "link": "https://kaspi.kz/shop/c/light%20bulbs/",
+            "active": false,
+            "count": 5835,
+            "popularity": 4609,
+            "expanded": true
+          },
+          {
+            "id": ":category:LED strip lights",
+            "title": "Светодиодные ленты",
+            "link": "https://kaspi.kz/shop/c/led%20strip%20lights/",
+            "active": false,
+            "count": 762,
+            "popularity": 2789,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wall lights",
+            "title": "Бра",
+            "link": "https://kaspi.kz/shop/c/wall%20lights/",
+            "active": false,
+            "count": 5462,
+            "popularity": 2280,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ceiling lights",
+            "title": "Настенно-потолочные светильники",
+            "link": "https://kaspi.kz/shop/c/ceiling%20lights/",
+            "active": false,
+            "count": 9140,
+            "popularity": 1704,
+            "expanded": true
+          },
+          {
+            "id": ":category:Street lighting",
+            "title": "Уличное освещение",
+            "link": "https://kaspi.kz/shop/c/street%20lighting/",
+            "active": false,
+            "count": 1983,
+            "popularity": 1241,
+            "expanded": true
+          },
+          {
+            "id": ":category:Floodlights",
+            "title": "Прожекторы",
+            "link": "https://kaspi.kz/shop/c/floodlights/",
+            "active": false,
+            "count": 1151,
+            "popularity": 936,
+            "expanded": true
+          },
+          {
+            "id": ":category:Spots and track systems",
+            "title": "Споты и трековые светильники",
+            "link": "https://kaspi.kz/shop/c/spots%20and%20track%20systems/",
+            "active": false,
+            "count": 3040,
+            "popularity": 769,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for lamps",
+            "title": "Комплектующие для светильников",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20lamps/",
+            "active": false,
+            "count": 830,
+            "popularity": 411,
+            "expanded": true
+          },
+          {
+            "id": ":category:Recessed luminaires",
+            "title": "Встраиваемые светильники",
+            "link": "https://kaspi.kz/shop/c/recessed%20luminaires/",
+            "active": false,
+            "count": 1806,
+            "popularity": 293,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for spots and tracks",
+            "title": "Комплектующие для трек-систем и спотов",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20spots%20and%20tracks/",
+            "active": false,
+            "count": 494,
+            "popularity": 79,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Vegetable garden goods",
+        "title": "Дача, сад и огород",
+        "link": "https://kaspi.kz/shop/c/vegetable%20garden%20goods/",
+        "active": false,
+        "count": 41703,
+        "popularity": 39464,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Seeds and fertilizers",
+            "title": "Семена, удобрения и грунты",
+            "link": "https://kaspi.kz/shop/c/seeds%20and%20fertilizers/",
+            "active": false,
+            "count": 13756,
+            "popularity": 15135,
+            "expanded": true
+          },
+          {
+            "id": ":category:Outdoor power tools",
+            "title": "Садовая техника",
+            "link": "https://kaspi.kz/shop/c/outdoor%20power%20tools/",
+            "active": false,
+            "count": 4905,
+            "popularity": 6861,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gardening tools",
+            "title": "Садовые инструменты",
+            "link": "https://kaspi.kz/shop/c/gardening%20tools/",
+            "active": false,
+            "count": 2985,
+            "popularity": 3357,
+            "expanded": true
+          },
+          {
+            "id": ":category:Patio furniture",
+            "title": "Садовая мебель",
+            "link": "https://kaspi.kz/shop/c/patio%20furniture/",
+            "active": false,
+            "count": 3569,
+            "popularity": 2799,
+            "expanded": true
+          },
+          {
+            "id": ":category:Swimming pools and accessories",
+            "title": "Бассейны и аксессуары",
+            "link": "https://kaspi.kz/shop/c/swimming%20pools%20and%20accessories/",
+            "active": false,
+            "count": 2760,
+            "popularity": 2753,
+            "expanded": true
+          },
+          {
+            "id": ":category:Outdoor leisure and patio",
+            "title": "Пикник, барбекю, гриль",
+            "link": "https://kaspi.kz/shop/c/outdoor%20leisure%20and%20patio/",
+            "active": false,
+            "count": 2972,
+            "popularity": 2668,
+            "expanded": true
+          },
+          {
+            "id": ":category:Irrigation accessories",
+            "title": "Аксессуары для полива",
+            "link": "https://kaspi.kz/shop/c/irrigation%20accessories/",
+            "active": false,
+            "count": 2768,
+            "popularity": 1800,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bird and rodent repellents",
+            "title": "Отпугиватели и ловушки для птиц, собак, грызунов и насекомых",
+            "link": "https://kaspi.kz/shop/c/bird%20and%20rodent%20repellents/",
+            "active": false,
+            "count": 504,
+            "popularity": 1701,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sauna and bath accessories",
+            "title": "Аксессуары для бани и сауны",
+            "link": "https://kaspi.kz/shop/c/sauna%20and%20bath%20accessories/",
+            "active": false,
+            "count": 4087,
+            "popularity": 1673,
+            "expanded": true
+          },
+          {
+            "id": ":category:Garden decor",
+            "title": "Садовый декор",
+            "link": "https://kaspi.kz/shop/c/garden%20decor/",
+            "active": false,
+            "count": 1346,
+            "popularity": 317,
+            "expanded": true
+          },
+          {
+            "id": ":category:Covering material for garden",
+            "title": "Укрывной материал для огорода",
+            "link": "https://kaspi.kz/shop/c/covering%20material%20for%20garden/",
+            "active": false,
+            "count": 270,
+            "popularity": 190,
+            "expanded": true
+          },
+          {
+            "id": ":category:Trellis and plant supports",
+            "title": "Шпалеры и опоры для растений",
+            "link": "https://kaspi.kz/shop/c/trellis%20and%20plant%20supports/",
+            "active": false,
+            "count": 253,
+            "popularity": 171,
+            "expanded": true
+          },
+          {
+            "id": ":category:Agricultural machinery",
+            "title": "Сельхозтехника",
+            "link": "https://kaspi.kz/shop/c/agricultural%20machinery/",
+            "active": false,
+            "count": 921,
+            "popularity": 39,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Home interior",
+        "title": "Интерьер",
+        "link": "https://kaspi.kz/shop/c/home%20interior/",
+        "active": false,
+        "count": 73260,
+        "popularity": 35391,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Interior decoration",
+            "title": "Оформление интерьера",
+            "link": "https://kaspi.kz/shop/c/interior%20decoration/",
+            "active": false,
+            "count": 12350,
+            "popularity": 8501,
+            "expanded": true
+          },
+          {
+            "id": ":category:Indoor plants and pots",
+            "title": "Растения, деревья, вазы и горшки",
+            "link": "https://kaspi.kz/shop/c/indoor%20plants%20and%20pots/",
+            "active": false,
+            "count": 15180,
+            "popularity": 6641,
+            "expanded": true
+          },
+          {
+            "id": ":category:Perfumery for home",
+            "title": "Парфюмерия для дома",
+            "link": "https://kaspi.kz/shop/c/perfumery%20for%20home/",
+            "active": false,
+            "count": 5825,
+            "popularity": 4839,
+            "expanded": true
+          },
+          {
+            "id": ":category:Interior mirrors",
+            "title": "Зеркала интерьерные",
+            "link": "https://kaspi.kz/shop/c/interior%20mirrors/",
+            "active": false,
+            "count": 5138,
+            "popularity": 4634,
+            "expanded": true
+          },
+          {
+            "id": ":category:Candles and candleholders",
+            "title": "Свечи и подсвечники",
+            "link": "https://kaspi.kz/shop/c/candles%20and%20candleholders/",
+            "active": false,
+            "count": 5957,
+            "popularity": 3993,
+            "expanded": true
+          },
+          {
+            "id": ":category:Interior clock",
+            "title": "Часы и метеостанции",
+            "link": "https://kaspi.kz/shop/c/interior%20clock/",
+            "active": false,
+            "count": 4325,
+            "popularity": 3947,
+            "expanded": true
+          },
+          {
+            "id": ":category:Paintings posters and frames",
+            "title": "Картины, панно и рамки",
+            "link": "https://kaspi.kz/shop/c/paintings%20posters%20and%20frames/",
+            "active": false,
+            "count": 24326,
+            "popularity": 2776,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Smart house",
+        "title": "Умный дом",
+        "link": "https://kaspi.kz/shop/c/smart%20house/",
+        "active": false,
+        "count": 485,
+        "popularity": 674,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Smart home sensors",
+            "title": "Датчики для умного дома",
+            "link": "https://kaspi.kz/shop/c/smart%20home%20sensors/",
+            "active": false,
+            "count": 368,
+            "popularity": 674,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

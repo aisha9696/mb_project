@@ -1,0 +1,543 @@
+[
+  {
+    "id": ":category:Shoes",
+    "title": "Обувь",
+    "link": "https://kaspi.kz/shop/c/shoes/",
+    "active": true,
+    "count": 136133,
+    "popularity": 42369,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Women shoes",
+        "title": "Женская обувь",
+        "link": "https://kaspi.kz/shop/c/women%20shoes/",
+        "active": false,
+        "count": 63975,
+        "popularity": 20770,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Women trainers",
+            "title": "Женские кроссовки и кеды",
+            "link": "https://kaspi.kz/shop/c/women%20trainers/",
+            "active": false,
+            "count": 15717,
+            "popularity": 4684,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women boots",
+            "title": "Женские ботинки и полуботинки",
+            "link": "https://kaspi.kz/shop/c/women%20boots/",
+            "active": false,
+            "count": 16018,
+            "popularity": 3889,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women knee boots",
+            "title": "Женские сапоги",
+            "link": "https://kaspi.kz/shop/c/women%20knee%20boots/",
+            "active": false,
+            "count": 6742,
+            "popularity": 3342,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women fashion slippers",
+            "title": "Женская домашняя обувь",
+            "link": "https://kaspi.kz/shop/c/women%20fashion%20slippers/",
+            "active": false,
+            "count": 4983,
+            "popularity": 2457,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women flip flops",
+            "title": "Женские шлепанцы",
+            "link": "https://kaspi.kz/shop/c/women%20flip%20flops/",
+            "active": false,
+            "count": 2304,
+            "popularity": 1458,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women dress shoes",
+            "title": "Женские туфли",
+            "link": "https://kaspi.kz/shop/c/women%20dress%20shoes/",
+            "active": false,
+            "count": 8160,
+            "popularity": 1452,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women ankle boots",
+            "title": "Женские ботильоны",
+            "link": "https://kaspi.kz/shop/c/women%20ankle%20boots/",
+            "active": false,
+            "count": 2036,
+            "popularity": 837,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women sandals",
+            "title": "Женские сандалии и босоножки",
+            "link": "https://kaspi.kz/shop/c/women%20sandals/",
+            "active": false,
+            "count": 3962,
+            "popularity": 815,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women moccasins",
+            "title": "Женские мокасины и топсайдеры",
+            "link": "https://kaspi.kz/shop/c/women%20moccasins/",
+            "active": false,
+            "count": 951,
+            "popularity": 413,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women mules",
+            "title": "Женские мюли и сабо",
+            "link": "https://kaspi.kz/shop/c/women%20mules/",
+            "active": false,
+            "count": 861,
+            "popularity": 292,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women ballet pumps",
+            "title": "Женские балетки",
+            "link": "https://kaspi.kz/shop/c/women%20ballet%20pumps/",
+            "active": false,
+            "count": 833,
+            "popularity": 288,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women safety shoes",
+            "title": "Спецобувь для женщин",
+            "link": "https://kaspi.kz/shop/c/women%20safety%20shoes/",
+            "active": false,
+            "count": 355,
+            "popularity": 282,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women slip-ons",
+            "title": "Женские слипоны и эспадрильи",
+            "link": "https://kaspi.kz/shop/c/women%20slip-ons/",
+            "active": false,
+            "count": 555,
+            "popularity": 249,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women dance shoes",
+            "title": "Женская танцевальная обувь",
+            "link": "https://kaspi.kz/shop/c/women%20dance%20shoes/",
+            "active": false,
+            "count": 227,
+            "popularity": 176,
+            "expanded": true
+          },
+          {
+            "id": ":category:Women hiking shoes",
+            "title": "Женская треккинговая обувь",
+            "link": "https://kaspi.kz/shop/c/women%20hiking%20shoes/",
+            "active": false,
+            "count": 271,
+            "popularity": 136,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Men shoes",
+        "title": "Мужская обувь",
+        "link": "https://kaspi.kz/shop/c/men%20shoes/",
+        "active": false,
+        "count": 36652,
+        "popularity": 14593,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Men trainers",
+            "title": "Мужские кроссовки и кеды",
+            "link": "https://kaspi.kz/shop/c/men%20trainers/",
+            "active": false,
+            "count": 15468,
+            "popularity": 4975,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men boots",
+            "title": "Мужские ботинки",
+            "link": "https://kaspi.kz/shop/c/men%20boots/",
+            "active": false,
+            "count": 8161,
+            "popularity": 2787,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men safety shoes",
+            "title": "Спецобувь для мужчин",
+            "link": "https://kaspi.kz/shop/c/men%20safety%20shoes/",
+            "active": false,
+            "count": 1610,
+            "popularity": 1565,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men knee boots",
+            "title": "Мужские сапоги",
+            "link": "https://kaspi.kz/shop/c/men%20knee%20boots/",
+            "active": false,
+            "count": 1074,
+            "popularity": 1063,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men flip flops",
+            "title": "Мужские шлепанцы",
+            "link": "https://kaspi.kz/shop/c/men%20flip%20flops/",
+            "active": false,
+            "count": 1217,
+            "popularity": 984,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men fashion slippers",
+            "title": "Мужская домашняя обувь",
+            "link": "https://kaspi.kz/shop/c/men%20fashion%20slippers/",
+            "active": false,
+            "count": 1038,
+            "popularity": 898,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men athletic shoes",
+            "title": "Мужская спортивная обувь",
+            "link": "https://kaspi.kz/shop/c/men%20athletic%20shoes/",
+            "active": false,
+            "count": 1320,
+            "popularity": 778,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men dress shoes",
+            "title": "Мужские туфли",
+            "link": "https://kaspi.kz/shop/c/men%20dress%20shoes/",
+            "active": false,
+            "count": 3597,
+            "popularity": 499,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men moccasins",
+            "title": "Мужские мокасины и топсайдеры",
+            "link": "https://kaspi.kz/shop/c/men%20moccasins/",
+            "active": false,
+            "count": 1560,
+            "popularity": 359,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men hiking shoes",
+            "title": "Мужская треккинговая обувь",
+            "link": "https://kaspi.kz/shop/c/men%20hiking%20shoes/",
+            "active": false,
+            "count": 788,
+            "popularity": 285,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men sandals",
+            "title": "Мужские сандалии",
+            "link": "https://kaspi.kz/shop/c/men%20sandals/",
+            "active": false,
+            "count": 465,
+            "popularity": 241,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men slip-ons",
+            "title": "Мужские слипоны и эспадрильи",
+            "link": "https://kaspi.kz/shop/c/men%20slip-ons/",
+            "active": false,
+            "count": 352,
+            "popularity": 157,
+            "expanded": true
+          },
+          {
+            "id": ":category:Men dance shoes",
+            "title": "Мужская танцевальная обувь",
+            "link": "https://kaspi.kz/shop/c/men%20dance%20shoes/",
+            "active": false,
+            "count": 2,
+            "popularity": 2,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Boy shoes",
+        "title": "Обувь для мальчиков",
+        "link": "https://kaspi.kz/shop/c/boy%20shoes/",
+        "active": false,
+        "count": 17661,
+        "popularity": 3533,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Boy trainers",
+            "title": "Кроссовки и кеды для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20trainers/",
+            "active": false,
+            "count": 5242,
+            "popularity": 787,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy boots",
+            "title": "Ботинки для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20boots/",
+            "active": false,
+            "count": 5216,
+            "popularity": 772,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy knee boots",
+            "title": "Сапоги для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20knee%20boots/",
+            "active": false,
+            "count": 2186,
+            "popularity": 586,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy sandals",
+            "title": "Сандалии для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20sandals/",
+            "active": false,
+            "count": 2488,
+            "popularity": 392,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy flip flops",
+            "title": "Шлепанцы для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20flip%20flops/",
+            "active": false,
+            "count": 631,
+            "popularity": 275,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy athletic shoes",
+            "title": "Обувь для спорта для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20athletic%20shoes/",
+            "active": false,
+            "count": 453,
+            "popularity": 239,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy fashion slippers",
+            "title": "Домашняя обувь для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20fashion%20slippers/",
+            "active": false,
+            "count": 416,
+            "popularity": 200,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy dress shoes",
+            "title": "Туфли для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20dress%20shoes/",
+            "active": false,
+            "count": 622,
+            "popularity": 139,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy moccasins",
+            "title": "Мокасины для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20moccasins/",
+            "active": false,
+            "count": 240,
+            "popularity": 55,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy dance shoes",
+            "title": "Танцевальная обувь для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20dance%20shoes/",
+            "active": false,
+            "count": 55,
+            "popularity": 43,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy slip-ons",
+            "title": "Слипоны для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20slip-ons/",
+            "active": false,
+            "count": 73,
+            "popularity": 28,
+            "expanded": true
+          },
+          {
+            "id": ":category:Boy hiking shoes",
+            "title": "Треккинговая обувь для мальчиков",
+            "link": "https://kaspi.kz/shop/c/boy%20hiking%20shoes/",
+            "active": false,
+            "count": 39,
+            "popularity": 17,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Girl shoes",
+        "title": "Обувь для девочек",
+        "link": "https://kaspi.kz/shop/c/girl%20shoes/",
+        "active": false,
+        "count": 17845,
+        "popularity": 3473,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Girl knee boots",
+            "title": "Сапоги для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20knee%20boots/",
+            "active": false,
+            "count": 2766,
+            "popularity": 669,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl trainers",
+            "title": "Кроссовки и кеды для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20trainers/",
+            "active": false,
+            "count": 3955,
+            "popularity": 537,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl boots",
+            "title": "Ботинки для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20boots/",
+            "active": false,
+            "count": 4570,
+            "popularity": 512,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl dance shoes",
+            "title": "Танцевальная обувь для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20dance%20shoes/",
+            "active": false,
+            "count": 335,
+            "popularity": 425,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl sandals",
+            "title": "Сандалии для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20sandals/",
+            "active": false,
+            "count": 2509,
+            "popularity": 362,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl dress shoes",
+            "title": "Туфли для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20dress%20shoes/",
+            "active": false,
+            "count": 1765,
+            "popularity": 293,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl flip flops",
+            "title": "Шлепанцы для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20flip%20flops/",
+            "active": false,
+            "count": 619,
+            "popularity": 271,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl fashion slippers",
+            "title": "Домашняя обувь для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20fashion%20slippers/",
+            "active": false,
+            "count": 525,
+            "popularity": 234,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl ballet pumps",
+            "title": "Балетки для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20ballet%20pumps/",
+            "active": false,
+            "count": 355,
+            "popularity": 48,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl slip-ons",
+            "title": "Слипоны для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20slip-ons/",
+            "active": false,
+            "count": 129,
+            "popularity": 40,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl heeled sandals",
+            "title": "Босоножки для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20heeled%20sandals/",
+            "active": false,
+            "count": 145,
+            "popularity": 37,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl moccasins",
+            "title": "Мокасины для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20moccasins/",
+            "active": false,
+            "count": 117,
+            "popularity": 23,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl athletic shoes",
+            "title": "Спортивная обувь для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20athletic%20shoes/",
+            "active": false,
+            "count": 36,
+            "popularity": 16,
+            "expanded": true
+          },
+          {
+            "id": ":category:Girl hiking shoes",
+            "title": "Треккинговая обувь для девочек",
+            "link": "https://kaspi.kz/shop/c/girl%20hiking%20shoes/",
+            "active": false,
+            "count": 19,
+            "popularity": 6,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

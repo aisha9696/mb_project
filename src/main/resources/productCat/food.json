@@ -1,0 +1,1501 @@
+[
+  {
+    "id": ":category:Food",
+    "title": "Продукты питания",
+    "link": "https://kaspi.kz/shop/c/food/",
+    "active": true,
+    "count": 21243,
+    "popularity": 2117416,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Dairy and eggs",
+        "title": "Молочные продукты, яйца",
+        "link": "https://kaspi.kz/shop/c/dairy%20and%20eggs/",
+        "active": false,
+        "count": 1091,
+        "popularity": 550904,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Milk",
+            "title": "Молоко, сухое молоко, сливки",
+            "link": "https://kaspi.kz/shop/c/milk/",
+            "active": false,
+            "count": 121,
+            "popularity": 119755,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cheese",
+            "title": "Сыр",
+            "link": "https://kaspi.kz/shop/c/cheese/",
+            "active": false,
+            "count": 298,
+            "popularity": 83149,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eggs",
+            "title": "Яйца",
+            "link": "https://kaspi.kz/shop/c/eggs/",
+            "active": false,
+            "count": 21,
+            "popularity": 75944,
+            "expanded": true
+          },
+          {
+            "id": ":category:Yogurt",
+            "title": "Йогурт",
+            "link": "https://kaspi.kz/shop/c/yogurt/",
+            "active": false,
+            "count": 161,
+            "popularity": 58856,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sour cream",
+            "title": "Сметана",
+            "link": "https://kaspi.kz/shop/c/sour%20cream/",
+            "active": false,
+            "count": 48,
+            "popularity": 45657,
+            "expanded": true
+          },
+          {
+            "id": ":category:Butter and margarine",
+            "title": "Масло, маргарин",
+            "link": "https://kaspi.kz/shop/c/butter%20and%20margarine/",
+            "active": false,
+            "count": 90,
+            "popularity": 44654,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cottage cheese",
+            "title": "Творог и творожная масса",
+            "link": "https://kaspi.kz/shop/c/cottage%20cheese/",
+            "active": false,
+            "count": 67,
+            "popularity": 41076,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kefir",
+            "title": "Кефир, Тан, Айран",
+            "link": "https://kaspi.kz/shop/c/kefir/",
+            "active": false,
+            "count": 67,
+            "popularity": 37043,
+            "expanded": true
+          },
+          {
+            "id": ":category:Curd snacks",
+            "title": "Сырки и бисквиты",
+            "link": "https://kaspi.kz/shop/c/curd%20snacks/",
+            "active": false,
+            "count": 32,
+            "popularity": 19687,
+            "expanded": true
+          },
+          {
+            "id": ":category:Canned milk",
+            "title": "Сгущенное молоко",
+            "link": "https://kaspi.kz/shop/c/canned%20milk/",
+            "active": false,
+            "count": 34,
+            "popularity": 7845,
+            "expanded": true
+          },
+          {
+            "id": ":category:Desserts",
+            "title": "Творожки и десерты",
+            "link": "https://kaspi.kz/shop/c/desserts/",
+            "active": false,
+            "count": 23,
+            "popularity": 7839,
+            "expanded": true
+          },
+          {
+            "id": ":category:Milkshakes",
+            "title": "Растительное молоко, сливки, коктейли",
+            "link": "https://kaspi.kz/shop/c/milkshakes/",
+            "active": false,
+            "count": 95,
+            "popularity": 5892,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kurt Zhent",
+            "title": "Курт, жент",
+            "link": "https://kaspi.kz/shop/c/kurt%20zhent/",
+            "active": false,
+            "count": 23,
+            "popularity": 3442,
+            "expanded": true
+          },
+          {
+            "id": ":category:Starter cultures for dairy products",
+            "title": "Закваски для молочных продуктов",
+            "link": "https://kaspi.kz/shop/c/starter%20cultures%20for%20dairy%20products/",
+            "active": false,
+            "count": 11,
+            "popularity": 65,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Fruits and vegetables",
+        "title": "Овощи, фрукты, ягоды, грибы",
+        "link": "https://kaspi.kz/shop/c/fruits%20and%20vegetables/",
+        "active": false,
+        "count": 202,
+        "popularity": 262469,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Vegetables",
+            "title": "Овощи",
+            "link": "https://kaspi.kz/shop/c/vegetables/",
+            "active": false,
+            "count": 81,
+            "popularity": 111111,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fruits",
+            "title": "Фрукты",
+            "link": "https://kaspi.kz/shop/c/fruits/",
+            "active": false,
+            "count": 54,
+            "popularity": 91871,
+            "expanded": true
+          },
+          {
+            "id": ":category:Greens and salads",
+            "title": "Зелень, салаты",
+            "link": "https://kaspi.kz/shop/c/greens%20and%20salads/",
+            "active": false,
+            "count": 51,
+            "popularity": 42060,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dried mushrooms",
+            "title": "Грибы",
+            "link": "https://kaspi.kz/shop/c/dried%20mushrooms/",
+            "active": false,
+            "count": 5,
+            "popularity": 11640,
+            "expanded": true
+          },
+          {
+            "id": ":category:Berries",
+            "title": "Ягоды",
+            "link": "https://kaspi.kz/shop/c/berries/",
+            "active": false,
+            "count": 11,
+            "popularity": 5787,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Pastry",
+        "title": "Сладости и выпечка",
+        "link": "https://kaspi.kz/shop/c/pastry/",
+        "active": false,
+        "count": 3167,
+        "popularity": 198578,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Cookies and crackers",
+            "title": "Печенье и крекеры",
+            "link": "https://kaspi.kz/shop/c/cookies%20and%20crackers/",
+            "active": false,
+            "count": 372,
+            "popularity": 66954,
+            "expanded": true
+          },
+          {
+            "id": ":category:Chocolate bars",
+            "title": "Шоколад и шоколадные батончики",
+            "link": "https://kaspi.kz/shop/c/chocolate%20bars/",
+            "active": false,
+            "count": 408,
+            "popularity": 44090,
+            "expanded": true
+          },
+          {
+            "id": ":category:Candies",
+            "title": "Конфеты",
+            "link": "https://kaspi.kz/shop/c/candies/",
+            "active": false,
+            "count": 472,
+            "popularity": 26767,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gingerbread and waffles",
+            "title": "Пряники и вафли",
+            "link": "https://kaspi.kz/shop/c/gingerbread%20and%20waffles/",
+            "active": false,
+            "count": 126,
+            "popularity": 16054,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bagels",
+            "title": "Сушки и баранки",
+            "link": "https://kaspi.kz/shop/c/bagels/",
+            "active": false,
+            "count": 22,
+            "popularity": 9017,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cupcakes",
+            "title": "Кексы, рулеты, бисквиты",
+            "link": "https://kaspi.kz/shop/c/cupcakes/",
+            "active": false,
+            "count": 56,
+            "popularity": 8854,
+            "expanded": true
+          },
+          {
+            "id": ":category:Chewing gum",
+            "title": "Жевательная резинка",
+            "link": "https://kaspi.kz/shop/c/chewing%20gum/",
+            "active": false,
+            "count": 155,
+            "popularity": 5722,
+            "expanded": true
+          },
+          {
+            "id": ":category:Marmalade",
+            "title": "Мармелад",
+            "link": "https://kaspi.kz/shop/c/marmalade/",
+            "active": false,
+            "count": 305,
+            "popularity": 5468,
+            "expanded": true
+          },
+          {
+            "id": ":category:Eastern sweets",
+            "title": "Восточные сладости",
+            "link": "https://kaspi.kz/shop/c/eastern%20sweets/",
+            "active": false,
+            "count": 88,
+            "popularity": 3639,
+            "expanded": true
+          },
+          {
+            "id": ":category:Granola bars",
+            "title": "Батончики и печенье протеиновое, злаковое",
+            "link": "https://kaspi.kz/shop/c/granola%20bars/",
+            "active": false,
+            "count": 722,
+            "popularity": 3234,
+            "expanded": true
+          },
+          {
+            "id": ":category:Corn sticks",
+            "title": "Кукурузные палочки",
+            "link": "https://kaspi.kz/shop/c/corn%20sticks/",
+            "active": false,
+            "count": 9,
+            "popularity": 3177,
+            "expanded": true
+          },
+          {
+            "id": ":category:Chocolate paste",
+            "title": "Шоколадная и ореховая паста, урбеч",
+            "link": "https://kaspi.kz/shop/c/chocolate%20paste/",
+            "active": false,
+            "count": 110,
+            "popularity": 2545,
+            "expanded": true
+          },
+          {
+            "id": ":category:Marshmallow",
+            "title": "Зефир, пастила, безе",
+            "link": "https://kaspi.kz/shop/c/marshmallow/",
+            "active": false,
+            "count": 91,
+            "popularity": 1616,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cakes",
+            "title": "Торты, пирожные",
+            "link": "https://kaspi.kz/shop/c/cakes/",
+            "active": false,
+            "count": 192,
+            "popularity": 1002,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dragee",
+            "title": "Фрукты и орехи в глазури",
+            "link": "https://kaspi.kz/shop/c/dragee/",
+            "active": false,
+            "count": 37,
+            "popularity": 348,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sweet gift sets",
+            "title": "Сладкие подарочные наборы",
+            "link": "https://kaspi.kz/shop/c/sweet%20gift%20sets/",
+            "active": false,
+            "count": 2,
+            "popularity": 91,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Grains and pasta",
+        "title": "Крупы, хлопья, макароны",
+        "link": "https://kaspi.kz/shop/c/grains%20and%20pasta/",
+        "active": false,
+        "count": 975,
+        "popularity": 169386,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Pasta",
+            "title": "Макаронные изделия",
+            "link": "https://kaspi.kz/shop/c/pasta/",
+            "active": false,
+            "count": 234,
+            "popularity": 67598,
+            "expanded": true
+          },
+          {
+            "id": ":category:Grains",
+            "title": "Крупы и бобовые",
+            "link": "https://kaspi.kz/shop/c/grains/",
+            "active": false,
+            "count": 263,
+            "popularity": 53859,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cereals",
+            "title": "Каши и мюсли",
+            "link": "https://kaspi.kz/shop/c/cereals/",
+            "active": false,
+            "count": 272,
+            "popularity": 26394,
+            "expanded": true
+          },
+          {
+            "id": ":category:Instant noodles",
+            "title": "Лапша и пюре быстрого приготовления",
+            "link": "https://kaspi.kz/shop/c/instant%20noodles/",
+            "active": false,
+            "count": 206,
+            "popularity": 21535,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Water and beverages",
+        "title": "Соки, вода, напитки",
+        "link": "https://kaspi.kz/shop/c/water%20and%20beverages/",
+        "active": false,
+        "count": 986,
+        "popularity": 160512,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Carbonated drinks",
+            "title": "Газированные напитки и лимонады",
+            "link": "https://kaspi.kz/shop/c/carbonated%20drinks/",
+            "active": false,
+            "count": 328,
+            "popularity": 49931,
+            "expanded": true
+          },
+          {
+            "id": ":category:Water",
+            "title": "Вода",
+            "link": "https://kaspi.kz/shop/c/water/",
+            "active": false,
+            "count": 149,
+            "popularity": 48978,
+            "expanded": true
+          },
+          {
+            "id": ":category:Juices and nectars",
+            "title": "Соки, нектары, морсы",
+            "link": "https://kaspi.kz/shop/c/juices%20and%20nectars/",
+            "active": false,
+            "count": 311,
+            "popularity": 34424,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cold tea",
+            "title": "Холодный чай",
+            "link": "https://kaspi.kz/shop/c/cold%20tea/",
+            "active": false,
+            "count": 87,
+            "popularity": 16396,
+            "expanded": true
+          },
+          {
+            "id": ":category:Energy drinks",
+            "title": "Энергетические напитки",
+            "link": "https://kaspi.kz/shop/c/energy%20drinks/",
+            "active": false,
+            "count": 67,
+            "popularity": 7650,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mixes for desserts and drinks",
+            "title": "Смеси для приготовления десертов и напитков",
+            "link": "https://kaspi.kz/shop/c/mixes%20for%20desserts%20and%20drinks/",
+            "active": false,
+            "count": 30,
+            "popularity": 1950,
+            "expanded": true
+          },
+          {
+            "id": ":category:Kvass",
+            "title": "Квас, комбуча",
+            "link": "https://kaspi.kz/shop/c/kvass/",
+            "active": false,
+            "count": 13,
+            "popularity": 1108,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cold coffee",
+            "title": "Холодный кофе",
+            "link": "https://kaspi.kz/shop/c/cold%20coffee/",
+            "active": false,
+            "count": 1,
+            "popularity": 75,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Spices and seasoning",
+        "title": "Масла, соусы",
+        "link": "https://kaspi.kz/shop/c/spices%20and%20seasoning/",
+        "active": false,
+        "count": 700,
+        "popularity": 103681,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Vegetable oils",
+            "title": "Растительные масла",
+            "link": "https://kaspi.kz/shop/c/vegetable%20oils/",
+            "active": false,
+            "count": 138,
+            "popularity": 37598,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sauces",
+            "title": "Соусы, кетчупы",
+            "link": "https://kaspi.kz/shop/c/sauces/",
+            "active": false,
+            "count": 375,
+            "popularity": 31328,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mayonnaise",
+            "title": "Майонез",
+            "link": "https://kaspi.kz/shop/c/mayonnaise/",
+            "active": false,
+            "count": 77,
+            "popularity": 23302,
+            "expanded": true
+          },
+          {
+            "id": ":category:Broths",
+            "title": "Бульоны и заправки для супа",
+            "link": "https://kaspi.kz/shop/c/broths/",
+            "active": false,
+            "count": 41,
+            "popularity": 5483,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mustard and horseradish",
+            "title": "Горчица и хрен",
+            "link": "https://kaspi.kz/shop/c/mustard%20and%20horseradish/",
+            "active": false,
+            "count": 25,
+            "popularity": 2751,
+            "expanded": true
+          },
+          {
+            "id": ":category:Marinades",
+            "title": "Маринады и аджика",
+            "link": "https://kaspi.kz/shop/c/marinades/",
+            "active": false,
+            "count": 27,
+            "popularity": 1637,
+            "expanded": true
+          },
+          {
+            "id": ":category:Vinegar",
+            "title": "Уксус",
+            "link": "https://kaspi.kz/shop/c/vinegar/",
+            "active": false,
+            "count": 17,
+            "popularity": 1582,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Canned goods",
+        "title": "Консервация",
+        "link": "https://kaspi.kz/shop/c/canned%20goods/",
+        "active": false,
+        "count": 944,
+        "popularity": 85254,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Canned vegetables",
+            "title": "Овощная консервация",
+            "link": "https://kaspi.kz/shop/c/canned%20vegetables/",
+            "active": false,
+            "count": 148,
+            "popularity": 34407,
+            "expanded": true
+          },
+          {
+            "id": ":category:Canned beans",
+            "title": "Бобы консервированные",
+            "link": "https://kaspi.kz/shop/c/canned%20beans/",
+            "active": false,
+            "count": 39,
+            "popularity": 13859,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tomato paste",
+            "title": "Томатная паста",
+            "link": "https://kaspi.kz/shop/c/tomato%20paste/",
+            "active": false,
+            "count": 13,
+            "popularity": 11182,
+            "expanded": true
+          },
+          {
+            "id": ":category:Canned fish",
+            "title": "Рыбная консервация",
+            "link": "https://kaspi.kz/shop/c/canned%20fish/",
+            "active": false,
+            "count": 142,
+            "popularity": 9343,
+            "expanded": true
+          },
+          {
+            "id": ":category:Canned meat",
+            "title": "Мясная консервация",
+            "link": "https://kaspi.kz/shop/c/canned%20meat/",
+            "active": false,
+            "count": 46,
+            "popularity": 6274,
+            "expanded": true
+          },
+          {
+            "id": ":category:Canned olives and capers",
+            "title": "Маслины, оливки, каперсы",
+            "link": "https://kaspi.kz/shop/c/canned%20olives%20and%20capers/",
+            "active": false,
+            "count": 78,
+            "popularity": 5213,
+            "expanded": true
+          },
+          {
+            "id": ":category:Jams",
+            "title": "Варенье, повидло, протертые ягоды",
+            "link": "https://kaspi.kz/shop/c/jams/",
+            "active": false,
+            "count": 49,
+            "popularity": 1909,
+            "expanded": true
+          },
+          {
+            "id": ":category:Canned mushrooms",
+            "title": "Грибы консервированные",
+            "link": "https://kaspi.kz/shop/c/canned%20mushrooms/",
+            "active": false,
+            "count": 25,
+            "popularity": 1035,
+            "expanded": true
+          },
+          {
+            "id": ":category:Canned fruits",
+            "title": "Фруктово-ягодная консервация",
+            "link": "https://kaspi.kz/shop/c/canned%20fruits/",
+            "active": false,
+            "count": 26,
+            "popularity": 1031,
+            "expanded": true
+          },
+          {
+            "id": ":category:Honey",
+            "title": "Мед и продукты пчеловодства",
+            "link": "https://kaspi.kz/shop/c/honey/",
+            "active": false,
+            "count": 369,
+            "popularity": 894,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cold meals and snacks",
+            "title": "Холодные блюда и закуски",
+            "link": "https://kaspi.kz/shop/c/cold%20meals%20and%20snacks/",
+            "active": false,
+            "count": 9,
+            "popularity": 107,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Bread and bakery",
+        "title": "Хлебные изделия",
+        "link": "https://kaspi.kz/shop/c/bread%20and%20bakery/",
+        "active": false,
+        "count": 49,
+        "popularity": 75403,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Bread",
+            "title": "Хлеб, лаваш, лепешки",
+            "link": "https://kaspi.kz/shop/c/bread/",
+            "active": false,
+            "count": 44,
+            "popularity": 74796,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tartlet",
+            "title": "Тарталетки и креманки",
+            "link": "https://kaspi.kz/shop/c/tartlet/",
+            "active": false,
+            "count": 5,
+            "popularity": 607,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Sugar salt spices",
+        "title": "Сахар и заменители, соль, специи",
+        "link": "https://kaspi.kz/shop/c/sugar%20salt%20spices/",
+        "active": false,
+        "count": 858,
+        "popularity": 73665,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Spices",
+            "title": "Специи и приправы",
+            "link": "https://kaspi.kz/shop/c/spices/",
+            "active": false,
+            "count": 358,
+            "popularity": 35774,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sugar",
+            "title": "Сахар и заменители",
+            "link": "https://kaspi.kz/shop/c/sugar/",
+            "active": false,
+            "count": 94,
+            "popularity": 21797,
+            "expanded": true
+          },
+          {
+            "id": ":category:Salt",
+            "title": "Соль",
+            "link": "https://kaspi.kz/shop/c/salt/",
+            "active": false,
+            "count": 19,
+            "popularity": 15130,
+            "expanded": true
+          },
+          {
+            "id": ":category:Syrups and toppings",
+            "title": "Сиропы и топпинги",
+            "link": "https://kaspi.kz/shop/c/syrups%20and%20toppings/",
+            "active": false,
+            "count": 372,
+            "popularity": 961,
+            "expanded": true
+          },
+          {
+            "id": ":category:Products for making sausages",
+            "title": "Товары для изготовления колбас",
+            "link": "https://kaspi.kz/shop/c/products%20for%20making%20sausages/",
+            "active": false,
+            "count": 5,
+            "popularity": 2,
+            "expanded": true
+          },
+          {
+            "id": ":category:Food grade preservatives antioxidants",
+            "title": "Пищевые консерванты, антиоксиданты",
+            "link": "https://kaspi.kz/shop/c/food%20grade%20preservatives%20antioxidants/",
+            "active": false,
+            "count": 10,
+            "popularity": 1,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Sausages and meat delicacies",
+        "title": "Колбасы, сосиски, деликатесы",
+        "link": "https://kaspi.kz/shop/c/sausages%20and%20meat%20delicacies/",
+        "active": false,
+        "count": 357,
+        "popularity": 67352,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Sausages",
+            "title": "Колбасы и копчености",
+            "link": "https://kaspi.kz/shop/c/sausages/",
+            "active": false,
+            "count": 271,
+            "popularity": 46325,
+            "expanded": true
+          },
+          {
+            "id": ":category:Grilled sausages",
+            "title": "Сосиски, сардельки, колбаски",
+            "link": "https://kaspi.kz/shop/c/grilled%20sausages/",
+            "active": false,
+            "count": 86,
+            "popularity": 21027,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Meat and poultry",
+        "title": "Мясо и птица",
+        "link": "https://kaspi.kz/shop/c/meat%20and%20poultry/",
+        "active": false,
+        "count": 342,
+        "popularity": 65441,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:meat poultry",
+            "title": "Птица",
+            "link": "https://kaspi.kz/shop/c/meat%20poultry/",
+            "active": false,
+            "count": 83,
+            "popularity": 49967,
+            "expanded": true
+          },
+          {
+            "id": ":category:Meat",
+            "title": "Мясо",
+            "link": "https://kaspi.kz/shop/c/meat/",
+            "active": false,
+            "count": 119,
+            "popularity": 10123,
+            "expanded": true
+          },
+          {
+            "id": ":category:Frozen semi-finished meat products",
+            "title": "Мясные полуфабрикаты",
+            "link": "https://kaspi.kz/shop/c/frozen%20semi-finished%20meat%20products/",
+            "active": false,
+            "count": 140,
+            "popularity": 5351,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Tea and coffee",
+        "title": "Чай, кофе, какао",
+        "link": "https://kaspi.kz/shop/c/tea%20and%20coffee/",
+        "active": false,
+        "count": 3224,
+        "popularity": 65226,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Tea",
+            "title": "Чай",
+            "link": "https://kaspi.kz/shop/c/tea/",
+            "active": false,
+            "count": 1322,
+            "popularity": 37139,
+            "expanded": true
+          },
+          {
+            "id": ":category:Instant coffee",
+            "title": "Кофе растворимый",
+            "link": "https://kaspi.kz/shop/c/instant%20coffee/",
+            "active": false,
+            "count": 282,
+            "popularity": 17507,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cocoa and hot chocolate",
+            "title": "Какао и горячий шоколад",
+            "link": "https://kaspi.kz/shop/c/cocoa%20and%20hot%20chocolate/",
+            "active": false,
+            "count": 53,
+            "popularity": 4641,
+            "expanded": true
+          },
+          {
+            "id": ":category:Coffee beans",
+            "title": "Кофе зерновой и молотый",
+            "link": "https://kaspi.kz/shop/c/coffee%20beans/",
+            "active": false,
+            "count": 1050,
+            "popularity": 4042,
+            "expanded": true
+          },
+          {
+            "id": ":category:Chicory",
+            "title": "Цикорий",
+            "link": "https://kaspi.kz/shop/c/chicory/",
+            "active": false,
+            "count": 29,
+            "popularity": 1242,
+            "expanded": true
+          },
+          {
+            "id": ":category:Capsules for coffee machines",
+            "title": "Капсулы для кофемашин",
+            "link": "https://kaspi.kz/shop/c/capsules%20for%20coffee%20machines/",
+            "active": false,
+            "count": 488,
+            "popularity": 655,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Chips and nuts",
+        "title": "Чипсы, орехи, снэки",
+        "link": "https://kaspi.kz/shop/c/chips%20and%20nuts/",
+        "active": false,
+        "count": 790,
+        "popularity": 61117,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Chips",
+            "title": "Чипсы",
+            "link": "https://kaspi.kz/shop/c/chips/",
+            "active": false,
+            "count": 143,
+            "popularity": 18784,
+            "expanded": true
+          },
+          {
+            "id": ":category:Crispbread",
+            "title": "Хлебцы",
+            "link": "https://kaspi.kz/shop/c/crispbread/",
+            "active": false,
+            "count": 98,
+            "popularity": 10160,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sunflower seeds",
+            "title": "Семечки и семена",
+            "link": "https://kaspi.kz/shop/c/sunflower%20seeds/",
+            "active": false,
+            "count": 37,
+            "popularity": 9420,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rusks",
+            "title": "Сухарики",
+            "link": "https://kaspi.kz/shop/c/rusks/",
+            "active": false,
+            "count": 93,
+            "popularity": 9409,
+            "expanded": true
+          },
+          {
+            "id": ":category:Nuts",
+            "title": "Орехи",
+            "link": "https://kaspi.kz/shop/c/nuts/",
+            "active": false,
+            "count": 132,
+            "popularity": 5525,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dried fruits",
+            "title": "Сухофрукты",
+            "link": "https://kaspi.kz/shop/c/dried%20fruits/",
+            "active": false,
+            "count": 81,
+            "popularity": 3972,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sheets for sushi",
+            "title": "Морские водоросли, листы для суши",
+            "link": "https://kaspi.kz/shop/c/sheets%20for%20sushi/",
+            "active": false,
+            "count": 19,
+            "popularity": 1738,
+            "expanded": true
+          },
+          {
+            "id": ":category:Snacks",
+            "title": "Закуски",
+            "link": "https://kaspi.kz/shop/c/snacks/",
+            "active": false,
+            "count": 46,
+            "popularity": 1076,
+            "expanded": true
+          },
+          {
+            "id": ":category:Superfoods",
+            "title": "Суперфуды",
+            "link": "https://kaspi.kz/shop/c/superfoods/",
+            "active": false,
+            "count": 67,
+            "popularity": 515,
+            "expanded": true
+          },
+          {
+            "id": ":category:Popcorn",
+            "title": "Попкорн",
+            "link": "https://kaspi.kz/shop/c/popcorn/",
+            "active": false,
+            "count": 69,
+            "popularity": 514,
+            "expanded": true
+          },
+          {
+            "id": ":category:Vegetable snacks",
+            "title": "Овощные, фруктовые и ягодные снеки",
+            "link": "https://kaspi.kz/shop/c/vegetable%20snacks/",
+            "active": false,
+            "count": 5,
+            "popularity": 4,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Everything for baking",
+        "title": "Все для выпечки",
+        "link": "https://kaspi.kz/shop/c/everything%20for%20baking/",
+        "active": false,
+        "count": 323,
+        "popularity": 56563,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Flour",
+            "title": "Мука",
+            "link": "https://kaspi.kz/shop/c/flour/",
+            "active": false,
+            "count": 81,
+            "popularity": 27716,
+            "expanded": true
+          },
+          {
+            "id": ":category:Dry ingredients for baking",
+            "title": "Ингредиенты для выпечки",
+            "link": "https://kaspi.kz/shop/c/dry%20ingredients%20for%20baking/",
+            "active": false,
+            "count": 131,
+            "popularity": 26392,
+            "expanded": true
+          },
+          {
+            "id": ":category:Edible decorations for cakes",
+            "title": "Декор для выпечки",
+            "link": "https://kaspi.kz/shop/c/edible%20decorations%20for%20cakes/",
+            "active": false,
+            "count": 100,
+            "popularity": 2320,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cake mixes",
+            "title": "Смеси для выпечки",
+            "link": "https://kaspi.kz/shop/c/cake%20mixes/",
+            "active": false,
+            "count": 11,
+            "popularity": 135,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Alcohol",
+        "title": "Алкоголь",
+        "link": "https://kaspi.kz/shop/c/alcohol/",
+        "active": false,
+        "count": 6092,
+        "popularity": 41546,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Pivo",
+            "title": "Пиво",
+            "link": "https://kaspi.kz/shop/c/pivo/",
+            "active": false,
+            "count": 655,
+            "popularity": 17044,
+            "expanded": true
+          },
+          {
+            "id": ":category:Vine",
+            "title": "Вино",
+            "link": "https://kaspi.kz/shop/c/vine/",
+            "active": false,
+            "count": 2381,
+            "popularity": 7429,
+            "expanded": true
+          },
+          {
+            "id": ":category:Vodka",
+            "title": "Водка",
+            "link": "https://kaspi.kz/shop/c/vodka/",
+            "active": false,
+            "count": 718,
+            "popularity": 5203,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sparkling wine champagne",
+            "title": "Игристые вина, шампанское",
+            "link": "https://kaspi.kz/shop/c/sparkling%20wine%20champagne/",
+            "active": false,
+            "count": 504,
+            "popularity": 3625,
+            "expanded": true
+          },
+          {
+            "id": ":category:Whisky",
+            "title": "Виски",
+            "link": "https://kaspi.kz/shop/c/whisky/",
+            "active": false,
+            "count": 603,
+            "popularity": 2801,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cognac",
+            "title": "Коньяк",
+            "link": "https://kaspi.kz/shop/c/cognac/",
+            "active": false,
+            "count": 356,
+            "popularity": 1873,
+            "expanded": true
+          },
+          {
+            "id": ":category:Liquor",
+            "title": "Ликер",
+            "link": "https://kaspi.kz/shop/c/liquor/",
+            "active": false,
+            "count": 135,
+            "popularity": 723,
+            "expanded": true
+          },
+          {
+            "id": ":category:Rum",
+            "title": "Ром",
+            "link": "https://kaspi.kz/shop/c/rum/",
+            "active": false,
+            "count": 94,
+            "popularity": 677,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gin",
+            "title": "Джин",
+            "link": "https://kaspi.kz/shop/c/gin/",
+            "active": false,
+            "count": 107,
+            "popularity": 466,
+            "expanded": true
+          },
+          {
+            "id": ":category:Alcohol Gift Sets",
+            "title": "Подарочные наборы алкоголя",
+            "link": "https://kaspi.kz/shop/c/alcohol%20gift%20sets/",
+            "active": false,
+            "count": 52,
+            "popularity": 381,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cider",
+            "title": "Сидр, коктейли",
+            "link": "https://kaspi.kz/shop/c/cider/",
+            "active": false,
+            "count": 76,
+            "popularity": 319,
+            "expanded": true
+          },
+          {
+            "id": ":category:Vermouth",
+            "title": "Вермут",
+            "link": "https://kaspi.kz/shop/c/vermouth/",
+            "active": false,
+            "count": 42,
+            "popularity": 308,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tequila",
+            "title": "Текила",
+            "link": "https://kaspi.kz/shop/c/tequila/",
+            "active": false,
+            "count": 53,
+            "popularity": 193,
+            "expanded": true
+          },
+          {
+            "id": ":category:Portwine",
+            "title": "Портвейн",
+            "link": "https://kaspi.kz/shop/c/portwine/",
+            "active": false,
+            "count": 55,
+            "popularity": 139,
+            "expanded": true
+          },
+          {
+            "id": ":category:Brandy",
+            "title": "Бренди",
+            "link": "https://kaspi.kz/shop/c/brandy/",
+            "active": false,
+            "count": 20,
+            "popularity": 102,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ingredients for making alcohol",
+            "title": "Ингредиенты для приготовления алкоголя",
+            "link": "https://kaspi.kz/shop/c/ingredients%20for%20making%20alcohol/",
+            "active": false,
+            "count": 188,
+            "popularity": 87,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tinctures and balms",
+            "title": "Настойки и бальзамы",
+            "link": "https://kaspi.kz/shop/c/tinctures%20and%20balms/",
+            "active": false,
+            "count": 14,
+            "popularity": 82,
+            "expanded": true
+          },
+          {
+            "id": ":category:Chacha",
+            "title": "Чача",
+            "link": "https://kaspi.kz/shop/c/chacha/",
+            "active": false,
+            "count": 20,
+            "popularity": 50,
+            "expanded": true
+          },
+          {
+            "id": ":category:Absinthe",
+            "title": "Абсент, Самбука",
+            "link": "https://kaspi.kz/shop/c/absinthe/",
+            "active": false,
+            "count": 7,
+            "popularity": 26,
+            "expanded": true
+          },
+          {
+            "id": ":category:Calvados",
+            "title": "Кальвадос",
+            "link": "https://kaspi.kz/shop/c/calvados/",
+            "active": false,
+            "count": 12,
+            "popularity": 18,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Frozen foods",
+        "title": "Замороженные продукты, мороженое",
+        "link": "https://kaspi.kz/shop/c/frozen%20foods/",
+        "active": false,
+        "count": 623,
+        "popularity": 40994,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Frozen semi-finished dough products",
+            "title": "Замороженные полуфабрикаты",
+            "link": "https://kaspi.kz/shop/c/frozen%20semi-finished%20dough%20products/",
+            "active": false,
+            "count": 202,
+            "popularity": 25216,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ice cream",
+            "title": "Мороженое",
+            "link": "https://kaspi.kz/shop/c/ice%20cream/",
+            "active": false,
+            "count": 207,
+            "popularity": 6034,
+            "expanded": true
+          },
+          {
+            "id": ":category:Frozen vegetables and mixes",
+            "title": "Замороженные овощи, смеси, грибы",
+            "link": "https://kaspi.kz/shop/c/frozen%20vegetables%20and%20mixes/",
+            "active": false,
+            "count": 77,
+            "popularity": 5116,
+            "expanded": true
+          },
+          {
+            "id": ":category:Frozen pizza and sandwiches",
+            "title": "Замороженная готовая еда",
+            "link": "https://kaspi.kz/shop/c/frozen%20pizza%20and%20sandwiches/",
+            "active": false,
+            "count": 44,
+            "popularity": 1983,
+            "expanded": true
+          },
+          {
+            "id": ":category:Frozen fruits and berries",
+            "title": "Замороженные фрукты и ягоды",
+            "link": "https://kaspi.kz/shop/c/frozen%20fruits%20and%20berries/",
+            "active": false,
+            "count": 23,
+            "popularity": 1219,
+            "expanded": true
+          },
+          {
+            "id": ":category:Frozen pastries",
+            "title": "Замороженная выпечка и десерты",
+            "link": "https://kaspi.kz/shop/c/frozen%20pastries/",
+            "active": false,
+            "count": 69,
+            "popularity": 1201,
+            "expanded": true
+          },
+          {
+            "id": ":category:Ice",
+            "title": "Лед",
+            "link": "https://kaspi.kz/shop/c/ice/",
+            "active": false,
+            "count": 1,
+            "popularity": 225,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Ready meal",
+        "title": "Готовая еда",
+        "link": "https://kaspi.kz/shop/c/ready%20meal/",
+        "active": false,
+        "count": 171,
+        "popularity": 24074,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Baking",
+            "title": "Выпечка и сдоба",
+            "link": "https://kaspi.kz/shop/c/baking/",
+            "active": false,
+            "count": 40,
+            "popularity": 11200,
+            "expanded": true
+          },
+          {
+            "id": ":category:Salads",
+            "title": "Салаты",
+            "link": "https://kaspi.kz/shop/c/salads/",
+            "active": false,
+            "count": 12,
+            "popularity": 5128,
+            "expanded": true
+          },
+          {
+            "id": ":category:Blanks for cooking",
+            "title": "Заготовки для приготовления блюд",
+            "link": "https://kaspi.kz/shop/c/blanks%20for%20cooking/",
+            "active": false,
+            "count": 11,
+            "popularity": 4118,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pie",
+            "title": "Пироги, пицца",
+            "link": "https://kaspi.kz/shop/c/pie/",
+            "active": false,
+            "count": 48,
+            "popularity": 1540,
+            "expanded": true
+          },
+          {
+            "id": ":category:Sandwiches",
+            "title": "Сэндвичи, бутерброды, шаурма",
+            "link": "https://kaspi.kz/shop/c/sandwiches/",
+            "active": false,
+            "count": 9,
+            "popularity": 967,
+            "expanded": true
+          },
+          {
+            "id": ":category:Second courses",
+            "title": "Вторые блюда",
+            "link": "https://kaspi.kz/shop/c/second%20courses/",
+            "active": false,
+            "count": 38,
+            "popularity": 873,
+            "expanded": true
+          },
+          {
+            "id": ":category:Porridge scrambled eggs granola",
+            "title": "Каши, яйцо отварное, омлет",
+            "link": "https://kaspi.kz/shop/c/porridge%20scrambled%20eggs%20granola/",
+            "active": false,
+            "count": 11,
+            "popularity": 166,
+            "expanded": true
+          },
+          {
+            "id": ":category:First meal",
+            "title": "Первые блюда",
+            "link": "https://kaspi.kz/shop/c/first%20meal/",
+            "active": false,
+            "count": 2,
+            "popularity": 82,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Seafood",
+        "title": "Рыба, морепродукты",
+        "link": "https://kaspi.kz/shop/c/seafood/",
+        "active": false,
+        "count": 341,
+        "popularity": 15240,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Frozen semi-finished fish products",
+            "title": "Полуфабрикаты из рыбы и морепродуктов",
+            "link": "https://kaspi.kz/shop/c/frozen%20semi-finished%20fish%20products/",
+            "active": false,
+            "count": 36,
+            "popularity": 4655,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fish",
+            "title": "Рыба",
+            "link": "https://kaspi.kz/shop/c/fish/",
+            "active": false,
+            "count": 80,
+            "popularity": 3315,
+            "expanded": true
+          },
+          {
+            "id": ":category:Preserves",
+            "title": "Пресервы",
+            "link": "https://kaspi.kz/shop/c/preserves/",
+            "active": false,
+            "count": 41,
+            "popularity": 3181,
+            "expanded": true
+          },
+          {
+            "id": ":category:Caviar",
+            "title": "Икра",
+            "link": "https://kaspi.kz/shop/c/caviar/",
+            "active": false,
+            "count": 89,
+            "popularity": 3018,
+            "expanded": true
+          },
+          {
+            "id": ":category:Moreprodukty",
+            "title": "Морепродукты",
+            "link": "https://kaspi.kz/shop/c/moreprodukty/",
+            "active": false,
+            "count": 95,
+            "popularity": 1071,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Soy vegetable meat sausages sausages",
+        "title": "Соевые и растительные продукты",
+        "link": "https://kaspi.kz/shop/c/soy%20vegetable%20meat%20sausages%20sausages/",
+        "active": false,
+        "count": 2,
+        "popularity": 6,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Freeze dried food on a camping trip",
+        "title": "Сублимированная туристическая еда",
+        "link": "https://kaspi.kz/shop/c/freeze%20dried%20food%20on%20a%20camping%20trip/",
+        "active": false,
+        "count": 6,
+        "popularity": 5,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Second sub named dishes",
+            "title": "Вторые блюда сублимированные",
+            "link": "https://kaspi.kz/shop/c/second%20sub%20named%20dishes/",
+            "active": false,
+            "count": 5,
+            "popularity": 3,
+            "expanded": true
+          },
+          {
+            "id": ":category:First freeze dried dishes",
+            "title": "Первые блюда сублимированные",
+            "link": "https://kaspi.kz/shop/c/first%20freeze%20dried%20dishes/",
+            "active": false,
+            "count": 1,
+            "popularity": 2,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]
