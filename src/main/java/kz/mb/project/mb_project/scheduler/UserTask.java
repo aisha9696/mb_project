@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 import kz.mb.project.mb_project.entity.UserRole;
-import kz.mb.project.mb_project.service.UserService;
+import kz.mb.project.mb_project.service.auth.UserService;
 
 @Component
 @RequiredArgsConstructor

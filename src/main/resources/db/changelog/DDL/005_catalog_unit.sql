@@ -1,9 +1,11 @@
-create table catalog_unit (
+CREATE TABLE IF NOT EXISTS project_settings.catalog_unit
+(
 
-                                  id uuid not null
-                                      constraint catalog_unit_pk_id
-                                          primary key,
-                                  value_ru   varchar(20),
-                                  value_kz   varchar(20),
-                                  type varchar(255),
-                                  archived   boolean)
+    id       uuid not null
+        constraint catalog_unit_pk_id
+            primary key,
+    value_ru varchar(20),
+    value_kz varchar(20),
+    type     varchar(255),
+    archived boolean
+)

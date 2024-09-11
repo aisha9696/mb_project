@@ -1,6 +1,5 @@
 package kz.mb.project.mb_project.config;
 
-
 import java.io.IOException;
 import java.util.Locale;
 

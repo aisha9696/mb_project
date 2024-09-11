@@ -14,7 +14,7 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name = "business_type")
+@Table(name = "business_type", schema = "project_settings")
 @Getter
 @Setter
 public class BusinessTypeSpr extends AbstractLanguageSprValue implements Serializable {

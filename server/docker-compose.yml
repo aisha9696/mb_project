@@ -47,6 +47,12 @@ services:
       - ./certs/keycloak-private-key.pem:/otp/keycloak/demo/certs/keycloak-private-key.pem
     networks:
       - keycloak_net
+  redis:
+    image: redis:latest
+    container_name: redis
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
 
 networks:
   keycloak_net:

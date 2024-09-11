@@ -22,13 +22,13 @@ import jakarta.persistence.Table;
 @Getter
 @Setter
 @Entity
-@Table(name = "otp")
+@Table(name = "otp", schema = "project_settings")
 @AllArgsConstructor
 @NoArgsConstructor
 public class Otp implements Serializable {
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
-  private UUID id;
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
+  private Long id;
   /**
    * Номер телефона на который был отправлен смс
    */

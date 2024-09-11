@@ -1,67 +1,100 @@
 package kz.mb.project.mb_project.exception;
 
+import java.time.LocalDateTime;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
 import org.springframework.http.HttpStatus;
-import org.springframework.web.bind.annotation.ControllerAdvice;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import kz.mb.project.mb_project.dto.ErrorResponse;
-
-
-@ControllerAdvice
+@RestControllerAdvice
+@Slf4j
+@RequiredArgsConstructor
 public class GlobalExceptionHandler {
 
-  @ExceptionHandler(value = NotFoundException.class)
-  @ResponseStatus(HttpStatus.NOT_FOUND)
-  public @ResponseBody ErrorResponse handleException(NotFoundException ex) {
-    return new ErrorResponse(HttpStatus.NOT_FOUND.value(), ex.getMessage());
+
+  @ExceptionHandler({AuthorizationException.class})
+  protected ResponseEntity<DefaultErrorResponse> handleAuthorization(
+      AuthorizationException exception) {
+    var errorResponse = DefaultErrorResponse.builder()
+        .message(exception.getMessage())
+        .dateTime(LocalDateTime.now()).build();
+    return ResponseEntity.badRequest().body(errorResponse);
   }
 
-  @ExceptionHandler(value = FoundException.class)
-  @ResponseStatus(HttpStatus.BAD_REQUEST)
-  public @ResponseBody ErrorResponse handleException(FoundException ex) {
-    return new ErrorResponse(HttpStatus.BAD_REQUEST.value(), ex.getMessage());
+  @ExceptionHandler({ForbiddenException.class})
+  protected ResponseEntity<DefaultErrorResponse> handleForbidden(
+      ForbiddenException exception) {
+    var errorResponse = DefaultErrorResponse.builder()
+        .message(exception.getMessage())
+        .dateTime(LocalDateTime.now()).build();
+    return ResponseEntity.status(HttpStatus.FORBIDDEN).body(errorResponse);
+
   }
 
-  @ExceptionHandler(value = InvalidRequestException.class)
-  @ResponseStatus(HttpStatus.BAD_REQUEST)
-  public @ResponseBody ErrorResponse handleException(InvalidRequestException ex) {
-    return new ErrorResponse(HttpStatus.BAD_REQUEST.value(), ex.getMessage());
+  @ExceptionHandler({FoundException.class})
+  protected ResponseEntity<DefaultErrorResponse> handleFound(
+      FoundException exception) {
+    var errorResponse = DefaultErrorResponse.builder()
+        .message(exception.getMessage())
+        .dateTime(LocalDateTime.now()).build();
+    return ResponseEntity.badRequest().body(errorResponse);
   }
 
-  @ExceptionHandler(value = AuthorizationException.class)
-  @ResponseStatus(HttpStatus.BAD_REQUEST)
-  public @ResponseBody ErrorResponse handleException(AuthorizationException ex) {
-    return new ErrorResponse(HttpStatus.BAD_REQUEST.value(), ex.getMessage());
+  @ExceptionHandler({InternalServerException.class})
+  protected ResponseEntity<DefaultErrorResponse> handleISE(
+      InternalServerException exception) {
+    var errorResponse = DefaultErrorResponse.builder()
+        .message(exception.getMessage())
+        .dateTime(LocalDateTime.now()).build();
+    return ResponseEntity.internalServerError().body(errorResponse);
   }
 
-  @ExceptionHandler(value = SmsException.class)
-  @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-  public @ResponseBody ErrorResponse handleException(SmsException ex) {
-    return new ErrorResponse(HttpStatus.INTERNAL_SERVER_ERROR.value(), ex.getMessage());
-  }
-  @ExceptionHandler(value = InternalServerException.class)
-  @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-  public @ResponseBody ErrorResponse handleException(InternalServerException ex) {
-    return new ErrorResponse(HttpStatus.INTERNAL_SERVER_ERROR.value(), ex.getMessage());
-  }
-  @ExceptionHandler(value = NotAuthorizedException.class)
-  @ResponseStatus(HttpStatus.UNAUTHORIZED)
-  public @ResponseBody ErrorResponse handleException(NotAuthorizedException ex) {
-    return new ErrorResponse(HttpStatus.UNAUTHORIZED.value(), ex.getMessage());
+  @ExceptionHandler({InvalidRequestException.class})
+  protected ResponseEntity<DefaultErrorResponse> handleInvalidRequest(
+      InvalidRequestException exception) {
+    var errorResponse = DefaultErrorResponse.builder()
+        .message(exception.getMessage())
+        .dateTime(LocalDateTime.now()).build();
+    return ResponseEntity.badRequest().body(errorResponse);
   }
 
-  @ExceptionHandler(value = ForbiddenException.class)
-  @ResponseStatus(HttpStatus.FORBIDDEN)
-  public @ResponseBody ErrorResponse handleException(ForbiddenException ex) {
-    return new ErrorResponse(HttpStatus.FORBIDDEN.value(), ex.getMessage());
+  @ExceptionHandler({LanguageException.class})
+  protected ResponseEntity<DefaultErrorResponse> handleLanguage(
+      LanguageException exception) {
+    var errorResponse = DefaultErrorResponse.builder()
+        .message(exception.getMessage())
+        .dateTime(LocalDateTime.now()).build();
+    return ResponseEntity.status(HttpStatus.CONFLICT).body(errorResponse);
   }
 
-  @ExceptionHandler(value = ProjectException.class)
-  @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
-  public @ResponseBody ErrorResponse handleException(ProjectException ex) {
-    return new ErrorResponse(HttpStatus.INTERNAL_SERVER_ERROR.value(), ex.getMessage());
+  @ExceptionHandler({NotAuthorizedException.class})
+  protected ResponseEntity<DefaultErrorResponse> handleUnauthorized(
+      NotAuthorizedException exception) {
+    var errorResponse = DefaultErrorResponse.builder()
+        .message(exception.getMessage())
+        .dateTime(LocalDateTime.now()).build();
+    return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body(errorResponse);
   }
 
+  @ExceptionHandler({ProjectException.class})
+  protected ResponseEntity<DefaultErrorResponse> handleProjectException(
+      ProjectException exception) {
+    var errorResponse = DefaultErrorResponse.builder()
+        .message(exception.getMessage())
+        .dateTime(LocalDateTime.now()).build();
+    return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
+  }
+
+  @ExceptionHandler({SmsException.class})
+  protected ResponseEntity<DefaultErrorResponse> handleSmsException(
+      SmsException exception) {
+    var errorResponse = DefaultErrorResponse.builder()
+        .message(exception.getMessage())
+        .dateTime(LocalDateTime.now()).build();
+    return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(errorResponse);
+  }
 }

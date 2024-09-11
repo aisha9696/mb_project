@@ -1,13 +1,4 @@
 spring:
-  jpa:
-    properties:
-      hibernate:
-        hbm2ddl.auto: validate
-        show_sql: false
-        format_sql: false
-        use_sql_comments: false
-        jdbc.batch_size: 5000
-        dialect: org.hibernate.dialect.PostgreSQLDialect
   mail:
     host: smtp.gmail.com
     port: 587
@@ -28,6 +19,13 @@ spring:
     username: postgres
     password: Mzoi2bV1%
     driver-class-name: org.postgresql.Driver
+  cache:
+    type: redis
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      def-ttl: 299
   security:
     oauth2:
       client:
@@ -35,14 +33,14 @@ spring:
           my-client:
             authorization-grant-type: client_credentials
             client-id: mbprojectclient
-            client-secret: u7bs3CiLtuYVXvUDYJ6Pu8MHL6j372yR
+            client-secret: sxALxl6wjjYnyHhQvmd8q5zM1OqbVthu
         provider:
           my-client:
-            token-uri: http://localhost:8080/realms/mb_project/protocol/openid-connect/token
+            token-uri: http://localhost:8080/realms/mbproject/protocol/openid-connect/token
   web:
     locale-resolver: accept_header
 keycloak:
-  realm: mb_project
+  realm: mbproject
   auth-server-url: http://localhost:8080
   ssl-required: none
   resource: mbprojectclient
@@ -51,21 +49,21 @@ keycloak:
   authorization_url: /realms/%s/protocol/openid-connect/certs
   user_locked_url: /admin/realms/%s/attack-detection/brute-force/users/
   credentials:
-    secret: u7bs3CiLtuYVXvUDYJ6Pu8MHL6j372yR
+    secret: sxALxl6wjjYnyHhQvmd8q5zM1OqbVthu
     use-resource-role-mappings: true
     bearer-only: true
 
 user:
   temporal:
     owner: 0 * * * * *
-    other: 0 0 1 * * ?
+    other: 0 */10 * * * ?
 
 sms:
   url: http://isms.center/api/sms/send
   username: mbproject
   password: 1E7Fx3hXN
   originator: KiT_Notify
-  otpschedule: 0 */30 * * * *
+  opt-schedule: 300000
 
 springdoc:
   enable-spring-security: true
@@ -75,9 +73,5 @@ cloud:
       url: https://my-bussiness-bucket.s3.eu-west-3.amazonaws.com
       bucket: my-bussiness-bucket
     credentials:
-      accessKey:
-      secretKey:
-
-
-
-
+      accessKey: AKIA3FLDXVGGNOE6W3PS
+      secretKey: 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

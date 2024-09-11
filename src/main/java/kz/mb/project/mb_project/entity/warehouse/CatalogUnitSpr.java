@@ -6,6 +6,7 @@ import java.util.UUID;
 import lombok.Getter;
 import lombok.Setter;
 
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -13,7 +14,6 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import javax.persistence.Column;
 import kz.mb.project.mb_project.entity.AbstractLanguageSprValue;
 
 
@@ -23,7 +23,7 @@ import kz.mb.project.mb_project.entity.AbstractLanguageSprValue;
  *
  * */
 @Entity
-@Table(name = "catalog_unit")
+@Table(name = "catalog_unit", schema = "project_settings")
 @Getter
 @Setter
 public class CatalogUnitSpr extends AbstractLanguageSprValue implements Serializable {

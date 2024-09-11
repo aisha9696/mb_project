@@ -14,13 +14,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import kz.mb.project.mb_project.dto.ApiResponse;
-import kz.mb.project.mb_project.dto.CreateUserRequest;
-import kz.mb.project.mb_project.dto.LoginRequest;
-import kz.mb.project.mb_project.dto.SuccessMessage;
+import kz.mb.project.mb_project.dto.auth.request.CreateUserRequest;
+import kz.mb.project.mb_project.dto.auth.request.LoginRequest;
+import kz.mb.project.mb_project.dto.auth.response.UserInfoResponse;
+import kz.mb.project.mb_project.dto.auth.response.OtpCheckResponse;
+import kz.mb.project.mb_project.dto.auth.response.TokenResponse;
+import kz.mb.project.mb_project.dto.auth.response.UserResponse;
 import kz.mb.project.mb_project.entity.UserRole;
-import kz.mb.project.mb_project.exception.ErrorMessage;
-import kz.mb.project.mb_project.service.UserService;
+import kz.mb.project.mb_project.service.auth.UserService;
 
 @RestController
 @RequestMapping("/api/users")
@@ -29,45 +30,44 @@ public class UserController {
 
   private final UserService usersService;
 
+  // todo
 
+  /**
+   * сделать не void UserResponse
+   */
   @RequestMapping(
       value = "/public/create",
       method = RequestMethod.POST
   )
   @ResponseStatus(HttpStatus.CREATED)
-  public void create(
+  public ResponseEntity<UserInfoResponse> create(
       @RequestBody
       CreateUserRequest createUserRequest) {
-    usersService.createUser(createUserRequest);
+    var user = usersService.create(createUserRequest);
+    return ResponseEntity.ok(user);
   }
+
+  /**
+   * todo
+   */
 
   @RequestMapping(
       value = "/public/set-password",
       method = RequestMethod.PUT
   )
   @ResponseStatus(HttpStatus.NO_CONTENT)
-  public void setPassword(
+  public ResponseEntity<Boolean> setPassword(
       @RequestParam
-      String username, String password) {
-    usersService.setPassword(username, password);
+      String username, String password, String opt_hash) {
+    usersService.setPasswordAfterSmsVerification(username, password, opt_hash);
+    return ResponseEntity.ok(true);
   }
 
   @RequestMapping(
-      value = "/reset-password",
-      method = RequestMethod.PUT
-  )
-  @ResponseStatus(HttpStatus.NO_CONTENT)
-  public void resetPassword(
-      @RequestParam
-      String username, String password, String oldPassword) {
-    usersService.resetPassword(username, oldPassword, password);
-  }
-
-  @RequestMapping(
-      value = "/public/token",
+      value = "/public/login",
       method = RequestMethod.POST
   )
-  public ResponseEntity<?> token(
+  public ResponseEntity<TokenResponse> token(
       @RequestBody
       LoginRequest loginRequest) {
     return ResponseEntity.ok(usersService.signIn(loginRequest));
@@ -77,7 +77,7 @@ public class UserController {
       value = "/user-info/{username}",
       method = RequestMethod.GET
   )
-  public ResponseEntity<?> userInfo(
+  public ResponseEntity<UserInfoResponse> userInfo(
       @PathVariable
       String username) {
     return ResponseEntity.ok(usersService.userInfo(username));
@@ -88,7 +88,7 @@ public class UserController {
       method = RequestMethod.GET
   )
   @ResponseStatus(HttpStatus.OK)
-  public ResponseEntity<?> refreshToken(
+  public ResponseEntity<TokenResponse> refreshToken(
       @RequestParam
       String refresh_token) {
     return ResponseEntity.ok(usersService.refresh(refresh_token));
@@ -99,45 +99,44 @@ public class UserController {
       value = "/public/logout/{user_id}",
       method = RequestMethod.GET
   )
-  @ResponseStatus(HttpStatus.OK)
-  public void logout(
+  @ResponseStatus(HttpStatus.NO_CONTENT)
+  public ResponseEntity<Void> logout(
       @PathVariable
       String user_id) {
     usersService.logout(user_id);
+    return ResponseEntity.noContent().build();
   }
 
   @RequestMapping(
       value = "/public/send-confirmation-otp/{username}",
       method = RequestMethod.GET
   )
-  @ResponseStatus(HttpStatus.OK)
-  public void validate(
+  @ResponseStatus(HttpStatus.NO_CONTENT)
+  public ResponseEntity<Void> validate(
       @PathVariable
       String username) {
     usersService.sendConfirmationOtp(username);
+    return ResponseEntity.noContent().build();
   }
 
 
   @GetMapping(value = "/public/check-otp")
-  public ResponseEntity<ApiResponse<String>> checkRegistrationOtp(
+  public ResponseEntity<OtpCheckResponse> checkRegistrationOtp(
       @RequestParam
       String otp,
       @RequestParam
       String username) {
-    return ResponseEntity.ok(
-        new ApiResponse(
-            usersService.checkOtp(otp, username) ? SuccessMessage.OTP_CHECKED.getMessageRU()
-                : ErrorMessage.INVALID_OTP.getMessageKZ(), 200));
+
+    return ResponseEntity.ok(usersService.checkOtp(otp, username));
   }
 
   @DeleteMapping("/public/delete")
-  @ResponseStatus(HttpStatus.OK)
-  public void deleteUser() {
+  @ResponseStatus(HttpStatus.NO_CONTENT)
+  public ResponseEntity<Void> deleteUser() {
     usersService.deleteTemporalUser(UserRole.Cacher);
     usersService.deleteTemporalUser(UserRole.Stockman);
+    return ResponseEntity.noContent().build();
   }
-
-
 
 }
 

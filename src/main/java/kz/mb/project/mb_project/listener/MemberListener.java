@@ -8,17 +8,17 @@ import org.springframework.data.rest.core.annotation.HandleBeforeCreate;
 import org.springframework.data.rest.core.annotation.RepositoryEventHandler;
 import org.springframework.transaction.annotation.Transactional;
 
-import kz.mb.project.mb_project.dto.UpdateUserRequest;
+import kz.mb.project.mb_project.dto.auth.request.UpdateUserRequest;
 import kz.mb.project.mb_project.entity.UserBusiness;
 import kz.mb.project.mb_project.entity.UserRole;
 import kz.mb.project.mb_project.exception.ErrorMessage;
 import kz.mb.project.mb_project.exception.FoundException;
 import kz.mb.project.mb_project.exception.InvalidRequestException;
 import kz.mb.project.mb_project.exception.NotFoundException;
-import kz.mb.project.mb_project.repo.UserBusinessRepository;
+import kz.mb.project.mb_project.repository.UserBusinessRepository;
 import kz.mb.project.mb_project.service.NotificationService;
 import kz.mb.project.mb_project.service.PropertyService;
-import kz.mb.project.mb_project.service.UserService;
+import kz.mb.project.mb_project.service.auth.UserService;
 import kz.mb.project.mb_project.utils.RandomUtils;
 
 @RepositoryEventHandler(UserBusiness.class)
@@ -28,7 +28,6 @@ public class MemberListener {
   private final NotificationService notificationService;
   private final UserBusinessRepository userBusinessRepository;
   private final UserService userService;
-
   private final PropertyService propertyService;
 
   private static final String COUNT_OF_EMPLOYEE = "COUNT_OF_EMPLOYEE";
@@ -84,8 +83,9 @@ public class MemberListener {
       UpdateUserRequest toUpdate = UpdateUserRequest.builder().id(member.getUser().getId())
           .email(member.getUser().getEmail()).firstname(member.getUser().getFirstName())
           .lastname(member.getUser().getLastName()).toTemporal(member.getUser().getTemporal())
-          .toEnable(true).phone_number(member.getUser().getUsername())
+          .toEnable(true).phoneNumber(member.getUser().getUsername())
           .toVerifyEmail(false).toVerifyOtp(false).toPasswordUpdate(false).build();
+
       userService.updateUser(toUpdate);
       userService.setPassword(member.getUser().getUsername(), password);
 

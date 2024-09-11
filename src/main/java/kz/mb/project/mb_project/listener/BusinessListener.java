@@ -13,11 +13,11 @@ import kz.mb.project.mb_project.entity.UserRole;
 import kz.mb.project.mb_project.exception.ErrorMessage;
 import kz.mb.project.mb_project.exception.InvalidRequestException;
 import kz.mb.project.mb_project.exception.NotFoundException;
-import kz.mb.project.mb_project.repo.UserBusinessRepository;
-import kz.mb.project.mb_project.repo.UsersRepository;
+import kz.mb.project.mb_project.repository.UserBusinessRepository;
+import kz.mb.project.mb_project.repository.UsersRepository;
 import kz.mb.project.mb_project.service.PropertyService;
 
-@RepositoryEventHandler(Business.class)
+@RepositoryEventHandler
 public class BusinessListener {
 
   Logger logger = Logger.getLogger("Class BusinessListener");

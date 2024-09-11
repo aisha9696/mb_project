@@ -13,6 +13,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonProperty.Access;
 import jakarta.annotation.Nullable;
 import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.EnumType;
 import jakarta.persistence.Enumerated;
@@ -26,14 +27,13 @@ import jakarta.persistence.ManyToMany;
 import jakarta.persistence.ManyToOne;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
-import javax.persistence.Column;
 import kz.mb.project.mb_project.entity.AbstractLanguageSprValue;
 import kz.mb.project.mb_project.entity.BusinessTypeSpr;
 import org.hibernate.annotations.OnDelete;
 import org.hibernate.annotations.OnDeleteAction;
 
 @Entity
-@Table(name = "product_category")
+@Table(name = "product_category",schema = "project_settings")
 @Getter
 @Setter
 public class ProductCategorySpr extends AbstractLanguageSprValue implements Serializable {
@@ -53,7 +53,7 @@ public class ProductCategorySpr extends AbstractLanguageSprValue implements Seri
   private List<ProductCategorySpr> subCategory;
 
   @ManyToMany
-  @JoinTable(name = "product_category_business_type",
+  @JoinTable(name = "product_category_business_type", schema = "project_settings",
       joinColumns = @JoinColumn(name = "product_category_id"),
       inverseJoinColumns = @JoinColumn(name = "business_type_id"))
   private List<BusinessTypeSpr> businessType;

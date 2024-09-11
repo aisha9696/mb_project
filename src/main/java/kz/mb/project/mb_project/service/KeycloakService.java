@@ -1,36 +1,289 @@
 package kz.mb.project.mb_project.service;
 
+import java.util.Base64;
 import java.util.List;
+import java.util.Objects;
 
+import lombok.Builder;
+import lombok.extern.slf4j.Slf4j;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.Cacheable;
+import org.springframework.core.ParameterizedTypeReference;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.MediaType;
+import org.springframework.stereotype.Service;
+import org.springframework.web.reactive.function.BodyInserters;
+import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
+import kz.mb.project.mb_project.config.KeycloakConfiguration;
+import kz.mb.project.mb_project.dto.auth.response.TokenResponse;
+import kz.mb.project.mb_project.dto.auth.response.UserLockedResponse;
+import kz.mb.project.mb_project.dto.auth.keycloak.CreateKUser;
+import kz.mb.project.mb_project.dto.auth.keycloak.KUser;
+import kz.mb.project.mb_project.exception.AuthorizationException;
+import kz.mb.project.mb_project.exception.ErrorMessage;
+import kz.mb.project.mb_project.exception.InternalServerException;
+import kz.mb.project.mb_project.exception.InvalidRequestException;
+import org.keycloak.admin.client.Keycloak;
+import org.keycloak.admin.client.resource.UserResource;
 
-import kz.mb.project.mb_project.dto.TokenResponse;
-import kz.mb.project.mb_project.dto.UserLockedResponse;
-import kz.mb.project.mb_project.dto.keycloak.CreateKUser;
-import kz.mb.project.mb_project.dto.keycloak.KUser;
+@Service
+@Slf4j
+public class KeycloakService {
 
-public interface KeycloakService {
+  protected final KeycloakConfiguration keycloakConfiguration;
+  WebClient webClient;
 
-  String createUser(CreateKUser user, TokenResponse token);
 
-  Mono<TokenResponse> getClientCredentialToken();
+  @Autowired
+  public KeycloakService(KeycloakConfiguration keycloakConfiguration) {
+    this.keycloakConfiguration = keycloakConfiguration;
+    this.webClient = WebClient.create();
+  }
 
-  void updateUser(KUser user, TokenResponse token);
+  public String createUser(CreateKUser user, TokenResponse token) {
+    Mono<CreateKUser> userMono = Mono.just(user);
+    String url = String.format(keycloakConfiguration.serverURL + keycloakConfiguration.userURL,
+        keycloakConfiguration.realm);
+    return webClient.post()
+        .uri(url)
+        .header("Authorization", "Bearer " + token.access_token())
+        .contentType(MediaType.APPLICATION_JSON)
+        .body(userMono, CreateKUser.class)
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          throw new InvalidRequestException(ErrorMessage.USER_CREATE_EXCEPTION);
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          throw new InternalServerException(ErrorMessage.USER_CREATE_EXCEPTION);
+        })
+        .toEntity(String.class)
+        .flatMap(Mono::just).map(responseEntity -> Objects.requireNonNull(
+            responseEntity.getHeaders().getLocation()).toString()).block();
+  }
 
-  void deleteUser(String user_id, TokenResponse token);
+  @Cacheable(value = "token",key = "#root.methodName", unless = "#result == null", cacheManager = "defTokenCacheManager")
+  public Mono<TokenResponse> getClientCredentialToken() {
+    String url = String.format(keycloakConfiguration.serverURL + keycloakConfiguration.tokenURL,
+        keycloakConfiguration.realm);
+    String token = keycloakConfiguration.clientID + ":" + keycloakConfiguration.clientSecret;
+    String encodedClientData =
+        Base64.getEncoder().encodeToString(token.getBytes());
+    return webClient.post()
+        .uri(url)
+        .header("Authorization", "Basic " + encodedClientData)
+        .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+        .body(BodyInserters.fromFormData("grant_type", "client_credentials")
+            .with("scope", "openid"))
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          return Mono.just(
+              new InvalidRequestException(ErrorMessage.KEYCLOAK_ADMIN_AUTH_ERROR));
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          return Mono.just(
+              new InternalServerException(ErrorMessage.KEYCLOAK_ADMIN_AUTH_ERROR));
+        })
+        .bodyToMono(TokenResponse.class);
+  }
 
-  void setCredentials(String user_id, String password, TokenResponse token);
+  public void updateUser(KUser user, TokenResponse token) {
+    Mono<KUser> userMono = Mono.just(user);
+    String url = String.format(
+        keycloakConfiguration.serverURL + keycloakConfiguration.userURL + "/" + user.getId(),
+        keycloakConfiguration.realm);
 
-  KUser getUser(String user_id, TokenResponse token);
+    webClient.put()
+        .uri(url)
+        .header("Authorization", "Bearer " + token.access_token())
+        .contentType(MediaType.APPLICATION_JSON)
+        .body(userMono, KUser.class)
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          throw new InvalidRequestException(ErrorMessage.USER_UPDATE_EXCEPTION);
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          throw new InternalServerException(ErrorMessage.USER_UPDATE_EXCEPTION);
+        })
+        .toEntity(Void.class)
+        .block();
 
-  List<KUser> getUsers(TokenResponse token);
+  }
 
-  Mono<TokenResponse> getToken(String username, String password);
 
-  Mono<TokenResponse> refreshToken(String refreshToken);
+  public void deleteUser(String user_id, TokenResponse token) {
+    String url = String.format(
+        keycloakConfiguration.serverURL + keycloakConfiguration.userURL + "/" + user_id,
+        keycloakConfiguration.realm);
 
-  void logout(String userId);
+    webClient.delete()
+        .uri(url)
+        .header("Authorization", "Bearer " + token.access_token())
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          throw new InvalidRequestException(ErrorMessage.USER_DELETE_EXCEPTION);
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          throw new InternalServerException(ErrorMessage.USER_DELETE_EXCEPTION);
+        })
+        .toEntity(Void.class)
+        .block();
+  }
 
-  Mono<UserLockedResponse> isUserLocked(String userId, TokenResponse token);
+
+  public void setCredentials(String user_id, String password, TokenResponse token) {
+    String url = String.format(
+        keycloakConfiguration.serverURL + keycloakConfiguration.userURL + "/" + user_id
+            + "/reset-password",
+        keycloakConfiguration.realm);
+
+    Mono<KPassword> passwordMono = Mono.just(
+        KPassword.builder().temporary(true).type("PASSWORD").value(password).build());
+    log.info("here " + url.concat(" ").concat(token.access_token()));
+    webClient.put().uri(url)
+        .header("Authorization", "Bearer " + token.access_token())
+        .contentType(MediaType.APPLICATION_JSON)
+        .body(passwordMono, KPassword.class)
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          throw new InvalidRequestException(
+              ErrorMessage.USER_SET_PASSWORD_EXCEPTION);
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          throw new InternalServerException(
+              ErrorMessage.USER_SET_PASSWORD_EXCEPTION);
+        })
+        .toEntity(Void.class)
+        .block();
+
+  }
+
+
+  public KUser getUser(String user_id, TokenResponse token) {
+    String url = String.format(
+        keycloakConfiguration.serverURL + keycloakConfiguration.userURL + "/" + user_id,
+        keycloakConfiguration.realm);
+    return webClient.get()
+        .uri(url)
+        .header("Authorization", "Bearer " + token.access_token())
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          throw new InvalidRequestException(ErrorMessage.USER_NOT_FOUND_EXCEPTION);
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          throw new InternalServerException(ErrorMessage.INCORRECT_USER);
+        }).bodyToMono(KUser.class).block();
+  }
+
+
+  @Cacheable(value = "keycloak_user",key = "#root.methodName", unless = "#result == null", cacheManager = "defTokenCacheManager")
+  public List<KUser> getUsers(TokenResponse token) {
+    String url = String.format(
+        keycloakConfiguration.serverURL + keycloakConfiguration.userURL,
+        keycloakConfiguration.realm);
+
+    Mono<List<KUser>> request = webClient.get()
+        .uri(url)
+        .header("Authorization", "Bearer " + token.access_token())
+        .accept(MediaType.APPLICATION_JSON)
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          throw new InvalidRequestException(ErrorMessage.USER_NOT_FOUND_EXCEPTION);
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          throw new InternalServerException(ErrorMessage.INCORRECT_USER);
+        })
+        .bodyToMono(new ParameterizedTypeReference<List<KUser>>() {});
+
+    return request.block();
+  }
+
+
+  public Mono<TokenResponse> getToken(String username, String password) {
+    String url = String.format(
+        keycloakConfiguration.serverURL + keycloakConfiguration.tokenURL,
+        keycloakConfiguration.realm);
+    String token = keycloakConfiguration.clientID + ":" + keycloakConfiguration.clientSecret;
+    String encodedClientData =
+        Base64.getEncoder().encodeToString(token.getBytes());
+    return webClient.post()
+        .uri(url)
+        .header("Authorization", "Basic " + encodedClientData)
+        .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+        .body(BodyInserters.fromFormData("grant_type", "password")
+            .with("scope", "openid")
+            .with("username", username)
+            .with("password", password))
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          if (response.statusCode().value() == 401) {
+            return Mono.just(
+                new AuthorizationException(ErrorMessage.INCORRECT_PASSWORD));
+          } else {
+            return Mono.just(
+                new AuthorizationException(ErrorMessage.INVALID_USER));
+          }
+
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          return Mono.just(
+              new InternalServerException(ErrorMessage.AUTHORIZATION_ERROR));
+        })
+        .bodyToMono(TokenResponse.class);
+
+  }
+
+
+  public Mono<TokenResponse> refreshToken(String refreshToken) {
+    String url = String.format(
+        keycloakConfiguration.serverURL + keycloakConfiguration.tokenURL,
+        keycloakConfiguration.realm);
+    return webClient.post()
+        .uri(url)
+        .contentType(MediaType.APPLICATION_FORM_URLENCODED)
+        .body(BodyInserters
+            .fromFormData("client_id", keycloakConfiguration.clientID)
+            .with("client_secret", keycloakConfiguration.clientSecret)
+            .with("refresh_token", refreshToken)
+            .with("grant_type", "refresh_token"))
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          return Mono.just(
+              new AuthorizationException(ErrorMessage.REFRESH_TOKEN_EXPIRED));
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          return Mono.just(
+              new InternalServerException(ErrorMessage.AUTHORIZATION_ERROR));
+        })
+        .bodyToMono(TokenResponse.class);
+  }
+
+  public void logout(String userId) {
+    Keycloak keycloak = keycloakConfiguration.getInstance();
+    UserResource usersResource = keycloak.realm(keycloakConfiguration.realm).users().get(userId);
+    usersResource.logout();
+  }
+
+  public Mono<UserLockedResponse> isUserLocked(String userId, TokenResponse token) {
+    String url = String.format(
+        keycloakConfiguration.serverURL + keycloakConfiguration.userLockedURL + "/" + userId,
+        keycloakConfiguration.realm);
+    return webClient.get()
+        .uri(url)
+        .header("Authorization", "Bearer " + token.access_token())
+        .retrieve()
+        .onStatus(HttpStatusCode::is4xxClientError, response -> {
+          throw new InvalidRequestException(ErrorMessage.USER_NOT_FOUND_EXCEPTION);
+        })
+        .onStatus(HttpStatusCode::is5xxServerError, response -> {
+          throw new InternalServerException(ErrorMessage.INCORRECT_USER);
+        }).bodyToMono(UserLockedResponse.class);
+
+  }
+
+  @Builder
+  public record KPassword(Boolean temporary, String value, String type) {}
+
 
 }

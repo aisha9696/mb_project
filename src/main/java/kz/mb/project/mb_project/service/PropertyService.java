@@ -12,10 +12,11 @@ import jakarta.annotation.Nonnull;
 import kz.mb.project.mb_project.entity.ProjectConfiguration;
 import kz.mb.project.mb_project.exception.ErrorMessage;
 import kz.mb.project.mb_project.exception.ProjectException;
-import kz.mb.project.mb_project.repo.ProjectConfigurationRepository;
+import kz.mb.project.mb_project.repository.ProjectConfigurationRepository;
 
 @Service
 public class PropertyService {
+
   private final ProjectConfigurationRepository projectConfigurationRepository;
   private Map<String, List<String>> properties;
 
@@ -27,16 +28,14 @@ public class PropertyService {
 
   public void loadPropertiedFromDB() {
     properties = StreamSupport.stream(projectConfigurationRepository.findAll().spliterator(), false)
-        .collect(
-            Collectors.groupingBy(
-                ProjectConfiguration::getConfigurationName,
-                Collectors.mapping(ProjectConfiguration::getConfigurationValue, Collectors.toList())
-            )
-        );
+        .collect(Collectors.groupingBy(ProjectConfiguration::getConfigurationName,
+            Collectors.mapping(ProjectConfiguration::getConfigurationValue, Collectors.toList())));
   }
 
   @Nonnull
-  public String get(@Nonnull final String name) throws ProjectException {
+  public String get(
+      @Nonnull
+      final String name) throws ProjectException {
     List<String> properties = this.properties.get(name);
     if (properties == null || properties.isEmpty()) {
       throw new ProjectException(ErrorMessage.PROJECT_CONFIGURATION_IS_NOT_FOUND);

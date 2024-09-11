@@ -1,0 +1,1525 @@
+[
+  {
+    "id": ":category:Car goods",
+    "title": "Автотовары",
+    "link": "https://kaspi.kz/shop/c/car%20goods/",
+    "active": true,
+    "count": 413116,
+    "popularity": 226596,
+    "expanded": true,
+    "items": [
+      {
+        "id": ":category:Tires",
+        "title": "Шины",
+        "link": "https://kaspi.kz/shop/c/tires/",
+        "active": false,
+        "count": 22140,
+        "popularity": 50096,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Passenger car tires",
+            "title": "Шины для легковых и внедорожных автомобилей",
+            "link": "https://kaspi.kz/shop/c/passenger%20car%20tires/",
+            "active": false,
+            "count": 17453,
+            "popularity": 41950,
+            "expanded": true
+          },
+          {
+            "id": ":category:Heavy duty tires",
+            "title": "Шины для грузового транспорта",
+            "link": "https://kaspi.kz/shop/c/heavy%20duty%20tires/",
+            "active": false,
+            "count": 2454,
+            "popularity": 5077,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle tires",
+            "title": "Мотошины",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20tires/",
+            "active": false,
+            "count": 796,
+            "popularity": 1461,
+            "expanded": true
+          },
+          {
+            "id": ":category:Commercial vehicle tires",
+            "title": "Шины для коммерческого транспорта",
+            "link": "https://kaspi.kz/shop/c/commercial%20vehicle%20tires/",
+            "active": false,
+            "count": 1317,
+            "popularity": 1396,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle inner tubes",
+            "title": "Камеры и ободные ленты для автомобилей и мотоциклов",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20inner%20tubes/",
+            "active": false,
+            "count": 120,
+            "popularity": 212,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Replacement parts",
+        "title": "Автозапчасти",
+        "link": "https://kaspi.kz/shop/c/replacement%20parts/",
+        "active": false,
+        "count": 179562,
+        "popularity": 34882,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Car body parts",
+            "title": "Кузовные детали",
+            "link": "https://kaspi.kz/shop/c/car%20body%20parts/",
+            "active": false,
+            "count": 16290,
+            "popularity": 4131,
+            "expanded": true
+          },
+          {
+            "id": ":category:Transmission and chassis",
+            "title": "Трансмиссия и ходовая часть",
+            "link": "https://kaspi.kz/shop/c/transmission%20and%20chassis/",
+            "active": false,
+            "count": 47098,
+            "popularity": 4016,
+            "expanded": true
+          },
+          {
+            "id": ":category:Engines and engine parts",
+            "title": "Элементы двигателя",
+            "link": "https://kaspi.kz/shop/c/engines%20and%20engine%20parts/",
+            "active": false,
+            "count": 18754,
+            "popularity": 3545,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cooling system",
+            "title": "Система охлаждения",
+            "link": "https://kaspi.kz/shop/c/cooling%20system/",
+            "active": false,
+            "count": 17387,
+            "popularity": 3029,
+            "expanded": true
+          },
+          {
+            "id": ":category:Autoeletrics",
+            "title": "Автоэлектрика",
+            "link": "https://kaspi.kz/shop/c/autoeletrics/",
+            "active": false,
+            "count": 6107,
+            "popularity": 2879,
+            "expanded": true
+          },
+          {
+            "id": ":category:Brake system",
+            "title": "Тормозная система",
+            "link": "https://kaspi.kz/shop/c/brake%20system/",
+            "active": false,
+            "count": 25295,
+            "popularity": 2388,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car filters",
+            "title": "Автомобильные фильтры",
+            "link": "https://kaspi.kz/shop/c/car%20filters/",
+            "active": false,
+            "count": 13071,
+            "popularity": 2328,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car interior parts",
+            "title": "Детали салона",
+            "link": "https://kaspi.kz/shop/c/car%20interior%20parts/",
+            "active": false,
+            "count": 3076,
+            "popularity": 2232,
+            "expanded": true
+          },
+          {
+            "id": ":category:Candles and high voltage wires",
+            "title": "Свечи и высоковольтные провода",
+            "link": "https://kaspi.kz/shop/c/candles%20and%20high%20voltage%20wires/",
+            "active": false,
+            "count": 3376,
+            "popularity": 1564,
+            "expanded": true
+          },
+          {
+            "id": ":category:Shock absorbers",
+            "title": "Амортизаторы",
+            "link": "https://kaspi.kz/shop/c/shock%20absorbers/",
+            "active": false,
+            "count": 13078,
+            "popularity": 1429,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pumps and compressors",
+            "title": "Насосы и компрессоры",
+            "link": "https://kaspi.kz/shop/c/pumps%20and%20compressors/",
+            "active": false,
+            "count": 2018,
+            "popularity": 802,
+            "expanded": true
+          },
+          {
+            "id": ":category:Timing belts and chains",
+            "title": "Ремни и цепи ГРМ",
+            "link": "https://kaspi.kz/shop/c/timing%20belts%20and%20chains/",
+            "active": false,
+            "count": 5663,
+            "popularity": 755,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car signals",
+            "title": "Автомобильные сигналы",
+            "link": "https://kaspi.kz/shop/c/car%20signals/",
+            "active": false,
+            "count": 187,
+            "popularity": 675,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car exhaust system",
+            "title": "Выхлопная система",
+            "link": "https://kaspi.kz/shop/c/car%20exhaust%20system/",
+            "active": false,
+            "count": 2969,
+            "popularity": 564,
+            "expanded": true
+          },
+          {
+            "id": ":category:Steering",
+            "title": "Рулевое управление",
+            "link": "https://kaspi.kz/shop/c/steering/",
+            "active": false,
+            "count": 1864,
+            "popularity": 533,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car tanks",
+            "title": "Бачки",
+            "link": "https://kaspi.kz/shop/c/car%20tanks/",
+            "active": false,
+            "count": 972,
+            "popularity": 514,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car oxygen sensors",
+            "title": "Датчики кислорода",
+            "link": "https://kaspi.kz/shop/c/car%20oxygen%20sensors/",
+            "active": false,
+            "count": 564,
+            "popularity": 264,
+            "expanded": true
+          },
+          {
+            "id": ":category:Mass air flow sensors",
+            "title": "Датчики массового расхода воздуха",
+            "link": "https://kaspi.kz/shop/c/mass%20air%20flow%20sensors/",
+            "active": false,
+            "count": 283,
+            "popularity": 244,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car steering column cables",
+            "title": "Подрулевые шлейфы",
+            "link": "https://kaspi.kz/shop/c/car%20steering%20column%20cables/",
+            "active": false,
+            "count": 452,
+            "popularity": 131,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tire pressure sensors",
+            "title": "Датчики давления в шинах",
+            "link": "https://kaspi.kz/shop/c/tire%20pressure%20sensors/",
+            "active": false,
+            "count": 615,
+            "popularity": 102,
+            "expanded": true
+          },
+          {
+            "id": ":category:Turbochargers",
+            "title": "Турбонагнетатели",
+            "link": "https://kaspi.kz/shop/c/turbochargers/",
+            "active": false,
+            "count": 317,
+            "popularity": 78,
+            "expanded": true
+          },
+          {
+            "id": ":category:Air conditioning system",
+            "title": "Система кондиционирования",
+            "link": "https://kaspi.kz/shop/c/air%20conditioning%20system/",
+            "active": false,
+            "count": 54,
+            "popularity": 6,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Car chemistry and car care products",
+        "title": "Автохимия и автокосметика",
+        "link": "https://kaspi.kz/shop/c/car%20chemistry%20and%20car%20care%20products/",
+        "active": false,
+        "count": 8768,
+        "popularity": 22286,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Car glass and headlight care",
+            "title": "Уход за стеклами и фарами автомобилей",
+            "link": "https://kaspi.kz/shop/c/car%20glass%20and%20headlight%20care/",
+            "active": false,
+            "count": 163,
+            "popularity": 9768,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car interior care",
+            "title": "Уход за салоном автомобиля",
+            "link": "https://kaspi.kz/shop/c/car%20interior%20care/",
+            "active": false,
+            "count": 4571,
+            "popularity": 4750,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car wash accessories",
+            "title": "Принадлежности для мойки автомобилей",
+            "link": "https://kaspi.kz/shop/c/car%20wash%20accessories/",
+            "active": false,
+            "count": 1521,
+            "popularity": 3564,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car body care",
+            "title": "Уход за кузовом автомобиля",
+            "link": "https://kaspi.kz/shop/c/car%20body%20care/",
+            "active": false,
+            "count": 1444,
+            "popularity": 1994,
+            "expanded": true
+          },
+          {
+            "id": ":category:Adhesives and fixatives for car repair",
+            "title": "Клеи, герметики и фиксаторы для ремонта автомобилей",
+            "link": "https://kaspi.kz/shop/c/adhesives%20and%20fixatives%20for%20car%20repair/",
+            "active": false,
+            "count": 504,
+            "popularity": 1507,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car tire and rim care",
+            "title": "Уход за шинами и дисками автомобилей",
+            "link": "https://kaspi.kz/shop/c/car%20tire%20and%20rim%20care/",
+            "active": false,
+            "count": 397,
+            "popularity": 595,
+            "expanded": true
+          },
+          {
+            "id": ":category:Auto painting works",
+            "title": "Автомалярные работы",
+            "link": "https://kaspi.kz/shop/c/auto%20painting%20works/",
+            "active": false,
+            "count": 168,
+            "popularity": 91,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Car accessories",
+        "title": "Автоаксессуары",
+        "link": "https://kaspi.kz/shop/c/car%20accessories/",
+        "active": false,
+        "count": 85253,
+        "popularity": 18155,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Car mats and accessories",
+            "title": "Коврики для автомобиля и аксессуары",
+            "link": "https://kaspi.kz/shop/c/car%20mats%20and%20accessories/",
+            "active": false,
+            "count": 48969,
+            "popularity": 2905,
+            "expanded": true
+          },
+          {
+            "id": ":category:Automotive seat covers",
+            "title": "Чехлы для салона",
+            "link": "https://kaspi.kz/shop/c/automotive%20seat%20covers/",
+            "active": false,
+            "count": 16738,
+            "popularity": 2715,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car organizers and bags",
+            "title": "Автомобильные органайзеры и сумки",
+            "link": "https://kaspi.kz/shop/c/car%20organizers%20and%20bags/",
+            "active": false,
+            "count": 1017,
+            "popularity": 2680,
+            "expanded": true
+          },
+          {
+            "id": ":category:Protective tents-covers",
+            "title": "Защитные тенты-чехлы",
+            "link": "https://kaspi.kz/shop/c/protective%20tents-covers/",
+            "active": false,
+            "count": 499,
+            "popularity": 1531,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car business cards",
+            "title": "Автомобильные визитки",
+            "link": "https://kaspi.kz/shop/c/car%20business%20cards/",
+            "active": false,
+            "count": 128,
+            "popularity": 1493,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car curtains",
+            "title": "Автомобильные шторки и зонты",
+            "link": "https://kaspi.kz/shop/c/car%20curtains/",
+            "active": false,
+            "count": 2400,
+            "popularity": 1209,
+            "expanded": true
+          },
+          {
+            "id": ":category:Wiper blades",
+            "title": "Щетки стеклоочистителей",
+            "link": "https://kaspi.kz/shop/c/wiper%20blades/",
+            "active": false,
+            "count": 2960,
+            "popularity": 1181,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car dashboard covers",
+            "title": "Накидки на панель приборов автомобиля",
+            "link": "https://kaspi.kz/shop/c/car%20dashboard%20covers/",
+            "active": false,
+            "count": 6114,
+            "popularity": 999,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car pillows",
+            "title": "Автомобильные подушки",
+            "link": "https://kaspi.kz/shop/c/car%20pillows/",
+            "active": false,
+            "count": 2171,
+            "popularity": 755,
+            "expanded": true
+          },
+          {
+            "id": ":category:Steering wheel covers",
+            "title": "Оплетки и чехлы на руль",
+            "link": "https://kaspi.kz/shop/c/steering%20wheel%20covers/",
+            "active": false,
+            "count": 987,
+            "popularity": 697,
+            "expanded": true
+          },
+          {
+            "id": ":category:Other car accessories",
+            "title": "Прочие аксессуары для автомобиля",
+            "link": "https://kaspi.kz/shop/c/other%20car%20accessories/",
+            "active": false,
+            "count": 443,
+            "popularity": 476,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car wheel covers",
+            "title": "Автомобильные колпаки",
+            "link": "https://kaspi.kz/shop/c/car%20wheel%20covers/",
+            "active": false,
+            "count": 940,
+            "popularity": 442,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hood and trunk stops",
+            "title": "Газовые упоры капота и багажника",
+            "link": "https://kaspi.kz/shop/c/hood%20and%20trunk%20stops/",
+            "active": false,
+            "count": 1130,
+            "popularity": 415,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car ashtrays",
+            "title": "Автомобильные пепельницы",
+            "link": "https://kaspi.kz/shop/c/car%20ashtrays/",
+            "active": false,
+            "count": 98,
+            "popularity": 371,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car awnings",
+            "title": "Автомобильные маркизы",
+            "link": "https://kaspi.kz/shop/c/car%20awnings/",
+            "active": false,
+            "count": 101,
+            "popularity": 96,
+            "expanded": true
+          },
+          {
+            "id": ":category:Security bolts and nuts",
+            "title": "Секретные болты и гайки",
+            "link": "https://kaspi.kz/shop/c/security%20bolts%20and%20nuts/",
+            "active": false,
+            "count": 248,
+            "popularity": 93,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hub spacers",
+            "title": "Ступичные проставки",
+            "link": "https://kaspi.kz/shop/c/hub%20spacers/",
+            "active": false,
+            "count": 201,
+            "popularity": 50,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car tents",
+            "title": "Автопалатки",
+            "link": "https://kaspi.kz/shop/c/car%20tents/",
+            "active": false,
+            "count": 97,
+            "popularity": 47,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Automotive equipments",
+        "title": "Автомобильное оборудование",
+        "link": "https://kaspi.kz/shop/c/automotive%20equipments/",
+        "active": false,
+        "count": 5870,
+        "popularity": 17648,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Emergency equipment",
+            "title": "Аварийное оборудование",
+            "link": "https://kaspi.kz/shop/c/emergency%20equipment/",
+            "active": false,
+            "count": 1780,
+            "popularity": 6989,
+            "expanded": true
+          },
+          {
+            "id": ":category:Chargers and start-chargers for cars",
+            "title": "Зарядные и пуско-зарядные устройства для автомобилей",
+            "link": "https://kaspi.kz/shop/c/chargers%20and%20start-chargers%20for%20cars/",
+            "active": false,
+            "count": 758,
+            "popularity": 3688,
+            "expanded": true
+          },
+          {
+            "id": ":category:Heaters for the engine and car interior",
+            "title": "Обогреватели и кондиционеры двигателя и салона",
+            "link": "https://kaspi.kz/shop/c/heaters%20for%20the%20engine%20and%20car%20interior/",
+            "active": false,
+            "count": 598,
+            "popularity": 2650,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car vacuum cleaners",
+            "title": "Автопылесосы",
+            "link": "https://kaspi.kz/shop/c/car%20vacuum%20cleaners/",
+            "active": false,
+            "count": 554,
+            "popularity": 2212,
+            "expanded": true
+          },
+          {
+            "id": ":category:Thermal insulation for car",
+            "title": "Утеплители для автомобиля",
+            "link": "https://kaspi.kz/shop/c/thermal%20insulation%20for%20car/",
+            "active": false,
+            "count": 223,
+            "popularity": 473,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car refrigerators",
+            "title": "Автохолодильники",
+            "link": "https://kaspi.kz/shop/c/car%20refrigerators/",
+            "active": false,
+            "count": 302,
+            "popularity": 417,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car inverters and converters",
+            "title": "Автомобильные инверторы и преобразователи напряжения",
+            "link": "https://kaspi.kz/shop/c/car%20inverters%20and%20converters/",
+            "active": false,
+            "count": 160,
+            "popularity": 351,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car winches",
+            "title": "Автомобильные лебедки",
+            "link": "https://kaspi.kz/shop/c/car%20winches/",
+            "active": false,
+            "count": 140,
+            "popularity": 217,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hitch mounts",
+            "title": "Фаркопы",
+            "link": "https://kaspi.kz/shop/c/hitch%20mounts/",
+            "active": false,
+            "count": 1100,
+            "popularity": 208,
+            "expanded": true
+          },
+          {
+            "id": ":category:Tow hitch accessories",
+            "title": "Аксессуары для фаркопов",
+            "link": "https://kaspi.kz/shop/c/tow%20hitch%20accessories/",
+            "active": false,
+            "count": 103,
+            "popularity": 54,
+            "expanded": true
+          },
+          {
+            "id": ":category:Snow chains for cars",
+            "title": "Цепи противоскольжения для автомобилей",
+            "link": "https://kaspi.kz/shop/c/snow%20chains%20for%20cars/",
+            "active": false,
+            "count": 76,
+            "popularity": 50,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Oils and technical fluids",
+        "title": "Масла и технические жидкости",
+        "link": "https://kaspi.kz/shop/c/oils%20and%20technical%20fluids/",
+        "active": false,
+        "count": 5223,
+        "popularity": 15188,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Antifreezes",
+            "title": "Антифризы",
+            "link": "https://kaspi.kz/shop/c/antifreezes/",
+            "active": false,
+            "count": 477,
+            "popularity": 10598,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motor oils",
+            "title": "Моторные масла",
+            "link": "https://kaspi.kz/shop/c/motor%20oils/",
+            "active": false,
+            "count": 2884,
+            "popularity": 2550,
+            "expanded": true
+          },
+          {
+            "id": ":category:Additives and flushing for cars",
+            "title": "Присадки и промывки для автомобилей",
+            "link": "https://kaspi.kz/shop/c/additives%20and%20flushing%20for%20cars/",
+            "active": false,
+            "count": 436,
+            "popularity": 660,
+            "expanded": true
+          },
+          {
+            "id": ":category:Lubricants for cars",
+            "title": "Смазки для автомобилей",
+            "link": "https://kaspi.kz/shop/c/lubricants%20for%20cars/",
+            "active": false,
+            "count": 405,
+            "popularity": 569,
+            "expanded": true
+          },
+          {
+            "id": ":category:Gear oils",
+            "title": "Трансмиссионные масла",
+            "link": "https://kaspi.kz/shop/c/gear%20oils/",
+            "active": false,
+            "count": 815,
+            "popularity": 513,
+            "expanded": true
+          },
+          {
+            "id": ":category:Hydraulic fluids and oils",
+            "title": "Гидравлические жидкости и масла",
+            "link": "https://kaspi.kz/shop/c/hydraulic%20fluids%20and%20oils/",
+            "active": false,
+            "count": 117,
+            "popularity": 170,
+            "expanded": true
+          },
+          {
+            "id": ":category:Brake fluids",
+            "title": "Тормозные жидкости",
+            "link": "https://kaspi.kz/shop/c/brake%20fluids/",
+            "active": false,
+            "count": 66,
+            "popularity": 128,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Car batteries",
+        "title": "Аккумуляторы",
+        "link": "https://kaspi.kz/shop/c/car%20batteries/",
+        "active": false,
+        "count": 1301,
+        "popularity": 11425,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Rims",
+        "title": "Комплекты дисков",
+        "link": "https://kaspi.kz/shop/c/rims/",
+        "active": false,
+        "count": 16048,
+        "popularity": 10909,
+        "expanded": true,
+        "items": []
+      },
+      {
+        "id": ":category:Car electronics",
+        "title": "Автоэлектроника",
+        "link": "https://kaspi.kz/shop/c/car%20electronics/",
+        "active": false,
+        "count": 3482,
+        "popularity": 8937,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:DVRs",
+            "title": "Видеорегистраторы",
+            "link": "https://kaspi.kz/shop/c/dvrs/",
+            "active": false,
+            "count": 988,
+            "popularity": 3746,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car code readers",
+            "title": "Автосканеры",
+            "link": "https://kaspi.kz/shop/c/car%20code%20readers/",
+            "active": false,
+            "count": 530,
+            "popularity": 2314,
+            "expanded": true
+          },
+          {
+            "id": ":category:Parking cameras",
+            "title": "Парковочные камеры",
+            "link": "https://kaspi.kz/shop/c/parking%20cameras/",
+            "active": false,
+            "count": 722,
+            "popularity": 719,
+            "expanded": true
+          },
+          {
+            "id": ":category:GPS-trackers",
+            "title": "GPS-трекеры",
+            "link": "https://kaspi.kz/shop/c/gps-trackers/",
+            "active": false,
+            "count": 132,
+            "popularity": 517,
+            "expanded": true
+          },
+          {
+            "id": ":category:Radar detectors",
+            "title": "Радар-детекторы",
+            "link": "https://kaspi.kz/shop/c/radar%20detectors/",
+            "active": false,
+            "count": 106,
+            "popularity": 442,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cigarette lighter splitters",
+            "title": "Разветвители прикуривателя",
+            "link": "https://kaspi.kz/shop/c/cigarette%20lighter%20splitters/",
+            "active": false,
+            "count": 170,
+            "popularity": 420,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car antennas",
+            "title": "Автомобильные антенны",
+            "link": "https://kaspi.kz/shop/c/car%20antennas/",
+            "active": false,
+            "count": 160,
+            "popularity": 271,
+            "expanded": true
+          },
+          {
+            "id": ":category:Parking sensors",
+            "title": "Парктроники",
+            "link": "https://kaspi.kz/shop/c/parking%20sensors/",
+            "active": false,
+            "count": 186,
+            "popularity": 230,
+            "expanded": true
+          },
+          {
+            "id": ":category:Auto electronics accessories",
+            "title": "Аксессуары для автоэлектроники",
+            "link": "https://kaspi.kz/shop/c/auto%20electronics%20accessories/",
+            "active": false,
+            "count": 69,
+            "popularity": 104,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car TVs and monitors",
+            "title": "Автомобильные телевизоры и мониторы",
+            "link": "https://kaspi.kz/shop/c/car%20tvs%20and%20monitors/",
+            "active": false,
+            "count": 68,
+            "popularity": 84,
+            "expanded": true
+          },
+          {
+            "id": ":category:GPS navigators",
+            "title": "GPS навигаторы",
+            "link": "https://kaspi.kz/shop/c/gps%20navigators/",
+            "active": false,
+            "count": 78,
+            "popularity": 58,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car video interfaces and navigation boxes",
+            "title": "Автомобильные видеоинтерфейсы и навигационные блоки",
+            "link": "https://kaspi.kz/shop/c/car%20video%20interfaces%20and%20navigation%20boxes/",
+            "active": false,
+            "count": 162,
+            "popularity": 24,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cables for car wiring",
+            "title": "Кабели для автопроводки",
+            "link": "https://kaspi.kz/shop/c/cables%20for%20car%20wiring/",
+            "active": false,
+            "count": 61,
+            "popularity": 8,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Car lighting",
+        "title": "Автомобильное освещение",
+        "link": "https://kaspi.kz/shop/c/car%20lighting/",
+        "active": false,
+        "count": 15876,
+        "popularity": 8559,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Car headlights",
+            "title": "Фары и линзы",
+            "link": "https://kaspi.kz/shop/c/car%20headlights/",
+            "active": false,
+            "count": 11504,
+            "popularity": 4502,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car lamps",
+            "title": "Автолампы",
+            "link": "https://kaspi.kz/shop/c/car%20lamps/",
+            "active": false,
+            "count": 3604,
+            "popularity": 3247,
+            "expanded": true
+          },
+          {
+            "id": ":category:Additional car lighting",
+            "title": "Дополнительный автосвет",
+            "link": "https://kaspi.kz/shop/c/additional%20car%20lighting/",
+            "active": false,
+            "count": 746,
+            "popularity": 810,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Car audio",
+        "title": "Автоакустика",
+        "link": "https://kaspi.kz/shop/c/car%20audio/",
+        "active": false,
+        "count": 33631,
+        "popularity": 8328,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Head units",
+            "title": "Автомагнитолы",
+            "link": "https://kaspi.kz/shop/c/head%20units/",
+            "active": false,
+            "count": 27968,
+            "popularity": 3121,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car acoustic",
+            "title": "Колонки и сабвуферы",
+            "link": "https://kaspi.kz/shop/c/car%20acoustic/",
+            "active": false,
+            "count": 2073,
+            "popularity": 2459,
+            "expanded": true
+          },
+          {
+            "id": ":category:FM-transmitters",
+            "title": "FM-трансмиттеры",
+            "link": "https://kaspi.kz/shop/c/fm-transmitters/",
+            "active": false,
+            "count": 206,
+            "popularity": 846,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car audio accessories",
+            "title": "Аксессуары для автомобильной аудиотехники",
+            "link": "https://kaspi.kz/shop/c/car%20audio%20accessories/",
+            "active": false,
+            "count": 1374,
+            "popularity": 823,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car amplifiers",
+            "title": "Автомобильные усилители",
+            "link": "https://kaspi.kz/shop/c/car%20amplifiers/",
+            "active": false,
+            "count": 675,
+            "popularity": 746,
+            "expanded": true
+          },
+          {
+            "id": ":category:Acoustic boxes and podiums for cars",
+            "title": "Акустические короба и подиумы для автомобилей",
+            "link": "https://kaspi.kz/shop/c/acoustic%20boxes%20and%20podiums%20for%20cars/",
+            "active": false,
+            "count": 328,
+            "popularity": 211,
+            "expanded": true
+          },
+          {
+            "id": ":category:Frames for car radios",
+            "title": "Переходные рамки для автомагнитол",
+            "link": "https://kaspi.kz/shop/c/frames%20for%20car%20radios/",
+            "active": false,
+            "count": 1007,
+            "popularity": 122,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Auto repair tools",
+        "title": "Автоинструменты",
+        "link": "https://kaspi.kz/shop/c/auto%20repair%20tools/",
+        "active": false,
+        "count": 3411,
+        "popularity": 5647,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Jacks",
+            "title": "Автомобильные домкраты и подставки",
+            "link": "https://kaspi.kz/shop/c/jacks/",
+            "active": false,
+            "count": 1114,
+            "popularity": 2399,
+            "expanded": true
+          },
+          {
+            "id": ":category:Clip and cap strippers",
+            "title": "Съемники клипс и пистонов обшивки салона",
+            "link": "https://kaspi.kz/shop/c/clip%20and%20cap%20strippers/",
+            "active": false,
+            "count": 124,
+            "popularity": 876,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bearing pullers",
+            "title": "Съемники подшипников",
+            "link": "https://kaspi.kz/shop/c/bearing%20pullers/",
+            "active": false,
+            "count": 274,
+            "popularity": 329,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pullers for steering",
+            "title": "Съемники для рулевой",
+            "link": "https://kaspi.kz/shop/c/pullers%20for%20steering/",
+            "active": false,
+            "count": 168,
+            "popularity": 260,
+            "expanded": true
+          },
+          {
+            "id": ":category:Plunger grease guns",
+            "title": "Плунжерные шприцы для смазки",
+            "link": "https://kaspi.kz/shop/c/plunger%20grease%20guns/",
+            "active": false,
+            "count": 198,
+            "popularity": 229,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bodywork straightening tool",
+            "title": "Рихтовочный инструмент для кузовных работ",
+            "link": "https://kaspi.kz/shop/c/bodywork%20straightening%20tool/",
+            "active": false,
+            "count": 248,
+            "popularity": 225,
+            "expanded": true
+          },
+          {
+            "id": ":category:Spring removers",
+            "title": "Съемники пружин",
+            "link": "https://kaspi.kz/shop/c/spring%20removers/",
+            "active": false,
+            "count": 69,
+            "popularity": 211,
+            "expanded": true
+          },
+          {
+            "id": ":category:Cylinder head repair tools",
+            "title": "Инструменты для ремонта ГБЦ",
+            "link": "https://kaspi.kz/shop/c/cylinder%20head%20repair%20tools/",
+            "active": false,
+            "count": 178,
+            "popularity": 209,
+            "expanded": true
+          },
+          {
+            "id": ":category:Circlip removers",
+            "title": "Съемники стопорных колец",
+            "link": "https://kaspi.kz/shop/c/circlip%20removers/",
+            "active": false,
+            "count": 257,
+            "popularity": 206,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pneumatic tire inflator",
+            "title": "Пневмопистолеты для накачки шин",
+            "link": "https://kaspi.kz/shop/c/pneumatic%20tire%20inflator/",
+            "active": false,
+            "count": 91,
+            "popularity": 199,
+            "expanded": true
+          },
+          {
+            "id": ":category:Filter strippers",
+            "title": "Фильтросъемники",
+            "link": "https://kaspi.kz/shop/c/filter%20strippers/",
+            "active": false,
+            "count": 206,
+            "popularity": 197,
+            "expanded": true
+          },
+          {
+            "id": ":category:Brake system tools",
+            "title": "Инструменты для тормозной и выхлопной систем",
+            "link": "https://kaspi.kz/shop/c/brake%20system%20tools/",
+            "active": false,
+            "count": 72,
+            "popularity": 126,
+            "expanded": true
+          },
+          {
+            "id": ":category:Clamp pliers",
+            "title": "Клещи для автомобильных хомутов",
+            "link": "https://kaspi.kz/shop/c/clamp%20pliers/",
+            "active": false,
+            "count": 57,
+            "popularity": 105,
+            "expanded": true
+          },
+          {
+            "id": ":category:Grease Gun Accessories",
+            "title": "Комплектующие для смазочных шприцов",
+            "link": "https://kaspi.kz/shop/c/grease%20gun%20accessories/",
+            "active": false,
+            "count": 68,
+            "popularity": 40,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for jacks",
+            "title": "Комплектующие к домкратам",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20jacks/",
+            "active": false,
+            "count": 62,
+            "popularity": 36,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Protection and exterior tuning",
+        "title": "Защита и внешний тюнинг",
+        "link": "https://kaspi.kz/shop/c/protection%20and%20exterior%20tuning/",
+        "active": false,
+        "count": 17667,
+        "popularity": 5538,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Films and tools for car wrapping",
+            "title": "Пленки и инструменты для оклейки автомобиля",
+            "link": "https://kaspi.kz/shop/c/films%20and%20tools%20for%20car%20wrapping/",
+            "active": false,
+            "count": 1994,
+            "popularity": 1279,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car deflectors",
+            "title": "Автомобильные дефлекторы и спойлеры",
+            "link": "https://kaspi.kz/shop/c/car%20deflectors/",
+            "active": false,
+            "count": 9372,
+            "popularity": 1160,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car protective pads",
+            "title": "Защитные накладки",
+            "link": "https://kaspi.kz/shop/c/car%20protective%20pads/",
+            "active": false,
+            "count": 1230,
+            "popularity": 1037,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car mudguards",
+            "title": "Брызговики",
+            "link": "https://kaspi.kz/shop/c/car%20mudguards/",
+            "active": false,
+            "count": 2384,
+            "popularity": 683,
+            "expanded": true
+          },
+          {
+            "id": ":category:License plate frames",
+            "title": "Рамки для автомобильных номеров",
+            "link": "https://kaspi.kz/shop/c/license%20plate%20frames/",
+            "active": false,
+            "count": 331,
+            "popularity": 571,
+            "expanded": true
+          },
+          {
+            "id": ":category:Crankcase and gearbox protection",
+            "title": "Защита картера и КПП",
+            "link": "https://kaspi.kz/shop/c/crankcase%20and%20gearbox%20protection/",
+            "active": false,
+            "count": 1315,
+            "popularity": 416,
+            "expanded": true
+          },
+          {
+            "id": ":category:Noise insulation for cars",
+            "title": "Шумоизоляция для автомобилей",
+            "link": "https://kaspi.kz/shop/c/noise%20insulation%20for%20cars/",
+            "active": false,
+            "count": 443,
+            "popularity": 298,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bumpers and sills protection",
+            "title": "Защита бамперов и порогов",
+            "link": "https://kaspi.kz/shop/c/bumpers%20and%20sills%20protection/",
+            "active": false,
+            "count": 572,
+            "popularity": 94,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Car anti-theft devices",
+        "title": "Автомобильные противоугонные устройства",
+        "link": "https://kaspi.kz/shop/c/car%20anti-theft%20devices/",
+        "active": false,
+        "count": 1433,
+        "popularity": 3131,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Car alarms",
+            "title": "Автосигнализации",
+            "link": "https://kaspi.kz/shop/c/car%20alarms/",
+            "active": false,
+            "count": 257,
+            "popularity": 1709,
+            "expanded": true
+          },
+          {
+            "id": ":category:Key fobs and covers for car alarms",
+            "title": "Брелоки и чехлы для автосигнализаций",
+            "link": "https://kaspi.kz/shop/c/key%20fobs%20and%20covers%20for%20car%20alarms/",
+            "active": false,
+            "count": 803,
+            "popularity": 1105,
+            "expanded": true
+          },
+          {
+            "id": ":category:Anti-theft devices accessories",
+            "title": "Аксессуары для противоугонных устройств",
+            "link": "https://kaspi.kz/shop/c/anti-theft%20devices%20accessories/",
+            "active": false,
+            "count": 373,
+            "popularity": 317,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Car service equipment",
+        "title": "Автосервисное оборудование",
+        "link": "https://kaspi.kz/shop/c/car%20service%20equipment/",
+        "active": false,
+        "count": 1387,
+        "popularity": 1802,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Car diagnostic equipment",
+            "title": "Приборы для диагностики авто",
+            "link": "https://kaspi.kz/shop/c/car%20diagnostic%20equipment/",
+            "active": false,
+            "count": 330,
+            "popularity": 1195,
+            "expanded": true
+          },
+          {
+            "id": ":category:Pumps for transferring technical liquids",
+            "title": "Насосы для перекачки технических жидкостей",
+            "link": "https://kaspi.kz/shop/c/pumps%20for%20transferring%20technical%20liquids/",
+            "active": false,
+            "count": 248,
+            "popularity": 286,
+            "expanded": true
+          },
+          {
+            "id": ":category:Transmission racks",
+            "title": "Трансмиссионные стойки",
+            "link": "https://kaspi.kz/shop/c/transmission%20racks/",
+            "active": false,
+            "count": 49,
+            "popularity": 119,
+            "expanded": true
+          },
+          {
+            "id": ":category:Oil dispensers and lubrication blowers",
+            "title": "Маслораздаточные установки и нагнетатели смазки",
+            "link": "https://kaspi.kz/shop/c/oil%20dispensers%20and%20lubrication%20blowers/",
+            "active": false,
+            "count": 121,
+            "popularity": 66,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car service furniture",
+            "title": "Мебель для автосервиса",
+            "link": "https://kaspi.kz/shop/c/car%20service%20furniture/",
+            "active": false,
+            "count": 67,
+            "popularity": 61,
+            "expanded": true
+          },
+          {
+            "id": ":category:Car balancing machines",
+            "title": "Балансировочные станки",
+            "link": "https://kaspi.kz/shop/c/car%20balancing%20machines/",
+            "active": false,
+            "count": 42,
+            "popularity": 29,
+            "expanded": true
+          },
+          {
+            "id": ":category:Plants for the collection of oils and technical fluids",
+            "title": "Установки для сбора масла и технических жидкостей",
+            "link": "https://kaspi.kz/shop/c/plants%20for%20the%20collection%20of%20oils%20and%20technical%20fluids/",
+            "active": false,
+            "count": 49,
+            "popularity": 27,
+            "expanded": true
+          },
+          {
+            "id": ":category:Accessories for car service equipment",
+            "title": "Аксессуары для автосервисного оборудования",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20car%20service%20equipment/",
+            "active": false,
+            "count": 66,
+            "popularity": 15,
+            "expanded": true
+          },
+          {
+            "id": ":category:Fuel dispenser equipment",
+            "title": "Топливораздаточное оборудование",
+            "link": "https://kaspi.kz/shop/c/fuel%20dispenser%20equipment/",
+            "active": false,
+            "count": 87,
+            "popularity": 4,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Specialty vehicles and mototechnics",
+        "title": "Спецтехника и мототехника",
+        "link": "https://kaspi.kz/shop/c/specialty%20vehicles%20and%20mototechnics/",
+        "active": false,
+        "count": 1289,
+        "popularity": 1109,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Mototechnics",
+            "title": "Мототехника",
+            "link": "https://kaspi.kz/shop/c/mototechnics/",
+            "active": false,
+            "count": 614,
+            "popularity": 847,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle parts",
+            "title": "Мотозапчасти",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20parts/",
+            "active": false,
+            "count": 463,
+            "popularity": 188,
+            "expanded": true
+          },
+          {
+            "id": ":category:Specialty vehicles",
+            "title": "Спецтехника",
+            "link": "https://kaspi.kz/shop/c/specialty%20vehicles/",
+            "active": false,
+            "count": 210,
+            "popularity": 74,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Luggage systems",
+        "title": "Багажные системы",
+        "link": "https://kaspi.kz/shop/c/luggage%20systems/",
+        "active": false,
+        "count": 6544,
+        "popularity": 1085,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Accessories for luggage systems",
+            "title": "Аксессуары для багажных систем",
+            "link": "https://kaspi.kz/shop/c/accessories%20for%20luggage%20systems/",
+            "active": false,
+            "count": 318,
+            "popularity": 488,
+            "expanded": true
+          },
+          {
+            "id": ":category:Roof rails and racks",
+            "title": "Рейлинги и поперечины",
+            "link": "https://kaspi.kz/shop/c/roof%20rails%20and%20racks/",
+            "active": false,
+            "count": 5697,
+            "popularity": 290,
+            "expanded": true
+          },
+          {
+            "id": ":category:Luggage boxes",
+            "title": "Багажные боксы",
+            "link": "https://kaspi.kz/shop/c/luggage%20boxes/",
+            "active": false,
+            "count": 346,
+            "popularity": 188,
+            "expanded": true
+          },
+          {
+            "id": ":category:Luggage baskets",
+            "title": "Багажные корзины",
+            "link": "https://kaspi.kz/shop/c/luggage%20baskets/",
+            "active": false,
+            "count": 78,
+            "popularity": 67,
+            "expanded": true
+          },
+          {
+            "id": ":category:Bicycle racks",
+            "title": "Крепления для велосипедов",
+            "link": "https://kaspi.kz/shop/c/bicycle%20racks/",
+            "active": false,
+            "count": 69,
+            "popularity": 52,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:GBO",
+        "title": "ГБО",
+        "link": "https://kaspi.kz/shop/c/gbo/",
+        "active": false,
+        "count": 591,
+        "popularity": 961,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:GBO components",
+            "title": "Комплектующие ГБО",
+            "link": "https://kaspi.kz/shop/c/gbo%20components/",
+            "active": false,
+            "count": 561,
+            "popularity": 961,
+            "expanded": true
+          }
+        ]
+      },
+      {
+        "id": ":category:Motorcycle gear",
+        "title": "Мотоэкипировка",
+        "link": "https://kaspi.kz/shop/c/motorcycle%20gear/",
+        "active": false,
+        "count": 3640,
+        "popularity": 903,
+        "expanded": true,
+        "items": [
+          {
+            "id": ":category:Motorcycle helmets",
+            "title": "Мотошлемы",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20helmets/",
+            "active": false,
+            "count": 1366,
+            "popularity": 484,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle gloves",
+            "title": "Мотоперчатки",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20gloves/",
+            "active": false,
+            "count": 434,
+            "popularity": 136,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle protection",
+            "title": "Мотозащита",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20protection/",
+            "active": false,
+            "count": 137,
+            "popularity": 129,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle glasses",
+            "title": "Мотоочки",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20glasses/",
+            "active": false,
+            "count": 106,
+            "popularity": 60,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle shoes",
+            "title": "Мотообувь",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20shoes/",
+            "active": false,
+            "count": 723,
+            "popularity": 33,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle jackets",
+            "title": "Мотокуртки",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20jackets/",
+            "active": false,
+            "count": 529,
+            "popularity": 31,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle pants",
+            "title": "Мотоштаны",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20pants/",
+            "active": false,
+            "count": 149,
+            "popularity": 17,
+            "expanded": true
+          },
+          {
+            "id": ":category:Motorcycle shirts and motorcycle sweatshirts",
+            "title": "Моторубашки и мотокофты",
+            "link": "https://kaspi.kz/shop/c/motorcycle%20shirts%20and%20motorcycle%20sweatshirts/",
+            "active": false,
+            "count": 83,
+            "popularity": 13,
+            "expanded": true
+          }
+        ]
+      }
+    ]
+  }
+]

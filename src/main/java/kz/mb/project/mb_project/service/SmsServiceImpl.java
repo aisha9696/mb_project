@@ -13,8 +13,8 @@ import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 
 import kz.mb.project.mb_project.config.SmsConfiguration;
-import kz.mb.project.mb_project.dto.SmsRequest;
-import kz.mb.project.mb_project.dto.SmsResponse;
+import kz.mb.project.mb_project.dto.auth.request.SmsRequest;
+import kz.mb.project.mb_project.dto.auth.response.SmsResponse;
 import kz.mb.project.mb_project.exception.ErrorMessage;
 import kz.mb.project.mb_project.exception.InternalServerException;
 import kz.mb.project.mb_project.exception.InvalidRequestException;

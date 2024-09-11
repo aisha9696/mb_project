@@ -17,18 +17,13 @@ import jakarta.persistence.Table;
 @Getter
 @Setter
 @Entity
-@Table(name = "project_configuration")
+@Table(name = "project_configuration", schema = "project_settings")
 @AllArgsConstructor
 @NoArgsConstructor
-@SequenceGenerator(name = "default_gen", sequenceName = "configuration_seq", allocationSize = 1)
 public class ProjectConfiguration {
 
   @Id
-  @Column(name = "id")
-  @GeneratedValue(
-      strategy = GenerationType.SEQUENCE,
-      generator = "default_gen"
-  )
+  @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long id;
 
   @Column(name = "configuration_name")

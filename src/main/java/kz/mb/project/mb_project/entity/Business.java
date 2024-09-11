@@ -22,7 +22,7 @@ import jakarta.persistence.Table;
  * Сущность для бизнеса
  */
 @Entity
-@Table(name = "business")
+@Table(name = "business", schema = "project")
 @Getter
 @Setter
 public class Business extends AbstractEntity implements Serializable {

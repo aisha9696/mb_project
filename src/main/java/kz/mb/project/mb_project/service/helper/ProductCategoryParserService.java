@@ -14,8 +14,8 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import kz.mb.project.mb_project.entity.BusinessTypeSpr;
 import kz.mb.project.mb_project.entity.warehouse.ProductCategorySpr;
-import kz.mb.project.mb_project.repo.BusinessTypeRepository;
-import kz.mb.project.mb_project.repo.ProductCategoryRepository;
+import kz.mb.project.mb_project.repository.BusinessTypeRepository;
+import kz.mb.project.mb_project.repository.ProductCategoryRepository;
 
 @Service
 public class ProductCategoryParserService {

@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 import org.springframework.lang.Nullable;
 
 public class PhoneNumberUtils {
-  static String kzPhoneNum [] = new String[]{
+  static String[] kzPhoneNum = new String[]{
      "^\\+?77([0124567][0-8]\\d{7})$"
   };
   @Nullable

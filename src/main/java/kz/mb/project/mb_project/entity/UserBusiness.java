@@ -3,6 +3,7 @@ package kz.mb.project.mb_project.entity;
 import java.util.UUID;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -21,11 +22,12 @@ import jakarta.persistence.Table;
 
 
 @Entity
-@Table(name = "user_business")
+@Table(name = "user_business", schema = "project")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Builder
 public class UserBusiness {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
