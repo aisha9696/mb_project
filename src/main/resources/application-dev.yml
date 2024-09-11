@@ -73,5 +73,3 @@ cloud:
       url: https://my-bussiness-bucket.s3.eu-west-3.amazonaws.com
       bucket: my-bussiness-bucket
     credentials:
-      accessKey: AKIA3FLDXVGGNOE6W3PS
-      secretKey: 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
